@@ -1,12 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-    <div>
-        assasas
-    </div>
-</body>
-</html>
+{% extends 'base.html' %}
+{% block body %}
+        <section class="books">
+            <div class="container">
+                <h2>Our Collection</h2>
+                <div class="book-list">
+                    <div class="book">
+                        <img src="book1.jpg" alt="Book 1">
+                        <h3>Book Title 1</h3>
+                        <p>Author: John Doe</p>
+                    </div>
+                    <div class="book">
+                        <img src="book2.jpg" alt="Book 2">
+                        <h3>Book Title 2</h3>
+                        <p>Author: Jane Smith</p>
+                    </div>
+                    <div class="book">
+                        <img src="book3.jpg" alt="Book 3">
+                        <h3>Book Title 3</h3>
+                        <p>Author: Emily Johnson</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+{% endblock %}

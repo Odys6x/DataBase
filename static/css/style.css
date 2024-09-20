@@ -21,6 +21,7 @@ header {
     background-color: #4CAF50;
     color: white;
     padding: 20px 0;
+    position: relative;
 }
 
 header h1 {
@@ -28,20 +29,32 @@ header h1 {
     margin-bottom: 10px;
 }
 
+/* Align login to the far right */
 nav ul {
-    display: flex;
-    justify-content: center;
     list-style-type: none;
+    display: flex;
+    justify-content: flex-end; /* Aligns to the far right */
+    padding: 0;
+    margin: 0;
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin-left: auto;
 }
 
-nav ul li a {
-    color: white;
+nav ul li.login-button a {
+    background-color: white;
+    color: #4CAF50;
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
     text-decoration: none;
-    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li.login-button a:hover {
+    background-color: #f1f1f1;
 }
 
 /* Main styles */
@@ -63,7 +76,7 @@ h2 {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 400px;
-    margin: 0 auto;
+    margin: 40px auto;
     text-align: center;
 }
 

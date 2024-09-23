@@ -80,6 +80,21 @@ h2 {
     text-align: center;
 }
 
+.login-container p {
+    margin-top: 20px; /* Adds space between the form and the sign-up prompt */
+    font-size: 0.9em;
+}
+
+.login-container a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
+
+
 h2 {
     margin-bottom: 20px;
     font-size: 2em;

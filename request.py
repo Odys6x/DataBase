@@ -1,35 +1,35 @@
 import requests
 import json
+from categories import categories
+import time
 
 url = "https://openweb.nlb.gov.sg/api/v1/EResource/SearchResources"
 
-# Corrected headers with proper Content-Type
 headers = {
-    "X-API-Key": "QAL;<!`w+0]=DF]HxrNTZ>X`{Hf9m=Qa",  # Replace with your actual API key
+    "X-API-Key": "QAL;<!`w+0]=DF]HxrNTZ>X`{Hf9m=Qa",
     "X-App-Code": "DEV-ChunOwen"
 }
 
-# Add at least one required field such as Title, Creator, or ISBN
-params = {
-    "Subject": "Humor (Nonfiction)",
-    "ContentType": "eBooks",
-    "Limit" : 100
-}
+for i, items in enumerate(categories):
 
-# Send the GET request with headers and query parameters
-response = requests.get(url, headers=headers, params=params)
+    params = {
+        "Subject": f"{items}",
+        "ContentType": "eBooks",
+        "Limit" : 100
+    }
 
-# Check if the request was successful
-if response.status_code == 200:
-    print("Success!")
+    time.sleep(10)
 
-    # Convert the JSON response to a dictionary
-    response_data = response.json()
+    response = requests.get(url, headers=headers, params=params)
 
-    # Save the response to a file
-    with open('nlb_api_response.json', 'w') as file:
-        json.dump(response_data, file, indent=4)  # Save with pretty-printing (indent=4)
+    if response.status_code == 200:
+        print("Success!")
 
-    print("Response saved to nlb_api_response.json")
-else:
-    print(f"Error {response.status_code}: {response.text}")
+        response_data = response.json()
+
+        with open(f'nlb_api_response{i}.json', 'w') as file:
+            json.dump(response_data, file, indent=4)
+
+        print(f"Response saved to nlb_api_response{i}.json")
+    else:
+        print(f"Error {response.status_code}: {response.text}")

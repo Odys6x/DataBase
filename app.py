@@ -4,31 +4,17 @@ import mysql
 from flask import Flask, render_template
 import json
 from conn import create_connection, execute_query
+from query import create_table
 
 app = Flask(__name__)
 
 
 @app.route('/')
 def index():
-    # Load the JSON data from file
     with open('json/audio/nlb_api_response0.json') as file:
         data = json.load(file)
 
-    # Create the table if it doesn't exist
-    create_table_query = """
-    CREATE TABLE IF NOT EXISTS Book (
-        id INT AUTO_INCREMENT PRIMARY KEY,
-        title VARCHAR(500) NOT NULL,
-        types VARCHAR(100),  -- Increased size to avoid truncation
-        authors VARCHAR(500),
-        abstract LONGTEXT,
-        languages TEXT,
-        createdDate DATE,
-        coverURL VARCHAR(5000),
-        subjects VARCHAR(200),
-        isbns VARCHAR(1000)
-    );
-    """
+    create_table_query = create_table
 
     insert_query = """
     INSERT INTO Book (title, types, authors, abstract, languages, createdDate, coverURL, subjects, isbns)
@@ -37,37 +23,35 @@ def index():
 
     try:
         connection = create_connection()
-
-        # Execute the table creation query
         execute_query(connection, create_table_query)
 
-        # Insert data from JSON into the database
+        # Check if the table is empty before inserting new data
         with connection.cursor() as cursor:
-            for book in data['results']:
-                title = book['title']
-                types = ', '.join(book['types'])
-                authors = ', '.join(book['authors'])
-                abstract = ', '.join(book['abstracts'])
-                languages = ', '.join(book['languages'])
-                coverURL = book.get('coverUrl', '')
-                subjects = book.get('subjects', '')
-                isbns = ', '.join(book['isbns'])
-                createdDate = book.get('createdDate')
+            cursor.execute("SELECT COUNT(*) FROM Book;")
+            count = cursor.fetchone()[0]
 
-                # Parse the createdDate if it exists
-                if createdDate:
-                    createdDate = datetime.strptime(createdDate, "%Y-%m-%d").date()
-                else:
-                    createdDate = None
+            if count == 0:  # Only insert if the table is empty
+                for book in data['results']:
+                    title = book['title'].replace('[electronic resource]', '').strip()
+                    types = ', '.join(book['types'])
+                    authors = ', '.join(book['authors'])
+                    abstract = ', '.join(book['abstracts'])
+                    languages = ', '.join(book['languages'])
+                    coverURL = book.get('coverUrl', '')
+                    subjects = book.get('subjects', '')
+                    isbns = ', '.join(book['isbns'])
+                    createdDate = book.get('createdDate')
 
-                # Data tuple for insertion
-                data_tuple = (title, types, authors, abstract, languages, createdDate, coverURL, subjects, isbns)
-                cursor.execute(insert_query, data_tuple)
+                    if createdDate:
+                        createdDate = datetime.strptime(createdDate, "%Y-%m-%d").date()
+                    else:
+                        createdDate = None
 
-            # Commit all inserts
-            connection.commit()
+                    data_tuple = (title, types, authors, abstract, languages, createdDate, coverURL, subjects, isbns)
+                    cursor.execute(insert_query, data_tuple)
 
-        # Fetch the data from the database to display it
+                connection.commit()
+
         fetch_query = "SELECT title, types, authors, abstract, languages, createdDate, coverURL, subjects, isbns FROM Book;"
         with connection.cursor(dictionary=True) as cursor:
             cursor.execute(fetch_query)
@@ -82,6 +66,7 @@ def index():
 
     # Pass the books data to the template
     return render_template("index.html", books=books)
+
 
 
 @app.route('/login')

@@ -2,6 +2,7 @@ import requests
 import json
 from categories import categories
 import time
+import os
 
 url = "https://openweb.nlb.gov.sg/api/v1/EResource/SearchResources"
 
@@ -13,13 +14,13 @@ headers = {
 for i, items in enumerate(categories):
 
     params = {
+        #"Title": "Invisible darkness",
         "Subject": f"{items}",
         "ContentType": "eBooks",
         "Limit" : 100
     }
 
     time.sleep(10)
-
     response = requests.get(url, headers=headers, params=params)
 
     if response.status_code == 200:
@@ -27,7 +28,10 @@ for i, items in enumerate(categories):
 
         response_data = response.json()
 
-        with open(f'nlb_api_response{i}.json', 'w') as file:
+        path = "json/digital/"
+        full_path = os.path.join(path,f'nlb_api_response{i}.json')
+
+        with open(full_path, 'w') as file:
             json.dump(response_data, file, indent=4)
 
         print(f"Response saved to nlb_api_response{i}.json")

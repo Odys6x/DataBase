@@ -36,4 +36,14 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'newpassword';" where newpassword ca
 
 the {% block body %}{% endblock %} from base.html serves it purpose as a template for other html to use and if a html class uses {% extends 'base.html' %}, it means that it is populating it's own content with base.html.
 
+## conn.py
 
+This file will be the place to initialise our connection with our database. Change the password to the 'newpassword'
+
+## query.py
+
+This file in charge of managing API calls which will then store data into a json file
+
+## query.py (Optional but I still do it)
+
+Query.py will contain long sql queries such that our app.py won't be so long

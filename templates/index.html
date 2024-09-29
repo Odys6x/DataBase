@@ -5,11 +5,11 @@
     <div class="row">
         {% for book in books %}
         <div class="col-md-3 mb-4">
-            <a href="{{ book.url }}">
+            <a href="{{ url_for('book_detail', book_id=book.id) }}"> <!-- Pass the book ID here -->
                 <div class="card">
                     <img src="{{ book.coverURL }}" alt="Cover Image" class="card-img-top" style="width:100%;"/>
                     <div class="card-body">
-                        <h5 class="card-title">{{ book.title }}</h5>
+                        <h5>{{ book.title }}</h5>
                     </div>
                 </div>
             </a>

@@ -10,6 +10,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    text-decoration: none;
 }
 
 .container {
@@ -59,10 +60,6 @@ h2 {
     text-align: center;
 }
 
-h2 {
-    margin-bottom: 20px;
-    font-size: 2em;
-}
 
 /* Form Styles */
 .form-group {
@@ -135,6 +132,7 @@ td {
     margin-bottom: 50px;
 }
 
-.card-title {
+.card a {
     text-decoration: none;
+    text-align: center;
 }

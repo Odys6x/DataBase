@@ -1,4 +1,6 @@
 from datetime import datetime
+from sqlite3 import Error
+
 import mysql
 from flask import Flask, render_template, redirect, url_for, flash, session
 import json
@@ -53,7 +55,6 @@ def create_admin_user():
             connection.close()
 
 
-
 @app.route('/')
 def index():
     with open('json/audio/nlb_api_response0.json') as file:
@@ -99,7 +100,7 @@ def index():
 
                 connection.commit()
 
-        fetch_query = "SELECT title, types, authors, abstract, languages, createdDate, coverURL, subjects, isbns FROM Book;"
+        fetch_query = "SELECT id, title, types, authors, abstract, languages, createdDate, coverURL, subjects, isbns FROM Book;"
         with connection.cursor(dictionary=True) as cursor:
             cursor.execute(fetch_query)
             books = cursor.fetchall()
@@ -222,9 +223,47 @@ def logout():
     session.clear()  # This logs out the user by clearing their session data
     flash('You have been logged out.', 'info')  # Display a message
     return redirect(url_for('login'))  # Redirect to the login page
+
 @app.route('/admin_index')
 def admin_index():
     return render_template("admin_index.html")
+
+
+@app.route('/book/<int:book_id>')
+def book_detail(book_id):
+    connection = create_connection()
+    if connection is None:
+        return "Database connection failed", 500  # Handle connection error
+
+    query = f'SELECT * FROM book WHERE id = {book_id}'
+    cursor = connection.cursor()
+
+    try:
+        cursor.execute(query)
+        book = cursor.fetchone()  # Fetch a single result
+    except Error as e:
+        print(f"The error '{e}' occurred")
+        return "An error occurred while fetching the book", 500
+    finally:
+        cursor.close()
+        connection.close()  # Always close the connection
+
+    if book is None:
+        return "Book not found", 404
+
+    # Convert the result to a dictionary for easy access in the template
+    book_dict = {
+        'id': book[0],  # Assuming book.id is at index 0
+        'title': book[2],  # Assuming book.title is at index 1
+        'author': book[3],  # Assuming book.author is at index 2
+        'coverURL': book[7],  # Assuming book.coverURL is at index 3
+        'description': book[4],  # Assuming book.description is at index 4
+        'published_date': book[6],  # Assuming book.published_date is at index 5
+    }
+
+    return render_template("book.html", book=book_dict)
+
+
 
 if __name__ == "__main__":
     create_admin_user()

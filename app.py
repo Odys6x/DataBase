@@ -4,7 +4,7 @@ from flask import Flask, render_template, redirect, url_for, flash, session
 import json
 from flask_wtf import CSRFProtect
 from conn import create_connection, execute_query
-from query import create_user_table
+from query import create_user_table, create_table
 from werkzeug.security import generate_password_hash
 from werkzeug.security import check_password_hash
 from registerForm import RegistrationForm
@@ -68,14 +68,16 @@ def index():
 
     try:
         connection = create_connection()
+        if connection is None:
+            raise Exception("Failed to establish a database connection.")
+
         execute_query(connection, create_table_query)
 
-        # Check if the table is empty before inserting new data
         with connection.cursor() as cursor:
             cursor.execute("SELECT COUNT(*) FROM Book;")
             count = cursor.fetchone()[0]
 
-            if count == 0:  # Only insert if the table is empty
+            if count == 0:
                 for book in data['results']:
                     title = book['title'].replace('[electronic resource]', '').strip()
                     types = ', '.join(book['types'])
@@ -100,13 +102,19 @@ def index():
         fetch_query = "SELECT title, types, authors, abstract, languages, createdDate, coverURL, subjects, isbns FROM Book;"
         with connection.cursor(dictionary=True) as cursor:
             cursor.execute(fetch_query)
-            books = cursor.fetchall()  # Fetch all rows
+            books = cursor.fetchall()
 
     except mysql.connector.Error as err:
         print(f"Error: {err}")
         books = []
+
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        books = []
+
     finally:
-        connection.close()
+        if connection:
+            connection.close()
 
     # Pass the books data to the template
     return render_template("index.html", books=books)
@@ -217,6 +225,7 @@ def logout():
 @app.route('/admin_index')
 def admin_index():
     return render_template("admin_index.html")
+
 if __name__ == "__main__":
     create_admin_user()
     app.run(debug=True)

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sawarabi+Gothic&display=swap');
+
 /* General styles */
 * {
     margin: 0;
@@ -114,4 +116,25 @@ table {
 
 td {
     padding: 10px; /* Add padding inside each cell */
+}
+
+#title {
+  font-family: "Righteous";
+  font-weight: 400;
+  font-style: normal;
+}
+
+#content {
+  font-family: "Sawarabi Gothic";
+  font-weight: 400;
+  font-style: normal;
+}
+
+#center {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card-title {
+    text-decoration: none;
 }

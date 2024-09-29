@@ -1,34 +1,20 @@
 {% extends 'base.html' %}
 {% block body %}
-<h1>Books from Database</h1>
-    <table>
-        <thead>
-            <tr>
-                <th>Title</th>
-                <th>Types</th>
-                <th>Authors</th>
-                <th>Abstract</th>
-                <th>Languages</th>
-                <th>Created Date</th>
-                <th>Subjects</th>
-                <th>ISBNs</th>
-                <th>Cover</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for book in books %}
-            <tr>
-                <td>{{ book.title }}</td>
-                <td>{{ book.types }}</td>
-                <td>{{ book.authors }}</td>
-                <td>{{ book.abstract }}...</td>
-                <td>{{ book.languages }}</td>
-                <td>{{ book.createdDate }}</td>
-                <td>{{ book.subjects }}</td>
-                <td>{{ book.isbns }}</td>
-                <td><img src="{{ book.coverURL }}" alt="Cover Image" style="width:100px;"></td>
-            </tr>
-            {% endfor %}
-        </tbody>
-    </table>
+<h1 id="center">Books from Library</h1>
+<div class="container">
+    <div class="row">
+        {% for book in books %}
+        <div class="col-md-3 mb-4">
+            <a href="{{ book.url }}">
+                <div class="card">
+                    <img src="{{ book.coverURL }}" alt="Cover Image" class="card-img-top" style="width:100%;"/>
+                    <div class="card-body">
+                        <h5 class="card-title">{{ book.title }}</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
 {% endblock %}

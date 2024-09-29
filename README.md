@@ -47,3 +47,5 @@ This file in charge of managing API calls which will then store data into a json
 ## query.py (Optional but I still do it)
 
 Query.py will contain long sql queries such that our app.py won't be so long
+
+

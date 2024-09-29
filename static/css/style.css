@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sawarabi+Gothic&display=swap');
+
 /* General styles */
 * {
     margin: 0;
@@ -8,6 +10,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    text-decoration: none;
 }
 
 .container {
@@ -16,46 +19,23 @@ body {
     padding: 0 20px;
 }
 
-/* Header styles */
-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 20px 0;
-    position: relative;
-}
-
-header h1 {
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-/* Align login to the far right */
-nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: flex-end; /* Aligns to the far right */
+/*navbar*/
+.container-fluid {
+    width: 100%;
     padding: 0;
-    margin: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
 }
 
-nav ul li {
-    margin-left: auto;
+/*.navbar-nav {
+    margin: 0 !important; /* Ensure no extra margins */
+.navbar-toggler{
+   padding: 4px 12px;
 }
 
-nav ul li.login-button a {
-    background-color: white;
-    color: #4CAF50;
-    padding: 8px 15px;
-    border-radius: 4px;
-    font-size: 16px;
-    font-weight: bold;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-}
-
-nav ul li.login-button a:hover {
-    background-color: #f1f1f1;
-}
 
 /* Main styles */
 main {
@@ -121,8 +101,8 @@ input[type="text"], input[type="password"] {
 }
 
 button {
-    width: 100%;
-    padding: 10px;
+    /*width: 100%;
+    padding: 10px;*/
     background-color: #4CAF50;
     color: white;
     border: none;
@@ -131,11 +111,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #45a049;
-}
 
-/* Footer styles */
 footer {
     background-color: #333;
     color: white;
@@ -143,3 +119,56 @@ footer {
     padding: 20px 0;
     margin-top: 40px;
 }
+
+#zz {
+    text-decoration: none;
+    text-align: center;
+}
+
+#title {
+  font-family: "Righteous";
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+}
+
+#content {
+  font-family: "Sawarabi Gothic";
+  font-weight: 400;
+  font-style: normal;
+}
+
+#center {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: "Righteous";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.review {
+    text-align: center;
+}
+
+#desc {
+  font-family: "Sawarabi Gothic";
+  font-weight: 400;
+  font-style: normal;
+}
+
+.card {
+    height: 400px; /* Adjusted height for the card */
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img-top {
+    height: 400px; /* Fixed height for the image */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+}
+
+.card-body {
+    flex-grow: 1; /* Ensures the card body expands to fill available space */
+    overflow: hidden; /* Prevents overflowing content */
+}
+

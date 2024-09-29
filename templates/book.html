@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="row mb-12">
+    <div class="col-md-4 mb-8">
+        <img src="{{ book.coverURL }}" alt="Cover Image" class="card-img-top" style="width:55%;margin-left: 150px;"/>
+    </div>
+    <div class="col-md-8 mb-8" style="margin-top: 50px;">
+        <h1 id="title">{{ book.title }}</h1>
+        <p id="content">{{ book.description }}</p>
+    </div>
+</div>
+<div class="col-md-12 mb-12">
+    <h1 class="review">Reviews</h1>
+    <!-- put review.title -->
+    <!-- put review.description -->
+</div>
+{% endblock %}
+
+

@@ -1,25 +1,20 @@
 {% extends 'base.html' %}
 {% block body %}
-        <section class="books">
-            <div class="container">
-                <h2>Our Collection</h2>
-                <div class="book-list">
-                    <div class="book">
-                        <img src="book1.jpg" alt="Book 1">
-                        <h3>Book Title 1</h3>
-                        <p>Author: John Doe</p>
-                    </div>
-                    <div class="book">
-                        <img src="book2.jpg" alt="Book 2">
-                        <h3>Book Title 2</h3>
-                        <p>Author: Jane Smith</p>
-                    </div>
-                    <div class="book">
-                        <img src="book3.jpg" alt="Book 3">
-                        <h3>Book Title 3</h3>
-                        <p>Author: Emily Johnson</p>
+<h1 id="center">Books from Library</h1>
+<div class="container">
+    <div class="row">
+        {% for book in books %}
+        <div class="col-md-3 mb-4">
+            <a id="zz" href="{{ url_for('book_detail', book_id=book.id) }}">
+                <div class="card" style="height: 600px;"> <!-- Set fixed height -->
+                    <img src="{{ book.coverURL }}" alt="Cover Image" class="card-img-top" style="height: 500px; object-fit: cover;"/>
+                    <div class="card-body">
+                        <h5 id="title" style="text-decoration:none;">{{ book.title }}</h5>
                     </div>
                 </div>
-            </div>
-        </section>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
 {% endblock %}

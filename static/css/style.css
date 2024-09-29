@@ -92,11 +92,7 @@ button {
     cursor: pointer;
 }
 
-/*button:hover {
-    background-color: #45a049;
-}*/
 
-/* Footer styles */
 footer {
     background-color: #333;
     color: white;
@@ -105,20 +101,16 @@ footer {
     margin-top: 40px;
 }
 
-table {
-    width: 100%;
-    border-collapse: separate; /* Change from collapse to separate */
-    border-spacing: 0 10px; /* Set the horizontal and vertical spacing */
-}
-
-td {
-    padding: 10px; /* Add padding inside each cell */
+#zz {
+    text-decoration: none;
+    text-align: center;
 }
 
 #title {
   font-family: "Righteous";
   font-weight: 400;
   font-style: normal;
+  text-decoration: none;
 }
 
 #content {
@@ -130,9 +122,34 @@ td {
 #center {
     text-align: center;
     margin-bottom: 50px;
+    font-family: "Righteous";
+    font-weight: 400;
+    font-style: normal;
 }
 
-.card a {
-    text-decoration: none;
+.review {
     text-align: center;
 }
+
+#desc {
+  font-family: "Sawarabi Gothic";
+  font-weight: 400;
+  font-style: normal;
+}
+
+.card {
+    height: 400px; /* Adjusted height for the card */
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img-top {
+    height: 400px; /* Fixed height for the image */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+}
+
+.card-body {
+    flex-grow: 1; /* Ensures the card body expands to fill available space */
+    overflow: hidden; /* Prevents overflowing content */
+}
+

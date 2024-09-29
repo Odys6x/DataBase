@@ -254,7 +254,7 @@ def book_detail(book_id):
     # Convert the result to a dictionary for easy access in the template
     book_dict = {
         'id': book[0],  # Assuming book.id is at index 0
-        'title': book[2],  # Assuming book.title is at index 1
+        'title': book[1],  # Assuming book.title is at index 1
         'author': book[3],  # Assuming book.author is at index 2
         'coverURL': book[7],  # Assuming book.coverURL is at index 3
         'description': book[4],  # Assuming book.description is at index 4

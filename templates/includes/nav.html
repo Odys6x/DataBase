@@ -1,0 +1,82 @@
+{% if session['user_type'] == 'u' %}
+<nav class="navbar navbar-expand-lg navbar-light bg-light" aria-label="Main Navigation">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#" title=" Home">Library</a>
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" aria-label="#">Books</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" aria-label="#">#</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" aria-label="#">#</a>
+                </li>
+
+            </ul>
+                    <ul class="navbar-nav  mb-2 mb-lg-0 ml-auto">
+                        <li class="nav-item">
+                        <a class="nav-link" href="#" aria-label="#">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('logout') }}" aria-label="Logout">Logout</a>
+                        </li>
+                   </ul>
+        </div>
+    </div>
+</nav>
+{% elif session['user_type'] == 'a' %}
+<nav class="navbar navbar-expand-lg navbar-light bg-light" aria-label="Main Navigation">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#" title=" Home">Library</a>
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContentAdmin" aria-controls="navbarSupportedContentAdmin" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContentAdmin">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" aria-label="#">Manage user</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" aria-label="#">Manage books</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" aria-label="#">Manage booking systems</a>
+                </li>
+
+            </ul>
+                    <ul class="navbar-nav  mb-2 mb-lg-0 ml-auto">
+                        <li class="nav-item">
+                        <a class="nav-link" href="#" aria-label="#">#</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('logout') }}" aria-label="Logout">Logout</a>
+                        </li>
+                   </ul>
+        </div>
+    </div>
+</nav>
+{% else %}
+<nav class="navbar navbar-expand-lg navbar-light bg-light" aria-label="Main Navigation">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#" title=" Home">Library</a>
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContentOthers" aria-controls="navbarSupportedContentOthers" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContentOthers">
+                    <ul class="navbar-nav  mb-2 mb-lg-0 ml-auto">
+                        <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('register') }}" aria-label="#">Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('login') }}" aria-label="Login">Login</a>
+                        </li>
+                   </ul>
+        </div>
+    </div>
+</nav>
+{% endif %}

@@ -154,7 +154,12 @@ def register():
                 connection.close()
 
     return render_template('register.html', form=form)
-
+@app.route('/logout')
+def logout():
+    # Clear the user session
+    session.clear()  # This logs out the user by clearing their session data
+    flash('You have been logged out.', 'info')  # Display a message
+    return redirect(url_for('login'))  # Redirect to the login page
 @app.route('/admin_index')
 def admin_index():
     return render_template("admin_index.html")

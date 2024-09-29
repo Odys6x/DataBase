@@ -16,46 +16,23 @@ body {
     padding: 0 20px;
 }
 
-/* Header styles */
-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 20px 0;
-    position: relative;
-}
-
-header h1 {
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-/* Align login to the far right */
-nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: flex-end; /* Aligns to the far right */
+/*navbar*/
+.container-fluid {
+    width: 100%;
     padding: 0;
-    margin: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; !important
 }
 
-nav ul li {
-    margin-left: auto;
+/*.navbar-nav {
+    margin: 0 !important; /* Ensure no extra margins */
+.navbar-toggler{
+   padding: 4px 12px;
 }
 
-nav ul li.login-button a {
-    background-color: white;
-    color: #4CAF50;
-    padding: 8px 15px;
-    border-radius: 4px;
-    font-size: 16px;
-    font-weight: bold;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-}
-
-nav ul li.login-button a:hover {
-    background-color: #f1f1f1;
-}
 
 /* Main styles */
 main {
@@ -106,8 +83,8 @@ input[type="text"], input[type="password"] {
 }
 
 button {
-    width: 100%;
-    padding: 10px;
+    /*width: 100%;
+    padding: 10px;*/
     background-color: #4CAF50;
     color: white;
     border: none;
@@ -116,9 +93,9 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+/*button:hover {
     background-color: #45a049;
-}
+}*/
 
 /* Footer styles */
 footer {

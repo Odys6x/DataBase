@@ -280,3 +280,36 @@ h3 {
         padding: 10px;
     }
 }
+
+/* Center the form but left-align the content */
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+#accountForm {
+    width: 60%;
+    text-align: left;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Align the buttons for editing and saving */
+#editButton, #saveButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#editButton:hover, #saveButton:hover {
+    background-color: #45a049;
+}
+

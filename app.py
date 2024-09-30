@@ -5,6 +5,7 @@ import mysql
 from flask import Flask, render_template, redirect, url_for, flash, session, request
 import json
 from flask_wtf import CSRFProtect, FlaskForm
+from flask_wtf.csrf import generate_csrf
 from wtforms import TextAreaField, IntegerField, SubmitField, validators
 from conn import create_connection, execute_query
 from query import create_user_table, create_book_table, create_review_table
@@ -343,7 +344,74 @@ def submit_review(book_id):
 
 @app.route('/account')
 def account():
-    return render_template("account.html")
+    if 'email' not in session:
+        flash('You need to log in to access your account.', 'danger')
+        return redirect(url_for('login'))
+
+    email = session['email']
+
+    connection = create_connection()
+    query = "SELECT first_name, last_name, email FROM User WHERE email = %s"
+
+    try:
+        with connection.cursor(dictionary=True) as cursor:
+            cursor.execute(query, (email,))
+            user = cursor.fetchone()
+
+            if not user:
+                flash('User not found.', 'danger')
+                return redirect(url_for('login'))
+
+        # Pass the user object and csrf token to the template
+        return render_template('account.html', user=user)
+
+    except mysql.connector.Error as err:
+        flash(f"Error: {err}", 'danger')
+        return redirect(url_for('index'))
+
+    finally:
+        if connection:
+            connection.close()
+
+@app.route('/updateProfile', methods=['POST'])
+def update_profile():
+    if 'email' not in session:
+        flash('You need to log in to update your profile.', 'danger')
+        return redirect(url_for('login'))
+
+    email = session['email']
+    first_name = request.form['firstName']
+    last_name = request.form['lastName']
+    new_email = request.form['email']
+
+    # Update the user's information in the database
+    connection = create_connection()
+    update_query = """
+    UPDATE User
+    SET first_name = %s, last_name = %s, email = %s
+    WHERE email = %s
+    """
+
+    try:
+        with connection.cursor() as cursor:
+            cursor.execute(update_query, (first_name, last_name, new_email, email))
+            connection.commit()
+
+            # Update the session with the new email if it has been changed
+            if email != new_email:
+                session['email'] = new_email
+
+            flash('Profile updated successfully!', 'success')
+            return redirect(url_for('account'))
+
+    except mysql.connector.Error as err:
+        flash(f"Error: {err}", 'danger')
+        return redirect(url_for('account'))
+
+    finally:
+        if connection:
+            connection.close()
+
 
 if __name__ == "__main__":
     create_admin_user()

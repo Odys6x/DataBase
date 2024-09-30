@@ -2,11 +2,12 @@ from datetime import datetime
 from sqlite3 import Error
 
 import mysql
-from flask import Flask, render_template, redirect, url_for, flash, session
+from flask import Flask, render_template, redirect, url_for, flash, session, request
 import json
-from flask_wtf import CSRFProtect
+from flask_wtf import CSRFProtect, FlaskForm
+from wtforms import TextAreaField, IntegerField, SubmitField, validators
 from conn import create_connection, execute_query
-from query import create_user_table, create_table
+from query import create_user_table, create_book_table, create_review_table
 from werkzeug.security import generate_password_hash
 from werkzeug.security import check_password_hash
 from registerForm import RegistrationForm
@@ -60,7 +61,7 @@ def index():
     with open('json/audio/nlb_api_response0.json') as file:
         data = json.load(file)
 
-    create_table_query = create_table
+    create_book_table_query = create_book_table
 
     insert_query = """
     INSERT INTO Book (title, types, authors, abstract, languages, createdDate, coverURL, subjects, isbns)
@@ -72,7 +73,7 @@ def index():
         if connection is None:
             raise Exception("Failed to establish a database connection.")
 
-        execute_query(connection, create_table_query)
+        execute_query(connection, create_book_table_query)
 
         with connection.cursor() as cursor:
             cursor.execute("SELECT COUNT(*) FROM Book;")
@@ -217,6 +218,7 @@ def register():
                 connection.close()
 
     return render_template('register.html', form=form)
+
 @app.route('/logout')
 def logout():
     # Clear the user session
@@ -228,46 +230,116 @@ def logout():
 def admin_index():
     return render_template("admin_index.html")
 
+class ReviewForm(FlaskForm):
+    rating = IntegerField('Rating (1-5)', [validators.NumberRange(min=1, max=5)])
+    content = TextAreaField('Comment', [validators.DataRequired()])
+    submit = SubmitField('Submit Review')
 
 @app.route('/book/<int:book_id>')
 def book_detail(book_id):
+    create_reviews_query = create_review_table
+
     connection = create_connection()
     if connection is None:
         return "Database connection failed", 500  # Handle connection error
+    
+    # Create the review table if it doesn't exist
+    if connection is not None:  
+        execute_query(connection, create_reviews_query)
 
-    query = f'SELECT * FROM book WHERE id = {book_id}'
-    cursor = connection.cursor()
+    book_query = 'SELECT * FROM Book WHERE id = %s'
+
+    reviews_query = """
+    SELECT Review.ratings, Review.content, User.first_name, User.last_name 
+    FROM Review 
+    JOIN User ON Review.userId = User.userId 
+    WHERE Review.bookId = %s
+    """
 
     try:
-        cursor.execute(query)
-        book = cursor.fetchone()  # Fetch a single result
-    except Error as e:
-        print(f"The error '{e}' occurred")
+        with connection.cursor(dictionary=True) as cursor:
+            # Fetch the book details
+            cursor.execute(book_query, (book_id,))
+            book = cursor.fetchone()  # This will return None if no book is found
+
+            # If no book is found, return a 404 page
+            if not book:
+                flash('Book not found.', 'danger')
+                return redirect(url_for('index'))
+            
+            # Create a form instance
+            form = ReviewForm()
+
+            # Fetch all reviews for the book
+            cursor.execute(reviews_query, (book_id,))
+            reviews = cursor.fetchall()
+
+            # Convert the result to a dictionary for easy access in the template
+            book_dict = {
+                'id': book['id'],  # Fetch by column name
+                'title': book['title'],  # Fetch by column name
+                'author': book['authors'],  # Fetch by column name
+                'coverURL': book['coverURL'],  # Fetch by column name
+                'description': book['abstract'],  # Fetch by column name
+                'published_date': book['createdDate'],  # Fetch by column name
+            }
+
+            return render_template("book.html", book=book_dict, form=form, reviews=reviews)
+
+    except mysql.connector.Error as err:
+        print(f"Error: {err}")
         return "An error occurred while fetching the book", 500
     finally:
-        cursor.close()
-        connection.close()  # Always close the connection
-
-    if book is None:
-        return "Book not found", 404
-
-    # Convert the result to a dictionary for easy access in the template
-    book_dict = {
-        'id': book[0],  # Assuming book.id is at index 0
-        'title': book[1],  # Assuming book.title is at index 1
-        'author': book[3],  # Assuming book.author is at index 2
-        'coverURL': book[7],  # Assuming book.coverURL is at index 3
-        'description': book[4],  # Assuming book.description is at index 4
-        'published_date': book[6],  # Assuming book.published_date is at index 5
-    }
-
-    return render_template("book.html", book=book_dict)
+        connection.close()
 
 
+# Submit review handling
+@app.route('/book/<int:book_id>/submit_review', methods=['POST'])
+def submit_review(book_id):
+    if 'email' not in session:
+        return redirect(url_for('login'))
 
-@app.route('/register')
-def register():
-    return render_template("register.html")
+    # Get the logged-in user's email from the session
+    email = session['email']
+
+    # Fetch the userId based on the email
+    connection = create_connection()
+    user_query = "SELECT userId FROM User WHERE email = %s"
+    
+    try:
+        with connection.cursor() as cursor:
+            cursor.execute(user_query, (email,))
+            user = cursor.fetchone()
+            if user is None:
+                flash('User not found', 'danger')
+                return redirect(url_for('login'))
+
+            user_id = user[0]  # Extract userId from the query result
+            
+            # Get form data for the review
+            ratings = int(request.form['ratings']) # ensure integer value
+            content = request.form['content']
+
+            # Insert the review into the database
+            review_insert_query = """
+            INSERT INTO Review (userId, bookId, content, ratings) 
+            VALUES (%s, %s, %s, %s);
+            """
+            cursor.execute(review_insert_query, (user_id, book_id, content, ratings))
+            connection.commit()
+            print(f"Review successfully inserted for user {user_id} on book {book_id}.")
+
+            flash('Review submitted successfully!', 'success')
+            return redirect(url_for('book_detail', book_id=book_id))        
+
+    except mysql.connector.Error as err:
+        flash(f"Error: {err}", 'danger')
+        print(f"Error inserting review: {err}")
+        return redirect(url_for('book_detail', book_id=book_id))
+    finally:
+        if connection:
+            connection.close()
+
 
 @app.route('/account')
 def account():

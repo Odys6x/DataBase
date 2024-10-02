@@ -1,6 +1,20 @@
 {% extends 'base.html' %}
 {% block body %}
- <main class="container">
- <h1>Welcome Admin</h1>
- </main>
+<h1 id="center">Books from Library Admin</h1>
+<div class="container">
+    <div class="row">
+        {% for book in books %}
+        <div class="col-md-3 mb-4">
+            <a id="zz" href="{{ url_for('book_detail', book_id=book.id) }}">
+                <div class="card" style="height: 600px;"> <!-- Set fixed height -->
+                    <img src="{{ book.coverURL }}" alt="Cover Image" class="card-img-top" style="height: 500px; object-fit: cover;"/>
+                    <div class="card-body">
+                        <h5 id="title" style="text-decoration:none;">{{ book.title }}</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
 {% endblock %}

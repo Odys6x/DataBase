@@ -11,6 +11,7 @@ from werkzeug.security import generate_password_hash
 from werkzeug.security import check_password_hash
 from registerForm import RegistrationForm
 from loginForm import LoginForm
+from bookform import BookForm
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'inf2003_database'  # Change this to a secure key
@@ -226,7 +227,188 @@ def logout():
 
 @app.route('/admin_index')
 def admin_index():
-    return render_template("admin_index.html")
+    with open('json/audio/nlb_api_response0.json') as file:
+        data = json.load(file)
+
+    create_table_query = create_table
+
+    insert_query = """
+    INSERT INTO Book (title, types, authors, abstract, languages, createdDate, coverURL, subjects, isbns)
+    VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s);
+    """
+
+    try:
+        connection = create_connection()
+        if connection is None:
+            raise Exception("Failed to establish a database connection.")
+
+        execute_query(connection, create_table_query)
+
+        with connection.cursor() as cursor:
+            cursor.execute("SELECT COUNT(*) FROM Book;")
+            count = cursor.fetchone()[0]
+
+            if count == 0:
+                for book in data['results']:
+                    title = book['title'].replace('[electronic resource]', '').strip()
+                    types = ', '.join(book['types'])
+                    authors = ', '.join(book['authors'])
+                    abstract = ', '.join(book['abstracts'])
+                    languages = ', '.join(book['languages'])
+                    coverURL = book.get('coverUrl', '')
+                    subjects = book.get('subjects', '')
+                    isbns = ', '.join(book['isbns'])
+                    createdDate = book.get('createdDate')
+
+                    if createdDate:
+                        createdDate = datetime.strptime(createdDate, "%Y-%m-%d").date()
+                    else:
+                        createdDate = None
+
+                    data_tuple = (title, types, authors, abstract, languages, createdDate, coverURL, subjects, isbns)
+                    cursor.execute(insert_query, data_tuple)
+
+                connection.commit()
+
+        fetch_query = "SELECT id, title, types, authors, abstract, languages, createdDate, coverURL, subjects, isbns FROM Book;"
+        with connection.cursor(dictionary=True) as cursor:
+            cursor.execute(fetch_query)
+            books = cursor.fetchall()
+
+    except mysql.connector.Error as err:
+        print(f"Error: {err}")
+        books = []
+
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        books = []
+
+    finally:
+        if connection:
+            connection.close()
+
+    # Pass the books data to the template
+    return render_template("admin_index.html", books=books)
+
+
+@app.route('/add_book', methods=['GET', 'POST'])
+def add_book():
+    form = BookForm()
+
+    if form.validate_on_submit():
+        title = form.title.data
+        types = form.types.data
+        authors = form.authors.data
+        abstract = form.abstract.data
+        languages = form.languages.data
+        createdDate = form.createdDate.data
+        coverURL = form.coverURL.data
+        subjects = form.subjects.data
+        isbns = form.isbns.data
+
+        # SQL query to insert book details into the Book table
+        insert_query = """
+        INSERT INTO Book (title, types, authors, abstract, languages, createdDate, coverURL, subjects, isbns)
+        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s);
+        """
+
+        try:
+            connection = create_connection()
+            if connection is not None:
+                with connection.cursor() as cursor:
+                    cursor.execute(insert_query, (title, types, authors, abstract, languages, createdDate, coverURL, subjects, isbns))
+                    connection.commit()
+                    flash('Book added successfully!', 'success')
+                return redirect(url_for('index'))
+            else:
+                flash('Database connection failed.', 'danger')
+
+        except mysql.connector.Error as err:
+            flash(f"Error: {err}", 'danger')
+
+        finally:
+            if connection is not None:
+                connection.close()
+
+    return render_template('add_book.html', form=form)
+
+@app.route('/delete_book/<int:book_id>', methods=['POST'])
+def delete_book(book_id):
+    # SQL query to delete the book by ID
+    delete_query = "DELETE FROM Book WHERE id = %s"
+    
+    try:
+        connection = create_connection()
+        if connection is not None:
+            with connection.cursor() as cursor:
+                cursor.execute(delete_query, (book_id,))
+                connection.commit()
+                flash('Book deleted successfully!', 'success')
+        else:
+            flash('Failed to connect to the database.', 'danger')
+
+    except mysql.connector.Error as err:
+        flash(f"Error: {err}", 'danger')
+
+    finally:
+        if connection is not None:
+            connection.close()
+
+    return redirect(url_for('index'))
+
+@app.route('/edit_book/<int:book_id>', methods=['GET', 'POST'])
+def edit_book(book_id):
+    connection = create_connection()
+    if connection is None:
+        flash("Database connection failed.", "danger")
+        return redirect(url_for('index'))
+
+    # Fetch the book details from the database
+    query = "SELECT * FROM Book WHERE id = %s"
+    with connection.cursor(dictionary=True) as cursor:  # Fetching as a dictionary to use in the form
+        cursor.execute(query, (book_id,))
+        book = cursor.fetchone()
+
+    if not book:
+        flash("Book not found.", "danger")
+        return redirect(url_for('index'))
+
+    # Create an instance of the form with book data pre-filled
+    form = BookForm(data=book)
+
+    if form.validate_on_submit():
+        # Update the book details in the database
+        update_query = """
+        UPDATE Book SET title = %s, types = %s, authors = %s, abstract = %s, languages = %s, createdDate = %s, coverURL = %s, subjects = %s, isbns = %s WHERE id = %s
+        """
+        updated_book_data = (
+            form.title.data,
+            form.types.data,
+            form.authors.data,
+            form.abstract.data,
+            form.languages.data,
+            form.createdDate.data,
+            form.coverURL.data,
+            form.subjects.data,
+            form.isbns.data,
+            book_id
+        )
+
+        try:
+            with connection.cursor() as cursor:
+                cursor.execute(update_query, updated_book_data)
+                connection.commit()
+                flash('Book updated successfully!', 'success')
+            return redirect(url_for('book_detail', book_id=book_id))
+
+        except mysql.connector.Error as err:
+            flash(f"Error: {err}", "danger")
+
+        finally:
+            connection.close()
+
+    # Render the edit form with the current book data
+    return render_template('edit_book.html', form=form, book_id=book_id)
 
 
 @app.route('/book/<int:book_id>')

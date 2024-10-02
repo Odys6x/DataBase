@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% block body %}
+<h1 id="center">Books from Library</h1>
+<div class="container">
+    <div class="container">
+        <h1>Add a New Book</h1>
+        <form method="POST" action="{{ url_for('add_book') }}">
+            {{ form.hidden_tag() }}
+            <div class="form-group">
+                {{ form.title.label }}
+                {{ form.title(class_='form-control') }}
+            </div>
+            <div class="form-group">
+                {{ form.types.label }}
+                {{ form.types(class_='form-control') }}
+            </div>
+            <div class="form-group">
+                {{ form.authors.label }}
+                {{ form.authors(class_='form-control') }}
+            </div>
+            <div class="form-group">
+                {{ form.abstract.label }}
+                {{ form.abstract(class_='form-control') }}
+            </div>
+            <div class="form-group">
+                {{ form.languages.label }}
+                {{ form.languages(class_='form-control') }}
+            </div>
+            <div class="form-group">
+                {{ form.createdDate.label }}
+                {{ form.createdDate(class_='form-control') }}
+            </div>
+            <div class="form-group">
+                {{ form.coverURL.label }}
+                {{ form.coverURL(class_='form-control') }}
+            </div>
+            <div class="form-group">
+                {{ form.subjects.label }}
+                {{ form.subjects(class_='form-control') }}
+            </div>
+            <div class="form-group">
+                {{ form.isbns.label }}
+                {{ form.isbns(class_='form-control') }}
+            </div>
+            <div class="form-group">
+                {{ form.submit(class_='btn btn-primary') }}
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}

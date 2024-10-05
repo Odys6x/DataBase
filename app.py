@@ -57,8 +57,9 @@ def create_admin_user():
 def insert_pbooks():
     # Read the CSV file
     df = pd.read_csv('BooksDataset.csv')
+    df.dropna(inplace=True)
     df.drop_duplicates(subset=['Title'], inplace=True)
-    df.dropna(subset=['Description'], inplace=True)
+    #df.dropna(subset=['Description'], inplace=True)
     # Rename columns to match SQL table
     df.rename(columns={
         'Title': 'title',
@@ -69,7 +70,7 @@ def insert_pbooks():
 
     # Add new columns
     df['types'] = 'Physical Book'
-    df['coverURL'] = 'image/default.png'
+    df['coverURL'] = 'images/default1.jpg'
 
     # Convert and format 'Publish Date'
     df['Publish Date'] = pd.to_datetime(df['Publish Date'], format="%A, %B %d, %Y", errors='coerce')
@@ -78,7 +79,7 @@ def insert_pbooks():
     df.rename(columns={
         'Publish Date': 'createdDate'
     }, inplace=True)
-
+    df = df[(df['createdDate'] > '2010-01-01') & (df['createdDate'] < '2024-10-01')]
     print(df)  # Optionally, print the DataFrame for verification
     create_table_query = create_table
 

@@ -11,7 +11,7 @@ from werkzeug.security import generate_password_hash
 from werkzeug.security import check_password_hash
 from registerForm import RegistrationForm
 from loginForm import LoginForm
-
+import pandas as pd
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'inf2003_database'  # Change this to a secure key
 csrf = CSRFProtect(app)
@@ -54,16 +54,88 @@ def create_admin_user():
         if connection is not None:
             connection.close()
 
+def insert_pbooks():
+    # Read the CSV file
+    df = pd.read_csv('BooksDataset.csv')
+    df.drop_duplicates(subset=['Title'], inplace=True)
+    df.dropna(subset=['Description'], inplace=True)
+    # Rename columns to match SQL table
+    df.rename(columns={
+        'Title': 'title',
+        'Authors': 'authors',
+        'Description': 'abstract',
+        'Category': 'subjects'
+    }, inplace=True)
+
+    # Add new columns
+    df['types'] = 'Physical Book'
+    df['coverURL'] = 'image/default.png'
+
+    # Convert and format 'Publish Date'
+    df['Publish Date'] = pd.to_datetime(df['Publish Date'], format="%A, %B %d, %Y", errors='coerce')
+    df.dropna(subset=['Publish Date'], inplace=True)
+    df['Publish Date'] = df['Publish Date'].dt.strftime('%Y-%m-%d')
+    df.rename(columns={
+        'Publish Date': 'createdDate'
+    }, inplace=True)
+
+    print(df)  # Optionally, print the DataFrame for verification
+    create_table_query = create_table
+
+    # Prepare the insert query
+    insert_query = """
+    INSERT IGNORE INTO book (title, types, authors, abstract, createdDate, coverURL, subjects)
+    VALUES (%s, %s, %s, %s, %s, %s, %s);
+    """
+
+    try:
+        connection = create_connection()
+        if connection is not None:  # Check if the connection was successful
+            execute_query(connection, create_table_query)
+
+            # Count existing books in the database
+            count_query = "SELECT COUNT(*) FROM book;"
+            with connection.cursor() as cursor:
+                cursor.execute(count_query)
+                count = cursor.fetchone()[0]
+                print(f"Current book count: {count}")
+
+                # Check if count exceeds 1000
+                if count >= 1000:
+                    print("Book count exceeds 1000. No new books will be inserted.")
+                      # Exit the function if more than 1000 books exist
+                else:
+                # Insert new books
+                 for index, row in df.iterrows():
+                    cursor.execute(insert_query, (
+                        row['title'],
+                        row['types'],
+                        row['authors'],
+                        row['abstract'],
+                        row['createdDate'],
+                        row['coverURL'],
+                        row['subjects']
+                    ))
+                connection.commit()
+                print("Data inserted successfully.")
+    except mysql.connector.Error as err:
+        print(f"Error: {err}")
+    except Exception as e:
+        print(f"An error occurred: {e}")
+    finally:
+        if connection is not None:
+            connection.close()
 
 @app.route('/')
 def index():
-    with open('json/audio/nlb_api_response0.json') as file:
+    #with open('json/audio/nlb_api_response0.json') as file:
+    with open('nlb_api_response0.json') as file:
         data = json.load(file)
 
     create_table_query = create_table
 
     insert_query = """
-    INSERT INTO Book (title, types, authors, abstract, languages, createdDate, coverURL, subjects, isbns)
+    INSERT INTO book (title, types, authors, abstract, languages, createdDate, coverURL, subjects, isbns)
     VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s);
     """
 
@@ -267,4 +339,5 @@ def book_detail(book_id):
 
 if __name__ == "__main__":
     create_admin_user()
+    insert_pbooks()
     app.run(debug=True)

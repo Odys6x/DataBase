@@ -11,6 +11,8 @@ from werkzeug.security import generate_password_hash
 from werkzeug.security import check_password_hash
 from registerForm import RegistrationForm
 from loginForm import LoginForm
+from datetime import datetime, timedelta
+
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'inf2003_database'  # Change this to a secure key
@@ -231,6 +233,7 @@ def admin_index():
 
 @app.route('/book/<int:book_id>')
 def book_detail(book_id):
+    user_id = 1  # Temporarily hardcoding user ID for testing
     connection = create_connection()
     if connection is None:
         return "Database connection failed", 500  # Handle connection error
@@ -241,12 +244,20 @@ def book_detail(book_id):
     try:
         cursor.execute(query)
         book = cursor.fetchone()  # Fetch a single result
+
+        # Check if the book is borrowed by the user
+        check_borrow_query = """
+        SELECT * FROM BorrowedList WHERE book_id = %s AND user_id = %s AND is_returned = FALSE
+        """
+        cursor.execute(check_borrow_query, (book_id, user_id))
+        is_borrowed = cursor.fetchone() is not None  # True if the book is borrowed
+
     except Error as e:
         print(f"The error '{e}' occurred")
         return "An error occurred while fetching the book", 500
     finally:
         cursor.close()
-        connection.close()  # Always close the connection
+        connection.close()
 
     if book is None:
         return "Book not found", 404
@@ -259,11 +270,83 @@ def book_detail(book_id):
         'coverURL': book[7],  # Assuming book.coverURL is at index 3
         'description': book[4],  # Assuming book.description is at index 4
         'published_date': book[6],  # Assuming book.published_date is at index 5
+        'is_borrowed': is_borrowed  # True if the user has borrowed this book
     }
 
     return render_template("book.html", book=book_dict)
 
+@app.route('/borrow/<int:book_id>', methods=['POST'])
+def borrow_book(book_id):
+    user_id = 1  # Temporarily hardcoding a user ID for testing without login
+    connection = create_connection()
 
+    # Check if the book is already borrowed
+    check_query = "SELECT * FROM BorrowedList WHERE book_id = %s AND is_returned = FALSE"
+    cursor = connection.cursor(dictionary=True)
+    cursor.execute(check_query, (book_id,))
+    book_borrowed = cursor.fetchone()
+
+    if book_borrowed:
+        flash('Book is currently borrowed by someone else.', 'danger')
+        return redirect(url_for('book_detail', book_id=book_id))
+
+    # If book is not borrowed, allow user to borrow
+    borrow_date = datetime.now().date()
+    due_date = borrow_date + timedelta(days=14)  # 2-week borrowing period
+
+    borrow_query = """
+        INSERT INTO BorrowedList (user_id, book_id, borrow_date, due_date)
+        VALUES (%s, %s, %s, %s)
+    """
+    cursor.execute(borrow_query, (user_id, book_id, borrow_date, due_date))
+    connection.commit()
+
+    cursor.close()
+    connection.close()
+
+    flash('You have successfully borrowed the book!', 'success')
+    return redirect(url_for('book_detail', book_id=book_id))
+
+@app.route('/return/<int:book_id>', methods=['POST'])
+def return_book(book_id):
+    user_id = 1  # Temporarily hardcoding a user ID for testing without login
+    connection = create_connection()
+
+    return_query = """
+        UPDATE BorrowedList
+        SET return_date = %s, is_returned = TRUE
+        WHERE book_id = %s AND user_id = %s AND is_returned = FALSE
+    """
+    return_date = datetime.now().date()
+    cursor = connection.cursor()
+    cursor.execute(return_query, (return_date, book_id, user_id))
+    connection.commit()
+
+    cursor.close()
+    connection.close()
+
+    flash('You have successfully returned the book!', 'success')
+    return redirect(url_for('user_history'))
+
+@app.route('/history')
+def user_history():
+    user_id = 1  # Temporarily hardcoding a user ID for testing without login
+    connection = create_connection()
+
+    history_query = """
+        SELECT b.title, bl.borrow_date, bl.due_date, bl.return_date, bl.is_returned
+        FROM BorrowedList bl
+        JOIN Book b ON bl.book_id = b.id
+        WHERE bl.user_id = %s
+    """
+    cursor = connection.cursor(dictionary=True)
+    cursor.execute(history_query, (user_id,))
+    borrow_history = cursor.fetchall()
+
+    cursor.close()
+    connection.close()
+
+    return render_template('history.html', borrow_history=borrow_history)
 
 if __name__ == "__main__":
     create_admin_user()

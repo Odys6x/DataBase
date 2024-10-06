@@ -7,13 +7,25 @@
     <div class="col-md-8 mb-8" style="margin-top: 50px;">
         <h1 id="title">{{ book.title }}</h1>
         <p id="content">{{ book.description }}</p>
+
+        <!-- Borrow/Return Buttons -->
+        {% if book.is_borrowed %}
+        <form action="{{ url_for('return_book', book_id=book.id) }}" method="POST">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">  <!-- Include CSRF token -->
+            <button type="submit" class="btn btn-danger">Return Book</button>
+        </form>
+        {% else %}
+        <form action="{{ url_for('borrow_book', book_id=book.id) }}" method="POST">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">  <!-- Include CSRF token -->
+            <button type="submit" class="btn btn-primary">Borrow Book</button>
+        </form>
+        {% endif %}
     </div>
 </div>
+
 <div class="col-md-12 mb-12">
     <h1 class="review">Reviews</h1>
     <!-- put review.title -->
     <!-- put review.description -->
 </div>
 {% endblock %}
-
-

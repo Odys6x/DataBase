@@ -7,7 +7,7 @@ def create_connection():
         connection = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="newpassword",
+            password="chun1234",
             database="library"
         )
         print("Connection to MySQL DB successful")

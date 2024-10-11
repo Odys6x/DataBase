@@ -293,7 +293,6 @@ def book_detail(book_id):
         connection.close()
 
 
-# Submit review handling
 @app.route('/book/<int:book_id>/submit_review', methods=['POST'])
 def submit_review(book_id):
     if 'email' not in session:

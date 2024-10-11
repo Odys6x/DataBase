@@ -233,22 +233,41 @@ def admin_index():
 
 @app.route('/book/<int:book_id>')
 def book_detail(book_id):
+    user_id = session.get('user_id')  # Get current logged-in user ID
     connection = create_connection()
+    
     if connection is None:
         return "Database connection failed", 500  # Handle connection error
 
-    query = f'SELECT * FROM book WHERE id = {book_id}'
+    # Query to fetch book details
+    query = "SELECT * FROM book WHERE id = %s"
     cursor = connection.cursor()
 
     try:
-        cursor.execute(query)
-        book = cursor.fetchone()  # Fetch a single result
+        cursor.execute(query, (book_id,))
+        book = cursor.fetchone()  # Fetch the book details
+
+        # Check if the book is borrowed by the current user
+        check_borrow_query = """
+        SELECT * FROM BorrowedList WHERE book_id = %s AND user_id = %s AND is_returned = FALSE
+        """
+        cursor.execute(check_borrow_query, (book_id, user_id))
+        is_borrowed_by_user = cursor.fetchone() is not None  # True if the current user borrowed the book
+
+        # Check if the book is borrowed by any user (other than the current one)
+        check_any_borrow_query = """
+        SELECT * FROM BorrowedList WHERE book_id = %s AND is_returned = FALSE
+        """
+        cursor.execute(check_any_borrow_query, (book_id,))
+        is_borrowed_by_anyone = cursor.fetchone() is not None  # True if the book is currently borrowed by anyone
+
     except Error as e:
         print(f"The error '{e}' occurred")
         return "An error occurred while fetching the book", 500
+
     finally:
         cursor.close()
-        connection.close()  # Always close the connection
+        connection.close()
 
     if book is None:
         return "Book not found", 404
@@ -256,11 +275,13 @@ def book_detail(book_id):
     # Convert the result to a dictionary for easy access in the template
     book_dict = {
         'id': book[0],  # Assuming book.id is at index 0
-        'title': book[2],  # Assuming book.title is at index 1
+        'title': book[1],  # Assuming book.title is at index 1
         'author': book[3],  # Assuming book.author is at index 2
         'coverURL': book[7],  # Assuming book.coverURL is at index 3
         'description': book[4],  # Assuming book.description is at index 4
         'published_date': book[6],  # Assuming book.published_date is at index 5
+        'is_borrowed_by_user': is_borrowed_by_user,  # True if the current user borrowed the book
+        'is_borrowed_by_anyone': is_borrowed_by_anyone  # True if the book is borrowed by anyone
     }
 
     return render_template("book.html", book=book_dict)

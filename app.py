@@ -132,7 +132,7 @@ def login():
         password = form.password.data
 
         # SQL query to find user by email
-        query = "SELECT email, password, user_type FROM User WHERE email = %s"
+        query = "SELECT userId, email, password, user_type FROM User WHERE email = %s"
         connection = None
 
         try:
@@ -142,17 +142,18 @@ def login():
                     cursor.execute(query, (email,))
                     user = cursor.fetchone()
 
-                    if user and check_password_hash(user[1], password):  # Verify password
+                    if user and check_password_hash(user[2], password):  # Verify password
                         # Set session variables
-                        session['email'] = user[0]
-                        session['user_type'] = user[2]
+                        session['user_id'] = user[0]
+                        session['email'] = user[1]
+                        session['user_type'] = user[3]
 
                         flash('Login successful!', 'success')
 
                         # Redirect based on user type
-                        if user[2] == 'a':  # Admin
+                        if user[3] == 'a':  # Admin
                             return redirect(url_for('admin_index'))
-                        elif user[2] == 'u':  # Regular user
+                        elif user[3] == 'u':  # Regular user
                             return redirect(url_for('index'))
                     else:
                         flash('Login failed. Check your email and password.', 'danger')

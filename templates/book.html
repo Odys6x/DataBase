@@ -9,7 +9,12 @@
         <p id="content">{{ book.description }}</p>
 
         <!-- Borrow/Return Buttons -->
-        {% if book.is_borrowed %}
+        {% if book.is_borrowed_by_user %}
+            <form action="{{ url_for('return_book', book_id=book.id) }}" method="POST">
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">  <!-- Include CSRF token -->
+                <button type="submit" class="btn btn-danger">Return Book</button>
+            </form>
+        {% elif book.is_borrowed_by_anyone %}
             <!-- Display a message instead of the Borrow button -->
             <p class="text-danger">This book is currently not available for borrowing.</p>
         {% else %}

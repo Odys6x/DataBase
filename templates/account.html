@@ -1,39 +1,43 @@
-{% extends 'loggedin_base.html' %}
+{% extends 'base.html' %}
 
 {% block body %}
-    <div class="login-container">
-        <h2>Account Details</h2>
-        <form action="/updateProfile" method="POST">
+<div class="account-container">
+    <h2>Account Details</h2>
+    <div class="form-wrapper">
+        <form id="accountForm" action="/updateProfile" method="POST">
+            <!-- CSRF Token -->
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+
             <div class="form-group">
                 <label for="firstName">First Name</label>
-                <input type="text" id="firstName" name="firstName" value="{{ user.firstName }}" readonly>
+                <input type="text" id="firstName" name="firstName" value="{{ user.first_name }}" readonly>
             </div>
             <div class="form-group">
                 <label for="lastName">Last Name</label>
-                <input type="text" id="lastName" name="lastName" value="{{ user.lastName }}" readonly>
+                <input type="text" id="lastName" name="lastName" value="{{ user.last_name }}" readonly>
             </div>
             <div class="form-group">
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" value="{{ user.email }}" readonly>
             </div>
-            <div class="form-group">
-                <label for="feesDue">Fees Due</label>
-                <input type="text" id="feesDue" name="feesDue" value="{{ user.feesDue }}" readonly>
-            </div>
-            <div class="form-group">
-                <label for="userType">User Type</label>
-                <input type="text" id="userType" name="userType" value="{{ user.userType }}" readonly>
-            </div>
-            <button type="button" onclick="enableEdit()">Edit Details</button>
+
+            <button type="button" id="editButton" onclick="enableEdit()">Edit Profile</button>
+            <button type="submit" id="saveButton" style="display: none;">Save</button>
         </form>
     </div>
+</div>
 
-    <script>
-        function enableEdit() {
-            var inputs = document.querySelectorAll('input[type=text], input[type=email]');
-            inputs.forEach(function(input) {
-                input.readOnly = false;
-            });
-        }
-    </script>
+<script>
+    function enableEdit() {
+        // Enable the form inputs
+        var inputs = document.querySelectorAll('input[type=text], input[type=email]');
+        inputs.forEach(function(input) {
+            input.readOnly = false;
+        });
+
+        // Show the Save button and hide the Edit button
+        document.getElementById('saveButton').style.display = 'inline';
+        document.getElementById('editButton').style.display = 'none';
+    }
+</script>
 {% endblock %}

@@ -234,28 +234,31 @@ def admin_index():
 
 @app.route('/book/<int:book_id>')
 def book_detail(book_id):
-    user_id = 1  # Temporarily hardcoding user ID for testing
+    user_id = session.get('user_id')  # Assuming the user is logged in
     connection = create_connection()
+    
     if connection is None:
         return "Database connection failed", 500  # Handle connection error
 
-    query = f'SELECT * FROM book WHERE id = {book_id}'
+    # Query to fetch book details
+    query = "SELECT * FROM book WHERE id = %s"
     cursor = connection.cursor()
 
     try:
-        cursor.execute(query)
-        book = cursor.fetchone()  # Fetch a single result
+        cursor.execute(query, (book_id,))
+        book = cursor.fetchone()  # Fetch the book details
 
-        # Check if the book is borrowed by the user
+        # Check if the book is borrowed by any user
         check_borrow_query = """
-        SELECT * FROM BorrowedList WHERE book_id = %s AND user_id = %s AND is_returned = FALSE
+        SELECT * FROM BorrowedList WHERE book_id = %s AND is_returned = FALSE
         """
-        cursor.execute(check_borrow_query, (book_id, user_id))
-        is_borrowed = cursor.fetchone() is not None  # True if the book is borrowed
+        cursor.execute(check_borrow_query, (book_id,))
+        is_borrowed = cursor.fetchone() is not None  # True if the book is currently borrowed
 
     except Error as e:
         print(f"The error '{e}' occurred")
         return "An error occurred while fetching the book", 500
+
     finally:
         cursor.close()
         connection.close()
@@ -271,14 +274,15 @@ def book_detail(book_id):
         'coverURL': book[7],  # Assuming book.coverURL is at index 3
         'description': book[4],  # Assuming book.description is at index 4
         'published_date': book[6],  # Assuming book.published_date is at index 5
-        'is_borrowed': is_borrowed  # True if the user has borrowed this book
+        'is_borrowed': is_borrowed  # True if the book is currently borrowed
     }
 
     return render_template("book.html", book=book_dict)
 
 @app.route('/borrow/<int:book_id>', methods=['POST'])
 def borrow_book(book_id):
-    user_id = 1  # Temporarily hardcoding a user ID for testing without login
+    #user_id = 1  # Temporarily hardcoding a user ID for testing without login
+    user_id = session['user_id']
     connection = create_connection()
 
     # Check if the book is already borrowed
@@ -310,7 +314,8 @@ def borrow_book(book_id):
 
 @app.route('/return/<int:book_id>', methods=['POST'])
 def return_book(book_id):
-    user_id = 1  # Temporarily hardcoding a user ID for testing without login
+    # user_id = 1  # Temporarily hardcoding a user ID for testing without login
+    user_id = session['user_id']
     connection = create_connection()
 
     return_query = """
@@ -331,7 +336,8 @@ def return_book(book_id):
 
 @app.route('/history')
 def user_history():
-    user_id = 1  # Temporarily hardcoding a user ID for testing
+    #user_id = 1  # Temporarily hardcoding a user ID for testing
+    user_id = session['user_id']
     connection = create_connection()
 
     history_query = """

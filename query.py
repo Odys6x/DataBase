@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS Review (
     userId INT NOT NULL,  -- References the User table
     bookId INT NOT NULL,  -- References the Book table
     content VARCHAR(255),  -- Review content
-    ratings DECIMAL(1, 1),  -- Rating with one decimal point
+    ratings DECIMAL(2, 1),  -- Rating with one decimal point
 
     -- Foreign Key Constraints
     FOREIGN KEY (userId) REFERENCES User(userId) ON DELETE CASCADE,

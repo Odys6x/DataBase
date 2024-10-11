@@ -49,7 +49,7 @@
     {% for review in reviews %}
         <div class="review-card">
             <h3>{{ review.first_name }} {{ review.last_name }}</h3>
-            <p>Rating: {{ review.ratings }}/5</p>
+            <p>Rating: {{ review.ratings }}/5.0</p>
             <p>{{ review.content }}</p>
         </div>
     {% endfor %}

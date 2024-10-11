@@ -48,6 +48,6 @@ CREATE TABLE IF NOT EXISTS BorrowedList (
     return_date DATE,
     is_returned BOOLEAN DEFAULT FALSE,
     FOREIGN KEY (user_id) REFERENCES User(userId),
-    FOREIGN KEY (book_id) REFERENCES Book(id)
+    FOREIGN KEY (book_id) REFERENCES Book(id) ON DELETE CASCADE
 );
 """

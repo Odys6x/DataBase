@@ -1,4 +1,4 @@
-create_table = """
+create_book_table = """
 CREATE TABLE IF NOT EXISTS Book (
     id INT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(500) NOT NULL UNIQUE,
@@ -23,3 +23,18 @@ CREATE TABLE IF NOT EXISTS User (
     user_type CHAR(1) 
 );
 """
+
+create_review_table = """
+CREATE TABLE IF NOT EXISTS Review (
+    reviewId INT AUTO_INCREMENT PRIMARY KEY,  -- Unique identifier for each review
+    userId INT NOT NULL,  -- References the User table
+    bookId INT NOT NULL,  -- References the Book table
+    content VARCHAR(255),  -- Review content
+    ratings DECIMAL(2, 1),  -- Rating with one decimal point
+
+    -- Foreign Key Constraints
+    FOREIGN KEY (userId) REFERENCES User(userId) ON DELETE CASCADE,
+    FOREIGN KEY (bookId) REFERENCES Book(id) ON DELETE CASCADE
+);
+"""
+

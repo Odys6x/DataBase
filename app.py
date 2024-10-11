@@ -330,7 +330,7 @@ def return_book(book_id):
 
 @app.route('/history')
 def user_history():
-    user_id = 1  # Temporarily hardcoding a user ID for testing without login
+    user_id = 1  # Temporarily hardcoding a user ID for testing
     connection = create_connection()
 
     history_query = """
@@ -342,6 +342,17 @@ def user_history():
     cursor = connection.cursor(dictionary=True)
     cursor.execute(history_query, (user_id,))
     borrow_history = cursor.fetchall()
+
+    # Calculate overdue days and fees
+    current_date = datetime.now().date()
+    for record in borrow_history:
+        if not record['is_returned'] and record['due_date']:
+            overdue_days = (current_date - record['due_date']).days
+            record['overdue_days'] = max(0, overdue_days)  # If overdue, calculate days
+            record['overdue_fees'] = record['overdue_days'] * 1  # $1 per day overdue
+        else:
+            record['overdue_days'] = 0
+            record['overdue_fees'] = 0
 
     cursor.close()
     connection.close()

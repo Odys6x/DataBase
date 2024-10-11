@@ -1,18 +1,16 @@
-from datetime import datetime
 from sqlite3 import Error
 
 import mysql
 from flask import Flask, render_template, redirect, url_for, flash, session, request
 import json
-from flask_wtf import CSRFProtect, FlaskForm
-from flask_wtf.csrf import generate_csrf
-from wtforms import TextAreaField, IntegerField, SubmitField, validators
+from flask_wtf import CSRFProtect
 from conn import create_connection, execute_query
-from query import create_user_table, create_book_table, create_review_table
+from query import create_user_table, create_book_table, create_booklist_table
 from werkzeug.security import generate_password_hash
 from werkzeug.security import check_password_hash
 from registerForm import RegistrationForm
 from loginForm import LoginForm
+from datetime import datetime, timedelta
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'inf2003_database'  # Change this to a secure key
@@ -62,7 +60,7 @@ def index():
     with open('json/audio/nlb_api_response0.json') as file:
         data = json.load(file)
 
-    create_book_table_query = create_book_table
+
 
     insert_query = """
     INSERT INTO Book (title, types, authors, abstract, languages, createdDate, coverURL, subjects, isbns)
@@ -74,7 +72,8 @@ def index():
         if connection is None:
             raise Exception("Failed to establish a database connection.")
 
-        execute_query(connection, create_book_table_query)
+        execute_query(connection, create_book_table)
+        execute_query(connection, create_booklist_table)
 
         with connection.cursor() as cursor:
             cursor.execute("SELECT COUNT(*) FROM Book;")
@@ -132,7 +131,7 @@ def login():
         password = form.password.data
 
         # SQL query to find user by email
-        query = "SELECT email, password, user_type FROM User WHERE email = %s"
+        query = "SELECT userId, email, password, user_type FROM User WHERE email = %s"
         connection = None
 
         try:
@@ -142,17 +141,18 @@ def login():
                     cursor.execute(query, (email,))
                     user = cursor.fetchone()
 
-                    if user and check_password_hash(user[1], password):  # Verify password
+                    if user and check_password_hash(user[2], password):  # Verify password
                         # Set session variables
-                        session['email'] = user[0]
-                        session['user_type'] = user[2]
+                        session['user_id'] = user[0]
+                        session['email'] = user[1]
+                        session['user_type'] = user[3]
 
                         flash('Login successful!', 'success')
 
                         # Redirect based on user type
-                        if user[2] == 'a':  # Admin
+                        if user[3] == 'a':  # Admin
                             return redirect(url_for('admin_index'))
-                        elif user[2] == 'u':  # Regular user
+                        elif user[3] == 'u':  # Regular user
                             return redirect(url_for('index'))
                     else:
                         flash('Login failed. Check your email and password.', 'danger')
@@ -219,7 +219,6 @@ def register():
                 connection.close()
 
     return render_template('register.html', form=form)
-
 @app.route('/logout')
 def logout():
     # Clear the user session
@@ -231,115 +230,73 @@ def logout():
 def admin_index():
     return render_template("admin_index.html")
 
-class ReviewForm(FlaskForm):
-    rating = IntegerField('Rating (1-5)', [validators.NumberRange(min=1, max=5)])
-    content = TextAreaField('Comment', [validators.DataRequired()])
-    submit = SubmitField('Submit Review')
 
 @app.route('/book/<int:book_id>')
 def book_detail(book_id):
-    create_reviews_query = create_review_table
-
     connection = create_connection()
     if connection is None:
         return "Database connection failed", 500  # Handle connection error
-    
-    # Create the review table if it doesn't exist
-    if connection is not None:  
-        execute_query(connection, create_reviews_query)
 
-    book_query = 'SELECT * FROM Book WHERE id = %s'
-
-    reviews_query = """
-    SELECT Review.ratings, Review.content, User.first_name, User.last_name 
-    FROM Review 
-    JOIN User ON Review.userId = User.userId 
-    WHERE Review.bookId = %s
-    """
+    query = f'SELECT * FROM book WHERE id = {book_id}'
+    cursor = connection.cursor()
 
     try:
-        with connection.cursor(dictionary=True) as cursor:
-            # Fetch the book details
-            cursor.execute(book_query, (book_id,))
-            book = cursor.fetchone()  # This will return None if no book is found
-
-            # If no book is found, return a 404 page
-            if not book:
-                flash('Book not found.', 'danger')
-                return redirect(url_for('index'))
-            
-            # Create a form instance
-            form = ReviewForm()
-
-            # Fetch all reviews for the book
-            cursor.execute(reviews_query, (book_id,))
-            reviews = cursor.fetchall()
-
-            # Convert the result to a dictionary for easy access in the template
-            book_dict = {
-                'id': book['id'],  # Fetch by column name
-                'title': book['title'],  # Fetch by column name
-                'author': book['authors'],  # Fetch by column name
-                'coverURL': book['coverURL'],  # Fetch by column name
-                'description': book['abstract'],  # Fetch by column name
-                'published_date': book['createdDate'],  # Fetch by column name
-            }
-
-            return render_template("book.html", book=book_dict, form=form, reviews=reviews)
-
-    except mysql.connector.Error as err:
-        print(f"Error: {err}")
+        cursor.execute(query)
+        book = cursor.fetchone()  # Fetch a single result
+    except Error as e:
+        print(f"The error '{e}' occurred")
         return "An error occurred while fetching the book", 500
     finally:
-        connection.close()
+        cursor.close()
+        connection.close()  # Always close the connection
+
+    if book is None:
+        return "Book not found", 404
+
+    # Convert the result to a dictionary for easy access in the template
+    book_dict = {
+        'id': book[0],  # Assuming book.id is at index 0
+        'title': book[2],  # Assuming book.title is at index 1
+        'author': book[3],  # Assuming book.author is at index 2
+        'coverURL': book[7],  # Assuming book.coverURL is at index 3
+        'description': book[4],  # Assuming book.description is at index 4
+        'published_date': book[6],  # Assuming book.published_date is at index 5
+    }
+
+    return render_template("book.html", book=book_dict)
 
 
-@app.route('/book/<int:book_id>/submit_review', methods=['POST'])
-def submit_review(book_id):
-    if 'email' not in session:
-        return redirect(url_for('login'))
-
-    # Get the logged-in user's email from the session
-    email = session['email']
-
-    # Fetch the userId based on the email
+@app.route('/history')
+def user_history():
+    #user_id = 1  # Temporarily hardcoding a user ID for testing
+    user_id = session['user_id']
     connection = create_connection()
-    user_query = "SELECT userId FROM User WHERE email = %s"
-    
-    try:
-        with connection.cursor() as cursor:
-            cursor.execute(user_query, (email,))
-            user = cursor.fetchone()
-            if user is None:
-                flash('User not found', 'danger')
-                return redirect(url_for('login'))
 
-            user_id = user[0]  # Extract userId from the query result
-            
-            # Get form data for the review
-            ratings = int(request.form['ratings']) # ensure integer value
-            content = request.form['content']
+    history_query = """
+        SELECT b.title, bl.borrow_date, bl.due_date, bl.return_date, bl.is_returned
+        FROM BorrowedList bl
+        JOIN Book b ON bl.book_id = b.id
+        WHERE bl.user_id = %s
+    """
+    cursor = connection.cursor(dictionary=True)
+    cursor.execute(history_query, (user_id,))
+    borrow_history = cursor.fetchall()
 
-            # Insert the review into the database
-            review_insert_query = """
-            INSERT INTO Review (userId, bookId, content, ratings) 
-            VALUES (%s, %s, %s, %s);
-            """
-            cursor.execute(review_insert_query, (user_id, book_id, content, ratings))
-            connection.commit()
-            print(f"Review successfully inserted for user {user_id} on book {book_id}.")
+    # Calculate overdue days and fees
+    current_date = datetime.now().date()
+    for record in borrow_history:
+        if not record['is_returned'] and record['due_date']:
+            overdue_days = (current_date - record['due_date']).days
+            record['overdue_days'] = max(0, overdue_days)  # If overdue, calculate days
+            record['overdue_fees'] = record['overdue_days'] * 1  # $1 per day overdue
+        else:
+            record['overdue_days'] = 0
+            record['overdue_fees'] = 0
 
-            flash('Review submitted successfully!', 'success')
-            return redirect(url_for('book_detail', book_id=book_id))        
+    cursor.close()
+    connection.close()
 
-    except mysql.connector.Error as err:
-        flash(f"Error: {err}", 'danger')
-        print(f"Error inserting review: {err}")
-        return redirect(url_for('book_detail', book_id=book_id))
-    finally:
-        if connection:
-            connection.close()
-
+    return render_template('history.html', borrow_history=borrow_history)
 
 @app.route('/account')
 def account():
@@ -410,6 +367,62 @@ def update_profile():
     finally:
         if connection:
             connection.close()
+
+@app.route('/borrow/<int:book_id>', methods=['POST'])
+def borrow_book(book_id):
+    #user_id = 1  # Temporarily hardcoding a user ID for testing without login
+    user_id = session['user_id']
+    print(user_id)
+    connection = create_connection()
+
+    # Check if the book is already borrowed
+    check_query = "SELECT * FROM BorrowedList WHERE book_id = %s AND is_returned = FALSE"
+    cursor = connection.cursor(dictionary=True)
+    cursor.execute(check_query, (book_id,))
+    book_borrowed = cursor.fetchone()
+
+    if book_borrowed:
+        flash('Book is currently borrowed by someone else.', 'danger')
+        return redirect(url_for('book_detail', book_id=book_id))
+
+    # If book is not borrowed, allow user to borrow
+    borrow_date = datetime.now().date()
+    due_date = borrow_date + timedelta(days=14)  # 2-week borrowing period
+
+    borrow_query = """
+        INSERT INTO BorrowedList (user_id, book_id, borrow_date, due_date)
+        VALUES (%s, %s, %s, %s)
+    """
+    cursor.execute(borrow_query, (user_id, book_id, borrow_date, due_date))
+    connection.commit()
+
+    cursor.close()
+    connection.close()
+
+    flash('You have successfully borrowed the book!', 'success')
+    return redirect(url_for('book_detail', book_id=book_id))
+
+@app.route('/return/<int:book_id>', methods=['POST'])
+def return_book(book_id):
+    # user_id = 1  # Temporarily hardcoding a user ID for testing without login
+    user_id = session['user_id']
+    connection = create_connection()
+
+    return_query = """
+        UPDATE BorrowedList
+        SET return_date = %s, is_returned = TRUE
+        WHERE book_id = %s AND user_id = %s AND is_returned = FALSE
+    """
+    return_date = datetime.now().date()
+    cursor = connection.cursor()
+    cursor.execute(return_query, (return_date, book_id, user_id))
+    connection.commit()
+
+    cursor.close()
+    connection.close()
+
+    flash('You have successfully returned the book!', 'success')
+    return redirect(url_for('user_history'))
 
 
 if __name__ == "__main__":

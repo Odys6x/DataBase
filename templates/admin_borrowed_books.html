@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block body %}
+<h1>Borrowed Books (Admin View)</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>User</th>
+            <th>Book Title</th>
+            <th>Borrow Date</th>
+            <th>Due Date</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for record in borrowed_books %}
+        <tr>
+            <td>{{ record.first_name }} {{ record.last_name }}</td>
+            <td>{{ record.title }}</td>
+            <td>{{ record.borrow_date }}</td>
+            <td>{{ record.due_date }}</td>
+            <td>
+                {% if record.is_returned %}
+                <span class="text-success">Returned</span>
+                {% else %}
+                <span class="text-danger">Not Returned</span>
+                {% endif %}
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

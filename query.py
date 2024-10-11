@@ -38,3 +38,16 @@ CREATE TABLE IF NOT EXISTS Review (
 );
 """
 
+create_booklist_table = """
+CREATE TABLE IF NOT EXISTS BorrowedList (
+    borrow_id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT,
+    book_id INT,
+    borrow_date DATE,
+    due_date DATE,
+    return_date DATE,
+    is_returned BOOLEAN DEFAULT FALSE,
+    FOREIGN KEY (user_id) REFERENCES User(userId),
+    FOREIGN KEY (book_id) REFERENCES Book(id)
+);
+"""

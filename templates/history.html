@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block body %}
+<h1>Borrowing History</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Book Title</th>
+            <th>Borrow Date</th>
+            <th>Due Date</th>
+            <th>Return Date</th>
+            <th>Status</th>
+            <th>Overdue Days</th>
+            <th>Overdue Fees</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for record in borrow_history %}
+        <tr>
+            <td>{{ record.title }}</td>
+            <td>{{ record.borrow_date }}</td>
+            <td>{{ record.due_date }}</td>
+            <td>{{ record.return_date or 'Not Returned' }}</td>
+            <td>
+                {% if record.is_returned %}
+                <span class="text-success">Returned</span>
+                {% else %}
+                <span class="text-danger">Not Returned</span>
+                {% endif %}
+            </td>
+            <td>{{ record.overdue_days }}</td>
+            <td>${{ record.overdue_fees }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

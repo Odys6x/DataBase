@@ -7,52 +7,23 @@
     <div class="col-md-8 mb-8" style="margin-top: 50px;">
         <h1 id="title">{{ book.title }}</h1>
         <p id="content">{{ book.description }}</p>
+
+        <!-- Borrow/Return Buttons -->
+        {% if book.is_borrowed %}
+            <!-- Display a message instead of the Borrow button -->
+            <p class="text-danger">This book is currently not available for borrowing.</p>
+        {% else %}
+            <form action="{{ url_for('borrow_book', book_id=book.id) }}" method="POST">
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">  <!-- Include CSRF token -->
+                <button type="submit" class="btn btn-primary">Borrow Book</button>
+            </form>
+        {% endif %}
     </div>
 </div>
 
-<!-- Submit Review Form for Logged-In Users -->
-{% if session.get('email') %}
-    <h2>Submit Your Review</h2>
-    <div class="form-container">
-        <form method="POST" action="{{ url_for('submit_review', book_id=book.id) }}">
-            <!-- CSRF Token -->
-            {{ form.hidden_tag() }}
-            
-            <div class="form-group">
-                <label for="ratings">Rating (1-5):</label>
-                <select id="ratings" name="ratings" required>
-                    <option value="" disabled selected>Select your rating</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="content">Comment:</label>
-                <textarea id="content" name="content" rows="4" required></textarea>
-            </div>
-            <button type="submit">Submit Review</button>
-        </form>
-    </div>
-{% else %}
-    <div class="centered-text">
-        <p>Please <a href="{{ url_for('login') }}">log in</a> to submit a review.</p>
-    </div>
-{% endif %}
-
-
-<!-- Display Reviews -->
 <div class="col-md-12 mb-12">
-    <h2>Reviews</h2>
-    {% for review in reviews %}
-        <div class="review-card">
-            <h3>{{ review.first_name }} {{ review.last_name }}</h3>
-            <p>Rating: {{ review.ratings }}/5.0</p>
-            <p>{{ review.content }}</p>
-        </div>
-    {% endfor %}
+    <h1 class="review">Reviews</h1>
+    <!-- put review.title -->
+    <!-- put review.description -->
 </div>
-
 {% endblock %}

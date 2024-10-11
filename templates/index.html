@@ -2,11 +2,12 @@
 {% block body %}
 <h1 id="center">Books from Library</h1>
 
-<!-- Search form -->
+<!-- Search form with Reset button -->
 <form method="GET" action="{{ url_for('search_books') }}" class="mb-4">
     <div class="input-group">
         <input type="text" name="search" class="form-control" placeholder="Search for books by title" aria-label="Search for books" aria-describedby="button-search">
         <button class="btn btn-primary" type="submit" id="button-search">Search</button>
+        <a href="{{ url_for('index') }}" class="btn btn-secondary">Reset</a> <!-- Reset button -->
     </div>
 </form>
 

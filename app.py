@@ -1,11 +1,11 @@
 from sqlite3 import Error
-
 import mysql
 from flask import Flask, render_template, redirect, url_for, flash, session, request
+from wtforms import TextAreaField, IntegerField, SubmitField, validators
 import json
-from flask_wtf import CSRFProtect
+from flask_wtf import CSRFProtect, FlaskForm
 from conn import create_connection, execute_query
-from query import create_user_table, create_book_table, create_booklist_table
+from query import create_user_table, create_book_table, create_booklist_table, create_review_table
 from werkzeug.security import generate_password_hash
 from werkzeug.security import check_password_hash
 from registerForm import RegistrationForm
@@ -15,6 +15,12 @@ from datetime import datetime, timedelta
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'inf2003_database'  # Change this to a secure key
 csrf = CSRFProtect(app)
+
+class ReviewForm(FlaskForm):
+    rating = IntegerField('Rating (1-5)', [validators.NumberRange(min=1, max=5)])
+    content = TextAreaField('Comment', [validators.DataRequired()])
+    submit = SubmitField('Submit Review')
+
 
 def create_admin_user():
     create_user_query = create_user_table
@@ -54,6 +60,52 @@ def create_admin_user():
         if connection is not None:
             connection.close()
 
+
+@app.route('/book/<int:book_id>/submit_review', methods=['POST'])
+def submit_review(book_id):
+    if 'email' not in session:
+        return redirect(url_for('login'))
+
+    # Get the logged-in user's email from the session
+    email = session['email']
+
+    # Fetch the userId based on the email
+    connection = create_connection()
+    user_query = "SELECT userId FROM User WHERE email = %s"
+
+    try:
+        with connection.cursor() as cursor:
+            cursor.execute(user_query, (email,))
+            user = cursor.fetchone()
+            if user is None:
+                flash('User not found', 'danger')
+                return redirect(url_for('login'))
+
+            user_id = user[0]  # Extract userId from the query result
+
+            # Get form data for the review
+            ratings = int(request.form['ratings'])  # ensure integer value
+            content = request.form['content']
+
+            # Insert the review into the database
+            review_insert_query = """
+            INSERT INTO Review (userId, bookId, content, ratings) 
+            VALUES (%s, %s, %s, %s);
+            """
+            cursor.execute(review_insert_query, (user_id, book_id, content, ratings))
+            connection.commit()
+            print(f"Review successfully inserted for user {user_id} on book {book_id}.")
+
+            flash('Review submitted successfully!', 'success')
+            return redirect(url_for('book_detail', book_id=book_id))
+
+    except mysql.connector.Error as err:
+        flash(f"Error: {err}", 'danger')
+        print(f"Error inserting review: {err}")
+        return redirect(url_for('book_detail', book_id=book_id))
+    finally:
+        if connection:
+            connection.close()
 
 @app.route('/')
 def index():
@@ -238,9 +290,17 @@ def book_detail(book_id):
 
     if connection is None:
         return "Database connection failed", 500  # Handle connection error
+    if connection is not None:
+        execute_query(connection, create_review_table)
 
     # Query to fetch book details
     query = "SELECT * FROM book WHERE id = %s"
+    reviews_query = """
+    SELECT Review.ratings, Review.content, User.first_name, User.last_name 
+    FROM Review 
+    JOIN User ON Review.userId = User.userId 
+    WHERE Review.bookId = %s
+    """
     cursor = connection.cursor()
 
     try:
@@ -258,6 +318,11 @@ def book_detail(book_id):
         check_any_borrow_query = """
         SELECT * FROM BorrowedList WHERE book_id = %s AND is_returned = FALSE
         """
+
+        form = ReviewForm()
+        cursor.execute(reviews_query, (book_id,))
+        reviews = cursor.fetchall()
+
         cursor.execute(check_any_borrow_query, (book_id,))
         is_borrowed_by_anyone = cursor.fetchone() is not None  # True if the book is currently borrowed by anyone
 
@@ -283,8 +348,9 @@ def book_detail(book_id):
         'is_borrowed_by_user': is_borrowed_by_user,  # True if the current user borrowed the book
         'is_borrowed_by_anyone': is_borrowed_by_anyone  # True if the book is borrowed by anyone
     }
+    print(reviews)
 
-    return render_template("book.html", book=book_dict)
+    return render_template("book.html", book=book_dict, form=form,reviews=reviews)
 
 
 @app.route('/history')

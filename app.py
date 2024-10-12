@@ -25,7 +25,7 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 class ReviewForm(FlaskForm):
     rating = IntegerField('Rating (1-5)', [validators.NumberRange(min=1, max=5)])
     content = TextAreaField('Comment', [validators.DataRequired()])
-    submit = SubmitField('Submit Review')
+    submit = SubmitField('Submit Revi   ew')
 
 
 def create_admin_user():
@@ -132,6 +132,7 @@ def index():
 
         execute_query(connection, create_book_table)
         execute_query(connection, create_booklist_table)
+        execute_query(connection, "CREATE INDEX idx_user_book ON BorrowedList(user_id, book_id);")
 
         with connection.cursor() as cursor:
             cursor.execute("SELECT COUNT(*) FROM Book;")
@@ -357,6 +358,8 @@ def book_detail(book_id):
         return "Database connection failed", 500  # Handle connection error
     if connection is not None:
         execute_query(connection, create_review_table)
+        execute_query(connection,"CREATE INDEX idx_userId ON Review(userId);")
+        execute_query(connection,"CREATE INDEX idx_bookId ON Review(bookId);")
 
     # Query to fetch book details
     query = "SELECT * FROM book WHERE id = %s"
@@ -497,7 +500,7 @@ def update_profile():
     update_query = """
     UPDATE User
     SET first_name = %s, last_name = %s, email = %s
-    WHERE email = %s
+    WHERE email = %s;
     """
 
     try:
@@ -543,7 +546,7 @@ def borrow_book(book_id):
 
     borrow_query = """
         INSERT INTO BorrowedList (user_id, book_id, borrow_date, due_date)
-        VALUES (%s, %s, %s, %s)
+        VALUES (%s, %s, %s, %s);
     """
     cursor.execute(borrow_query, (user_id, book_id, borrow_date, due_date))
     connection.commit()
@@ -563,7 +566,7 @@ def return_book(book_id):
     return_query = """
         UPDATE BorrowedList
         SET return_date = %s, is_returned = TRUE
-        WHERE book_id = %s AND user_id = %s AND is_returned = FALSE
+        WHERE book_id = %s AND user_id = %s AND is_returned = FALSE;
     """
     return_date = datetime.now().date()
     cursor = connection.cursor()
@@ -636,8 +639,10 @@ def add_book():
             if connection is not None:
                 with connection.cursor() as cursor:
                     insert_query = """
+                    START TRANSACTION;
                     INSERT INTO Book (title, types, authors, abstract, languages, createdDate, coverURL, subjects, isbns)
                     VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s);
+                    COMMIT;
                     """
                     cursor.execute(insert_query, book_data)
                     connection.commit()
@@ -664,7 +669,7 @@ def add_book():
 @app.route('/delete_book/<int:book_id>', methods=['POST'])
 def delete_book(book_id):
     # SQL query to delete the book by ID
-    delete_query = "DELETE FROM Book WHERE id = %s"
+    delete_query = "DELETE FROM Book WHERE id = %s;"
 
     print(f"Book ID to delete: {book_id}")  # Debugging
 
@@ -758,7 +763,7 @@ def edit_book(book_id):
 
         # Update the book details in the database
         update_query = """
-        UPDATE Book SET title = %s, types = %s, authors = %s, abstract = %s, languages = %s, createdDate = %s, coverURL = %s, subjects = %s, isbns = %s WHERE id = %s
+        UPDATE Book SET title = %s, types = %s, authors = %s, abstract = %s, languages = %s, createdDate = %s, coverURL = %s, subjects = %s, isbns = %s WHERE id = %s;
         """
         updated_book_data = (
             title,

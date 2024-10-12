@@ -22,6 +22,7 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'newpassword';" It will be very impo
 
 1. This is where you will run the code from to initialise the website
 2. This website is done by flask so its mostly routing in the backend like this
+
    ![Alt text](image/app.jpg)
 
    as you can see here in @app.route('/login') it handles everything for login.html. So meaning to say if you were to look up to @app.route('/'), you can handle python logic and return any data, etc back to the html file it was assigned to.

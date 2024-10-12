@@ -825,6 +825,32 @@ def adminbook_detail(book_id):
 
     return render_template("adminbook_details.html", book=book_dict)
 
+@app.route('/search', methods=['GET'])
+def search_books():
+    search_query = request.args.get('search', '')  # Get the search term from the query string
+
+    if not search_query:
+        flash('Please enter a search term.', 'warning')
+        return redirect(url_for('index'))
+
+    connection = create_connection()
+
+    # SQL query to search for books by title
+    search_sql = "SELECT id, title, types, authors, abstract, languages, createdDate, coverURL, subjects, isbns FROM Book WHERE title LIKE %s"
+    cursor = connection.cursor(dictionary=True)
+    search_term = f"%{search_query}%"
+    cursor.execute(search_sql, (search_term,))
+    books = cursor.fetchall()
+
+    cursor.close()
+    connection.close()
+
+    if not books:
+        flash(f'No books found for "{search_query}".', 'info')
+        return redirect(url_for('index'))
+
+    return render_template('index.html', books=books, search_query=search_query)
+
 if __name__ == "__main__":
     create_admin_user()
     app.run(debug=True)

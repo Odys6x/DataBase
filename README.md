@@ -33,6 +33,10 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'newpassword';" It will be very impo
 2. If you want to populate your own json file, you can simply change the values of "ContentType"
    
    ![Alt text](image/request.jpg)
+   
+   these values are from the image below
+   
+   ![Alt text](image/ContentType.jpg)
 
 ## conn.py
 

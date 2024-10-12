@@ -1,0 +1,2003 @@
+{
+    "totalRecords": 26930,
+    "nextRecordPosition": 100,
+    "hasMoreRecords": true,
+    "results": [
+        {
+            "id": "1b24756b-a164-47d0-bfca-b013001ba3c2",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Stories from the stacks : selections from the Rare Materials Collection National Library Singapore",
+            "authors": [
+                "Singapore. National Library Board"
+            ],
+            "abstracts": [
+                "\"Stories from the Stacks showcases 48 artefacts from the Rare Materials Collection as well as a sprinkling of items from our other collections. It is a diverse selection comprising everything from a 15th-century copper-engraved map of Southeast Asia to the handwritten manuscripts of contemporary Singaporean writers. All the items are accompanied by essays written by a team of librarians from the National Library and invited researchers. These provide a detailed description of each artefact as well as highlights of its history\"--Introdution."
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2020-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=fI15u6jSoRbU9JzryUbLoWlPEGseSD0AUkNDkhOLy9aUKbedYMOeVgsaPaiEDomZ2SXH+nk4AGAvYPuOx6sa/1LdcYBOWVdWezZ+CLgFrM6bG68Swd2faQ+rJE7f1vUNTSCODYm8NThrYfNgTIYjt55a6h4oFCAvwXLeQ0LvaQZtxAGzDafBX/r0mdoTQz2C7FkI52WIycLF",
+            "isbns": []
+        },
+        {
+            "id": "d77d9bfc-e335-4775-a6bf-e8712deaa81f",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "One hundred years\u2019 history of the Chinese in Singapore : being a chronological record of the contribution by the Chinese community to the development, progress and prosperity of Singapore; of events and incidents concerning the whole or sections of that community; and of the lives, pursuits and public service of individual members thereof from the foundation of Singapore on 6th February 1819 to its centenary on 6th February 1919",
+            "authors": [
+                "Song, Ong Siang, 1871-"
+            ],
+            "abstracts": [
+                "\"Since its publication in 1923, Song Ong Siang's One Hundred Years' History of the Chinese in Singapore has become the standard biographical reference on prominent Chinese in early Singapore, at least in the English language. This fact would have surprised Song, who saw himself primarily as a compiler of historical and biographical snippets. Hence, the original was not referenced rigorously and contained a number of errors. In this edition, the Singapore Heritage Society takes Song's classic text and updates it with detailed annotations of sources that Song himself might have consulted, and includes more recent scholarship on the lives of various personalities who are mentioned in the original book. This annotated edition was commissioned by the National Library Board, Singapore andco-published with World Scientific Publishing\"--Back cover."
+            ],
+            "languages": [
+                "_Languages:English {18349056}",
+                "_Languages:Chinese {18349008}"
+            ],
+            "createdDate": "2020-01-01",
+            "dataFrom": "NHB",
+            "url": "http://search.nlb.gov.sg/r/nhb/?r=KYONPZKiHqH+OBCGG4KyETrv8J73AHC+muapVwL14H2PypVI3Owan+ICYQF26FU4CkM6+zRUvs5VUVd6acuCsChk2MlnsDBt/TIEZHn1uxDwmX/bV/fhZGo+RvrVD1E54u4xly7K6dDCFCkAT6nIcJKHZwcCibkWeya4ptMX5yv/JamKseZIwKY97hnQnNu63blVESPNUAcw",
+            "isbns": []
+        },
+        {
+            "id": "3a55f548-7bb7-43e2-adb2-d7140b6d4327",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "\u5e7f\u4e1c\u5988\u59d0",
+            "authors": [
+                "\u674e\u56fd\u6a11, 1961-",
+                "Li, Guoliang, 1961-"
+            ],
+            "abstracts": [
+                "\u5e7f\u4e1c\u987a\u5fb7\u81ea\u53e4\u6709\u68b3\u8d77\u4e0d\u5ac1\u7684\u98ce\u4fd7. \u5eff\u4e16\u7eaa\u5345\u5e74\u4ee3\u6709\u8fd9\u4e48\u4e00\u6279\u7279\u6b8a\u5973\u5b50, \u4fd7\u79f0\u5988\u59d0, \u5357\u4e0b\u8c0b\u751f, \u5728\u65b0\u52a0\u5761\u4efb\u5e2e\u4f63, \u517b\u6d3b\u81ea\u5df1\u4e0e\u4e61\u4eb2, \u665a\u5e74\u5219\u5f02\u5730\u6216\u56de\u4e61\u7ec8\u8001. \u6b64\u4e66\u8bb2\u8ff0\u4e86\u5988\u59d0\u8fd9\u4e2a\u7fa4\u4f53\u5728\u65b0\u52a0\u5761\u7684\u8db3\u8ff9, \u53ca\u5979\u4eec\u4e3a\u8bb8\u591a\u65b0\u52a0\u5761\u5bb6\u5ead\u6240\u4f5c\u51fa\u7684\u8d21\u732e."
+            ],
+            "languages": [
+                "_Languages:Chinese {18349008}",
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2020-05-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=ftFLVZSi4w3lShQ4ST1VWF4ytgq+J7NiscV30HjmaCCifdApAYvn8pGlcdUfRXIDATQ0/T8E1m3O4cMlozx+TQ8qv3j6T6T7IvSQRH/FTA4sALKJzfen+zF7DZkcVk7+5P5q9itzTZsJvO1TWqLDzC701QCzxYyyRlFNbpd1BdfywP9KqYcHtmLxrj7izovSRizrGZubiWUl",
+            "isbns": []
+        },
+        {
+            "id": "847f9592-f626-4195-8fc9-ee6830bc8a66",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Postcard impressions of early 20th-century Singapore : perspective from the Japanese community",
+            "authors": [
+                "Hong, Regina"
+            ],
+            "abstracts": [
+                "\u201cThis evocative collection of more than 150 picture postcards offers a fascinating insight into Japanese society in Singapore in the late 19th and early 20th centuries. Used as souvenirs and as vehicles for advertisements and personal correspondence, and even propaganda, postcards have taken on many roles throughout Singapore\u2019s history, making them unique and valuable sources of documentation. Based on the Lim Shao Bin Collection of Japanese historical materials at the National Library Singapore, this important study illuminates new historical perspectives on the Japanese community as well as related subjects like tourism, war and empire in pre-World War II Singapore\u201d--Back cover."
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2020-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=dQPwDL3X9Dj0n7eAg8u8HsJF3vtzvjdnY2ZB5DI2GPdb8sHC5FRVEix1XaNQ42tjpja/QKlciRGz5zi420EnmXV/lrQmTh9qhaZv3b47Vy3evNKY7bC5qr9OG1F/640AwwcWYcC7pc1kwAizTSk+Ut6eV+Mh67oqGS+rbmyXCTan82aZhC66NfPtskQrPvpbFfVA3dXM9c/R",
+            "isbns": []
+        },
+        {
+            "id": "a418f491-ef8c-4145-8f79-87f75a4fae3b",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Secrets of Singapore : Changi Airport",
+            "authors": [
+                "Tan, Lesley-Anne",
+                "Lim, Monica"
+            ],
+            "abstracts": [
+                "Superheroes Danger Dan and Gadget Girl reveal intriguing secrets of Changi Airport, in places like the taxiways, the runways and the apron. They also learn about devices used to screen baggage, and why food tastes like cardboard in a plane!"
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2019-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=LCyRReLqMd5LJyQIEksSCusH35FgIbEB1t/l0JBfY1lRegqbIH7nuNMtcxb+nbojDDY4yEbGnQrWEtHVeur37TYKyhdhIQpxFMb6R8YiYVxcglyGMKrmhgdnvuGV3Nk9wO6oX/8VykQFiSffCgdQwcn4X3eEKDpBXY3ZjRXqdVLYOGWflXeoUfizj5K9iKil9P93iZZkePEH",
+            "isbns": []
+        },
+        {
+            "id": "889b376d-dbde-49a0-9bcc-1b4deb95695c",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Secrets of Singapore : National Gallery",
+            "authors": [
+                "Tan, Catherine Nadira"
+            ],
+            "abstracts": [
+                "This book offers art-related information such as the various art venues in Singapore, tips on how to appreciate art and well-known Singapore artists. Readers can also join Professor Brushie and Curious Canvas in discovering the fascinating facts and history of National Gallery Singapore, such as secret passages, hidden dome and chocolate ceiling."
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2020-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=dQ/wO02y98ydhNVgPryW4zPcsbweEHCISEVI+u8UcSCRlErkj3Q6gUHDa4QT+JEnUlpZ4fa0s3roOKZNPDRYcHqLTLP2VgSoeP+OVObOzsR1yXc7KNUgDj2KCcp/t6V+v2sFJCD1AM9pg3r1zIrK1ZrRNymzFl7B8JEMUXDmdRSly627Mi+EVKIapmaCQokrKgEvv4la/OpY",
+            "isbns": []
+        },
+        {
+            "id": "e6726ad8-661d-46d5-9609-5754a3b367cb",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Capitalism in the 21st century : why global capitalism is broken and how it can be fixed",
+            "authors": [
+                "Park, Donghyun"
+            ],
+            "abstracts": [
+                "In this book, the author explains that more capitalism is needed to tackle global problems such as climate change and inhumane poverty. He also makes a case for entrepreneurial capitalism."
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2019-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=KOWyPu3OCqzDJSgKnWo3Qafn9HXqiZ+aLVx6vESQtp9+E7L96oAlg+cAFNk0HzwJ3aGGbzarj8usKRQ0Y1wFKKqzLWTwAURteR0tpDdcJ1BBP5pJ1bapZiWTMojWLds8A9b/ydpKbsvTIpo7o1khtmBVyvNaLgDQi6GJ4U0ZNuvgMRV8s8SmtGP9BWGOPCvwz5IsRDQJZtGy",
+            "isbns": []
+        },
+        {
+            "id": "7295b039-9502-4cd0-a6b5-14ca57013e4c",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "pt. one. Japanese conquest of Malaya & Singapore, 1941-42 ; pt. two-five. Causes of defeat. Turn-a-round. Victories. Last hurrahs",
+            "authors": [
+                "Pillay, Gerald Francis"
+            ],
+            "abstracts": [
+                "Part one of this book presents the fall of Singapore and Malaya in World War Two. The causes of the fall, subsequent British victories and Britain's postures towards the end of the war are examined in part two."
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2019-01-01",
+            "dataFrom": "NHB",
+            "url": "http://search.nlb.gov.sg/r/nhb/?r=eiISPQrJGj82nr8F5JATu611Zr9yD8pVsU0ZtYU0c58x1Q4HsgeQRI7ZfoLpueJu+3+2Jf4DBLUYVfRTrg1iF/XLO7Bws35dfs0o589boQGRuszOeR3+Q8NYpZEMjfNV2dQIPV8LZWZnJyF96/kxuLLikYgGRTzNEWqkJ1AB5LvdbXk9nC6OLTQmJmoDiHKTgR7eQdfyiOPE",
+            "isbns": []
+        },
+        {
+            "id": "6922e3de-1a16-4741-b2f9-08129d702c1e",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Between the lines : early print advertising in Singapore, 1830s-1960s",
+            "abstracts": [
+                "\"This volume presents nearly 400 advertisements \u2013 from the 1830s to 1960s\u2013 from the collection of the National Library, Singapore. They are selected from a variety of print materials, including newspapers, books, periodicals and ephemera. Written by our own librarians and curators, the eight chapters in this book provide an overview of print advertisements for a range of goods or services: automobiles, entertainment, fashion, food, hospitality, household goods, medical and travel. Beyond offering a glimpse into the material world of a particular period, advertisements may also reveal certain cultural conditions of the day, such as racial prejudices and gender stereotypes\"--Foreword."
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2018-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=ez/PoHFZ0Bz5R/Is9eNHRSGCzwidU7+nHyNfmkvHEOityhFpjlWohDNVoh/TBH710VUjgdJcnezF7G6gGFoVA4oq7fmRKkipADJZcgupbpG0BwDY2rD908GHyGf9aTLIFWaO2QTdAYHs1zbSxK7QPYMGzqvaKkWlJT7/baI+aXrUefimy2Muuz2EexOpiSf4c1QEcK/oszT9",
+            "isbns": []
+        },
+        {
+            "id": "8dd75f0e-fcca-429a-9824-cf76c90ff73b",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "\u4e2d\u56fd\u53e4\u4ee37\u5927\u79d8\u4e8b",
+            "authors": [
+                "\u7be0\u6ca2\u51ef\u8389",
+                "Shinozawa, Kozumi"
+            ],
+            "abstracts": [
+                "\u6b64\u6f2b\u753b\u6539\u7f16\u81ea\u5510\u632f\u57fa\u535a\u58eb\u7684\u300a\u5148\u8d24\u4e4b\u4fe1\u300b, \u5185\u5bb9\u5305\u62ec\u4e86\u6c49\u5b57\u5185\u6709\u4e7e\u5764, \u53e4\u4eba\u796d\u7940\u4e0a\u5e1d, \u795e\u5dde\u5929\u5b50\u660e\u541b\u7b49\u4e2d\u56fd\u53e4\u4ee3\u4e03\u5927\u79d8\u4e8b."
+            ],
+            "languages": [
+                "_Languages:Chinese {18349008}"
+            ],
+            "createdDate": "2018-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=dVNiE5d0ADD0ES9jKQasX8olJkY+gU9nUNsQYL9n1Kfu5zFH0B7o1wOmA10Do8D9Kym5izXX3X9AM50AkC9+M1BvBYP2mXWsKJjWNcq21n11TD1t3h2Ck0kSLyhGqlNk8nWlgbIiTlk+PCtB05UaG/Pg5xvZH6gYMOcigsoxF72JCjwUSkBhYlE0PraoRIYdea+1Rpeu8y4I",
+            "isbns": []
+        },
+        {
+            "id": "c5c47a2c-7f19-4fb5-9b2c-f64864439298",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Faith of our fathers : finding god in ancient China",
+            "authors": [
+                "Thong, Chan Kei",
+                "Fu, Charlene L."
+            ],
+            "abstracts": [
+                "The author discusses the relationship between God, China and its language. Due to the many similarities and belief in God as the only Creator, the author points out how Chinese characters manifest historical evidences and many aspects recorded in the Bible. "
+            ],
+            "languages": [
+                "_Languages:English {18349056}",
+                "_Languages:Chinese {18349008}"
+            ],
+            "createdDate": "2018-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=LnYc77fo6lXxW8bR5qO5WmzzIrhbC+e2gTYf0PqlDFM/+r24RTVtF4zr5qP+HYtJp9Xvi2PHrbuaOv4/CogKgjo8S/5DkCL/V3/e75QldtZM9i+Fn4SXCjQvF4jyo7b5oK+10m4gGDcqkcpuZZq+eNLtoWTTtZSw6p0WKclhHM+z3qAU9uEcxulGu1p8rZDn8QYHTa01s1Kx",
+            "isbns": []
+        },
+        {
+            "id": "644ab5e2-05d6-46b0-b6ed-91380c82e273",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "7 mysteries of ancient China",
+            "authors": [
+                "Shinozawa, Kozumi"
+            ],
+            "abstracts": [
+                "This is a Manga adaptation of \"Faith of Our Fathers\" by Dr Thong Chan Kei. It explores the ancient Chinese worship of One God \u2013 one who shares the same attributes as the God of the Bible, and includes evidence from Chinese characters, descriptions of this God (Shang Di) from classical Chinese writings, and China\u2019s imperial sacrificial system."
+            ],
+            "languages": [
+                "Languages:English {18349056}"
+            ],
+            "createdDate": "2017-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=ezLz3l6POWX/swFtYwiL54dxazFx/Ub1tjU7FdeCJZ2+CqDQNz5QuT7lJCk1dIY2meQpSi2jjmX9V5lHzbsiHWK+GFUZuudqEWDKAGgYZlPh3s5Lm51nEMnbUZ26+7x0fom5DCFh6tzeXuenbQnZ4CGkoE0ZBqR0CaLl2N+7xJwIzyKNdiRAVKmKxastdM1O6MQQxNoY4oI5",
+            "isbns": []
+        },
+        {
+            "id": "191d6ee7-71fc-4f5a-ba80-e0bebf5917f4",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "That's how it goes : the way of the 90-year life journey of a Singapore Eurasian",
+            "authors": [
+                "Oehlers, Jock, 1921-"
+            ],
+            "abstracts": [
+                "This is an autobiography of Jock Oehlers who brings readers with him on his life's journey, from a carefree young boy growing up in colonial Singapore, through the terror and hardship of the Japanese Occupation and finally becoming a respected Professor of Oral Surgery and successful oral surgeon in modern-day Singapore. Memorably, Jock relates how, with fortitude, compassion and resourcefulness, he and his family survived the arduous ordeal of the Bahau Catholic Colony."
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2011-12-22",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=fNY9ZxIs26t3V/cWQSjh/VDLDgmk5PtNrbeobPZ3dyJKQZIZCbIX/o5b/5iJTlE0X9bQUC7fQJ1AxqMC822vrKmNqFb4kTzyTeFiyTEFLr/tFSRTN/QruTZNDd4nas0h4ITWnsQoXDDxyg8CXwVzGSGGLrVqp1uqPnGNtP7+vFvSU4kFCBh6sHfnImAwHdaf28Qs8/rnXyvt6ieCvbDUdh8=",
+            "isbns": []
+        },
+        {
+            "id": "42a968e8-0055-412b-b4f2-895d4ee8d03d",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "As empires fell : the life and times of Lee Hau-Shik, the First Finance Minister of Malaya",
+            "authors": [
+                "Ooi, Kee Beng"
+            ],
+            "abstracts": [
+                "This is a biography of Lee Hau-Shik. It follows his life from the early part of the 20th century until 1959 and beyond. It examines the role he played in helping Malaya gained independence from the British, and his influence in the socio-political and economic life of Malaysia. Besides being the founding father of the Malayan Chinese Association, Lee was also Malaysia's first Finance Minister after independence. Upon leaving politics, he started the Development & Commercial (D&C) Bank in 1966. He passed away in 1988."
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2020-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=eVdTCW6uQDR8B8H2BQekiuTRbTONui5bS8HxYs7IVBP21/twQTW284tW7sZnGkdee6nOgqccKcSop25S8peTkEgXSeKQQwimLQsqBMYeYWnB7eD7+pSKPm77svTg3eUKqkl05UNxbTMu39pb2Ed0CV6OctiGWs9MPxIH74f6Pg9ie81J7OijW2Rthl4E4siovr8IRIwQLluk",
+            "isbns": []
+        },
+        {
+            "id": "b137bee2-1d6d-4d1c-91c2-7ae8de6c92ee",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "The socialist economics of Karl Marx and his followers",
+            "authors": [
+                "Veblen, Thorstein, 1857-1929"
+            ],
+            "abstracts": [
+                "Thorstein Veblen (1857-1929) was an American economist and sociologist. In this article, he discusses the theories of Karl Marx, later Marxism and theory of socialism, and includes his reviews on two books: \"A history of socialism\" and \"Socialism\"."
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2020-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=L9rGaBzP5qhqSQADzFrF0YhmszbYAlBRbmbr4SWsay35QB5eB4ngIAGWxTAb/oCS3e/ddypH2XnLMhu1/2pDe4YY6oksFc6ACLJyF1nIpRZlpI0cJE/FgtEaS8rqMAX4Nomn1/EQ06cGQOVx7QZKwoaErDI9V93For/5Ik9q/qJMGH44/pPgtn3WFGcFdLrEU7VIfc2w3zlH",
+            "isbns": []
+        },
+        {
+            "id": "421e289e-d491-4556-b94c-43036bc0b07d",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Region, nation and homeland : valorization and adaptation in the Moro and Cordillera resistance discourses",
+            "authors": [
+                "Ferrer, Miriam Coronel"
+            ],
+            "abstracts": [
+                "\n\nThe author has applied critical discourse analysis in this volume covering the Cordillera and Moro movements in the Philippines. The book covers topics including intertextuality in the Moro discourse and identity ambivalence in the Pan-Cordillera discourse."
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2020-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=eVcDvs+B0FhiPEp7YFnozG2YYsIjhgjTqn1c0skwQICFBY2hc/9Sc4QvNUN4sHwlAhP3v+m1DnDorMYXHvCsqej6oE6hUuSc8mMti172rN0ZzLN8KjcVMSl3LyppNO/FKNDqRwRx0xiQ6KhnW609G2UnQbjvYAb1q9lP+DvX3a0ryWLj+LU1qYStKn3MIvd7bN0JAjV96vsG",
+            "isbns": []
+        },
+        {
+            "id": "7dc2bdcd-0b25-4ae5-b466-1458994f63b0",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Appropriating Kartini : colonial, national and transnational memories of an Indonesian icon",
+            "abstracts": [
+                "This is a collection of essays on the appropriation of Indonesian national heroine and international feminist icon Kartini. It provides an insight into the multiple ways her letters have been read, interpreted and used. "
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2020-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=enTCaICaXQhbWGTj+8YzE4qvExmnWI7yxxsBKLU7hl6VRcNWwTbt9SbznRFtkGllOp6qEWtk/ZCdByvkQzvGxWTNYq1LK6C1VKWw9yOwvz5JMRQ6X6I77A8MYdhNzbnsblEA2zl6C0/i1jJOV1tRTmXpp18jPh7gMDFWR1St26WMRdWeElt2jU2ILdX9P4A9+2Wj/eidR/It",
+            "isbns": []
+        },
+        {
+            "id": "96c42075-0c66-4907-b342-e85527a1d605",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "A view from the highlands : archaeology and settlement history of West Sumatra, Indonesia",
+            "abstracts": [
+                "This book contains an analysis of the rise of the settlement system in the heartland of the Minangkabau region in the highlands of West Sumatra, Indonesia. The essays explore the regional settlement pattern arising from Adityavarman's highland interregnum and attempt to place the archaeological remains and the landscape of Tanah Datar in a cultural historic synthesis. The book consists of studies of metal, ceramics and glass finds by laboratory-based specialists and descriptions of stone, clay and other finds."
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2020-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=dGngFtA2eaH+p6HoftZAXJFi+ct6cSjEkABu8+JiTfuZowzCW58P7asOo0BLkrMmXn7nejQDTdE+hjXI04S7cT/xQjUMtASMIU7hOyeLcvG8rd2bA7uqO905cfeksDDjAJ4/ZFIQoUYBKhakunZf9+qafWteVcqNSyGLjKULQcR42J3ObzWa3cz1pICKBtK/ES3naoN5EV3B",
+            "isbns": []
+        },
+        {
+            "id": "5dc125c7-8098-4266-98f1-2edafd48efb6",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Your future lies within",
+            "authors": [
+                "Jeanne, Emma"
+            ],
+            "abstracts": [
+                "This book proposes self reflection through exploring one's past in order to build personality and perspective on the future."
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2019-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=eL/fEfH9BjlmIZbG5W4bhjfmchwpcQ7HPvVAuUK0jQLkP8FZOYo3CuxmNd1A1xC6Hn9O1RfCV1GptJ+NoLVNZXgh8rB7moS+bofHqczsgXI5SHV/ap1G3yrpQmDf7lq0LS0fDgawT/LOwcNEQ96Yw5cwviC7X1VGvaYB6+ufzTuK8SfQitF3idZrV8pk2oRNW8X1moOaZorj",
+            "isbns": []
+        },
+        {
+            "id": "b4691b56-692e-4e36-ab34-e0da93b26220",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Sir Stamford Raffles and some of his friends and contemporaries : a memoir of the founder of Singapore",
+            "authors": [
+                "Bastin, John Sturgus, 1927-"
+            ],
+            "abstracts": [
+                "\u201cThis book \u2014 written by Dr John Bastin, a leading authority on the study of Sir Stamford Raffles \u2014 offers an alternative biographical account of Raffles, as seen through his relationship with some of his closest friends and contemporaries. The people featured include the naturalists Joseph Arnold, Thomas Horsfield and Nathaniel Wallich, who received support from Raffles in carrying on their scientific research, and the orientalist John Leyden, who influenced Raffles\u2019s study of Malay and Malay customs. Examining Raffles and his social circle presents an original perspective of the man and of the colonial world in which he lived, and his correspondence with his friends and scientific colleagues reflects his attitude and opinions on a range of issues, including his desire to extend the benefits of education\u201d\u2014Back cover."
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2019-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=L98w69TmELqU61GNCxoB4BTzDwDVaHcNvhmA6bT3U82Cg5Q7fA/DEaKhJnXSgSoGkodfUcRDfk7J1H9sDfJfoI+QIgDgq5MOQ3GZ8PUzpDSKkFvL/pnboHVnxtUpbu/R3bZM0oXrqmRey3w7z9ea+dmplnaKa4ZYJcvSa/w5F42eam4ozGB2JP5sHFBzAhZly4CzJ98P5yUn",
+            "isbns": []
+        },
+        {
+            "id": "67c08f0d-117b-4381-87ca-fd2ea12a9d7a",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "\u5c0f\u7ea2\u70b9 \u00b7 \u5927\u683c\u5c40 : \u65b0\u52a0\u5761\u5efa\u56fd\u4e4b\u8def",
+            "authors": [
+                "\u97e9\u6615\u4f59, 1961-",
+                "Han, Xinyu, 1961-"
+            ],
+            "abstracts": [
+                "\u8fd9\u662f\u4e00\u672c\u8bb2\u8ff0\u65b0\u52a0\u5761\u5efa\u56fd\u7ecf\u9a8c\u7684\u56de\u987e\u8bb0\u5f55. \u8fd9\u672c\u4e66\u900f\u8fc7\u5efa\u56fd\u9886\u8896\u4eec\u4ee5\u53ca\u529f\u81e3\u8fdb\u884c\u8bbf\u8c08\u5e76\u8bb0\u5f55\u4ed6\u4eec\u7684\u4e30\u529f\u4f1f\u7ee9."
+            ],
+            "languages": [
+                "_Languages:Chinese {18349008}",
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2016-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=ezHvydDJEoJdHU+CSOqsa/3ttBYrOIkGglUZ19swTYvogdRaGDNNlSK7B9JRbedZBmRbdFFLt52/tK6trxYEyjpR+bY6wWmjrDdViIFJzLLhrfAkdP0JW3XGcPAl7QvB4FSp1l1cHgrSmswaivpFkSdsPkSIaEaq5/XWaPXtSNeSqBg14Y/VE/Vr5QVNI0GmmWmivO1eIveo",
+            "isbns": []
+        },
+        {
+            "id": "d18a004c-e74d-48f8-bc11-323bf546d395",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "The Communist manifesto ; The manifesto of the German Communist Party ; On the question of free trade ; The Eighteenth Brumaire of Louis Bonaparte",
+            "authors": [
+                "Marx, Karl, 1818-1883",
+                "Engels, Friedrich, 1820-1895"
+            ],
+            "abstracts": [
+                "This volume contains four publications by Karl Marx and Friedrich Engels. The first two are different English translations of \"The Communist manifesto\" from the original German publication. The third publication is by Karl Marx, on free trade, with an introduction by Friedrich Engels. The last publication is a commentary of the French Revolution of 1848 by Karl Marx."
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2018-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=KYUUFAg8KuGB/FmrV90okD2J85YP/3rZT5F+xcHsVJjmQua7yaC0sfeYD5pX1z0qfeCtQtcVszUWRhpLYKazxV/W18i8u4Iv5sgGAQYVhhNkH1SLVBEJdOTqpDSdeH51geZZWkw2ZfX0S2UniFdBu/ifZz1Xg3zF/zNwm2uHm6v4sSylry4/fDnksf4se1rY1BG/uLna5Egs",
+            "isbns": []
+        },
+        {
+            "id": "88c1a201-eccf-449c-abfe-2503a2e78f2d",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "The sound of memories : recordings from the Oral History Centre, Singapore",
+            "authors": [
+                "Cheong, Suk-Wai"
+            ],
+            "abstracts": [
+                "Distilled from over 5,000 interviews collected by the Oral History Centre of National Archives of Singapore, this book features stories, memories and anecdotes of Singaporeans from walks of life."
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2019-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=dQ+q4iD3w4I4f+8UtR4RbwR2Z1MbaTppST3Ophh8oJFWO35JflNWKF6btfO1BUSH4kUSWtECNmGFNztBe20VEi9dVl0V0MLOzZyKaadfBegAQwbHh2lfSRMqR8oVDclXk+1/Jjv1WS8e5by1U+jCPhBGHyMX1g3SDhteFLrMn4fAGGrl/3rmgJjEhpSUGHsyCbQGHLz+Uk+q",
+            "isbns": []
+        },
+        {
+            "id": "ee9af2ab-5997-4508-936a-626358032ddf",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Seven hundred years : a history of Singapore",
+            "authors": [
+                "Kwa, Chong Guan",
+                "Heng, Derek Thiam Soon",
+                "Borschberg, Peter",
+                "Tan, Tai Yong"
+            ],
+            "abstracts": [
+                "\u201cThis book offers a complete rewrite of Singapore: A 700-Year History \u2013 From Early Emporium to World City, published exactly ten years ago. The original authors, now joined by Peter Borschberg, felt that the occasion of the Bicentennial Commemoration warranted a reminder that Singapore has a history pre-dating the arrival of Stamford Raffles by some five centuries. This volume presents a possible approach to rethinking the significance of Raffles\u2019 establishment of a British station on Singapore\u201d\u2014Preface."
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2019-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=KLZ/YEssNAYTkyw8qIFnMyy7gC69bd+ey6DVRsD3A6/Ip9PRkV4y/+ZYt9tgJuLid0yPtWF4MO+ajGp3hHZWfFKrCxOZhfb3qTNft17U7k5zUwpbNxokJjUQs2EFsAvgyfm42ZOiYTknzdaskGv+fhYqN8/WS1sE/a0Xex7X2KOPFi3EVpr6+kC/s/QDnwZgw8qPv75C8NKr",
+            "isbns": []
+        },
+        {
+            "id": "27c60263-aa59-44b5-94b5-93eb6d89aa04",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "50 years, 50 voices : 50 years of English in Singapore schools",
+            "abstracts": [
+                "This book was published by the English Language Institute of Singapore (ELIS), to commemorate 50 years of teaching English in Singapore schools. It contains articles and poems by English teachers, sharing their experiences in their years of teaching."
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2015-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=fyqIbN8Yc3aMC5TtgURVovqtMhOgGkQIMTTmWV0tXOo/YCPc1rVOz+dtuk2vRowu2DYuxYxD4H3fp6de6Mpdiz+O8m3MdOOd7mQkBUMcdQE+zlazyJlpLr/3Pi+HIjUnkn6ZRksG2iWXLM8CyTnbbhweKjUAnaE8Z0Q8SUJjWRz+E0jcuFcbJV1OxPua9mdPIvE5aYzx14jU",
+            "isbns": []
+        },
+        {
+            "id": "360875e3-edc0-4d72-bd8b-eed6e28dbe67",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Di sebalik tabir Masuri S.N. : biografi dan karya pilihan yang belum tersiar",
+            "authors": [
+                "Mohamed Pitchay Gani Mohamed Abdul Aziz"
+            ],
+            "abstracts": [
+                "Di Sebalik Tabir Masuri S.N. memberikan gambaran terperinci tentang Masuri sebagai seorang manusia biasa, di luar dirinya sebagai seorang penyair. Di samping menyiarkan sekumpulan karya pilihan beliau yang tersimpan lama, buku ini juga mengupas dan membahaskan secara terus terang beberapa karya beliau yang pernah menimbulkan tengkarah. "
+            ],
+            "languages": [
+                "may"
+            ],
+            "createdDate": "2015-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=foaXOsI0xx+yyfglsaXpbhF6S+oX7AT+su+1sWxSrUrahZ6tcZxn7G8CTRGkhnyyjL1iPrIWmAmpwdDRMoGOMalDQ84iblFD01Xx5FpZ1gwPQRbfvjIZ2t8St9DibZuBMpBfAVxju+ltwWTSlBLaun+lUTNNli23a20qCoR8QhBjwGyzQtB+X3La04s6hGRoWF3poztQznfq",
+            "isbns": []
+        },
+        {
+            "id": "df48356e-7c74-4877-9a8d-311ed824a8a0",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Interlogue : studies in Singapore literature. Vol. 1 : fiction",
+            "abstracts": [
+                "Interlogue is a series which seeks to bring attention to Singaporean writers' works in English. This book, edited by Kirpal Singh, is a collection of articles focused on fiction works. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2012-01-06",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=KdIPXi5JeQHLWwhHvSlNM4A75JNedRaHXdwHWRAqASiKF8XDRmN9Ghwc6K896l6nNXemlfHALmW3+xHHD0GL0FA+geBCiyjIEFcrXYoTo7xjy49yi8o1yGkOJKf4gn5JBppzzYZO73xf8UOqmBcp6TzlUaqXiWMPIIXOCcD9gtnVh5nUqatLK744T9FouqWdM/P33rFOibIR",
+            "isbns": []
+        },
+        {
+            "id": "b45a4e39-9b9d-422c-9cef-a8b0e001930e",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Interlogue : studies in Singapore literature. Vol. 3 : drama",
+            "abstracts": [
+                "Interlogue is a series which seeks to bring attention to Singaporean writers' works in English. This book, edited by Kirpal Singh, is a collection of articles focused on Singaporean works on drama."
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2012-01-06",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=L98z53k+kqanOZTfvBTNYN9bQO2z3/bU8LecvcGyDCfDPGhT30pzZnE45j9YwjqD2Ef0vZJdy8kDYnovrqIdGRJeFEWQPl6SoRokaG0CTyktHdnuWW7BKTL3lCb2azGLu76VHBkuXG0QnsZ5w8zrrX65dxrzXjQvkK7vAvClO0uag8AvSDm/JPJPSuoO8usLjc9YLrWybVLB",
+            "isbns": []
+        },
+        {
+            "id": "98a5cf38-e463-4687-abf9-7c41512e9132",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Interlogue : studies in Singapore literature. Vol.  2 : poetry",
+            "abstracts": [
+                "Interlogue is a series which seeks to bring attention to Singaporean writers' works in English. This book, edited by Kirpal Singh, is a collection of articles focused on works on Singaporeans' poetry."
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2012-01-06",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=dGckf1I1h2P2yj0+KVJ97nMViszG+Kxv8w7XUqNQwt5jRgkOLvECfygbYxxl2uJiKppxGXsxSpb231UuQIh0V22f/lnmxnwEvPCX/vTunO60WHefgijzU917uJgfnKU1m5hjKt0VBeuzmhi+0eAMx0A8x/SyAntf3kYvh0WpIrwy4szg/Vua6/qC/60n/fp8P9CLWJ7h5znk",
+            "isbns": []
+        },
+        {
+            "id": "6cfe49e5-84f0-420a-8d91-ff7349a79e65",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Mosaic memories : remembering the playgrounds Singapore grew up in",
+            "abstracts": [
+                "This book, commissioned by the Singapore Memory Project, features the history and development of Singapore's playgrounds in housing estates. The book showcases the different designs of the playgrounds, as well as the experiences of contributors who shared their memories of the playgrounds."
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2012-06-06",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=e2XmRDnJXqAv+Owr//lKNB+Ex272ZRKRLQF2/nJqfk+v2x7GZw9rXnYRU4Rdj7kt13ZKzrmebNW6PllTWbIiG2BV1fh81gKxh9zvegK3qWMianqfdeVjCnsUBSEzC0dM6/Xi6sCp5vQJtJ9vBQw9g6z1xYoGDAgGpZvl/xl3QMPVOENLXcAmfys89kSEIh2H2gNFmwhxcgpd",
+            "isbns": []
+        },
+        {
+            "id": "97faa89d-1c25-470b-9aad-4abdb6ec19be",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Interlogue : studies in Singapore literature. Vol. 6 : Haresh Sharma. The cultural politics of playwriting in contemporary Singapore",
+            "abstracts": [
+                "Interlogue is a series which seeks to bring attention to Singaporean writers' works in English. This book, edited by David Birch, is a collection of articles focused on the works of Haresh Sharma."
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2012-01-06",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=dGjER9ChpyvjCpQRbDZucD58vNsWkjGzyBIwR+O//VIHZ51MMVktqZgidf48EkO+8VQ3n8Txah3LI3wQubyCtZXAfuHsbQoOD3VLq4ETYwjS8DXklINjWaSlrBGsgpZ0zS6S+5nfAi25vLOPgJ8Q4c4luU3UXNVAlkLu+MBAUahwoekO0B1icdl28EEybW2HAIj18qWIn9SK",
+            "isbns": []
+        },
+        {
+            "id": "b920071f-825a-4685-b8a0-f6820886537c",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Interlogue : studies in Singapore literature. Vol. 7 : Edwin Thumboo. Creating a nation through poetry",
+            "abstracts": [
+                "Interlogue is a series which seeks to bring attention to Singaporean writers' works in English. This book, edited by Peter Nazareth, is a collection of articles focused on the works of Edwin Thumboo."
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2012-01-06",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=L9KXXEjP1HPxvsE8jhSmGR0phwIeHGTja6X/JANFClqjxwxrcDFTeKwdK5CWtaSpB0QGQE0IwjCxgPkASGrT5gSPCT4fm+G3DsrAuW6K/AKaY5hmrfFEU2PSRne4kU3noNEBNxH1qveHrMYL6LvsoQjyd4Y97yTeESRk/2ZBRdsDzE43SPYAet54Yp/9Ol0ab3+3AEotKO+Z",
+            "isbns": []
+        },
+        {
+            "id": "39b253fd-0db8-47d3-8221-f56966751ffd",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Interlogue : studies in Singapore literature. Vol. 5 : Robert Yeo",
+            "abstracts": [
+                "Interlogue is a series which seeks to bring attention to Singaporean writers' works in English. This book, edited by George Watt, is a collection of articles focused on the works of Robert Yeo."
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2012-01-06",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=fonLazCOS8lceujQ7JIPZauACv4Jnbhi3Tsn8mIFJyD5YyyCEuqpEpFxdQzuSf5tL2Rgpxhit+Oo5zeLBfidSXTJc7bvsNhLlBiPxWYD08OTn6aMI6KRRXUN9yPpS+Habhy88PY+8vblTwc/Ux99gcu4bs7GcPlxE2DiUVEALwsV0eM3HQ67tw2HknZheOBeBmiQu4Wp2g5u",
+            "isbns": []
+        },
+        {
+            "id": "92e44042-6ef0-4b3f-a94f-ee2401e3f861",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Orthoptera in the Bukit Timah and Central Catchment Nature Reserves (Part 2) : suborder Ensifera",
+            "authors": [
+                "NIL:Tan, Ming Kai"
+            ],
+            "abstracts": [
+                "This book, written by Tan Ming Kai, contains a list of insects of the suborder Ensifera that are found around the Bukit Timah Nature Reserve and the Central Catchment Nature Reserve areas."
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2012-11-14",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=dG2WcFbonlTXPZ6BKgNbl51FLpq53YIIqkAjBhTsQK8M1KUd5cqWolw3oLHQzzSV+JGuTIlgCLzESXUPhFthwUUVlOMXKaRnNTZjVyxlnVFQCdNW9xt4X+DeS2xdU4vfhquyzhQcoHqfaDIyLaXIqoKGRCETz9FN6Bq/irJ0EBZKCIzkmwytYGMf1jP6z2FucUX7vlurCli3",
+            "isbns": []
+        },
+        {
+            "id": "f207492b-7080-4ad3-82c7-71912f55070a",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Gila bola! : surviving Singapore soccer",
+            "authors": [
+                "NIL:Koh, Dan",
+                "Zakaria Zainal"
+            ],
+            "abstracts": [
+                "This book, commissioned by the Singapore Memory Project, features some of Singapore's football fans, with photographs and a short write-up on them. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2012-05-16",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=K/7la/C9fTMOpkEy/oHTrSs+oPoDiCdrFtScIkKQg6glML7Bu+r/eh/OvkIHRhP1xiVYnMIIiQf4Cwm7iNegh53FkB4LxqMNSiyiZ4QfJKAp3FturP+aaVh1BXUey+wFf+RPaH3uuW8hT4hI9gVXNq11YgpWB7DwPpwQgADtP4YufUWroqTDdMG9Zg0u2KiSfthjL+ni6Ubc",
+            "isbns": []
+        },
+        {
+            "id": "c8cb9321-b1ba-40d8-aaef-14d73f3e8f0c",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Opium and empire in Southeast Asia : regulating consumption in British Burma / Ashley Wright. ",
+            "authors": [
+                "Wright, Ashley, 1980-"
+            ],
+            "abstracts": [
+                "\"This study investigates the connection between the regulation of opium and the exercise of imperial power in colonial Burma. It traces the opium industry from the British annexation of the Burmese territories of Arakan and Tenasserim in 1826 to the end of the colonial era, arguing that this connection was multi-dimensional. The British regime regulated opium to facilitate labour extraction, and the articulation of a rationale for opium policy was inextricable from the articulation of a rationale for colonial rule more generally. Evolving discourses about race invoked opium consumption. Finally, Burma's position in multiple transnational and imperial networks informed its colonial opium policy\"-- Provided by publisher. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2013-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=LnvGbP0l/6FNPlGc5h6gNT6/tfyHbO6Yqw4Fy9HPRfjq+j58blho6wOfT1SJNAjL8s9/a1DcLfwe4tidD5hppVvRXa6TIt+RBKfPynI8Dh2vd1uObSqioE0oTCyePhS37raKNykquYN+u35yBVIMiufHoq/Q72vS+oPb0cuVPbXl/E2+C62QU7psopL+SP/d4F3az0HCbzvFTjngzoFyEKvMUBiK",
+            "isbns": []
+        },
+        {
+            "id": "9325acc2-fb40-4ca4-b631-557f6bcf2feb",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "The meeting [electronic resource] : an Auschwitz survivor confronts an SS physician / edited by Bernhard Frankfurter ; translated from the German and annotated by Susan E. Cernyak-Spatz. ",
+            "abstracts": [
+                "Includes index. ",
+                "digitized. 2010. HathiTrust Digital Library. committed to preserve. pda. MiAaHDL. ",
+                "Electronic reproduction. [S.l.] : HathiTrust Digital Library, 2010. MiAaHDL. "
+            ],
+            "languages": [
+                "eng",
+                "ger"
+            ],
+            "createdDate": "2000-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=dGz+glRN+IGGRU4Yj3QQRA9XzMyrEdOvOcBsi7p/l43Vr3FlcoArZIyeg4M/0gebXUljmBdca3Y3HTxDEVlJ/iuiM9oeMtV/WBWZaO1lIrP6GIaqum8SUvGrVrgfkzqMsEh8xoYgbA394WV+zSff5qhnuV156Di5mzDattP7ENefWDaxfTfLJUrJCGfGP3KGUeMJ2fcXyzOUOs46S0jzGSfv0Mk=",
+            "isbns": []
+        },
+        {
+            "id": "beeb4e90-47fe-4e83-ad79-147b92c2489c",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "The meeting [electronic resource] : an Auschwitz survivor confronts an SS physician / edited by Bernhard Frankfurter ; translated from the German and annotated by Susan E. Cernyak-Spatz. ",
+            "abstracts": [
+                "Includes index. ",
+                "digitized. 2010. HathiTrust Digital Library. committed to preserve. pda. MiAaHDL. ",
+                "Electronic reproduction. [S.l.] : HathiTrust Digital Library, 2010. MiAaHDL. "
+            ],
+            "languages": [
+                "_Languages:English {18349056}",
+                "_Languages:German {18349086}"
+            ],
+            "createdDate": "2000-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=L47P91Lp6hvt7+/LjKbdG/dqyW0m7jzngp50eiJKx3Q1qFXPY53sleehq2wIihcgxiK5S1YwWsEuuiEWe9fzt2RBdl184GJNBXS23z4H6q53RMGuDxf/AFkodp059nueegqi44WAtwwjdCWDhsBi3rC+aJ1V4+CSvAg5IfgYRqOg36a9U4DEiDTpwtVFV0t8s8aL0BLT+Xdx4RwP6W8bV0aLJ0E=",
+            "isbns": []
+        },
+        {
+            "id": "c24590fc-bdfb-4471-a023-7e0dcb8c8421",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Networks beyond Empires [electronic resource] : Chinese Business and Nationalism in the Hong Kong-Singapore Corridor, 1914-1941. ",
+            "authors": [
+                "Kuo, Huei-Ying."
+            ],
+            "abstracts": [
+                "In <i>Networks beyond Empires</i>, Kuo finds that Chinese speech-group ties were key to understanding diasporic businesses and nationalism. These transnational networks transformed the Hong Kong-Singapore corridor into a space autonomous from Chinese official nationalism and British as well as Japanese empires. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2014-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=LnG0supRUnSarRCAvhETRYv6auRJgvhTV/bbP1kxnBDaSPmW5odMqogtmhk409MIsU56/KVfyAQgnILYkfmW4WUDB8MFBs8419a6k2uijVPV0CZRy3ucupcC/DSHGs3xJWB6nEJSEOZqvy+8x0guAWbkkh0kYprzXpCkOTsNLuRUvAO2+ClgJ6eHkGn4sjuj289h35EbivaVzK7D3MsWhzQXrLwZ",
+            "isbns": []
+        },
+        {
+            "id": "c21cacaa-a296-45dd-a85f-5dff33458fb3",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "True gardens of the gods [electronic resource] : Californian-Australian environmental reform, 1860-1930 / Ian Tyrrell. ",
+            "authors": [
+                "Tyrrell, Ian R."
+            ],
+            "abstracts": [
+                "One of the most critical environmental challenges facing both Californians and Australians in the 1860s involved the aftermath of the gold rushes. Settlers on both continents faced the disruptive impacts of mining, grazing, and agriculture; in response to these challenges, environmental reformers attempted to remake the natural environment into an idealized garden landscape. As this cutting-edge history shows, an important result of this nineteenth-century effort to \"renovate\" nature was a far-reaching exchange of ideas between the United States - especially in California - and Australia. Ian Tyrrell demonstrates how Californians and Australians shared plants, insects, personnel, technology, and dreams, creating a system of environmental exchange that transcended national and natural boundaries. True Gardens of the Gods traces a new nineteenth-century environmental sensibility that emerged from the collision of European expansion with these frontier environments. "
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "1999-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=LnGxdc90EKAVHzU4cQguTnsKTSf+gb4spy9cvTXXjQrr3/JrpKjd942unbsDyjB3hPcnRgMNHLqrbDgD3sjIiBVlWddXWr+2ZAW2RNEpfTB97pKqyBHZ5MvrFhATFtMTFsRTZX2uucuhciBK2InDeZgwjBqeoLqD8jQOpQHVD7Z6zFJY01iS1n8XU4PWtu3LGOPkaFuZm+hNnq2iEUaRcxynpg==",
+            "isbns": []
+        },
+        {
+            "id": "285427cf-1aa0-42b6-9bc3-2ea87b4ec74c",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "\u4e49\u5927\u5229\u7f8e\u98df\u53f2 : \u5728\u795e\u8bdd\u4e0e\u523b\u677f\u5370\u8c61\u4e4b\u5916 = Al dente : a history of food in Italy/ \u6cd5\u6bd4\u6b27\u00b7\u5e15\u62c9\u8428\u7d22\u5229\u8457 ; \u67ef\u677e\u97f5\u8bd1. ",
+            "authors": [
+                "\u5e15\u62c9\u8428\u7d22\u5229, \u6cd5\u6bd4\u6b27, author.",
+                "Parasecoli, Fabio, author."
+            ],
+            "abstracts": [
+                "\u4e49\u5927\u5229\u6709\u4ee4\u4eba\u773c\u82b1\u64a9\u4e71\u7684\u8461\u8404\u9152\u3001\u8d77\u53f8\u3001\u9762\u5305\u3001\u852c\u83dc\u3001\u8428\u62c9\u7c73\u9999\u80a0\u7b49\u7b49, \u4e0d\u8bba\u662f\u62ab\u8428\u5e97\u3001\u51b0\u6dc7\u6dcb\u5e97\u3001\u5bb6\u5ead\u5f0f\u9910\u9986, \u6216\u7c73\u5176\u6797\u9910\u5385, \u5bf9\u7f8e\u98df\u5bb6\u6765\u8bf4, \u4e49\u5927\u5229\u5df2\u7ecf\u6210\u4e3a\u5723\u5730. \u672c\u4e66\u4e3b\u8981\u5c31\u5728\u63a2\u8ba8\u5927\u4f17\u5bf9\u4e49\u5927\u5229\u7f8e\u98df\u7684\u75f4\u8ff7, \u4ee5\u53ca\u4e49\u5927\u5229\u7f8e\u98df\u5982\u4f55\u6f14\u53d8\u6210\u4e3a\u4eca\u65e5\u7684\u5f62\u5f0f. \u51e0\u4e2a\u4e16\u7eaa\u4ee5\u6765, \u4e49\u5927\u5229\u7b49\u5730\u4e2d\u6d77\u56fd\u5bb6\u5e38\u5e38\u5fc5\u987b\u5bf9\u6297\u7cae\u98df\u77ed\u7f3a, \u6218\u4e89, \u5165\u4fb5\u548c\u4e0d\u5229\u7684\u519c\u4e1a\u73af\u5883. \u7531\u4e8e\u7f3a\u5c11\u8089\u7c7b\u548c\u5976\u5236\u54c1, \u56e0\u6b64\u53d1\u5c55\u51fa\u4f9d\u8d56\u8c37\u7269\u3001\u8c46\u7c7b\u548c\u852c\u83dc\u7684\u7f8e\u98df\u4e4b\u8def, \u76f4\u5230\u4e00\u4e5d\u4e94\u25cb\u5e74\u4ee3\u540e\u671f, \u7ecf\u6d4e\u53d1\u5c55\u624d\u4f7f\u5f97\u5927\u591a\u6570\u4e49\u5927\u5229\u4eba\u80fd\u591f\u8d1f\u62c5\u5f97\u8d77\u66f4\u591a\u6837\u5316\u7684\u996e\u98df. \u4f5c\u8005\u722c\u68b3\u4e86\u8fc7\u53bb\u534a\u4e2a\u4e16\u7eaa\u4ee5\u6765, \u65b0\u7684\u5305\u88c5\u3001\u4fdd\u5b58\u6280\u672f\u3001\u5927\u91cf\u751f\u4ea7\u4ee5\u53ca\u66f4\u590d\u6742\u7684\u8fd0\u8f93\u548c\u5206\u914d\u7cfb\u7edf, \u4f7f\u8be5\u56fd\u4eba\u53e3\u5bf9\u98df\u7269\u7684\u770b\u6cd5\u53d1\u751f\u4e86\u6df1\u523b\u7684\u53d8\u5316. \u996e\u98df\u7684\u5386\u53f2\u4e0d\u80fd\u53ea\u7b80\u5316\u6210\u5916\u5728\u7684\u5c42\u6b21, \u751f\u6d3b\u7269\u8d28\u6587\u5316\u4e2d\u7684\u79d1\u6280\u4e0e\u79d1\u5b66\u3001\u65e5\u5e38\u7684\u4eea\u5f0f\u4e0e\u5fc5\u987b\u54c1\u3001\u54c1\u5473\u7684\u5f62\u5f0f\u90fd\u7d27\u6263\u996e\u98df\u7684\u5386\u53f2. \u672c\u4e66\u5c06\u540c\u65f6\u68c0\u89c6\u7f8e\u98df\u5b66\u7684\u5386\u53f2, \u4e5f\u5c31\u662f\u98df\u7269\u5728\u5386\u53f2\u4e0a\u5982\u4f55\u88ab\u770b\u5f85\u3001\u8c08\u8bba\u3001\u5448\u73b0. \u8ba8\u8bba\u7684\u5185\u5bb9\u5305\u62ec\uff1a\u6700\u65e9\u51fa\u73b0\u5728\u5e0c\u814a\u57ce\u90a6\u65f6\u671f\u7684\u897f\u897f\u91cc\u5c9b\u7684\u51e0\u7bc7\u98df\u8bc4, \u5982\u4f55\u8bde\u751f; \u4e2d\u53e4\u4e16\u7eaa\u4e0e\u6587\u827a\u590d\u5174\u7684\u4f5c\u5bb6\u5982\u4f55\u5c06\u4e0d\u540c\u7c7b\u578b\u7684\u98df\u7269\u5316\u4e3a\u6982\u5ff5, \u63a2\u8ba8\u98df\u7269\u5bf9\u8eab\u4f53\u7684\u5f71\u54cd; \u4ee5\u53ca, \u5728\u4e49\u5927\u5229\u7edf\u4e00\u4e4b\u540e, \u51fa\u8eab\u7f57\u9a6c\u6d85\u5730\u533a\u7684\u5546\u4eba\u4f69\u96f7\u683c\u5229\u8bfa.\u5965\u56fe\u897f(Pellegrino Artusi), \u5982\u4f55\u5851\u9020\u51fa\u65b0\u7684\u8bed\u8a00\u6765\u8c08\u8bba\u70f9\u996a. \u4e0d\u8fc7, \u8981\u4e86\u89e3\u4e49\u5927\u5229\u590d\u6742\u7684\u98df\u7269\u53f2, \u8fd8\u5fc5\u987b\u8ba8\u8bba\u5728\u6587\u5316\u5c42\u9762\u4e0a, \u5236\u9020\u3001\u5206\u914d\u3001\u6d88\u8d39\u7684\u7ecf\u6d4e\u8bae\u9898. "
+            ],
+            "languages": [
+                "chi",
+                "eng"
+            ],
+            "dataFrom": "HyRead",
+            "url": "http://search.nlb.gov.sg/r/hyread/?r=fyV7sm+8XZeyzmrvZ34qY1xX74eo5Yn+PH6ZYonZeiUP6QZ3aVgQjjpMwoxv3Kz1siU7JjFSnAqdUxD42IXjj9n/XgdoGusZd6E6fpzNEjxZGAHCabA7iTySgdiIIj/FLVndF76uTGig7tUbxitxVUdhaW1ATvs2NwI1eCteh0aXkQ==",
+            "isbns": []
+        },
+        {
+            "id": "e41f23d9-2d08-4886-8a90-48360af1464d",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Conquest and pestilence in the early Spanish Philippines / Linda A. Newson. ",
+            "authors": [
+                "Newson, Linda A., author."
+            ],
+            "abstracts": [
+                "Includes bibliographical references (pages 385-405) and index. ",
+                "Master record variable field(s) change: 650. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2009-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=KOdeqkJNE72Mizj79NWIPRBaQTjOohwq6cKHVq/eBdyQ0hAamuTobAmnQxQBqeYiEAxEAinBq9NSXYOe7gcOrx2z7ES69jXZDfdeA5ksvc1Ew2sJ/sfC2niukFvCVsD7Beb/8rYKpv4QJVeQ+meqL72Q2kLTS6SzEvm6yhojsuOWz0YzZ07kdyimcgqv/IUZJRLYm2sE/6FLX0chNn4jiAbLEW0D",
+            "isbns": []
+        },
+        {
+            "id": "e40c8821-46a4-4cc3-9cfa-b092a87bdf72",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "The outlaws of Cave-in-Rock : historical accounts of the famous highwaymen and river pirates who operated in the pioneer days upon the Ohio and Mississippi Rivers and over the Natchez Trace / Otto A. Rothert ; with a foreword by Robert A. Clark. ",
+            "authors": [
+                "Rothert, Otto Arthur, 1871-1956."
+            ],
+            "abstracts": [
+                "Includes bibliographical references (pages 335-345) and index. ",
+                "digitized. 2010. HathiTrust Digital Library. committed to preserve. pda. MiAaHDL. ",
+                "Master record variable field(s) change: 050. ",
+                "Electronic reproduction. [S.l.] : HathiTrust Digital Library, 2010. MiAaHDL. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "1996-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=KOdfGaDQzK39EDNmsjq5idYs41O9W2klDMVodSNgxFuFD8V9u+CmZTTG0AUAt54cs56cBphmgwrkGA5A3qvwfh97AXo95g13DiS8t/B+SpJyURSO7zaXBJI84taVuHWpJ+wRjmEMQa7ysiWXdzQdAMvvT5bmo4cfNrYS0PI0KEZVlhLJbPHM9A1MPeDvXKXxsS3/CTed1GDwonvDGy5C0yYk6fU=",
+            "isbns": []
+        },
+        {
+            "id": "9d69ca2b-daea-40fb-b2be-f0b0f6657715",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "\u6253\u9020\u592a\u5e73\u6d0b : \u8ffd\u6c42\u8d38\u6613\u81ea\u7531\u3001\u6355\u9cb8\u4e0e\u79d1\u5b66\u63a2\u7d22, \u6539\u53d8\u4eba\u7c7b\u672a\u6765\u7684\u4e03\u6bb5\u822a\u7a0b = The great ocean : Pacific worlds from captain cook to the gold rush / \u5927\u536b\u00b7\u4f0a\u683c\u52d2\u4f5c ; \u4e01\u8d85\u8bd1. ",
+            "authors": [
+                "\u4f0a\u683c\u52d2, \u5927\u536b, author.",
+                "Igler, David, author."
+            ],
+            "abstracts": [
+                "\u592a\u5e73\u6d0b\u4ece\u6765\u5c31\u4e0d\u662f\u5355\u7eaf\u7684\u6d77\u6d0b\u7a7a\u95f4. \u5b9e\u9645\u4e0a, \u5f53\u4e0d\u540c\u7684\u7fa4\u4f53\u5728\u5341\u516b\u548c\u5341\u4e5d\u4e16\u7eaa\u672b\u521d\u76f8\u9047\u65f6, \u4eba\u4eec\u5728\u7ade\u4e89\u4e0e\u5408\u4f5c\u4e2d\u9010\u6b65\u5efa\u7acb\u4e86\u5bf9\u592a\u5e73\u6d0b\u5e9e\u7136\u7684\u793e\u4f1a\u4e0e\u81ea\u7136\u590d\u6742\u5ea6\u7684\u8ba4\u77e5, \u5171\u540c\u5f62\u5851\u4e86\u592a\u5e73\u6d0b. \u5728\u300a\u6253\u9020\u592a\u5e73\u6d0b\u300b\u4e2d, \u7f8e\u56fd\u73af\u5883\u53f2\u5b66\u8005\u5927\u536b.\u4f0a\u683c\u52d2\u8003\u8bc1\u4e86\u4e00\u4e03\u4e03\u3007\u5e74\u4ee3\u81f3\u4e00\u516b\u56db\u3007\u5e74\u4ee3\u4e4b\u95f4\u6570\u767e\u8d9f\u6709\u7eaa\u5f55\u7684\u5927\u6d0b\u822a\u884c, \u4ece\u4e2d\u89c2\u5bdf\u8fd9\u4e9b\u822a\u7a0b\u6240\u884d\u751f\u7684\u5546\u4e1a\u3001\u6587\u5316\u3001\u751f\u6001\u4e0e\u77e5\u8bc6\u4e0a\u7684\u4ea4\u950b. \u4ed6\u6307\u51fa, \u968f\u7740\u5e93\u514b\u8239\u957f\u51fa\u822a\u63a2\u9669, \u4e16\u754c\u624d\u5f00\u59cb\u5c06\u6ce8\u610f\u529b\u8f6c\u5411\u592a\u5e73\u6d0b; \u9664\u4e86\u6765\u5f80\u8239\u53ea\u6570\u91cf\u5e74\u5e74\u6500\u5347, \u6b27\u6d32\u591a\u56fd\u548c\u7f8e\u56fd\u7684\u79d1\u5b66\u63a2\u7d22\u3001\u8d38\u6613\u548c\u5e1d\u56fd\u68a6\u4e5f\u8ddf\u7740\u907d\u7136\u589e\u957f. \u5230\u4e86\u4e00\u516b\u56db\u516b\u5e74, \u52a0\u5dde\u5c71\u8c37\u53d1\u73b0\u5927\u91cf\u9ec4\u91d1, \u5728\u5168\u4e16\u754c\u6380\u8d77\u6dd8\u91d1\u70ed, \u6b64\u65f6\u7684\u592a\u5e73\u6d0b\u624d\u7ec8\u4e8e\u88ab\u7eb3\u5165\u5168\u7403\u7ecf\u6d4e\u4f53\u7cfb. "
+            ],
+            "languages": [
+                "chi",
+                "eng"
+            ],
+            "dataFrom": "HyRead",
+            "url": "http://search.nlb.gov.sg/r/hyread/?r=dDvACMvkK1Zc0WW6H2HUOhjpjSVo+0kB+lucD1Ggknuk/l6ZgT+/lbmm9KVj+3ZQTMXvPBpy1LMR0c641oiQLWy5Q9pvRUiCRgY2scDdi5avs0OOVmJHF2L0FNR27if38T2rvicnTvXOQr+laMQZlMONscIdX7LK+RC2GxaqsRrMWA==",
+            "isbns": []
+        },
+        {
+            "id": "3a9f3836-5e40-4bf6-85e0-efd694b83b9c",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "\u65b0\u4e16\u754c\u7684\u6d41\u4ea1\u8005 : \u7f8e\u56fd\u72ec\u7acb\u6218\u4e89\u4e2d\u7684\u8f93\u5bb6, \u5982\u4f55\u4fc3\u6210\u5927\u82f1\u5e1d\u56fd\u91cd\u62fe\u9738\u6743 = Liberty's exiles : American loyalists in the revolutionary world / \u739b\u96c5\u00b7\u52a0\u8428\u8bfa\u592b\u4f5c ; \u9a6c\u777f\u8bd1. Xin shi jie de liu wang zhe : Meiguo du li zhan zheng zhong de shu jia, ru he cu cheng da Ying di guo chong shi ba quan = Liberty's exiles : American loyalists in the revolutionary world / Maya Jiasanuofu zuo ; Ma Rui yi. ",
+            "authors": [
+                "\u52a0\u8428\u8bfa\u592b, \u739b\u96c5, 1974- author.",
+                "Jasanoff, Maya, 1974- author."
+            ],
+            "abstracts": [
+                "\u7f8e\u56fd\u72ec\u7acb\u540e, \u82f1\u56fd\u600e\u4e48\u4e86? \u6bcf\u5e74\u7684\u4e03\u6708\u56db\u65e5, \u7f8e\u56fd\u603b\u662f\u5927\u8086\u5e86\u795d\u4ed6\u4eec\u7684\u56fd\u5e86, \u90a3\u662f\u4e24\u767e\u5e74\u524d\u8131\u79bb\u82f1\u56fd\u72ec\u7acb, \u8c61\u5f81\u7406\u6027\u3001\u6c11\u4e3b\u3001\u81ea\u7531\u7684\u4f1f\u5927\u65e5\u5b50. \u4f46\u843d\u8d25\u7684\u82f1\u56fd\u5462? \u5f53\u65f6\u5965\u5730\u5229\u7687\u5e1d\u8bf4\uff1a\u5931\u53bb\u7f8e\u56fd\u7684\u82f1\u56fd\u4ece\u6b64\u5c06\u843d\u5165\u4e8c\u6d41\u56fd\u5bb6\u4e4b\u5217. \u6ca1\u6599\u5230, \u5728\u7ecf\u5386\u77ed\u77ed\u5341\u591a\u5e74\u540e, \u82f1\u56fd\u8fc5\u901f\u5730\u91cd\u65b0\u7ad9\u4e0a\u56fd\u9645\u821e\u53f0, \u66f4\u5728\u534a\u4e16\u7eaa\u540e\u6210\u4e3a\u5f71\u54cd\u529b\u904d\u53ca\u5168\u7403\u7684\u5927\u5e1d\u56fd. \u4e0d\u662f\u6240\u6709\u4eba\u90fd\u60f3\u6446\u8131\u82f1\u56fd\u7684\u6b96\u6c11. \u5728\u7f8e\u56fd\u72ec\u7acb\u7684\u5386\u53f2\u6545\u4e8b\u91cc, \u4e16\u4eba\u5f80\u5f80\u53ea\u6ce8\u610f\u5230\u534e\u76db\u987f\u7b49\u4eba\u7ad9\u4e0a\u5386\u53f2\u821e\u53f0, \u4eff\u4f5b\u5317\u7f8e\u6b96\u6c11\u5730\u7684\u5c45\u6c11\u90fd\u53cd\u5bf9\u5927\u82f1\u5e1d\u56fd\u7684\u5265\u524a. \u4f46\u7f8e\u56fd\u5f00\u56fd\u5143\u52cb\u5bcc\u5170\u514b\u6797\u7684\u513f\u5b50\u5374\u662f\u7ad9\u5728\u82f1\u56fd\u90a3\u8fb9, \u4ed6\u88ab\u534e\u76db\u987f\u56da\u7981\u5728\u76d1\u72f1, \u65e0\u6cd5\u89c1\u5230\u59bb\u5b50\u7684\u6700\u540e\u4e00\u9762. \u800c\u5f53\u65f6\u9664\u4e86\u767d\u4eba, \u6709\u4e9b\u9ed1\u4eba\u548c\u5370\u5730\u5b89\u4eba\u5176\u5b9e\u4e5f\u9009\u62e9\u6548\u5fe0\u82f1\u56fd, \u56e0\u4e3a\u5f53\u65f6\u82f1\u56fd\u627f\u8bfa\u52a0\u5165\u82f1\u519b\u7684\u9ed1\u5974, \u5c06\u53ef\u83b7\u5f97\u81ea\u7531. \u800c\u571f\u5730\u906d\u6b96\u6c11\u5730\u4eba\u6c11\u8695\u98df\u9cb8\u541e\u4fb5\u5360\u7684\u5370\u5730\u5b89\u4eba, \u4e5f\u5bc4\u671b\u9009\u8fb9\u7ad9\u53ef\u4ee5\u633d\u56de\u9893\u52bf. \u4e0d\u8fc7\u4ed6\u4eec\u7684\u4efb\u4f55\u671f\u671b, \u90fd\u5728\u82f1\u5c5e\u7f8e\u6d32\u6b96\u6c11\u5730\"\u53d8\u5929\"\u4ee5\u540e\u6210\u4e3a\u6ce1\u5f71. \u65e0\u58f0\u7684\u8f93\u5bb6\u4e0e\u4ed6\u4eec\u7684\u6545\u4e8b. \u5f53\u72ec\u7acb\u6218\u4e89\u5f00\u59cb, \u67d0\u4e9b\u82f1\u56fd\u738b\u5ba4\u7684\u652f\u6301\u8005\u4fbf\u56e0\u653f\u6cbb\u503e\u5411\u800c\u906d\u5230\u9769\u547d\u8005\u9a9a\u6270, \u751a\u81f3\u7528\u5211\u8feb\u5bb3, \u5265\u5934\u76ae\u3001\u706b\u70e4\u7b49\u9177\u5211, \u8ba9\u4eba\u96be\u4ee5\u60f3\u50cf\u8fd9\u4e9b\u7adf\u662f\u51fa\u81ea\u9769\u547d\u6d3e\u4e4b\u624b\uff1b\u5728\u72ec\u7acb\u540e, \u4e0d\u8bba\u662f\u767d\u4eba\u3001\u9ed1\u4eba\u8fd8\u662f\u5370\u5730\u5b89\u4eba, \u51e1\u662f\u7ad9\u5728\u82f1\u56fd\u90a3\u4e00\u8fb9\u7684, \u5728\u9762\u4e34\u5982\u6b64\u7684\u53d8\u5c40\u65f6, \u53ea\u80fd\u786c\u8457\u5934\u76ae, \u8e0f\u4e0a\"\u672a\u77e5\"\u7684\u65c5\u7a0b. "
+            ],
+            "languages": [
+                "chi",
+                "eng"
+            ],
+            "createdDate": "2020-01-01",
+            "dataFrom": "HyRead",
+            "url": "http://search.nlb.gov.sg/r/hyread/?r=ftFHJ6J85U/0oxUrXoBVUnhpBuqfpAAQnHXHRFGl+cv5Oi6cvrjpTB39W5T3C6WX1aDsU7qUgf7XraaByF2wIUgiKK6tMKJ+FK/Tm9+s6nCFLrsRpmRB0yoK7mCp6FsaXlORVkokQ1jl3F+GJZfgpp5tJ0B+Ger588rG8s0qCM7OTQ==",
+            "isbns": []
+        },
+        {
+            "id": "93473cf2-477a-408d-aabf-ba0a9c5d348d",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "True gardens of the gods [electronic resource] : Californian-Australian environmental reform, 1860-1930 / Ian Tyrrell. ",
+            "authors": [
+                "Tyrrell, Ian R."
+            ],
+            "abstracts": [
+                "Includes bibliographical references (p. 291-299) and index. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "1999-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=dGz4ON5sHrP4LD9o1Xsr1XAIMWfNq0CI9K0IPGaqIiA0O9FTwZHxM9C3+KbIamACrpPJuc85xiu2i5ZoAObeagXkLPCO81IPmlrDU6sPuqU9cizrSp6rjX5zO1nsC1bpQyLz9dYSI72p9VVqYOAyzMofK5zrMnGDGN10nhVl/w/NLso702PuFEthfsk3r3grX5D29A7yD9c8Z/GptLjHaS8tyw==",
+            "isbns": []
+        },
+        {
+            "id": "9e192adf-0324-4324-9bff-42bb62d9ae10",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Rifle Reports [electronic resource] : A Story of Indonesian Independence. ",
+            "authors": [
+                "Steedly, Mary Margaret."
+            ],
+            "abstracts": [
+                "On August 17, 1945, Indonesia proclaimed its independence from Dutch colonial rule. Five years later, the Republic of Indonesia was recognized as a unified, sovereign state. The period in between was a time of aspiration, mobilization, and violence, in which nationalists fought to expel the Dutch while also trying to come to grips with the meaning of \"independence.\" Rifle Reports is an ethnographic history of this extraordinary time as it was experienced on the outskirts of the nation among Karo Batak villagers in the rural highlands of North Sumatra. Based on extensive interviews and. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2013-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=dDpv/Z1gb5j+pcAyVeXMJMC7PP20fpswc2GZH01rEEwCoLDyoC4i+LUy1PN+iSclJuBIM0aCrNCep2nsTgXOAqOGwuOUm2ZufbBSpmqMgmXuh/uWfFSyondzfFsk3WW30X6PEggy4zqfJQyjOLTopioAoIFOeUEwY+eK/GpFVc2OTRo7LliRgezBxU5cZ3OQ1XuMW5PgbMtPi1yH1tV9ldiKvpoA",
+            "isbns": []
+        },
+        {
+            "id": "80042f19-1d4a-40aa-b3de-e44b9fbfd291",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Rifle Reports [electronic resource] : A Story of Indonesian Independence. ",
+            "authors": [
+                "Steedly, Mary Margaret."
+            ],
+            "abstracts": [
+                "On August 17, 1945, Indonesia proclaimed its independence from Dutch colonial rule. Five years later, the Republic of Indonesia was recognized as a unified, sovereign state. The period in between was a time of aspiration, mobilization, and violence, in which nationalists fought to expel the Dutch while also trying to come to grips with the meaning of \"independence.\" Rifle Reports is an ethnographic history of this extraordinary time as it was experienced on the outskirts of the nation among Karo Batak villagers in the rural highlands of North Sumatra. Based on extensive interviews and. "
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2013-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=dQfjgDYQd2NttWCXLFCJGNEq+2+z7j+NLVqnP2zNJ1f42sjrdRDPblDnNjNOTcMrmQh46jTWEkrUfYorst8Vzfg9r1j0PVZ+3FmZwPfmnW9ympt9g9ZOd7K6quhxjnhaV5jd1kfRdLASzniARfeDom1chwkaWofAlaI644sbVKFZVO2JEGvtPJeGweFAWVSMaf+CV2jQcuF3B5DR9nuVlA8mRSwu",
+            "isbns": []
+        },
+        {
+            "id": "8efff30f-c22f-424a-a9af-01de4e1ceb9d",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "The grocers [electronic resource] : the rise and rise of supermarket chains / Andrew Seth and Geoffrey Randall. ",
+            "authors": [
+                "Seth, Andrew."
+            ],
+            "abstracts": [
+                "The Grocers is an authoritative history and analysis of the British supermarket industry, completely updated in this new edition. It describes the fiercely competitive struggle between the major players and analyses the successes and failures of well-known brands. It tells the continuous story of Britain's undoubted winner, Tesco, who is dominant in its home market and increasingly successful in international markets such as the USA, and Asda, owned by Wal-Mart, the biggest retailer in the world. "
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2011-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=dVK/QCwUrTpaWTLDe/o4LcL5t8mZGr0Ut9qkmg13ic0hwHT2MiFrRtFd1Jx4VhlQIGhLNQJDqhd+BJbS1RuSxxjPju8/Cv5GfkKqguXH0UmA/45T5C9VQmVpkgGBiGfL9gYQuZnVVD+vvxivHGRwQbCJLKVbv4d4ldWIPkAO04be9wUQdeBTAHyWCwCtkXr6ZbnCdyKErh0NZhuYJ/NaI292ULN9",
+            "isbns": []
+        },
+        {
+            "id": "b65444b2-654f-4956-9b22-531de6496cf4",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "The play of paradox [electronic resource] : stage and sermon in Renaissance England / Bryan Crockett. ",
+            "authors": [
+                "Crockett, Bryan."
+            ],
+            "abstracts": [
+                "The Play of Paradox: Stage and Sermon in Renaissance England is a wide-ranging investigation of Tudor/Stuart drama, Reformation preaching, and the relations between the two. The cross-fertilization between the two kinds of performance engendered among audiences a ready receptivity to the rhetorical use of paradox. The two modes similarly capitalized on characteristic Renaissance syntheses of magic, drama, and religion to develop strategies for negotiating state control. In chapters that set comedies and tragedies by Shakespeare, Jonson, Webster, and others side by side with sermons by Hooker, Andrewes, Donne, and popular preachers whose works have not been reprinted since the early seventeenth century, Bryan Crockett argues that stage and pulpit performances elicited similar responses to the political and theological divisions marked by the incessant polemics of the age. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "1995-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=L91G5L1vuoQeJ88t2sulP3LaE3eejlIVWxtOa34nkYEAfaIVkT5HDmrSzTcwhL13ityAGa7tABwDC8x0/OAYDEWUHx8teoRmTz7LQ0Q2oMR6ds7XsHDECROVmk1DwD29fQutGtg2wWaOHkZXfq4npbfN24X1eIcTDqX3wKkuTkqE+KLgq/paFoWTcGA0gYAh0K0z/MoKMuFuLvjTTBWOH69mC7o=",
+            "isbns": []
+        },
+        {
+            "id": "9c394771-bcfd-47ed-b9a1-c4da6a89130b",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Creolization and diaspora in the Portuguese Indies [electronic resource] : the social world of Ayutthaya, 1640-1720 / by Stefan Halikowski Smith. ",
+            "authors": [
+                "Smith, Stefan Halikowski."
+            ],
+            "abstracts": [
+                "Includes bibliographical references and index. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2011-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=dDwxJHbgN/g45Nnl2wNBdMS1RA5GmCNe1XhC6Ni7H+Aw003+vhNLscz3A/74LaX8IBilra6VizQf5uMgeHgI6Dp8BI73vcSyFongBmSJtBqDMwLcFMUMKSM+7ChohGBWAjGFnhknVlugaPK7y5ZIueTewVglf/g9EZ9H4SmqNnYFcUpFMSblqibs4LMzNpCIul5Doy6FQ4ibU0X/3U5IWF2kcBrd",
+            "isbns": []
+        },
+        {
+            "id": "76b9335a-7cb0-4633-b0aa-31c0481421ea",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Bringing God to men : American military chaplains and the Vietnam War / Jacqueline E. Whitt. ",
+            "authors": [
+                "Whitt, Jacqueline E."
+            ],
+            "abstracts": [
+                "\"During the latter half of the twentieth century, the American military chaplaincy underwent a profound transformation. A broad-based and ecumenical institution in the post-World War II era, the chaplaincy emerged from the Vietnam War as generally conservative and evangelical. In both eras--before and after the conflict in Vietnam--the political, martial, and religious views of the chaplaincy mirrored those of mainstream religious and military culture. During the Vietnam War, though, the chaplaincy underwent an exceptional divergence from this conformation to the mainstream. Because of their dual allegiances to their denominations and to the military, chaplains found themselves thrown into the middle of the heated contention surrounding the conflict. Drawing from previously unpublished memories, periodicals, official histories, and oral interviews, Jacqueline Whitt charts the role of the chaplaincy in mediating conflicts between their often anti-war faiths and the military. In this benchmark study, Whitt shows how Vietnam War-era chaplains served as vital links between diverse communities, sometimes working to reconcile--both personally and publicly--conflicting worldviews, while creating religious contexts unique to combat based on shared experience rather than traditional theologies\"-- Provided by publisher. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2014-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=eib7qaGXSfk3yMv5bms2KZ4fGeMBcxN3QFY3UKhATgjyIEFOyUih5fOucv3NZsYzz5vVob+gU2V6rj5ye+5B5gpV/Iee6Xid0KDFPakFARBDpWTS7LOn5XqMngzwNgCG6LBOwser48BswmJqpD+fd6OKOfP4Lv5+ANWA4o4sMcU5W8QlTcLuhkmcImB7S+jcbSIMivbJOGILVv/+6IQYtKbqzJmU",
+            "isbns": []
+        },
+        {
+            "id": "5e12d6fe-3a4c-4747-a833-8e40757fad96",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Singapore : unlikely power / John Curtis Perry. ",
+            "authors": [
+                "Perry, John Curtis, author."
+            ],
+            "abstracts": [
+                "\"The life of Singapore as an independent nation since 1965 has coincided with explosive growth, both of world trade and world wealth. Trade, heavily seaborne, now contributes more than half of global GNP. Largely by exploiting changing uses of the ocean, Singapore has grown remarkably rich. Constant and continuing comment in the media concerning Singapore's dramatic economic and organizational achievement has yet to find its way into a book, and this one is the first to put the story of Singapore into a global maritime context, describing and analyzing how, despite many life-threatening crises, Singapore, by using the sea, survived and prospered far beyond even its own expectations. Putting priority upon economic development and maintaining the social and economic stability that Singapore's authoritarian government has thought necessary to achieve this growth has provoked heated controversy both among Singaporeans and outside observers. Although opposition is too weak to challenge the government successfully, the struggle to define an acceptable balance between freedom and control continues. This question takes on a universal concern, intensified in our age of terrorism with its new challenges to order and stability. To what extent does authority stifle creativity?\"--Provided by publisher. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2017-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=eL7VLyZCx3VL7NhZI+NTxYQRWHqqnFJEVw12Ccj+PqHg2JpbcIE11iCwy+Rtm4GOd3bPmCsJN7zddyidUUsTAmMcga49euNFzTOtsv9KF7cVwyqsJ5FvymAHfsgLujZjHdC0xUSVdtQvQkXxHPExbJUVa3qDluyepUUSAIjMSdm6rKMPjCJZ1hd6bzYDNvH4YrlmnCxn7KTXLFzEEYxBFlFHmwvoMg==",
+            "isbns": []
+        },
+        {
+            "id": "1189f6c0-eab3-444d-8455-67b61f5a1392",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "The grocers [electronic resource] : the rise and rise of supermarket chains / Andrew Seth and Geoffrey Randall. ",
+            "authors": [
+                "Seth, Andrew."
+            ],
+            "abstracts": [
+                "Includes bibliographical references (p. [201]) and index. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2011-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=fN6qjWQ6D0SA0m9J4djumIaRBITazXT0T85HTrGihNj9Wd2XZ1eYa2F8ZYk51hAfkIgRGtaSfYp3mWbN4J46A3arOWjytM1RMkT0/8szW+ykgmCB83NJsieJpBXiIu3jD29k4InVrI1GCb0MPMhQwwShWgEPVgrKDA6zHWF+Z4B7++oGXRfM+KAQ1rmW+ErvG/wmsjoQ5YCSyZYj3RokZfhQiitW",
+            "isbns": []
+        },
+        {
+            "id": "1783dcd5-ddb2-4979-8ae8-109c814594cc",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Creolization and diaspora in the Portuguese Indies [electronic resource] : the social world of Ayutthaya, 1640-1720 / by Stefan Halikowski Smith. ",
+            "authors": [
+                "Smith, Stefan Halikowski."
+            ],
+            "abstracts": [
+                "Includes bibliographical references and index. "
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2011-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=fNjx8vMsQgTnhTWBjvcZyG/+G4zpDTU4USI2aX890Qgal4yqe6p55UV/qeXYAbAGY7ZZ9ODCGrtrtR0KXBXtais7WApz3JNGCe/NNelhOuE/OdHHw3wUSpU0s/0QFTp9mXMQMvgJEfmxh81fiu90X4BkI1J9OQxsa9o+9XfeQ04Ed76b+BkqfmJe82CFetTd5M/dC8Xz0CLQ4y+lir9FEBPhg+u7",
+            "isbns": []
+        },
+        {
+            "id": "03961161-413a-4989-b9b7-b48a170e42cf",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Bringing God to men : American military chaplains and the Vietnam War / Jacqueline E. Whitt. ",
+            "authors": [
+                "Whitt, Jacqueline E."
+            ],
+            "abstracts": [
+                "\"During the latter half of the twentieth century, the American military chaplaincy underwent a profound transformation. A broad-based and ecumenical institution in the post-World War II era, the chaplaincy emerged from the Vietnam War as generally conservative and evangelical. In both eras--before and after the conflict in Vietnam--the political, martial, and religious views of the chaplaincy mirrored those of mainstream religious and military culture. During the Vietnam War, though, the chaplaincy underwent an exceptional divergence from this conformation to the mainstream. Because of their dual allegiances to their denominations and to the military, chaplains found themselves thrown into the middle of the heated contention surrounding the conflict. Drawing from previously unpublished memories, periodicals, official histories, and oral interviews, Jacqueline Whitt charts the role of the chaplaincy in mediating conflicts between their often anti-war faiths and the military. In this benchmark study, Whitt shows how Vietnam War-era chaplains served as vital links between diverse communities, sometimes working to reconcile--both personally and publicly--conflicting worldviews, while creating religious contexts unique to combat based on shared experience rather than traditional theologies\"-- Provided by publisher. "
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=fX6T7llkYvECgW/AYfPHI6SEBDaqNT44u85GTHGNYzXGKfIrd+W5FA2RLkvPD11xJqh7LJbXmpjz/5EcJB/PjGZ9xckXeygOF9qiQDhgalh6DigJCf4kdVBLBae7dWsftLAyKkiKjfQp7eOmwzlJXF1BNMaA9FzjVAobbtcuhytKqfSYXen3mcuoa0BoosJm2tPkqC0cXy2NfPYuhfyuFTiKjxM+",
+            "isbns": []
+        },
+        {
+            "id": "8efe36ac-3846-4bb5-b08f-423614ac1859",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "The play of paradox [electronic resource] : stage and sermon in Renaissance England / Bryan Crockett. ",
+            "authors": [
+                "Crockett, Bryan."
+            ],
+            "abstracts": [
+                "The Play of Paradox: Stage and Sermon in Renaissance England is a wide-ranging investigation of Tudor/Stuart drama, Reformation preaching, and the relations between the two. The cross-fertilization between the two kinds of performance engendered among audiences a ready receptivity to the rhetorical use of paradox. The two modes similarly capitalized on characteristic Renaissance syntheses of magic, drama, and religion to develop strategies for negotiating state control. In chapters that set comedies and tragedies by Shakespeare, Jonson, Webster, and others side by side with sermons by Hooker, Andrewes, Donne, and popular preachers whose works have not been reprinted since the early seventeenth century, Bryan Crockett argues that stage and pulpit performances elicited similar responses to the political and theological divisions marked by the incessant polemics of the age. "
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "1995-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=dVK/Q/hN9Ad5p26UOadLivSK5KsKxVupYWDpAc5I4HucERP4p8M9mA4mXH7WUCuyn3FNrJ22XO0B3TYY6O/zyCDfxsEepfj3oUty4v42jy94o0hW9dF9ZIlzAjipAyERW0h78zeG8OydgMDgGG6E2WwYttUDkqy/H3py32/PXCAVYzpwMAbyGXzJxJ8GAgU0sWG4nDyhWHGEZgUvKbDZzihhQNQ=",
+            "isbns": []
+        },
+        {
+            "id": "df51cb01-56aa-4da6-8552-0b912757333d",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "The religious right : a reference handbook / Glenn H. Utter and John W. Storey. ",
+            "authors": [
+                "Utter, Glenn H."
+            ],
+            "abstracts": [
+                "\"This timely work presents an unbiased examination of the religious right and its role in American life. From the fight to outlaw the teaching of Darwin's theory of evolution to the struggle to outlaw abortion, the religious right is continually exerting an influence on public policy. This book explores the influence of religion on legislation and society, while examining the alignment of the religious right with the political right. A historical survey of the movement highlights the shift to a \"hands-on\" approach to politics and the struggle to present a unified front. Biographies of the men and women who have defined the movement and a detailed chronology provide a thorough understanding of the movement's agenda and goals. Annotated listings of print and nonprint resources, as well as of organizations affiliated with the religious right and those opposing it, aid in further research. Comprehensive in its scope, this work offers easy-to-read, pertinent information for those seeking to understand the religious right and its evolving role in American society.\" \"The Religious Right: A Reference Handbook is part of ABC-CLIO's award-winning Contemporary World Issues series. Other books in the series deal with issues such as homelessness, abortion, domestic violence, gun control, global development, and capital punishment.\"--Jacket. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "1995-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=KdIOx7kSmyNEFo11wOyvmMmod2hqExFBl87j9RCRWflR9+hG8iezYUi7U+/vqFTR906d010OSlLUiCtlThLoAMTuybr8opGXGvDT8DKl32J97NicJkFk/0ohAFUzzVKRGrgP2jRu7X/9PeIGKSTZYAs97w4WJnyngHiKZ9UBPZhK8tdwatLxc0LDbbHGiFxOj5a6Gw2jtKaOP5//2RFsJ/lSkw==",
+            "isbns": []
+        },
+        {
+            "id": "eb86c725-980a-4954-b65d-6f0ebdbdc905",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "The British left and India [electronic resource] : metropolitan anti-imperialism, 1885-1947 / Nicholas Owen. ",
+            "authors": [
+                "Owen, Nicholas (Nicholas J.)"
+            ],
+            "abstracts": [
+                "Tracing the complex and troubled relationship between the British Left and the nationalist movement in India in the years before Indian independence, Nicholas Owen's study looks at the failure of British and Indian anti-imperialists to create the kind of powerful alliance that the Empire's governors had always feared. "
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2007-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=KLGVd+J5s0I7xo8jSNp5qKjWTpSNaLe0YHPT2mfGBBN6ToBTiIX8G7g4HB/JNfvjQhre+RIIljFcm/WeI0DlpRlr+xnbDPQ1NoIDhacz+AL8nEk/KJL4ixq1Vj9ph7itqP09S9RJPazBRbzQnDR3Cno9mNAa6XCJEAqq/9YNp095KuDJhkMCEbl5AYMGZwBdnwQcKWp8LzbpioXBZcgHKU6EciJ0",
+            "isbns": []
+        },
+        {
+            "id": "5cccfed8-34ad-4126-8122-328ef2f464c4",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "\u4eba\u7c7b\u51ed\u4ec0\u4e48 : \u89c5\u98df\u8005\u3001\u519c\u6c11\u3001\u4e0e\u5316\u77f3\u71c3\u6599:\u4eba\u7c7b\u4ef7\u503c\u89c2\u6f14\u8fdb\u53f2 = Foragers, farmers, and fossil fuels : how human values evolve / \u4f0a\u5b89\u00b7\u6469\u91cc\u58eb\u8457 ; \u674e\u51fd\u8bd1. ",
+            "authors": [
+                "\u6469\u91cc\u58eb, \u4f0a\u5b89, author.",
+                "Morris, Ian, author."
+            ],
+            "abstracts": [
+                "\u957f\u671f\u4ef7\u503c\u89c2\u53d8\u52a8\u7684\u57fa\u7840, \u662f\u7531\u6700\u57fa\u672c\u7684\u529b\u91cf\u6240\u9a71\u52a8 - \u80fd\u6e90. \u4f5c\u8005\u63cf\u7ed8\u51fa\u4e86\u4eba\u7c7b\u4ef7\u503c\u89c2\u7684\u5b8f\u89c2\u5386\u53f2, \u5e76\u533a\u5206\u4e86\u4e09\u4e2a\u63a5\u7eed\u51fa\u73b0\u7684\u4eba\u7c7b\u53d1\u5c55\u9636\u6bb5\u4e4b\u4e2d\u7684\u5e7f\u5927\u76f8\u4f3c\u6027. \u5728\u8fd9\u4e09\u4e2a\u8fde\u7eed\u9636\u6bb5\u4e2d\u7684\u4eba\u7c7b\u6587\u5316, \u5219\u7531\u9010\u6e10\u53d8\u5f3a\u7684\u80fd\u91cf\u6355\u83b7\u751f\u4ea7\u6a21\u5f0f\u6240\u5224\u5b9a: \u89c5\u98df\u3001\u519c\u8015\u3001\u4e0e\u5316\u77f3\u71c3\u6599\u751f\u4ea7. \u8fd9\u4e9b\u8fde\u7eed\u51fa\u73b0\u7684\u80fd\u91cf\u6355\u83b7\u6a21\u5f0f\"\u51b3\u5b9a\"(\u6216\u81f3\u5c11\"\u9650\u5236\")\u4e86\u793e\u4f1a\u7ec4\u7ec7\u7684\u578b\u6001, \u56e0\u6b64\u4e5f\u63a7\u5236\u4e86\u53ef\u80fd\u6210\u4e3a\u4e3b\u6d41\u7684\u793e\u4f1a\u4ef7\u503c\u89c2. \u6bcf\u4e2a\u9636\u6bb5\u6700\u540e\u90fd\u4f1a\u9009\u62e9\u81ea\u5df1\u9700\u8981\u7684\u4ef7\u503c\u89c2, \u539f\u56e0\u9664\u4e86\u4eba\u7c7b\u7684\u521b\u9020\u529b, \u4e5f\u7531\u4e8e\u76f8\u5bf9\u6210\u529f\u7684\u793e\u4f1a\u6a21\u5f0f\u7ecf\u5e38\u5411\u5916\u6269\u6563, \u5e76\u5f81\u670d\u5176\u4ed6\u7ade\u4e89\u8005. \u4ed6\u4ee5\u5386\u53f2\u3001\u4eba\u7c7b\u5b66\u3001\u8003\u53e4\u5b66\u53ca\u751f\u7269\u5b66\u7b49\u9762\u5411\u51fa\u53d1, \u6574\u5408\u5e76\u52a0\u4ee5\u7f16\u7ec7, \u6765\u8bf4\u660e\u4ece\u4eba\u7c7b\u5b58\u5728\u76f4\u81f3\u4eca\u65e5, \u6211\u4eec\u7684\u4ef7\u503c\u89c2\u5982\u4f55\u6539\u53d8, \u4ee5\u7b26\u5408\u4eba\u7c7b\u7684\u5355\u4e00\u8fc7\u5ea6\u9700\u6c42, \u4e5f\u5c31\u662f\u5bf9\u80fd\u6e90\u7684\u8ffd\u6c42. "
+            ],
+            "languages": [
+                "chi",
+                "eng"
+            ],
+            "dataFrom": "HyRead",
+            "url": "http://search.nlb.gov.sg/r/hyread/?r=eLg3XktNktm6uE9d8V5D2VJUNnEFucJxWJ7YVuPkhsB9XAbAy/wcf1tNSyYkvL468dE8LLqlGLgALDd7m5oNdP7JUaIUE5SjECFriCzgIcbz8mir7KnKYXDSKlynrP464c9RUftAP7nt5yQ12cDIpCDNZ40hAthreLr5Beax1bbldg==",
+            "isbns": []
+        },
+        {
+            "id": "1f4d9f49-9e3a-42cd-b39b-d7c3d293cd21",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Arc of Empire [electronic resource] : America's Wars in Asia from the Philippines to Vietnam. ",
+            "authors": [
+                "Hunt, Michael H."
+            ],
+            "abstracts": [
+                "From 1899 to 1973, the US fought 4 wars in Asia--in the Philippines, against Japan, in Korea, and in Vietnam; Hunt and Levine argue that though these conflicts are conventionally treated as separate and unconnected, they were, in fact, phases in a sustained US crusade to establish and maintain a dominant position in Eastern Asia against challenges from local, regional, and global powers. In this four-tiered history, the war in the Philippines sets the tone for US-Asian relations in the twentieth century, while Japan's defeat represents the peak of American dominance in the region. The Korean W. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2012-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=fIlZtDcJ9hGpvbHDbJVHRtoreGWd6S79PTvX6I8h8EVm+kdqon9g4o7YicrzUjr5Xyqjsuh8lRcrSHzsE/1n1eE1UIsbf9q8HbXeDof6yi+by/bY19O7rmAKgXjaHZODju/wT4xuuD+VtbMrDmxAk1/I3lnQa6lN8xc7oFDKteXlRsb/D5iIZjMhb0/5uqFs4hQeal0D0jmFCfNK1r0FmU/dVFDp",
+            "isbns": []
+        },
+        {
+            "id": "7da54766-21ca-4631-a8eb-c74a06abbf26",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Warfare state [electronic resource] : World War II Americans and the age of big government / James T. Sparrow. ",
+            "authors": [
+                "Sparrow, James T."
+            ],
+            "abstracts": [
+                "Includes bibliographical references and index. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2011-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=enTARcmnXf0DfrvV5c7AFN5iH4GaD4sHSVL1xATCShSHayqAefCZrAZhzoI+W8jpiF9c+Bm8AQ6u/Nw5ysOva1WA8s0u/I5KujOktIuuJSkgyMv6FKbC6GkNjFMYqyQveeRwmzzQa6nSMkpVHNPb3EXfO7VWGG4fEftdrtrd6dScUfIiWpoW4hhQRmPNsq47IIjBRbP9hLxyqkmJKa6bo4HNvEO2",
+            "isbns": []
+        },
+        {
+            "id": "05b727d4-64b3-41a4-b031-8521419621b9",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "The Great Reflation [electronic resource] : How Investors Can Profit From the New World of Money. ",
+            "abstracts": [
+                "Includes bibliographical references and index. ",
+                "Master record variable field(s) change: 072. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2010-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=fXizgDluwb7d94aMdciANiFh7bcdq2PMoGIJj+GL+AdZrpolLQ4v17KHteed2RtfKe/sVOolsHURZ+GRTwwYpJHGazVSsM3aOoBTm77F+kN337xTsyPt4EJRcsmSn354vKzVO5x6f2fYGdT4HKqw+cgpS2VV7AA/N6p30frxiu6FncOni0i+GdOjti07RohOuEMiyRu0RJdG3pNaZhc+6wUnQo3W",
+            "isbns": []
+        },
+        {
+            "id": "aa3b9fd2-bfa5-4bf8-a4c2-970c1b2eaa9a",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Dutch scholarship in the age of empire and beyond : KITLV : the Royal Netherlands Institute of Southeast Asian and Caribbean Studies, 1851-2011 / by Maarten Kuitenbrouwer ; translated by Lorri Granger ; edited by Harry A. Poeze. ",
+            "authors": [
+                "Kuitenbrouwer, M., author."
+            ],
+            "abstracts": [
+                "\"Abbreviated English translation of the book originally published in Dutch in 2001 commemorating the 150th birthday of the Koninklijk Instituut voor Taal-, Land- en Volkenkunde (KITLV)\"--Introduction. ",
+                "Description based on online resource; title from pdf information screen (Ebsco, viewed Jan. 23, 2014). ",
+                "Includes bibliographical references and index. "
+            ],
+            "languages": [
+                "eng",
+                "dut"
+            ],
+            "createdDate": "2013-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=LHmBd54XERdXnfggBdzUbQxvWwvBPdFo/spwn5b46EySzsyuTOWw/ixCzXkBjrbjFJJUVaEKVuJk/CsYvgOTmlKWAtr9q9luOC8Aa1Yxvlpc1YC5Sw6RRWTa5wnqXasADzreEQlHvSSxs28x2Em4pnS5typTUcwOHMvcx4JC91punsbS0m6C+UioH2atvqVC2ppwDNAAMy9ykifbm6HMpOuuyoTl",
+            "isbns": []
+        },
+        {
+            "id": "20e5d2d6-326e-44c6-84ac-d115dc5866fc",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Mission San Buenaventura [electronic resource] / Amy Margaret. ",
+            "authors": [
+                "Margaret, Amy."
+            ],
+            "abstracts": [
+                "Traces the arrival of the Spanish in California; the founding, building, and daily operation of this Franciscan mission; and its effect on the Chumash Indians before its secularization. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2000-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=fy0mON2KEfLXonuPruZHoWzCioFprmpjn9/XyQw0Be3moMcO60XLTDSY5+K0Mvsk5ruKXFo3CfQg7/jLjLtwnnT6f1kbX15d5VVJ0VQFQhxuTlwXBbA6cvyBrNutpPXjAcGf2iPrHtS8nqk7L6mOeIXGTG7sf3vN5kaZC9KPZhLfg0INlIPn/hCZMV0L3B6X0YOolK1OayKZlMrkEP6Uo49JRY0=",
+            "isbns": []
+        },
+        {
+            "id": "9fa2d767-5bda-48b3-9fc1-2f7d62f957ab",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "The Boxer Codex : transcription and translation of an illustrated late sixteenth-century Spanish manuscript concerning the geography, ethnography and history of the Pacific, South-East Asia and East Asia / edited by George Bryan Souza and Jeffrey S. Turley ; transcribed and translated by Jeffrey S. Turley. ",
+            "abstracts": [
+                "\"In The Boxer Codex, the editors have transcribed, translated and annotated an illustrated late-16th century Spanish manuscript. It is a special source that provides evidence for understanding early-modern geography, ethnography and history of parts of the western Pacific, as well as major segments of maritime and continental South-East Asia and East Asia. Although portions of this gem of a manuscript have been known to specialists for nearly seven decades, this is the first complete transcription and English translation, with critical annotations and apparatus, and reproductions of all its illustrations, to appear in print\"--Provided by publisher. "
+            ],
+            "languages": [
+                "spa",
+                "eng"
+            ],
+            "createdDate": "2016-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=dDl4Rzv18k7NF6rCA08g63v/RBwTxIRghEM89SzeAiDCmGWMNIi6WXAYx6lwwDHXBk1WtbfhIcrahzs7FMEF9DE8rE1foQu8dpFMM8KMQr9dWmzvE3nR1giAAtAKzCNv1SonKjoqz+2PUmjH2JBRQ6q4P77tvYkBk1dNyAWYi2+QtXLNYwroLnPHbvsKjj+A1rxJOWtKEbmV562CypgD4ZHFXNXppQ==",
+            "isbns": []
+        },
+        {
+            "id": "f63c50fe-fce5-45d3-9fbf-87109fa7b85b",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "The marketplace of print : pamphlets and the public sphere in early modern England / Alexandra Halasz. ",
+            "authors": [
+                "Halasz, Alexandra."
+            ],
+            "abstracts": [
+                "Early modern pamphlets serve as an important vehicle for examining print culture, particularly the historical entanglement between the technology of print and a developing capitalism. Attention to the controversies surrounding their circulation reveals that pamphlets became a focus for anxieties about print culture in general. Alexandra Halasz combines close readings of pamphlets by Robert Greene, Thomas Nashe, Gabriel Harvey, Thomas Deloney and John Taylor, among others, with a discussion of the history and deployment of print technology and its specifically English organization as a monopoly. Taking account of the theoretical and historical issues surrounding textual property, authorship and publicity, The Marketplace of Print, first published in 1997, is both a work of historical recovery and a reflection on the ongoing problems of the relationship between the marketplace and the public sphere. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "1997-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=K/o7NHPmwOS0bOvH1dgRFRSnoPfq6ojJQXxkXVenCQPVvdmQPHuCHX0CgB6sXCoCdwyIUpE0t3RA6CtQwW+Ai1Y++FWsDQsNR9zKukiyn4bG/n+yhQtGk5rKwJvU+p02d+5eON34kwD4IZWoOK4DT/cnUd9AFzqrJeJSDTh5KVJibKjkZA3jyvS7OBmKVE/j2h412lklOU56dyCIdx3NRuuaRd+BrQD37NQvd9TUPhLBWV+5RfxmyEqYcU4ppQeN9vobCa+AXg==",
+            "isbns": []
+        },
+        {
+            "id": "7ac5a676-3547-4360-9b6d-7e17b50aa9a2",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Beyond combat [electronic resource] : women and gender in the Vietnam War era / Heather Marie Stur. ",
+            "authors": [
+                "Stur, Heather Marie, 1975-"
+            ],
+            "abstracts": [
+                "\"Beyond combat : women and gender in the Vietnam War incorporates new voices into the Vietnam War narrative by looking at women's experiences. It also examines the ways in which ideas about masculinity shaped the American GI experience in Vietnam, ultimately how some American men and women returned from Vietnam to challenge home front gender norms\"-- Provided by publisher. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2011-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=enHp55C1L4FzIUhSUpdyo3q0+HTQWZjIG+LNuPvxllH2Kye71e6UiZCfcQtTxoR38NDbIVkwlbBIbjwQRE9sDchz4CEDZEyzoxzXYcIvk1rBtKptzsE7gBwglZMGC6WrYKTWetGqukZQ/OrQYR+8JcgV/Jdxs4ZE7rPcznjpnYQDV4uAacnmoob/Pzygz7ZpTZ9h7bN83Sr7iljOC742AMzPqsWo",
+            "isbns": []
+        },
+        {
+            "id": "e5ae0601-c275-4c76-a1a4-76a85655da05",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "The Intrepid Guerrillas of North Luzon [electronic resource]. ",
+            "authors": [
+                "Norling, Bernard."
+            ],
+            "abstracts": [
+                "\"Following the Japanese invasion of the islands in 1942, North Luzon was the staging area for several Filipino-American guerrilla bands who sought to gather intelligence and to destroy enemy military installations or supplies. Bernard Norling focuses on the Cagayan-Apayao Forces, or CAF, commanded by Maj. Ralph Praeger. Their bravery was unquestionable, but by September 1943 all but one member of Troop C had been claimed by combat, enemy capture, or disease. The only survivor, Capt. Thomas S. Jones, remembered, \"\"Defeat is a terrible thing. ... It brings down with it the whole structure abo. "
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2010-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=KOapJcZ2/7U7eEFYh1PSCWr+43spjkDxJMY5EyxnQWPBgPvvION8DPq+ZbdqTOqLgMytg9qFozDVh5o+F7mjpER1eCYZr8nAtnI71fyMWW07mBhc5/t+Sfi3WvuZyTsNKFSdEhNZb81MEAlpx5mgzQg4zu6vVNJjyLkBInGf6ExMBMTUe3QNNb0tAl6X5/LwdIPx6MpjMOsJmjEj9ayVfKXjrQjX",
+            "isbns": []
+        },
+        {
+            "id": "2579182a-f976-4468-9312-cdb6a251acd1",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Beyond combat [electronic resource] : women and gender in the Vietnam War era / Heather Marie Stur. ",
+            "authors": [
+                "Stur, Heather Marie, 1975-"
+            ],
+            "abstracts": [
+                "\"Beyond combat : women and gender in the Vietnam War incorporates new voices into the Vietnam War narrative by looking at women's experiences. It also examines the ways in which ideas about masculinity shaped the American GI experience in Vietnam, ultimately how some American men and women returned from Vietnam to challenge home front gender norms\"-- Provided by publisher. "
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2011-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=fyiBuDKQCKrTXTzjTk+ioizzP+CR8smzTTgnqzp8GoXd77fW0ekV+tUZzem5OBtP2yUnFJqUwUFwAYBzEQvkRfbIkZG87BOkcv4UmNxjy9Vh1zqRD2Bj5AxDFpgBesTHBXXWHux+1SqSxqQDG/OtETfDYYJkq8mne/iF7WBShElgAEQR/Xg/yNNArTKjhH6QXAIevfrvT/HgX/6QyoqyzBqQZ/zb",
+            "isbns": []
+        },
+        {
+            "id": "c9a70442-f2fa-48a0-afe0-417dcbd6477c",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Dutch scholarship in the age of empire and beyond : KITLV : the Royal Netherlands Institute of Southeast Asian and Caribbean Studies, 1851-2011 / by Maarten Kuitenbrouwer ; translated by Lorri Granger ; edited by Harry A. Poeze. ",
+            "authors": [
+                "Kuitenbrouwer, M., author."
+            ],
+            "abstracts": [
+                "\"Abbreviated English translation of the book originally published in Dutch in 2001 commemorating the 150th birthday of the Koninklijk Instituut voor Taal-, Land- en Volkenkunde (KITLV)\"--Introduction. ",
+                "Description based on online resource; title from pdf information screen (Ebsco, viewed Jan. 23, 2014). ",
+                "Includes bibliographical references and index. "
+            ],
+            "languages": [
+                "_Languages:English {18349056}",
+                "_Languages:Dutch {18349047}"
+            ],
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=Lno6ohYZkMbVOKKoxg1jV4GcOjdw7COWsq8xCTZH2zM09YClt+GmaNFJj7e1j0hCqznsGFHv0YfMyCuycD0cxfodG9Drz72/IWzL1B/DTCSFd/rLjVOVU6aT+swn56wIxxLjsUndwcmQYtKE/OYF5ca7cyIZm1WwE0rFc/srDcshj1Zls2uvffOfWEWlO8tNFPdlwJ64YfR4laPvdiL2WRt7RMqR",
+            "isbns": []
+        },
+        {
+            "id": "8d0fa9a3-d6d2-41cb-8cd7-f934bc935635",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Radicals on the road : internationalism, orientalism, and feminism during the Vietnam Era / by Judy Tzu-Chun Wu. ",
+            "authors": [
+                "Wu, Judy Tzu-Chun."
+            ],
+            "abstracts": [
+                "\"Traveling to Hanoi during the U.S. war in Vietnam was a long and dangerous undertaking. Even though a neutral commission operated the flights, the possibility of being shot down by bombers in the air and antiaircraft guns on the ground was very real. American travelers recalled landing in blackout conditions, without lights even for the runway, and upon their arrival seeking refuge immediately in bomb shelters. Despite these dangers, they felt compelled to journey to a land at war with their own country, believing that these efforts could change the political imaginaries of other members of the American citizenry and even alter U.S. policies in Southeast Asia. In Radicals on the Road, Judy Tzu-Chun Wu tells the story of international journeys made by significant yet underrecognized historical figures such as African American leaders Robert Browne, Eldridge Cleaver, and Elaine Brown; Asian American radicals Alex Hing and Pat Sumi; Chicana activist Betita Martinez; as well as women's peace and liberation advocates Cora Weiss and Charlotte Bunch. These men and women of varying ages, races, sexual identities, class backgrounds, and religious faiths held diverse political views. Nevertheless, they all believed that the U.S. war in Vietnam was immoral and unjustified. In times of military conflict, heightened nationalism is the norm. Powerful institutions, like the government and the media, work together to promote a culture of hyperpatriotism. Some Americans, though, questioned their expected obligations and instead imagined themselves as \"internationalists,\" as members of communities that transcended national boundaries. Their Asian political collaborators, who included Buddhist monk Thich Nhat Hanh, Foreign Minister of the Provisional Revolutionary Government Nguyen Thi Binh and the Vietnam Women's Union, cultivated relationships with U.S. travelers. These partners from the East and the West worked together to foster what Wu describes as a politically radical orientalist sensibility. By focusing on the travels of individuals who saw themselves as part of an international community of antiwar activists, Wu analyzes how actual interactions among people from several nations inspired transnational identities and multiracial coalitions and challenged the political commitments and personal relationships of individual activists.\"--Publisher's website. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2013-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=dVM2+pL0XQFnMGMhITbGJxrsCSUlHXe/CqkESsJK0oPrV0a1TO7xSwCvLPmLZFMtytP/7/XzkdqgB+xvhyqS50LHMpYQgbIemWhz3ewNaOyNyvLstnpFeL8pOZUQ5Y8m6tlHt+rQe/Ic+HedxrBkHOF4yaxaiEk437JPNd4/fBr0ydO1w+CeCVcIPKXtTxy1zUxf4xx9qY0IVE1BL29+5XrK2BLZ",
+            "isbns": []
+        },
+        {
+            "id": "1c6daff1-60ac-481a-a920-fe9a8f010d29",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Troubled water [electronic resource] : race, mutiny, and bravery on the USS Kitty Hawk / Gregory A. Freeman. ",
+            "authors": [
+                "Freeman, Gregory A."
+            ],
+            "abstracts": [
+                "Combining gripping military history with tense racial politics, the account of the first mutiny in U.S. Navy history. "
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2009-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=fIzXLcNvmVKOvQ9XrjqPYzahlllLppG+kNFF1z1FHkJVouwO2vVVV9ig3A3hzBx2pEUiNDYdHgfiAlhOTlLIdyaAi8S2abQhYL6ZrjI5tVtDfLAkrrOw9vsabLuX7uks9g5l74DYRoGgRupXn8OQiSAcPNQXDLU71VZf2a2GF9O7mFwtqpBtl7wIGHnQQr/bDaj2rQrQLNq9eusnePCr1nBhK5YV",
+            "isbns": []
+        },
+        {
+            "id": "fa312982-d3ac-4570-9385-9707deed9b7d",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Armed with abundance [electronic resource] : consumerism & soldiering in the Vietnam War / Meredith H. Lair. ",
+            "authors": [
+                "Lair, Meredith H."
+            ],
+            "abstracts": [
+                "In this ms., Meredith Lair seeks to recalibrate the way Americans think about their wars by addressing non-combat experiences of American soldiers in Vietnam. Though only one in four Vietnam veterans served in combat--and likely even fewer--both popular representations and scholarly treatments of the war focus on combat and its after-effects, erasing comfort, recreation, and fun from the picture. In this ms, Lair instead paints a provocative picture of the Vietnam War in which beauty and ice cream take precedence over the bullets, as they often did for Americans who served there. Lair uncovers. "
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2011-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=K609yzrXXfNpWbnuWXch1K5LKQvOHqHr8z8uH11ackLnPxa2vnEJZsEYLFOqpSCLwf+dwfTx7hcAtDK9CqpTJo9kgDmhOzgvRtOvetiORkNtnriz5CpB/9kRI5nmn8gV9T0biBLqWszuDnwqgvd36wnPZAS/OlCH84KTpDHJbI68YUx6wo7H6PPBOxSGUGFV1WDi0JiuiOMQ5ZBF8eAkQl6ILWP5",
+            "isbns": []
+        },
+        {
+            "id": "ce5b59bd-37a9-478b-bdc5-6a83dffd2186",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Tokyo life, New York dreams [electronic resource] : urban Japanese visions of America, 1890-1924 / Mitziko Sawada. ",
+            "authors": [
+                "Sawada, Mitziko, 1928-"
+            ],
+            "abstracts": [
+                "Includes bibliographical references (pages 245-261) and index. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "1996-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=LiZZIsdpOMDdPD0Gf8s4OnefrOjr6bKfBD3Ohl/6wPF+q9F4eyPTur8bvHY5Jtj9BNsdLT15V6QxX0keQ9m4rtME/6nnujq3uv62syHmza6YhYAHibmPuNEoGcnFLKUHoSon+jT6EVLZN6wwv29qWwgvB8Jv7EA=",
+            "isbns": []
+        },
+        {
+            "id": "1b71d552-8c59-4fce-a34e-fc93ce63fc39",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Warfare state [electronic resource] : World War II Americans and the age of big government / James T. Sparrow. ",
+            "authors": [
+                "Sparrow, James T."
+            ],
+            "abstracts": [
+                "Although common wisdom and much scholarship assume that \"big government\" gained its foothold in the United States under the auspices of the New Deal during the Great Depression, in fact it was the Second World War that accomplished this feat. Indeed, as the federal government mobilized for war it grew tenfold, quickly dwarfing the New Deal's welfare programs. Warfare State shows how the federal government vastly expanded its influence over American society during World War II. Equally important, it looks at how and why Americans adapted to this expansion of authority. Through mass pa. "
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2011-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=fI18uXR9Uplp0fC4w53JNRIBzqg9GBYHTcPBYJvUSe9CTfLR48nTn4uGkmN/CbtLOfUW1sU2l6wBXQqqy2WaxLB5bjeoATQtCWSlzRZtvtpknlodZ/Bopw0YbXJSDOtUmyJd8OSocdfia4nkRII5bGucVYxRcjIpdYWirgByECBsszol7VkxMAKvP9bymcA0Y5HgKl6JjYTNuxrMNDNawZX8bOJE",
+            "isbns": []
+        },
+        {
+            "id": "e9eaf9b4-8ff4-4804-9ff0-4c8c5f8038a7",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Mission San Buenaventura [electronic resource] / Amy Margaret. ",
+            "authors": [
+                "Margaret, Amy."
+            ],
+            "abstracts": [
+                "Traces the arrival of the Spanish in California; the founding, building, and daily operation of this Franciscan mission; and its effect on the Chumash Indians before its secularization. "
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2000-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=KOqB7MOvKJjHyvl9rqwhXodqbK3Tg8MEMjneFr4ekaeY8gFcawpZlw5OIeAj1WX8TGJjiZByNrkthzxMpv5BehWB2z1dzTgCobrF5DRsYR+OvalASXotpsRhsJHnbsatA0Rt1esDmghbUTm2S/1V/I2xBFz5WDXmI9UYnMtjC3pJsyPRdgF3S0A4H0hudHu2hwPhtFeZgfuO3hEAqLNY14SEt14=",
+            "isbns": []
+        },
+        {
+            "id": "22746a03-c70d-4696-968f-9b2d16d63a22",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "The marketplace of print [electronic resource] : pamphlets and the public sphere in early modern England / Alexandra Halasz. ",
+            "authors": [
+                "Halasz, Alexandra."
+            ],
+            "abstracts": [
+                "Includes bibliographical references (p. 225-236) and index. "
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "1997-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=fy/o4X5PgtutDXd2V+ZMGKvQmRKmvZR4idjZm4fHzsZ3b1JjCuIBfLFyaBmdJD9y1qqm0jNYrhPPjI7jdhlgpAvebs9GgMdZnYRIkREQdr7Ca5GvReu+YXojxIX8t2KqPs3hELodFLhJSaEL8QB/gHH4rooj0n/JpNQR6w9EzyHmOjpQ2L0qRKjQ9zuSxmxD0ZbvkjazaiBDm8JNkGKWqQXbZw==",
+            "isbns": []
+        },
+        {
+            "id": "587f5967-3c7c-4eeb-afe6-c44cbaacddd9",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "The magnificent bastards : the joint Army-Marine defense of Dong Ha, 1968 / Keith William Nolan. ",
+            "authors": [
+                "Nolan, Keith William, 1964-"
+            ],
+            "abstracts": [
+                "On April 29, 1968, the North Vietnamese Army is spotted less than four miles from the U.S. Marines' Dong Ha Combat Base. Intense fighting develops in nearby Dai Do as the 2d Battalion, 4th Marines, known as \"the Magnificent Bastards,\" struggles to eject NVA forces from this strategic position. Yet the BLT 2/4 Marines defy the brutal onslaught. Pressing forward, America's finest warriors rout the NVA from their fortress-hamlets'often in deadly hand-to-hand combat. At the end of two weeks of desperate, grinding battles, the Marines and the infantry battalion supporting them are torn to shreds. But against all odds, they beat back their savage adversary. The Magnificent Bastards captures that gripping conflict in all its horror, hell, and heroism. \"Superb ... among the best writing on the Vietnam War ... Nolan has skillfully woven operational records and oral history into a fascinating narrative that puts the reader in the thick of the action.\" 'Jon T. Hoffman, author of Chesty \"Real and gripping ... combat with all the warts on.\" 'Lieutenant General Victor H. Krulak, USMC (Ret.) From the Paperback edition. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2007-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=eOMhxYJ/2zxV90u0qeUg0JKWfUs1vWu499abQDbRVIx0fiLYwD4xydTtOR65y8Px3TXQRFgvZrK/aLZ3OImAi3xa7dWF4qjBhPboGVkltcDi82cCcORRtKPoc2ttUlLbP6zMmdkB3dggwGfQHDgFLRsoW3bprsxJyWaH+rTFTZiMY9FChlmKRY0q2uiuqj5XpKm81Ot8/R7CncA1/0GM+awjMooO",
+            "isbns": []
+        },
+        {
+            "id": "c905f5a4-aa32-4e1e-8219-fd5387ec1b65",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Troubled water [electronic resource] : race, mutiny, and bravery on the USS Kitty Hawk / Gregory A. Freeman. ",
+            "authors": [
+                "Freeman, Gregory A."
+            ],
+            "abstracts": [
+                "Description based on print version record. ",
+                "Includes bibliographical references (p. [231]-233) and index. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2009-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=Lnprkv8ZZL0eSMbOCs2iyu48XvShPSDNMYIrLR6zm85jLFb95OYVZlXjCRBTcVI9ncAfikd2B3OYi7tSjOU+0UC/IkeFihy/N8xBfGJILnZXyAQX1O/oh01PvSyJRGvRXAiNVQ+BvpX1wDp7mCunyI6La/ayME+Gz3+DHicum+c6hNLKnJNtb6VPmTARn6To594AyD1wxamVHfNT2/w85oO/zpM/",
+            "isbns": []
+        },
+        {
+            "id": "e6c50049-0319-41db-8fc9-6e1e46155887",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "The Intrepid Guerrillas of North Luzon [electronic resource]. ",
+            "authors": [
+                "Norling, Bernard."
+            ],
+            "abstracts": [
+                "\"Following the Japanese invasion of the islands in 1942, North Luzon was the staging area for several Filipino-American guerrilla bands who sought to gather intelligence and to destroy enemy military installations or supplies. Bernard Norling focuses on the Cagayan-Apayao Forces, or CAF, commanded by Maj. Ralph Praeger. Their bravery was unquestionable, but by September 1943 all but one member of Troop C had been claimed by combat, enemy capture, or disease. The only survivor, Capt. Thomas S. Jones, remembered, \"\"Defeat is a terrible thing. ... It brings down with it the whole structure abo. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2010-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=KOXmg3GOg2xbyPXNy7mVKEzSiaWzWgMez03wGasBMiCYWLNOlm/hrXiAb5ZzeVK5m7+wM2JY0msEg8uE8RIWiQImUadDh7S3voyAr461E3kL+jAjYdcRV0QgqR+ZwYdgxd3DaJWaFWSanaGZAr/6coYf6Y0mSAIWv87gCSBlZuTmTW7u9DzSWElXpRt9cYr+y5WEFC72b9lIppTKthjn25bUCcp6",
+            "isbns": []
+        },
+        {
+            "id": "50e51faf-d8d4-42ec-a483-2d39ce1aac33",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "All This Hell [electronic resource] : U.S. Nurses Imprisoned by the Japanese. ",
+            "authors": [
+                "Monahan, Evelyn."
+            ],
+            "abstracts": [
+                "\"\"Even though women were not supposed to be on the front lines, on the front lines we were. Women were not supposed to be interned either, but it happened to us. People should know what we endured. People should know what we can endure.\"\"--Lt. Col. Madeline Ullom More than one hundred U.S. Army and Navy nurses were stationed in Guam and the Philippines at the beginning of World War II. After the Japanese attack on Pearl Harbor in December 1941, five navy nurses on Guam became the first American military women of World War II to be taken prisoner by the Japanese. More than seventy army nurses su. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2010-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=eOtSdJkuNy8K13+z390XfNyx7eazburZLkkR8coPIwtd3xlTfSTi8MDE6Q7XcD2IUh0gbO+TmoQCcGVfxHkTrVwHQOOm4NhJ756vBcKK7mc3Nb1riVSKPnsbf52SMmI7e4kn/rsKvXem9preDL0D6MkFgjFHmx59K77bFG46BhsKWXBJ7v2hdnavr2Yo8fIGs2CCKpXVi3SZw+pLjFjfl4wKWv+S",
+            "isbns": []
+        },
+        {
+            "id": "623baad7-3b7a-4806-a35a-7508b85b05de",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Historical dictionary of Egypt / by Arthur Goldschmidt, Jr. ",
+            "authors": [
+                "Goldschmidt, Arthur, 1938-"
+            ],
+            "abstracts": [
+                "Includes bibliographical references (pages 311-367). ",
+                "digitized. 2010. HathiTrust Digital Library. committed to preserve. pda. MiAaHDL. ",
+                "Electronic reproduction. [S.l.] : HathiTrust Digital Library, 2010. MiAaHDL. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "1994-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=ezR3Nx1GWADX1WRtF+OZsb55HhW+Z2TqjtTPuIbe7sFbQ1JX4gYb+NJCyTc//akb3YktgIW/bjghzKStWgGVcHeL8M+gufMe6ZS9WPkNdLIBzSeJYw4nai1g5fgpiMxf6ut4Q9QeRceVK7uHSmC+D+3QBfbk/Nz/eafjGJU108a7sysF0WPcaNyyK/qA5bZH2npnUKjtEL+NHtrtfuS3Dvyyg207AOeAmomkyxqIzgWgorwC+GK39yMMkky7sG4RS4ezCQs0IVU=",
+            "isbns": []
+        },
+        {
+            "id": "8d5d33c3-eab3-46ae-a0a4-ce431e9c27cd",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "A day in the life of a Colonial schoolteacher [electronic resource] / Kathy Wilmore. ",
+            "authors": [
+                "Wilmore, Kathy."
+            ],
+            "abstracts": [
+                "Describes a day in a colonial American dame school, including who attended, what they learned, and what chores they did. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2000-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=dVMz6boClnk2zSncIHIkyxVTJHicEL0O6VvaR8tht9l5bbYCyg9OSwwB4kX7F7kz0jgMkSn6Jc1ShnMfhWj/FEF0zrQUSV3UPBwWp1ei45Scm7c6OErzjIrQK62sQg4q9Fu/hE2IBXKMAZaSpCFhYkRu+HNWX1wc/5PwRpMXeFbB6JDnoVnfLkGhO4WOIS7+1vC74g1FiT76acTpUSlCOrtEGbw=",
+            "isbns": []
+        },
+        {
+            "id": "5dc71687-dcd6-4292-b748-9fa3b1487838",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "From liberalism to fascism : the Right in a French province, 1928-1939 / Kevin Passmore. ",
+            "authors": [
+                "Passmore, Kevin."
+            ],
+            "abstracts": [
+                "The Croix de Feu and its successor the Parti Social Franc\u0327ais stood at the centre of political conflict in the turbulent final years of the French Third Republic. Membership peaked at 750,000 in 1937, and at the time the movement was widely regarded as the counterpart of fascism in Germany and Italy. However, only recently has the view that fascism also has roots in France become a serious topic for debate. From Liberalism to Fascism is based largely on archival research, and shows that contemporary perceptions of the Croix de Feu and the PSF as fascist were in fact correct. Dr Passmore places French fascism in the wider context of the history of French conservatism through a micro-study of a crisis of the liberal-conservative tradition in Lyon. This 1997 book was the first to place the emergence of French fascism in the wider political and social context. In the process, received views of the nature of French society and politics are contested. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "1997-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=eL/fF8SjkP1Y1uWRr4YdWTNypZYGBDkNq/7u0RU35hYXNuKZ6tN/vjqwQL5oMB8zOI47YZel0MYHV1pV91DhhDKBcbFsBh6THPCXplrbQZFJZPhEhvYcVRv6yXpCleAZEOGfEB7bBsaiXg8vnY8ZopDuZC1dbiG+ZwXxyjH/rKmv8JDnrzTjm6u6JDAVQ9IyqOLoGIB3rqbWtGt8G4Zq1UznPA==",
+            "isbns": []
+        },
+        {
+            "id": "311e5123-493f-48a1-95d5-3ce14830a115",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "\u57ce\u5899 : \u4ece\u4e07\u91cc\u957f\u57ce\u5230\u67cf\u6797\u56f4\u5899, \u4e00\u90e8\u8840\u4e0e\u7816\u6253\u9020\u7684\u4eba\u7c7b\u6587\u660e\u53f2 = Walls : a history of civilization in blood and brick / \u5927\u536b\u00b7\u5f17\u83b1\u8457 ; \u97e9\u7fd4\u4e2d\u8bd1. Cheng qiang : cong wan li chang cheng dao Bolin wei qiang, yi bu xue yu zhuan da zao de ren lei wen ming shi = Walls : a history of civilization in blood and brick / Dawei Fulai zhu ; Han Xiangzhong yi. ",
+            "authors": [
+                "\u5f17\u83b1, \u5927\u536b, 1963- author.",
+                "Frye, David, 1963- author."
+            ],
+            "abstracts": [
+                "\u6ce5\u6c99\u7ec8\u5c06\u51b2\u5237\u4e00\u5207, \u4e24\u6cb3\u6d41\u57df\u8bf8\u738b\u4e3a\u4f55\u82b1\u4e00\u751f\u7b51\u5899? \u620d\u536b\u8fb9\u585e\u591a\u52b3\u82e6, \u7f57\u9a6c\u4f63\u5175\u4e3a\u4f55\u53ea\u5728\u4e4e\u5564\u9152\u591f\u4e0d\u591f\u559d? \u5411\u5f80\u57ce\u5185\u8d44\u6e90, \u6210\u5409\u601d\u6c57\u4e3a\u4f55\u4e25\u7981\u540e\u4ee3\u5efa\u9020\u57ce\u5899? \u660e\u77e5\u6321\u4e0d\u4f4f\u5fb7\u519b, \u6cd5\u56fd\u4e3a\u4f55\u6267\u8ff7\u4e8e\u9a6c\u5176\u8bfa\u9632\u7ebf? \u8981\u8ba4\u8bc6\u4eba\u7c7b\u6587\u660e, \u5148\u4ece\u4e86\u89e3\u5982\u4f55\u5212\u754c\u5f00\u59cb, \u5386\u53f2\u4ece\u672a\u7ec8\u7ed3, \u67cf\u6797\u56f4\u5899\u5012\u4e0b\u7684\u90a3\u4e00\u523b, \u65b0\u7684\u9694\u9602\u65e9\u5df2\u5174\u8d77! \u53e4\u4eca\u4e1c\u897f\u7684\u57ce\u5899\u603b\u4f34\u968f\u57ce\u5e02\u3001\u56fd\u5bb6\u4e0e\u5e1d\u56fd\u7684\u5174\u8d77. \u6bcf\u5f53\u6709\u4eba\u8bf4\u7b51\u5899\u662f\u5bf9\u4eba\u6c11\u7684\u538b\u8feb, \u603b\u4f1a\u6709\u4eba\u547c\u5401\u8981\u6253\u9020\u66f4\u65b0\u3001\u66f4\u9ad8\u3001\u66f4\u957f\u7684\u5c4f\u969c. \u7b51\u5899\u70ed\u6f6e\u572821\u4e16\u7eaa\u590d\u5174, \u53f7\u79f0\u662f\u4e3a\u4e86\u9632\u5835\u6050\u6016\u4e3b\u4e49\u3001\u5927\u89c4\u6a21\u79fb\u6c11\u3001\u975e\u6cd5\u6bd2\u54c1. \u5728\u8fd9\u4e2a\u5168\u7403\u65e0\u56fd\u754c\u7684\u6570\u4f4d\u65f6\u4ee3, \u5404\u5730\u5374\u51fa\u73b070\u591a\u5ea7\u8fb9\u754c\u58c1\u5792, \u5c06\u4eba\u7fa4\u5206\u9694\u5f97\u66f4\u52a0\u5f7b\u5e95. \u7f8e\u56fd\u675c\u514b\u5927\u5b66\u5386\u53f2\u5b66\u535a\u58eb\u5927\u536b.\u5f17\u83b1\u7ed3\u5408\u53f2\u6599\u6587\u732e\u4e0e\u8003\u53e4\u7ecf\u9a8c, \u5e26\u9886\u8bfb\u8005\u6f2b\u6b65\u5899\u5934, \u8d70\u5165\u8fd9\u573a\u53e4\u4eca\u57ce\u5899\u5de1\u793c. \u722c\u68b35\u5343\u5e74\u5386\u53f2\u957f\u6cb3\u4e2d, \u57ce\u5899\u5982\u4f55\u5de6\u53f3\u653f\u7ecf\u5c40\u52bf\u3001\u601d\u60f3\u6587\u5316\u3001\u65e5\u5e38\u751f\u6d3b, \u5e76\u5f62\u5851\u73b0\u4ee3\u793e\u4f1a\u7684\u6837\u8c8c. \u5e76\u601d\u8003\u5728\u65b0\u4fdd\u5b88\u4e3b\u4e49\u76db\u884c\u7684\u5f53\u4ee3, \u6211\u4eec\u8be5\u5982\u4f55\u81ea\u5904? \u6216\u8bb8, \u7b51\u8d77\u85e9\u7bf1\u7684\u4ece\u6765\u90fd\u4e0d\u662f\u522b\u4eba, \u800c\u662f\u6211\u4eec\u81ea\u5df1. "
+            ],
+            "languages": [
+                "chi",
+                "eng"
+            ],
+            "createdDate": "2020-01-01",
+            "dataFrom": "HyRead",
+            "url": "http://search.nlb.gov.sg/r/hyread/?r=foFuypvl2f6Ppjdo4duhcYFt1fhmjCg2Tiv4N+kGephpuH5p7ROp16CK8NBhv6gFLuHH75OHuAVTyoNFj7ZmnbDpDfD1ECX58werDmoU0hAeonHXk5JkvFfqI+3wregFoWOBcH/enzOsx25pCoZ//hGc7Kd5Dj+UEW2hSlQixHIIwQ==",
+            "isbns": []
+        },
+        {
+            "id": "a405c937-4bb6-4bfe-9b5c-0c944d0a6b59",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Law, disorder and the colonial state : corruption in Burma c.1900 / by Jonathan Saha. ",
+            "authors": [
+                "Saha, Jonathan, 1984-"
+            ],
+            "abstracts": [
+                "The state in colonial Burma was not an easy entity to negotiate at the turn of the twentieth century. Policemen framed innocents for crimes they themselves had committed. Magistrates solicited bribes in exchange for acquittals in court. Forestry officials produced false documents. Clerks embezzled government funds. These were mundane and everyday acts. Using previously unexplored archival sources, the daily reality of living under the Raj in this neglected corner of British India is reconstructed. Through the fascinating cases of misconduct uncovered in these documents this book argues that corruption was intrinsic to the making of the colonial legal order. Subordinate officials' daily abuses of power, and British tolerance of these abuses, served to reinforce racial divisions and enact the state as a masculine entity. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2013-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=LCyQGHGnkxmILma7ykUPydLGMy0rxf5As2AuIx934QqLZfVm81AbS+KsAcP/SEk8a/5PnOwi4U2sTE+SCs2w8mzkYgwRP/X4xCha2hC7ssb97S+x1Iwc8LB7bieut0pIcnCyjwCvl2TYM0Xu758Cd+MbmClbt42sJ8mFN0czXDTFPo4rDvSsIjWMdISP8ClqxFL5aRXJpGXneb4Lt1AH6aifjL+y",
+            "isbns": []
+        },
+        {
+            "id": "1a2aa397-2c19-4070-903b-eadcaf40a008",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "The birth of Vietnamese political journalism : Saigon, 1916-1930 / Philippe M.F. Peycam. ",
+            "authors": [
+                "Peycam, Philippe M. F."
+            ],
+            "abstracts": [
+                "Philippe M.F. Peycam completes the first ever English-language study of Vietnam's emerging political press and its resistance to colonialism. Published in the decade that preceded the Communist Party's founding, this journalistic phenomenon established a space for public, political contestation that fundamentally changed Vietnamese attitudes and the outlook of Southeast Asia. Peycam directly links Saigon's colonial urbanization to the creation of new modes of individual and collective political agency. To better justify their presence, French colonialists implemented a peculiar br. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2012-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=fI4oFL5ofvxHql+3CxMPMVWEHTfVHPeAmChtkNeWYjm/DhY4tejrRgqy1izRTZAOFmPMmvqsyqHTjNPEiLP9AQA54LSJw65mkm0ypN6xhcadMI+4hF1HiCtiLgNGo/5SvN7RkX08cmzdqaoqRERmk0Tv0Wwnq7Uc2RH6Uh1MLEcemLoS+hpUKYkHzOrTfh/r7oF1hTJxQeMBcnULZULHAT/ZeU6X",
+            "isbns": []
+        },
+        {
+            "id": "5db70cfe-8ec3-429f-af69-7503b090fccb",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Not a gentleman's war [electronic resource] : an inside view of junior officers in the Vietnam War / by Ron Milam. ",
+            "authors": [
+                "Milam, Ron (John R.)"
+            ],
+            "abstracts": [
+                "Debunking the view of the junior officer typified by Lt. William Calley of My Lai infamy, Milam, a combat veteran of the Vietnam War, demonstrates that most of the lieutenants who served in combat performed their duties well and effectively, serving with great skill, dedication, and commitment to the men they led. Milam's narrative provides a vivid, on-the-ground portrait of what the platoon leader faced: training his men, keeping racial tensions at bay, and preventing alcohol and drug abuse, all in a war without fronts. Yet despite these obstacles, junior officers performed admirably, as docu. "
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2009-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=eL/eaI0MzREenNWD58bfR3tx3JyhB7ukZLmLsTeNfd9wFbJ3kPMh8MW7TeGMKlrN9+twrTE3bS0CYq2rzEUAWTBkQmApOgWIkJmjoryTdLYn6VF6Jo9F/0uLTpA4oTinDw+IiQuT38MGFSWmON14SMe8AHPaButgYiG8DfkpdlEzSvUciBJDOHKqLPYf8tOnPvPAq5Zd5vzOS7uDMy+F01GJcOsZ",
+            "isbns": []
+        },
+        {
+            "id": "9c021f00-8545-4ebc-871e-eea6af60bf6d",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "War in the age of technology : myriad faces of modern armed conflict / edited by Geoffrey Jensen and Andrew Wiest. ",
+            "abstracts": [
+                "Includes bibliographical references and index. ",
+                "Master record variable field(s) change: 082. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2001-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=dDwywKDutZjE+qZ9mjb5fJhw2bfJyYIyrueR4bQPkrFXVQnRTs4zDFYjlzhYOmfleGmkW+lj7uuFosMB0m51zXfjTImY5f2l4HcMER/cE+8mxrRLWlQ5KbM+x9dpJKcDrQ/gUyTox2+mOxo9zfUVTV7A1MoiV6mliDbKFlZXGw0NQyyaqxqcBZz4hs9np7GbawOw9VfXPLrJ0+CJo01iKQUiZlE=",
+            "isbns": []
+        },
+        {
+            "id": "269e4ef3-065c-44f3-b0dd-8c1e376e7164",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Disciplining reproduction [electronic resource] : modernity, American life sciences, and \"the problems of sex\" / Adele E. Clarke. ",
+            "authors": [
+                "Clarke, Adele."
+            ],
+            "abstracts": [
+                "Includes bibliographical references (pages 333-410) and index. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "1998-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=fyvm+bc/mv5f8xQzbEM1aUVElP60sX7YpInszr2FPUuLQihLqhi+DkPqtUPKKLLiGTCITkTdznrtyNyglGkGK5bdzF5E4DXWga7p1geDERkVvcPuEip6ihtpjbdCjerNrxfsgC2pKb7hk4GscNh1cNNDkr16j3Y=",
+            "isbns": []
+        },
+        {
+            "id": "6cf6e7f5-9af8-4548-a626-8d217d31a66f",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "The anti-intellectual presidency [electronic resource] : the decline of presidential rhetoric from George Washington to George W. Bush / Elvin T. Lim. ",
+            "authors": [
+                "Lim, Elvin T., 1976-"
+            ],
+            "abstracts": [
+                "Includes bibliographical references and index. ",
+                "digitized. 2010. HathiTrust Digital Library. committed to preserve. pda. MiAaHDL. ",
+                "Electronic reproduction. [S.l.] : HathiTrust Digital Library, 2010. MiAaHDL. "
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2008-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=e2XmF7E0+lhR7h0sgy/hrlvxtZ8Mi8oBDM/GPLJ5r2N61v8wKcTj1XVnJnbo9FyA4q0GBeBDUcU4nOwWBW6ymLKEf30KmWm5uOCdaQ32py/Azmd6PpAUu2VjmHdyqEdHD1VOm5go97Dw2ZVJp/pQezdOEMfLcBUoh0SHU8bHr50U+S/rlEnDIQL8Y07o/JJFrQXn4LG4kYIvcgggUeZ4rRhPM/pH",
+            "isbns": []
+        },
+        {
+            "id": "17a329b6-f593-4fa2-8b4f-ef9f5b10f5b2",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "An unfinished republic [electronic resource] : leading by word and deed in modern China / David Strand. ",
+            "authors": [
+                "Strand, David."
+            ],
+            "abstracts": [
+                "David Strand argues that the Chinese revolution of 1911 engendered a new political life, one that began to free men and women from the inequality and hierarchy the formed the spine of China's social and cultural order. Chinese citizens confronted their leaders and each other face-to-face in a stance familiar to republics worldwide. This shift in political posture was accompanied by considerable trepidation as well as excitement. Profiling three prominent political actors of the time -- suffragist Tang Qunying, diplomat Lu Zhengxiang, and revolutionary Sun Yatsen -- Strand demonstrates how a sea change in political performance left leaders dependent on popular support and citizens enmeshed in a political process productive of both authority and dissent. "
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2011-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=fNioAi/qHHozS03ZDCqkI7FveY0c/43HVQgzN77pVw5aGtPiBAHFUbOxpe9Fq/Cyrf1+k/pheLaEaQQGgiOcuwTg3Zj4jmo2SNxURGLGS2ZeppwzuqwCT9lTlSDHVPRk7hgBswHmNCRtHHFcz180poX9/Mb+YUWXuXPbrn5q0/bOOy77JPFG9f11GvR1nt4JWo1aWS2fa42HCGJoFBDUxrGzrtfz",
+            "isbns": []
+        },
+        {
+            "id": "4fcf89b5-7439-49b7-8b4f-202c4aba33e1",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Molyneux's problem [electronic resource] : three centuries of discussion on the perception of forms / Marjolein Degenaar ; translated from the Dutch by Michael J. Collins. ",
+            "authors": [
+                "Degenaar, Marjolein."
+            ],
+            "abstracts": [
+                "Suppose that a congenitally blind person has learned to distinguish and name a sphere and a cube by touch alone. Then imagine that this person suddenly recovers the faculty of sight. Will he be able to distinguish both objects by sight and to say which is the sphere and which the cube? This was the question which the Irish politician and scientist William Molyneux posed in 1688 to John Locke. Molyneux's question has intrigued a wide variety of intellectuals for three centuries. Those who have attempted to solve it include Berkeley, Reid, Leibniz, Voltaire, La Mettrie, Condillac, Diderot, Mller, Helmholtz, William James and Gareth Evans. This book is the first comprehensive survey of the history of the discussion about Molyneux's problem. It will be of interest to historians of both philosophy and psychology. "
+            ],
+            "languages": [
+                "eng",
+                "dut"
+            ],
+            "createdDate": "1996-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=eQPmYGMvcWEKlYG1DzQM6Hn2OxgBMTHkRFBeL1fewuRCDHn36+HNxMAtkSfuDd7tpOZ1Se9GWaXMEyRSCT1tsVtZppZkdYSrcTs9iW0z2Ey1B815KTqlAIy+YZyzceTJvXuqqDEwxaOBpdZhPo+BwbkJEKqvKNkkX4YFs8X0zlTriq5F1wghVx7wkUQSK5zkPizy3njoldefCYJ4lem9F7z3K20=",
+            "isbns": []
+        },
+        {
+            "id": "3b30a7aa-c401-43bd-a364-fb94dbdad26b",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "From Judaism to Christianity [electronic resource] : tradition and transition : a festschrift for Thomas H. Tobin, S.J., on the occasion of his sixty-fifth birthday / edited by Patricia Walters. ",
+            "abstracts": [
+                "Includes bibliographical references and indexes. "
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2010-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=ftJ0UZBvMB39HKc3i3ZIOI2qjDAmxH0JIpirxOwFQ9eD8GvYuN3EDgff6fTx6Q4h0dF4sl8zH7oXJStDx7x7I4GPvTBLhq1cJUEILZBgZhtqORPsSMGmvT7kyz9+MAo3lRcxC399fNMKjnhHstPh6J3Jqxy5OWA0PG0OCMetFzVRqi+iFX+yqzBl1tQAx6r46Af2QqfyZdYLJ6b2akoM9kt3jYhO",
+            "isbns": []
+        },
+        {
+            "id": "006defb1-c759-4040-b823-8e7afdc61bd5",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "A day in the life of a Colonial schoolteacher [electronic resource] / Kathy Wilmore. ",
+            "authors": [
+                "Wilmore, Kathy."
+            ],
+            "abstracts": [
+                "Describes a day in a colonial American dame school, including who attended, what they learned, and what chores they did. "
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2000-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=fX0H4PPMHQyE98nxUUeq3+ZmGK2EJhh29lh9OUHo9wFjfUHkeHZmdmFckmUvnhrGZ52fC8/SLp2zsg7BN5EmqSkZCaTcY0ZMvxaHj5sXWEAD1511SvNWuay6jYTXqL8kvLA+nGrV4fduJJtu2pR9xRDeBJ5dxi4Naay3EzwZGA6pG1Szq3NgnIRiJTA5k6UBhBXrRy1lIjJ/1Z7xlTnfTS5NrAA=",
+            "isbns": []
+        },
+        {
+            "id": "366d6fab-410b-4a22-994e-28d3b1dd7ac0",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Literature connections to world history, K-6 : resources to enhance and entice / Lynda G. Adamson. ",
+            "authors": [
+                "Adamson, Lynda G."
+            ],
+            "abstracts": [
+                "Includes indexes. ",
+                "Master record variable field(s) change: 650. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "1998-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=foaRuL3OxzNddmIRKlbyqItNjuUOp4dwmQ0vxm2HBhduVcwyhbdupv0w8UnujaRA36OFiYq/PHYTMcxZtpPTgahR/vU+vVYC4e/8ZyGjsZffGUOruvp3niyMss2ZVenug+VsdOMBrf4TUp/tZjrX3hBpuRSsKsYKO8dBcMoJxrf169zw7XbSXFU0SSe+zpx7x+lVr1XZESaBA9Lf0rKFTEwy8yA=",
+            "isbns": []
+        },
+        {
+            "id": "675bc975-94bf-4e72-942b-f9ac4008e348",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Trade in strangers : the beginnings of mass migration to North America / Marianne S. Wokeck. ",
+            "authors": [
+                "Wokeck, Marianne Sophia."
+            ],
+            "abstracts": [
+                "American historians have long been fascinated by the \"peopling\" of North America in the seventeenth century. Who were the immigrants, and how and why did they make their way across the ocean? Most of the attention, however, has been devoted to British immigrants who came as free people or as indentured servants (primarily to New England and the Chesapeake) and to Africans who were forced to come as slaves. Trade in Strangers focuses on the eighteenth century, when new immigrants began to flood the colonies at an unprecedented rate. Most of these immigrants were German and Irish, and they were coming primarily to the middle colonies via an increasingly sophisticated form of transport. Wokeck shows how first the German system of immigration, and then the Irish system, evolved from earlier, haphazard forms into modern mass transoceanic migration. At the center of this development were merchants on both sides of the Atlantic who organized a business that enabled them to make profitable use of underutilized cargo space on ships bound from Europe to the British North American colonies. This trade offered German and Irish immigrants transatlantic passage on terms that allowed even people of little and modest means to pursue opportunities that beckoned in the New World. Trade in Strangers fills an important gap in our knowledge of America's immigration history. The eighteenth-century changes established a model for the better-known mass migrations of the nineteenth and twentieth centuries, which drew wave after wave of Europeans to the New World in the hope of making a better life than the one they left behind-a story that is familiar to most modern Americans. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "1999-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=ezG56f7Daq0rQsBhHWtdq9Y3nYb6KhXc+SNWnz3LsDFlohYCdNZijUTi9k4J5KWwsVaCfIM4cjuw0Bd6R58HbsTy3wCkHMaDIJBwa5kMOkrhTzQjqoLn795mOcBKLh5IIshw0tw5R3IUQg6tZWzwI1VtArg3Cy4VVnQ1XNMfIBcaIUj7E68jgMB3X1HVO5j5MoLjoRo7kJemai0I7Q==",
+            "isbns": []
+        },
+        {
+            "id": "78aa510c-6df9-46d0-88f2-df27dd86b191",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "\u91d1\u878d\u9a97\u5c40 : \u60ca\u4e16\u8be1\u8ba1\u5927\u63ed\u5bc6 \u5199\u7ed9\u6240\u6709\u6295\u8d44\u4eba\u7684\u8b66\u793a\u4e66 = The con men : a history of financial fraud and the lessons you can learn / \u674e\u5965\u00b7\u9ad8\u592b\u8457 ; \u95fb\u7fca\u5747\u8bd1. ",
+            "authors": [
+                "\u9ad8\u592b, \u674e\u5965, author.",
+                "Gough, Leo, author."
+            ],
+            "abstracts": [
+                "\u5728\u5927\u578b\u8bc8\u9a97\u6848\u4e2d, \u53d7\u5bb3\u8005\u9c9c\u5c11\u80fd\u591f\u628a\u94b1\u5168\u989d\u62ff\u56de\u6765. \u4e8b\u5b9e\u4e0a, \u901a\u5e38\u4e00.\u6bdb.\u94b1.\u4e5f.\u62ff.\u4e0d.\u56de.\u6765. \u672c\u4e66\u4f5c\u8005\u674e\u5965.\u9ad8\u592b, \u662f\u4e00\u4f4d\u8d44\u6df1\u8d22\u7ecf\u8bb0\u8005, \u4e0e\u4e8c\u5341\u591a\u672c\u6295\u8d44\u76f8\u5173\u4e66\u7c4d\u7684\u4f5c\u8005. \u4ed6\u63d0\u7b14\u64b0\u5199\u8fd9\u672c\u4e66, \u8bd5\u56fe\u5e2e\u52a9\u6295\u8d44\u4eba\u907f\u514d\u8e0f\u5165\u770b\u4f3c\u7f8e\u597d\u7684\u91d1\u94b1\u9677\u9631(\u5176\u5b9e\u5bf9\u6295\u8d44\u4e0d\u611f\u5174\u8da3\u7684\u4eba\u4e5f\u540c\u6837\u91cd\u8981). \u5728\u9762\u5bf9\u5c42\u51fa\u4e0d\u7a77\u3001 \u65e5\u65b0\u6708\u5f02\u7684\u8d2a\u5a6a\u3001\u80cc\u53db\u4e0e\u8c0e\u8a00\u65f6, \u6bcf\u4e00\u4e2a\u4eba\u90fd\u5e94\u5b66\u4e60\u5982\u4f55\u6709\u6548\u4fdd\u62a4\u8f9b\u82e6\u7d2f\u79ef\u7684\u8d44\u4ea7, \u7b51\u8d77\u9632\u8303\u91d1\u878d\u8bc8\u9a97\u7684\u7b2c\u4e00\u9053\u9632\u706b\u5899(\u5728\u8fd8\u6765\u5f97\u53ca\u7684\u65f6\u5019). "
+            ],
+            "languages": [
+                "chi",
+                "eng"
+            ],
+            "dataFrom": "HyRead",
+            "url": "http://search.nlb.gov.sg/r/hyread/?r=eiiz/lwrkbWUFjcJlEoXsonJD7X4IUyixC1fb/JaZIl/aCne3DuYJLQI793P+eyBKJ+enKDpqAc/fLtkERIqaVp8q+iQ93aOr/Fnk2P+r3HyySfZVXcyPIzZveX8MC84+526WqUo4vBRD+DDIKZmhZ26mOqx5MbGo55pIB4AAI27Ew==",
+            "isbns": []
+        },
+        {
+            "id": "23264c5e-02a7-4e1a-8b14-42e7a6f79938",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "\u5e1d\u56fd\u4f55\u4ee5\u6210\u4e3a\u5e1d\u56fd : \u4e00\u90e8\u5173\u4e8e\u6743\u529b\u3001\u5dee\u5f02\u3001\u4e0e\u4e92\u52a8\u7684\u5168\u7403\u653f\u6cbb\u53f2 = Empires in world history : power and the politics of difference / \u73cd\u00b7\u6ce2\u672c\u514b, \u5f17\u96f7\u5fb7\u91cc\u514b\u00b7\u5e93\u4f2f\u4f5c ; \u51af\u5955\u8fbe\u8bd1 ; \u90d1\u5929\u6069\u6821\u8ba2. ",
+            "authors": [
+                "\u6ce2\u672c\u514b, \u73cd, author.",
+                "Burbank, Jane, author."
+            ],
+            "abstracts": [
+                "\u4eba\u4eec\u603b\u662f\u5c06\u62e5\u6709\u56fd\u6c11\u4e0e\u4e3b\u6743\u7684\"\u6c11\u65cf\u56fd\u5bb6\"\u89c6\u4e3a\u4eba\u7c7b\u5386\u53f2\u53d1\u5c55\u7684\u5f52\u8d8b, \u800c\u8ba4\u5b9a\"\u5e1d\u56fd\"\u6700\u7ec8\u90fd\u5c06\u53d1\u5c55\u6210\u4e3a\u6c11\u65cf\u56fd\u5bb6; \u56e0\u6b64, \u4eba\u4eec\u7684\u5e1d\u56fd\u4e66\u5199\u4e5f\u662f\u4ece\u6c11\u65cf\u56fd\u5bb6\u89d2\u5ea6\u51fa\u53d1, \u800c\u5c06\u5e1d\u56fd\u7684\u79cd\u79cd\u6807\u7b7e\u5316 - \u4e8b\u5b9e\u4e0a, \u5e1d\u56fd\u53cd\u800c\u662f\u4e00\u79cd\u5305\u5bb9\u6027\u8f83\u5f3a\u7684\u653f\u6cbb\u5f62\u5f0f. \u5728\u300a\u5e1d\u56fd\u4f55\u4ee5\u6210\u4e3a\u5e1d\u56fd\u300b\u4e00\u4e66\u4e2d, \u5386\u53f2\u5b66\u8005\u73cd.\u6ce2\u672c\u514b\u4e0e\u5f17\u96f7\u5fb7\u91cc\u514b\uff0e\u5e93\u4f2f\u5728\u5168\u7403\u8303\u56f4\u5185\u63a2\u8ba8\u4e0d\u540c\u5e1d\u56fd\u7684\u591a\u5143\u8fd0\u4f5c\u578b\u6001, \u8bd5\u56fe\u8de8\u8d8a\u4e8c\u5343\u5e74\u7684\u65f6\u7a7a\u3001\u7aa5\u89c6\u4e0d\u540c\u7684\u5e1d\u56fd\u5728\u4e0d\u540c\u7684\u8109\u7edc\u4e2d\u5982\u4f55\u6cbb\u7406\u548c\u6f14\u53d8, \u5e76\u4e14\u5206\u6790\u5b83\u4eec\u5404\u81ea\u7684\u4f18\u52bf\u4e0e\u5c40\u9650. \u4e24\u4f4d\u4f5c\u8005\u4ee5\u6b64\u76f4\u6307\u6c11\u65cf\u56fd\u5bb6\u7684\u5f0a\u75c5, \u5f3a\u8c03\u76f8\u5bf9\u4e8e\u6392\u5916\u3001\u5bf9\u5185\u8ffd\u6c42\u4e00\u81f4\u3001\u4e14\u6709\u660e\u786e\u9886\u571f\u8fb9\u754c\u7684\u6c11\u65cf\u56fd\u5bb6\u800c\u8a00, \u5e1d\u56fd\u662f\u79cd\u66f4\u503c\u5f97\u63a2\u7a76\u7684\u653f\u4f53. \u4ed6\u4eec\u4e5f\u6307\u51fa\"\u5e1d\u56fd\u5fc5\u7136\u4f1a\u5206\u88c2\u3001\u53d1\u5c55\u6210\u4e3a\u6c11\u65cf\u56fd\u5bb6\"\u8fd9\u79cd\u89c2\u70b9\u7684\u8c2c\u8bef. "
+            ],
+            "languages": [
+                "chi",
+                "eng"
+            ],
+            "dataFrom": "HyRead",
+            "url": "http://search.nlb.gov.sg/r/hyread/?r=fy5OU0CECkJqG0m91KPEyxkk5V+pbaMxLXqGxpeO7AeNabvLaz4rW7GpqV0s3RSzsIDUWBhLR5rIrMgq7lazKWJYGR976ORrF6ObAjEvOlhE64cN0og5cc1JRZ7Y40L9kuELz2bnogbr5CIJo7K6jFXXSD39Hc4sQB+CZ5uYuxK6+g==",
+            "isbns": []
+        }
+    ]
+}

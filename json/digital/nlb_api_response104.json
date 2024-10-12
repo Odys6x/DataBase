@@ -1,0 +1,2022 @@
+{
+    "totalRecords": 2378,
+    "nextRecordPosition": 100,
+    "hasMoreRecords": true,
+    "results": [
+        {
+            "id": "2ab9320e-26bf-4c20-98eb-167f6a7ca420",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Carrots and other poems",
+            "authors": [
+                "Fedo, David A."
+            ],
+            "abstracts": [
+                "This book is a collection of author David Fedo's poetry. The poems are organised into three sections, namely Minnesota, New England, and Singapore."
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2011-09-09",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=f3xFIyqr5qcU/TEHF/Vj57cHEKKR7+KWlh7SkoJCdYH+TVRkRXhtiRP0VqJT5Y+bh8ZPTCUEZf96GGf4frgegeouUgISUzfTKR+niJ2puaPF40KkiRFloeLRJzgZQsNSVYhBDRkVRAPDk2voOx/Arcx2MWeNU9nU4sac8kOQMtvlQ+BIuiE3guhIh5B98bQ0cwteulXl84jP",
+            "isbns": []
+        },
+        {
+            "id": "7277adb2-c1c9-4677-9540-d50d85c31061",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Poetry on inspiring women. Book one",
+            "authors": [
+                "Pais, D. S."
+            ],
+            "abstracts": [
+                "This book features ten poems that pay tributes to ten women who made an impact in society, such as Rosa Parks, Florence Nightingale and Margaret Thatcher."
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2019-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=eiIc+FDzmgCowbXvVyIWt3LWavyx6/mhznBlh5Rt0LLmaD0QjEvOouFoxsPaVZAsgE41B1if8NaLH5Zuk8vNsqO5SoJ7vyksAU2Xs20JPedns51HuaXRfXoGpHGFJ6zeOmQEDFhUoVOd7/PkRucdmsdgR75gk9x96zqvfcC2KtdxEFqzFS0CjVbynmoBfgPDp/++AehZfR8f",
+            "isbns": []
+        },
+        {
+            "id": "9011b4c2-b561-47af-bc1e-b061b6442cdf",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Signing small : lessons from sign language : a  collection of poems",
+            "authors": [
+                "Annie R."
+            ],
+            "abstracts": [
+                "This is a collection of poems expressing the poet's thoughts and\nfeelings arising from being exposed to sign language for the very first time."
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2019-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=dG+A5NjEk33fvjKXOCXZDc6XV8rGYfBS9mdBzEHpTsmw8b+amNOn+vaT68mgjqUXExYTbiMJrMQucHr8N9f75usNtaTGvSs1dt3O8Co3YEJg90odEEhMifm+2QtdQ6xioSvJzjCpu/tEApCe0LMCxqzfd/1nvbreeuLCpiezv8WIY1Diltfi+cpd3TBCv0U2tgKzvJO/4cuD",
+            "isbns": []
+        },
+        {
+            "id": "e34b3c56-ae4d-4828-aa06-20293805a764",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Poetry on inspiring women. Book two",
+            "authors": [
+                "Pais, D. S."
+            ],
+            "abstracts": [
+                "This book features ten poems that pay tributes to ten women who made an impact in society, such as Jane Austen, Queen Victoria and Mother Teresa."
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2019-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=KOCthZX66sKNN5rc9vw434CLmn66axB577827JQpBAQijuqH2imK0MjvAxHC8zRTCHtGg5j5BMZXhI9qUNf9XxZ2Pr7Ac+57M0sP1d4MFzUFecTUsvIYIxgL3TFlvwhQKEuwxKSyJKeiFcaRtXEwlqzPx2x7QIXT26E6FSF2NB8vYR5VKlMEddrKkfBFv3Jt8izr1Zt8ZKQm",
+            "isbns": []
+        },
+        {
+            "id": "6a437061-53f4-420d-9094-3371f80849d7",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Poetry on inspiring women. Book three",
+            "authors": [
+                "Pais, D. S."
+            ],
+            "abstracts": [
+                "This book features ten poems that pay tributes to ten women who made an impact in society, such as Mary Shelley, Cleopatra and Joan of Arc."
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2019-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=e2euNoW8pQpAfK8ytwNiy0V8q6B7U95r6YpSlPHTk/J4zMnbQ9CvWYtxrYnu80SH36kS0PIqMvu8SvOKZN9g57qkfIfddZx5ETIeSGPAf443k1i/rSdU0KJ1aANO6PR98VTGGQ8WBCrz9oD6D38JjHBalGuU2ab3vz8ZIWaxa5bhAvo4ZoIac/1O7SPUKucXULpH0cGPx/Lr",
+            "isbns": []
+        },
+        {
+            "id": "17745235-2440-4e46-b2b3-118b67cf32c3",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Inspired by love : love is a dictionary full of everything : poetries, artworks and quotes",
+            "authors": [
+                "Leong, Sharlene"
+            ],
+            "abstracts": [
+                "This is a collection of poetry by Sharlene Leong. It also contains artwork and quotes by the author."
+            ],
+            "languages": [
+                "Languages:English {18349056}"
+            ],
+            "createdDate": "2016-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=fNj+tes/HgHlIoauwfE6nkfT5Xmmp5IMBYoSCHszLZ9hdYK2XxW5/SpVNVqimPC9AfOOqo/eZ0hflpSe0MqevSit1CfYmdMt08hLgY0nCycAOnpuHjbIt1X5RjQoirs/T1aVHBcOKxDxYf0mkrevxag7k38CP7fCl5aJFvxr4x5oJTmiEGywFVTY1cTrWVeshyHamdShekK0",
+            "isbns": []
+        },
+        {
+            "id": "50306842-4d6f-43a0-9027-77c0199632a3",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "A world in transit",
+            "authors": [
+                "Valles, Eric Tinsay, 1968-"
+            ],
+            "abstracts": [
+                "This book is a collection of poems by Eric Tinsay Valles, a poet of Chinese Filipino descent. His poetry is mainly about travellers who yearn for an escape when they are caught in cultural mixing."
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2011-09-07",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=eOsERA0jeQrgImh54Z7PhKiQaotkUJxuCJNGJOQZshVOjOWtxcR9gkvqG2RHMLQ9oUwKx+UlytgW3WlLF2r6qKI97c4KPzbPBQDny9YMxzrbGg8aXHAjF8cAQulByNWC6xyeXHG5rCDZrN8H6MCaCdDyzbG87VZyPYhrIGtjrjnpsCsxshgTwHB1QlXU6VlBgtUVRQj7BDMn",
+            "isbns": []
+        },
+        {
+            "id": "82ea7f91-5162-4d3c-9de2-1883843b82e5",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Peninsular : archipelagos and other islands",
+            "authors": [
+                "Shiau, Daren V. L."
+            ],
+            "abstracts": [
+                "This book is a collection of Singaporean author Daren Shiau's poetry, with an essay by Professor Edwin Thumboo."
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2011-09-09",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=dQUgJzoUNyBq2U1p2XShjB277FR6kjL1Cl4wAYB13AX+4upgdjy14MVBOO0TZXsv2dzvdOiWUsc3Z+0buA/yXcHMBV/LU+ikD7ydiJZ1HNaRhJ9K0tw0A84wRyoNrXutYk41Xsrr8CHNGBz8xBRq5Dnsyd+7U4eQAPLj3i7PmXbt/YGhaD2yHEi6rPCDi5dmGtlo7wt9crXz",
+            "isbns": []
+        },
+        {
+            "id": "88e0799b-e8e6-42aa-ac44-222ba34e3114",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "A history of amnesia",
+            "authors": [
+                "Alfian Sa\u2019at"
+            ],
+            "abstracts": [
+                "This book is a collection of Singapore author Alfian Bin Sa\u2019at's poetry, on his observations of events and people in his life."
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2011-09-09",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=dQ+ssOWoHG4q+m/C3GGYLYHDyWjQKTdDP+bOJYBzc5bUGfjLyIHyEpFTVFX/QaqsRQckpv6qBTmPAcpUMN/p8FeZXrt1m0HLz4vjwOgzfso2jMzJR1kw6dn6PKtOtJXHRfjcIlSIE4oYzrmdZjgUk4cYrvZofYuGQX/vmzuBmq0fiG7fPy76HGgUHZ8Yr0X8cl+udo8bUeZt",
+            "isbns": []
+        },
+        {
+            "id": "cb2104b4-18d0-447c-9657-e24875887514",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Romantic words for every occasion",
+            "authors": [
+                "Steppenwolf, 1977-",
+                "Koh, Sam",
+                "NIL:Goh, Donna",
+                "NIL:Kuek, Ziyi",
+                "NIL:Chung, Ian",
+                "NIL:Leong, Pei Xin",
+                "NIL:Hoay, Leoson",
+                "NIL:Lee, Mabel",
+                "NIL:Mulchandani, Puneet",
+                "NIL:Thiagaras, Rajkumar",
+                "NIL:Siti Amalia Azmy",
+                "NIL:Yee, Victoria",
+                "NIL:Koster, Wilhelmina Natasha"
+            ],
+            "abstracts": [
+                "This book contains a collection of poems for specific occasions. The book is the result of a project by a group of writers to write romantic love poetry."
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2008-06-24",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=LiGmRJM8ckqvTwBQAggWloCYXUEaV8IIie+DwxEbV5VPeBIBba9HV3fF9oES+WnOcfR8lhtseLoyRWvHt+0zWppfkolb3d5HNjP+firK0CJJVgpBJNGU/NhIHCNDNXHQy42f2ejlBKGwU+MrLuqeYc+a1/2yyp4GsaFeIWUew8Avy98uJxKfCQ5hX+R6EIMR/z1FargxBTgo",
+            "isbns": []
+        },
+        {
+            "id": "94743f4b-1a10-4883-b4e5-614a65117167",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Reaching for stones : collected poems (1963-2009), with an introduction by Edwin Thumboo",
+            "authors": [
+                "Nair, Chandran"
+            ],
+            "abstracts": [
+                "This book is a collection of Singaporean author Chandran Nair's poetry, offering the readers a glimpse into the post-colonial literature in English, of Singapore and Malaysia."
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2011-09-09",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=dGtnVNxvGg4XPtUXA6UouGmBDxBwbHuNB5mLRU+TufC+ejaxi1e2yWpczIKyWBuNlLMSrIF22u//inQ9zvP7c2jypUsOA505s8QVLwrd74jQr4gRc+g74QdQ8e65Kx7kQ+M25A03RgBPrPKRnnHjeXnMK3HVg/Cu6dT15iCIG/XG95wyDmBIitO6oizcpYCKErmJWqnRb7GB",
+            "isbns": []
+        },
+        {
+            "id": "98a5cf38-e463-4687-abf9-7c41512e9132",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Interlogue : studies in Singapore literature. Vol.  2 : poetry",
+            "abstracts": [
+                "Interlogue is a series which seeks to bring attention to Singaporean writers' works in English. This book, edited by Kirpal Singh, is a collection of articles focused on works on Singaporeans' poetry."
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2012-01-06",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=dGckf1I1h2P2yj0+KVJ97nMViszG+Kxv8w7XUqNQwt5jRgkOLvECfygbYxxl2uJiKppxGXsxSpb231UuQIh0V22f/lnmxnwEvPCX/vTunO60WHefgijzU917uJgfnKU1m5hjKt0VBeuzmhi+0eAMx0A8x/SyAntf3kYvh0WpIrwy4szg/Vua6/qC/60n/fp8P9CLWJ7h5znk",
+            "isbns": []
+        },
+        {
+            "id": "fddafc5c-6bdd-422f-b600-4485db0e117f",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Five right angles",
+            "authors": [
+                "Lee, Aaron Soon Yong, 1972-"
+            ],
+            "abstracts": [
+                "This book is a collection of Singaporean author Aaron Lee's poetry. It is a finalist in the 2008 Singapore Literature Prize awards."
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2012-01-04",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=K6jyb6SGreAtz/iW5CRafgwFiJyLf4dZ+ITK0xLymuJJ4kdhQCch8tey+QTEt1yEY7Fcj4HS+kRT7U8SSGpQ1yVT84YTyEZ8VRu1X+8VFSQKdtc8OlsO+lHz8swOfmSEUIBhGsdNeb3M7We+HQayYKUu6YfozR/5YrkrL2bi4rbcMo+CIj+TYQRg6cwiiHND6uv8vjiYBIQG",
+            "isbns": []
+        },
+        {
+            "id": "0c86214c-7205-48e3-9ca8-71c1fab3b0ff",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Testing the silence",
+            "authors": [
+                "Pang, Alvin, 1972-"
+            ],
+            "abstracts": [
+                "This book is a collection of Singaporean author Alvin Pang's poetry, about his observations of everyday events."
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2011-12-22",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=fS6eCiZoqEjNwoTiylN31rKNmb8TorRUe9SKqxCqqTNLYSxf73He9FYbAz7UBJfRqm1mUVSbzyK3B9hF/Vr6XVcS406utHC808kCj+Swc8wVMsNL1wQJAVdDfpi34hdEEfDpDlG9DO96H237FFTv7fXUYLj2YG8s02Ze5l5f5eIdeGUQ2Mbh+jfe4brgE4tfCWWMdFf9Vkn8",
+            "isbns": []
+        },
+        {
+            "id": "19737e29-f8ae-4b6f-ad33-ae6c294c1c28",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Identity",
+            "authors": [
+                "Leo, David"
+            ],
+            "abstracts": [
+                "This book is a collection of Singaporean author David Leo's poetry. The poems are about the author's views on events and places in Singapore, as well as other countries."
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2011-09-20",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=fNY7+efu8m4mPX6CapWlncy15RBsvYhgtYDrhh1KZBSjapz3IkTOTiJjyW3TQDYExonNDD7TR9fDfXu23kLxC0Q66ltKtC1/4Rwu3qjFFrLijUmhVeqVhcHm7rjIJxqmd/HIWBbRjyRkGFEBCvNkA2DQtlJuR5DkQR+Hed7QzRG6h31Dd1uqi8j6fVFvfnBBZrL3EUNp5fZI",
+            "isbns": []
+        },
+        {
+            "id": "753589b3-f6e1-4740-8c78-2543a792039c",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "One journey, many rivers",
+            "authors": [
+                "Leo, David"
+            ],
+            "abstracts": [
+                "This book is a collection of Singaporean author David Leo's poetry. The poems are divided into three sections, which include memories of his late father, his traveling experiences in other countries, as well as his observations on life in a modern urban society."
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2011-12-30",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=eiVmR9W9EJDgHLehYO6gi+rbZ4nv3BFvaeLqgDBVm0gm0i0ZZ22jYzmb8R2CAsm9JwiGABQZulTVDwNNjQnEoVW6QS96fly1kLqwF42fxvikV09OJm7GVcYlMKP/EX7G+mNPl4p3/mTfWx9L+O+8PdeGOnFZvoYs5ZE1ELFstt6sJXMbVHCeWo3wImxTACTwXEylS+6Tk/N5",
+            "isbns": []
+        },
+        {
+            "id": "c749c5c1-5e3c-4607-8b1b-b967cb2eb023",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "A visitation of sunlight",
+            "authors": [
+                "Lee, Aaron Soon Yong, 1972-"
+            ],
+            "abstracts": [
+                "This book is a collection of Singapore author Aaron Lee's poetry. He uses the two sections, \"Night\u2019s long road\" and \"A visitation of sunlight\" to describe a journey from darkness to light."
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2011-11-24",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=LnS1ujYCNGFBtd48XstnH2YXBtbxPzkpB7hDrj5kpDBMMSotmJVDdF+lAvU8ZW/1CYERAqifsk+PQYR3IR4bdNbVeCrztK3+RUGR+s7HzeulUVzzbf17t+UNl7rpWPsX2FkIy7SlJEv9zpvwdQq/G6+ZSaykseYQw5TMaqiJ8usy/5GlFNobmtOmEzVumVVUkriNLLN5m4WC",
+            "isbns": []
+        },
+        {
+            "id": "05b176f7-36e9-4149-a739-94ebd9ca874d",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Somewhere a tiny voice",
+            "authors": [
+                "Leo, David"
+            ],
+            "abstracts": [
+                "This book is a collection of Singaporean author, David Leo's poetry. The poems are about feelings of love, grief, mirth, hope and disappointment."
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2011-12-27",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=fXizhmVtEVY0ax0g9Siic9lNBkiM3FxowbBCTUbqj+jY3P05LYbAohtmWuuGLeVyXiLGvKGghFOgx6or+d+w/63mjZLUP/BPKMbgmh/foRv5OMlzb5grVwoxSQZckTkuRy+HEjnDl7biegbf3CsmJjCvhuDBwVy/hHThV6oCMLTwIe7+sFdeIPkpgpru+3MpXPUI4wcsgwAa",
+            "isbns": []
+        },
+        {
+            "id": "5d20b28a-f74c-4d03-9411-f28d45660fda",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "City of rain",
+            "authors": [
+                "Pang, Alvin, 1972-"
+            ],
+            "abstracts": [
+                "This book is a collection of poetry by Singapore author Alvin Pang."
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2011-09-09",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=eL+O90ITWVoOfv4GEXXSnBaQW/7/Rjd0BTVZxysckBOM3fH8D0unlQUW+bCZWd436tJaUJliUnwmhZRKh3uOvO9dXQ5XJGyBmrQk6HURP98c6xMN7IeP3IcX761xfNvRWQ54s/kAcRrqQQAkK456AeZH6jpKQ4+oGO7qAfXn3enbGy5YpuVrqxfobyAa3YtAgEYtf0A60qhS",
+            "isbns": []
+        },
+        {
+            "id": "b0c99a0f-0632-4bf3-8894-cba28bd226ed",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "I watch the stars go out",
+            "authors": [
+                "Cheong, Felix"
+            ],
+            "abstracts": [
+                "This book is a collection of Singaporean author Felix Cheong's poetry. Based on his work in the mass media industry, the poems are his feelings about how the media has affected peoples' lives."
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2011-10-31",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=L9t7C/JvUWqelLe3FboLBc0CV22NAbdqSFrzEhUT7v6c2CrMcoOJE5E8EYd7gxT5eGCaRTIj4HxzrS8/2Nl9NHY+pR2GBZok3V2VXwKqPX5Ifoa1ukhmdWJcvJna4M8F9mUebsX26JKzvnucZhdPHocDASeZ3rqhQqDQ7sLCFYrZzbgUSUYIJhsYy6Y+Lt3i7dDSQS3KUMHb",
+            "isbns": []
+        },
+        {
+            "id": "a407bf55-146d-4c57-acf5-3154cd77062a",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "They speak only our mother tongue",
+            "authors": [
+                "Kwek, Theophilus, 1994-"
+            ],
+            "abstracts": [
+                "This book is a collection of Singaporean author Theophilus Kwek's poetry. The poems express the author's feelings on his surroundings, family and himself."
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2011-04-25",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=LCyQGqjGI49H6Ysog529VBKvdeQWQYma1AI8pbKkrk/y/Sc3i5xYpAUWwyB22hWHcsAAHOZ0qYe6Y/FhRfeLv8JN4/o0Le6B1HS+RfO2+Qk4Ml0W1rYf4QUGOlObHgbJCHJveHydsK/vzAXBJYznzd0445EHpmRSIJqBUk73OYBZzRWweIPgzibnJpZViJ868cVu+YVlBc3t",
+            "isbns": []
+        },
+        {
+            "id": "9a8acbe2-d0b9-4bde-9597-55b37bbb7581",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Sudden in youth : new and selected poems",
+            "authors": [
+                "Cheong, Felix"
+            ],
+            "abstracts": [
+                "This book is a collection of Singaporean poet Felix Cheong's poetry, arranged thematically."
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2009-08-04",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=dD7iB9uCTq5V3J8h97dleoM4ohnKroUoupXPJ4Oh4Blz9ghX8NNKz4WRZrKmr/1u6lNTLQmGvU1FS+S7mwxQgH/C1x6/9296DKGZO1QstWGPORt/z9RWFjk0JMqYq9P3BiyGrT8sdR88P9VkWm7eB31uwEf5mvTiJiYrIW97aZZT0vSMVd1FQqnP0VUurN6zKw+TT1KA7vRu",
+            "isbns": []
+        },
+        {
+            "id": "c07ff52b-fdc6-4a23-978b-72f3da72bb0a",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "This mortal world",
+            "authors": [
+                "Ng, Leonard, 1979-"
+            ],
+            "abstracts": [
+                "This book is a collection of Singaporean author Leonard Ng's poetry. The poems have a variety of themes such as nature, love, travel and the supernatural."
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2011-07-18",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=LnNdgkcmbcYHn/Y5wrQSDHoPm5qrKYe3Ws/6aZ2UpBiDM8G+yBJRZVcTyJ9PGDOsbJ33qVUFndJa8GNULPfk5m3kR3XVDsMP7V63IqbOdPp1BN+4xINcPOh4Fod2RyO+TYYNx6WhkZfCxcBhnfjsPCmcIyYLPEccfuIDj3iwmkFrSPWe4sja0xXGbt6uulACD2mh78gHJy4/",
+            "isbns": []
+        },
+        {
+            "id": "41cce76b-b00b-41de-9108-54dd0dea1dad",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Last three women",
+            "authors": [
+                "Koh, Beng Liang"
+            ],
+            "abstracts": [
+                "This book is a collection of Singapore author Koh Beng Liang's poetry, on his observations of people from the mass media."
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2011-11-11",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=eVRL2mbARwKzuJmZfEpD5UYxRmjtknGiG9kiIN1UtbYbAlY6YqAxClw6016F/c+IxC1Hv62qjXpEZEMzrYqXdXml19VEo/S4eIU2Jb9jKxM6rTIf7MPL1AcLsUwQlLhQNPxs/wx2Vy0L+h959cfrFfs28tzlKhNaUfjsFh6e7DvaEfzTqbJAM96jAo2GdSMG3CAzVGgIN0iX",
+            "isbns": []
+        },
+        {
+            "id": "4fa55080-5004-4442-938b-4c0c6cd6c829",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "\u65e0\u75d5 : \u8c22\u6e05\u8bd7\u96c6",
+            "authors": [
+                "\u8c22\u6e05, 1947-",
+                "Xie, Qing, 1947-"
+            ],
+            "abstracts": [
+                "\u8fd9\u662f\u8c22\u6e05 (\u539f\u540d\u8c22\u56fd\u534e) \u7684\u9996\u672c\u7535\u5b50\u8bd7\u96c6, \u6536\u5f552006\u5e74\u81f32011\u5e74\u7684\u6292\u60c5\u4f5c\u54c1, \u5171\u4e94\u5341\u56db\u9996."
+            ],
+            "languages": [
+                "_Languages:Chinese {18349008}"
+            ],
+            "createdDate": "2020-05-05",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=eQPkrdlpdGMsBjdUxxD3rtEEFhavg1HrDzcf36Fg8vQeWS2bKkxXVawM0pXlYvqyqO+uB2+kxKL3nmN6MFynmHDoV9K21gnRfNfS/C0bZFJ6ivDTMA14kGqcgAm04c9zcI3adpVQNuMdtp54bO/Fawe7EPiGzC4vpsXrA0q4RmYYZ1YmTM8zK11pTAtV45f90xsgZRX+2rVZ",
+            "isbns": []
+        },
+        {
+            "id": "09dfe12b-db2b-4890-a341-a957462f329b",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Poems : book three",
+            "authors": [
+                "Pais, D. S."
+            ],
+            "abstracts": [
+                "This book is a collection of ten English poems."
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2019-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=fXRFcMhZI7XKCEfBEDvdSEW3F6gSlGOYOXA4fJHIEExbV7so37JaKNlX3ySPhPKGlqgvCr47jz/IqbulrwF4ETWDbvNufJHF6Bk2zyYGGtcrxFKqC5lOmlvL6S1eG5RD4VCyUgngFScsx88UIL6vxbTHVhg6Yiv4RKXPBWQ6aTBZe7BX/x0InEiVX+CBsdxwBensceGDr2YA",
+            "isbns": []
+        },
+        {
+            "id": "a64ffbd8-407e-46a8-ac2d-5e94b6198644",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Poems : book one",
+            "authors": [
+                "Pais, D. S."
+            ],
+            "abstracts": [
+                "This book is a collection of nine English poems, mostly about love, life and our imaginations. It takes the reader away from reality. The work is abstract and is free for multi-interpretations."
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2017-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=LC40/RuxBNuUmfbDDUdX44WcyUzqg1H7vIry4aRAbOAy/2z8j73gD+KxQlm0TeJu44AaojeI9dpfJshb5JU2sLGE/4ZZAOBT78EWd5tn6D00zyRBbFepgV2fDcX7dRumpmhI/gahYF8VQXy6+fS/4ei8iMn7yn+BimW8Gde6ZkXePvYJx2EV9vaPw/3hn88DfsttWrrPaW4f",
+            "isbns": []
+        },
+        {
+            "id": "ad716b96-2216-487d-a437-b3c0ab9186e4",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Poems : book four",
+            "authors": [
+                "Pais, D. S."
+            ],
+            "abstracts": [
+                "This book is a collection of ten English poems."
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2019-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=LHzkRXw8o5nYYPza91vH3yWDq/y6xl4RPNjwKIrZgqPVaquDz83qTZbrHt/zwKTkiHWYwjAx2PbRi17972sPsaCDhThoOGUtbr93GLJVuEcbgbdEv+/EfVfbaXuXn3pLOp4q2TrOelgdO4zmNk5SzlFzM2+qivm9atuACLy3QJsI5+Pe+zfhAWew2Fi3+Wixj2G0jCFn3dV8",
+            "isbns": []
+        },
+        {
+            "id": "0da6e8be-b043-4294-9a24-e96d4753ce38",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Stories by the river",
+            "authors": [
+                "Carroll, Shane"
+            ],
+            "abstracts": [
+                "\"Stories by the river\" is Shane Carroll's first poetry collection."
+            ],
+            "languages": [
+                "Languages:English {18349056}"
+            ],
+            "createdDate": "2016-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=fSlvaW8wT4ik/SMVArjCqiT4QlMKklOFV5k5z21n3xXjZ0H0C9EGPq5v7LYSPyh9J1X5bv4v8WTCbblitfRt5pxIT2Ygt851/Vkj1+3kT9kCAGgF+rwvM+Q9Ucpz6MD+SOabnxb2TWS2TYBh6QdtNZX1Gro4ssf9Yh8Qq9G+8pp23RfoWU5RFVwfsIJpW2zcfmxaAqgOuT5U",
+            "isbns": []
+        },
+        {
+            "id": "52d32c4a-b82d-4b39-80ef-3012dfab07ca",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "The secret",
+            "authors": [
+                "NIL:Moran, Terry"
+            ],
+            "abstracts": [
+                "The Secret is a story that is written as a poem. It also includes a musical composition and brief information on the author, Terry Moran. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2016-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=eOlxqMLOKMhpgIfgh/oXhQEE1tRxfKtx/BR1W1pHV9fvKyKRTBp1H3NGBzjAeTtUW6oAfyL+i9zVTPlzUX3MiAVsaTfG4DodML2ooCuzi0H8/6Tp16OsU+GWJ3rNUuS5CGGtRuTpRBoE4ykm4g40t9Eou4p9ToGtMOy6DBELdkEeho0AD/ySkVETBUCgDiVDw8JzGOvfCjhj",
+            "isbns": []
+        },
+        {
+            "id": "3a49497e-e9e9-43cb-86b0-1d4adb9417e1",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "No twigs for Sue",
+            "authors": [
+                "NIL:Moran, Terry"
+            ],
+            "abstracts": [
+                "No Twigs for Sue is a story that is written as a poem. It also includes a musical composition and brief information on the author, Terry Moran. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2016-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=ftFKBIYnIqVGPINWKndZgfQvpwokVNxt40fyMP8X88clQHszHP2aSRPsfQrfdY0Ej3NmeUpp4xR6xeqJn7B1KEAvXNZG5ubor928zu2L0O7tYy+/rZQ/wFOB6z5NRjmfnl4A9+rKlUTx9zKqPKrRuX53NsxfR3XKnSpG6A1K0+vSDGmHb2K4MqYmgzuVGxoAPhfcb1Odic74",
+            "isbns": []
+        },
+        {
+            "id": "cc8d0524-c134-4d8e-af8b-4763266f608b",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Do the Jill leap",
+            "authors": [
+                "NIL:Moran, Terry"
+            ],
+            "abstracts": [
+                "Do The Jill Leap is a story that is written as a poem. It also includes a musical composition and brief information on the author, Terry Moran. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2016-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=LiA86MkGsCiJZpSFIkOBfn9ovX7N3pLiEjSDX1gn8gdopxyllrUkyWHCy8QUltSDNoyCtOKv7JoT92vcsqEfg4qXPPd/COLYAXA40tRgyrvqJRAbmta47A+DMGPFyVh9aQfXT+zBuQOqGP5UmW1IEmlfVAOL2vaUv+GZ0xDYpUBaVcgr9O3Bzy2WAMu6ELL3fT8qkIfmbFSQ",
+            "isbns": []
+        },
+        {
+            "id": "933e0baa-d3e4-4194-bbe6-025a624bc4a5",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "I lost a feather",
+            "authors": [
+                "NIL:Moran, Terry"
+            ],
+            "abstracts": [
+                "I Lost A Feather is a story that is written as a poem. It also includes a musical composition and brief information on the author, Terry Moran. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2016-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=dGz/t71j6mdThZ6H4fWuc0EPb6O+9nZcFq5uheYtVqTO8RzjEGrhhMcpqBW49/+wt05cdyNWIURo73bYBlxPWRe8wC469kyUU6/AIAve+dwXBqUkpWnZ4zIS0Vm+8iyQC4muKc2Nsr85Qlga4kAcoJWYMNcKujs9WM5BENY0VIt+P5htcLKV3tHhB20u9lsKQ1qJoGWVrtKi",
+            "isbns": []
+        },
+        {
+            "id": "f23dc6d6-20a9-4e59-8e45-733572b5bb07",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "The storm",
+            "authors": [
+                "NIL:Moran, Terry"
+            ],
+            "abstracts": [
+                "The Storm is a story that is written as a poem. It also includes a musical composition and brief information on the author, Terry Moran. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2016-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=K/7mnQiWe55zSoLHsdUtVckfsIE9bYv3vl+38x4WbF/S3/HJrPUlKXS72tZ/f/xUy8K1SN6HRdt1IsRhHa/JcpbjTbV9ksXDFZAgcBCOMTEo0dm93gcbq19vkX9oJS1I2QCY5xAg8m9NsbFiD+7udauhEhm9BuVdvYpnVwr2niYU+GF5t08jzXl5xf+Y+teNUOHym8cnulH6",
+            "isbns": []
+        },
+        {
+            "id": "0e2ed024-ac08-412c-bfbb-ae05d89aa2fe",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "I was using my hammer",
+            "authors": [
+                "NIL:Moran, Terry"
+            ],
+            "abstracts": [
+                "I Was Using My Hammer is a story that is written as a poem. It also includes a musical composition and brief information on the author, Terry Moran. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2016-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=fSjGPL2yYRs9DohoYhniD1g32A6a2rcXtYbx9J4ktDGiAQadA6InYM+lw9SwQ0yiH4vbRORllOwfPVlJ0rMDmhtXzpV377ePfupTfXXckFrJZlirQ6qQeqaU1Nl8u4bA+3QT6XJtkXvc6uRF6+vMn6YEKSSre0i5NMYEE7fICQKlMfCFiYFN4lr/J4T9rpkmSYeJMg5EGX3g",
+            "isbns": []
+        },
+        {
+            "id": "0606984e-22cb-49f3-a34e-6a3ea901a888",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Your rhyme made me mad",
+            "authors": [
+                "NIL:Moran, Terry"
+            ],
+            "abstracts": [
+                "Your Rhyme Made Me Mad is a story that is written as a poem. It also includes a musical composition and brief information on the author, Terry Moran. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2016-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=fXvwbtnZBoRznXBSohkj9BncshEiY3AKfiJBYtwouz8AnEpOzwYhBw2lbnVpHtHBtMe3bXn2/4zEpNJv+OMwdQxofx5IxnULyT9AKAOfL0BchFnlxuKEg8gT87OJ2s+X2aXMutZpm6mYuFCBjWJaZGbaw2BgC8tz3m7JZMZBSf2gCZ8WZiNtVhLNC6KuZXx9nJhD9zJbSpWe",
+            "isbns": []
+        },
+        {
+            "id": "e9c3180f-fc51-4dbf-ab57-46641e1c881e",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Home by five",
+            "authors": [
+                "NIL:Moran, Terry"
+            ],
+            "abstracts": [
+                "Home By Five is a story that is written as a poem. It also includes a musical composition and brief information on the author, Terry Moran. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2016-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=KOqHWC94v0CeSxPt8AHpXLd11gIGspch5ssKBUH0R55mGAMoT5y9VlzYQYQLUxhd0N2T10ozG+1f/dfIohgH57ptUxINT3KGH1DAjztbIRPZddZIsKgyFFmCg6XgszAlrD1LQkcn89h0z/TXj+WHsJMLuBuVrEbMpavg5YVqVXjmLSiSzs/MewHhlNfZDs9M+EY/23kVFFEY",
+            "isbns": []
+        },
+        {
+            "id": "1233982e-ab3e-44da-b218-fdf3be4a1a38",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "John is mean",
+            "authors": [
+                "NIL:Moran, Terry"
+            ],
+            "abstracts": [
+                "John Is Mean is a story that is written as a poem. It also includes a musical composition and brief information on the author, Terry Moran. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2016-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=fN0fUAaG8R4aPMG1u8Wjru2LikDwpUv9ah33lr7x5RVc50k8+J95LOi3hBD86r0A5+U35N/bsD6HTmTKbmNtlL1x3SWMWvKpojCv4/blfdvGGs9PO3LJP1tNRgvMuGFH9JbzITmwOyQWn1Pm0bwghpF0qccsiXcoSfRd+5NKdfwV4/DarVSR7dgSs8djWyc8Dkn6MOAkkDt8",
+            "isbns": []
+        },
+        {
+            "id": "360875e3-edc0-4d72-bd8b-eed6e28dbe67",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Di sebalik tabir Masuri S.N. : biografi dan karya pilihan yang belum tersiar",
+            "authors": [
+                "Mohamed Pitchay Gani Mohamed Abdul Aziz"
+            ],
+            "abstracts": [
+                "Di Sebalik Tabir Masuri S.N. memberikan gambaran terperinci tentang Masuri sebagai seorang manusia biasa, di luar dirinya sebagai seorang penyair. Di samping menyiarkan sekumpulan karya pilihan beliau yang tersimpan lama, buku ini juga mengupas dan membahaskan secara terus terang beberapa karya beliau yang pernah menimbulkan tengkarah. "
+            ],
+            "languages": [
+                "may"
+            ],
+            "createdDate": "2015-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=foaXOsI0xx+yyfglsaXpbhF6S+oX7AT+su+1sWxSrUrahZ6tcZxn7G8CTRGkhnyyjL1iPrIWmAmpwdDRMoGOMalDQ84iblFD01Xx5FpZ1gwPQRbfvjIZ2t8St9DibZuBMpBfAVxju+ltwWTSlBLaun+lUTNNli23a20qCoR8QhBjwGyzQtB+X3La04s6hGRoWF3poztQznfq",
+            "isbns": []
+        },
+        {
+            "id": "48eacf0a-39e4-4467-907b-5d0f9bd81edd",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "My book of unsung verses of random emotions on my way to 32",
+            "authors": [
+                "NIL:Chitanda, Francis-Xavier R."
+            ],
+            "abstracts": [
+                "This ebook is a collection of Zimbabwean-born poet Francis-Xavier Chitanda's poetry, which is based on his personal experiences in a variety of life matters, such as childbirth, politics, love, and fatherhood."
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2010-12-25",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=eV021LnFVr49NTDBucV1vlgl71BV/l39ahnwGelQHidHyNfZsALFhL10iImIHTx46AmBJezE4apVvC7L7IuIhVI+nZIBn1DP2DO4uL/7FLm/Hbe1OuTyUZOFnBg+H5DoS+xO0SaCWSnqFff/Txj02Q5D2ioTpA/oKcowdvVx0pwBx+cisaXh3Ls8frwrUgu9RJ//rjjBoZYk",
+            "isbns": []
+        },
+        {
+            "id": "9557c9d6-add2-4c2f-a9df-b55369f25735",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "\u0b85\u0bb7\u0bcd\u0b9f \u0b90\u0bb8\u0bcd\u0bb5\u0bb0\u0bbf\u0baf\u0b99\u0bcd\u0b95\u0bb3\u0bc1\u0bae\u0bcd \u0baa\u0bc6\u0bb1 \u0bb5\u0bc6\u0bb3\u0bcd\u0bb3\u0bbf\u0b95\u0bcd\u0b95\u0bbf\u0bb4\u0bae\u0bc8 \u0bb5\u0bbf\u0bb0\u0ba4\u0b95\u0bcd \u0b95\u0ba4\u0bc8",
+            "authors": [
+                "Pal\u0332an\u0332iyappan\u0332, Mi\u0304."
+            ],
+            "abstracts": [
+                "\u0b85\u0bb7\u0bcd\u0b9f \u0b90\u0bb8\u0bcd\u0bb5\u0bb0\u0bbf\u0baf\u0b99\u0bcd\u0b95\u0bb3\u0bc1\u0bae\u0bcd \u0baa\u0bc6\u0bb1 \u0bb5\u0bc6\u0bb3\u0bcd\u0bb3\u0bbf\u0b95\u0bcd\u0b95\u0bbf\u0bb4\u0bae\u0bc8 \u0bb5\u0bbf\u0bb0\u0ba4\u0b95\u0bcd \u0b95\u0ba4\u0bc8. \u0bb5\u0bc6\u0bb3\u0bcd\u0bb3\u0bbf\u0b95\u0bcd\u0b95\u0bbf\u0bb4\u0bae\u0bc8 \u0ba4\u0bb2\u0bc8 \u0b95\u0bc1\u0bb3\u0bbf\u0ba4\u0bcd\u0ba4\u0bc1\u0bb5\u0bbf\u0b9f\u0bcd\u0b9f\u0bc1, \u0bb5\u0bbf\u0bb3\u0b95\u0bcd\u0b95\u0bc1 \u0bae\u0bc1\u0ba9\u0bcd \u0b87\u0ba8\u0bcd\u0ba4 \u0b95\u0ba4\u0bc8\u0baf\u0bc8 \u0baa\u0b95\u0bcd\u0ba4\u0bbf\u0baf\u0bc1\u0b9f\u0ba9\u0bcd \u0b9a\u0bca\u0bb2\u0bcd\u0bb2\u0bbf\u0bb5\u0bbf\u0b9f\u0bcd\u0b9f\u0bc1 \u0b92\u0bb0\u0bc1 \u0b9a\u0bc1\u0bae\u0b99\u0bcd\u0b95\u0bb2\u0bbf\u0b95\u0bcd\u0b95\u0bc1 \u0bb5\u0bbe\u0bb4\u0bc8\u0baa\u0bcd\u0baa\u0bb4\u0bae\u0bcd, \u0bb5\u0bc6\u0bb1\u0bcd\u0bb1\u0bbf\u0bb2\u0bc8, \u0baa\u0bbe\u0b95\u0bcd\u0b95\u0bc1, \u0b95\u0bc1\u0b99\u0bcd\u0b95\u0bc1\u0bae\u0bae\u0bcd, \u0baa\u0bc2 \u0b95\u0bca\u0b9f\u0bc1\u0b95\u0bcd\u0b95\u0bb5\u0bc1\u0bae\u0bcd. \u0b8e\u0bb2\u0bcd\u0bb2\u0bbe\u0bae\u0bcd \u0bb5\u0bb2\u0bcd\u0bb2 \u0bae\u0b95\u0bbe\u0bb2\u0bc6\u0b9f\u0bcd\u0b9a\u0bc1\u0bae\u0bbf\u0baf\u0bbf\u0ba9\u0bcd \u0b85\u0bb0\u0bc1\u0bb3\u0bbe\u0bb2\u0bcd,\u0bb8\u0b95\u0bb2 \u0b9a\u0bc6\u0bb3\u0baa\u0bbe\u0b95\u0bcd\u0b95\u0bbf\u0baf\u0bae\u0bc1\u0bae\u0bcd \u0b89\u0ba3\u0bcd\u0b9f\u0bbe\u0b95\u0bc1\u0bae\u0bcd \u0b8e\u0ba9\u0bcd\u0baa\u0ba4\u0bbf\u0bb2\u0bcd \u0b90\u0baf\u0bcd\u0baf\u0bae\u0bbf\u0bb2\u0bcd\u0bb2\u0bc8."
+            ],
+            "languages": [
+                "tam"
+            ],
+            "createdDate": "2015-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=dGrXgO8HBxTpfiub8udXAF9ZHdnwD2FrHoz+Xn0C3kbJ/frQwgwKDDyvhGWa+vujrnJpbGnWTPxiCLPZi2Gc39siGVWkduio1/MOdvBITV8g6mkaWb2v6acaB1nUFR7ZdXhaT8E6WFctcihfdiwUBbhhUMiAFoBexGOxuX6kgqFsDGnDBoabmrff2ylp/c5V+Sur/Jwerj3a",
+            "isbns": []
+        },
+        {
+            "id": "d94cd101-1573-4bed-8cda-d0d63b56258c",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Two baby hands",
+            "authors": [
+                "Koh, Gilbert, 1973-"
+            ],
+            "abstracts": [
+                "This ebook is a collection of Singaporean author Gilbert Koh's poetry and prose literature. The author writes about interpersonal relationship, romance, and other day-to-day happenings."
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2011-09-09",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=KY2kdyu1ey5TkMUwkDt5JAOBG9aW2CvjEQtcvrV+7LiG+LbXAEpyfMmqwewbjypUpFvlFqkfOVe69PkzMj9yWYYEKxc8R3sdJoa8VXr93sbUwH0rEa31ia+ifLdcTrWdfl7DNI7rP8sJg7UWNCZpgv82iSSsiAv0FiLUCs/rJJQiuErDPiOSJU29a10R0HisFmP6OfHLpTif",
+            "isbns": []
+        },
+        {
+            "id": "568f93fe-4f90-4eb6-82b4-32a6feba7f19",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "\u611b,\u4e0d\u53ef\u4ee5\u5417? : \u5f53\u7231\u4e0a\u4e00\u9897\u661f\u661f",
+            "authors": [
+                "Nan Ji Xing"
+            ],
+            "abstracts": [
+                "\u8fd9\u672c\u4e66\u4ee5\u6563\u6587\u548c\u8bd7\u7684\u5f62\u5f0f\u53d9\u8ff0\u591a\u5e74\u7985\u4fee\u7684\u4f5c\u8005\u5728\u53d1\u73b0\u81ea\u5df1\u8ff7\u4e0a\u97e9\u5267\u4e2d\u7684\u89d2\u8272\u540e\u6240\u9762\u5bf9\u7684\u5fc3\u7406\u6323\u624e."
+            ],
+            "languages": [
+                "chi"
+            ],
+            "createdDate": "2011-10-15",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=eO1raOwvG/ijywOUnpAfAo2Gmm6iEfmOr9FBK5rLf3vV6WETEkoJD5QsL+1Id20ewPuZogFLilugnf2E+LSacOXMHNGZXqziqX3G8Hydz4EQ4l6roEw66yknenMLhsDKYcIO/UOjVI2WaSzKLoi76iCcX/iOgxReZgeKUrqB1wyRbvCuMwAyctKNV/2IkHJVJjDQOevEvVmu2+6IggclBPo=",
+            "isbns": []
+        },
+        {
+            "id": "8b28e94e-e8a4-4d59-b13c-a8b66940294e",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "The Oxford companion to twentieth-century poetry in English / edited by Ian Hamilton. ",
+            "abstracts": [
+                "This Companion is both an alphabetically arranged reference work and, in its sum, a history, a map of modern poetry in English. From the last decade of the century, it offers a survey of the terrain, from 1900 to the present, and from Britain and America to New Zealand, Pakistan, Singapore, Trinidad, Zimbabwe - anywhere, in fact, where poets write in English. It charts the shift from 'poetry' to 'poetries' - from primarily British and American traditions to a rich diversity of younger poetic identities elsewhere. The only comprehensive work of its kind, it covers not just individual poets - some 1,500 of them - but also magazines, movements, concepts, and critical terms. Edited and introduced by Ian Hamilton, himself a notable poet, The Oxford Companion to Twentieth-Century Poetry in English has the distinction of including among its contributors many other celebrated poet-critics, often in intriguing author/subject combinations. For example, Tom Paulin writes on Ted Hughes, Christopher Reid on Elizabeth Bishop, Clive Wilmer on Ezra Pound, Jon Stallworthy on Rupert Brooke, Peter Porter on Lawrence Durrell, Seamus Heancy on Robert Lowell, Femi Oyebode on Jack Mapanje, and Anne Stevenson on Sylvia Plath. These and other writers offer lively and opinionated critical assessments as well as biographical and bibliographical information. And, as one soon discovers, twentieth-century poets have lived far from humdrum lives. Twenty-seven here had nervous breakdowns, nineteen served time in jail, fourteen died in battle, three were murdered, one executed. One played hockey for his country. There were fifteen suicides, and one poet who staged his own death only to reappear, still writing poetry, under a new name. From Abse and Auden to Zaturenska and Zukofsky, this is an essential work of reference for students, lovers of poetry, and for poets themselves. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "1994-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=dVU54YE5VLFir7ZKdUPGmfjpT569c+nx8PIVOAdhqq24nsMqvNEyQlRU9SnsJRBxuZ4MDlGpp5QxWA7Qln2nA9U6jlFuJ5cffa0hz3NbqsJ5PVdpM3SG6+aSBOEbgWYLPE6YoYrMRfyiGd4AcVqWYVGG5Cc6bYNLQymx/LZcHS5WbCHphZKII2qwdoc=",
+            "isbns": []
+        },
+        {
+            "id": "0d336c3c-6ef9-4a7a-afe5-48e54752eb41",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "The Oxford companion to twentieth-century poetry in English [electronic resource] / edited by Ian Hamilton. ",
+            "abstracts": [
+                "This Companion is both an alphabetically arranged reference work and, in its sum, a history, a map of modern poetry in English. From the last decade of the century, it offers a survey of the terrain, from 1900 to the present, and from Britain and America to New Zealand, Pakistan, Singapore, Trinidad, Zimbabwe - anywhere, in fact, where poets write in English. It charts the shift from 'poetry' to 'poetries' - from primarily British and American traditions to a rich diversity of younger poetic identities elsewhere. The only comprehensive work of its kind, it covers not just individual poets - some 1,500 of them - but also magazines, movements, concepts, and critical terms. Edited and introduced by Ian Hamilton, himself a notable poet, The Oxford Companion to Twentieth-Century Poetry in English has the distinction of including among its contributors many other celebrated poet-critics, often in intriguing author/subject combinations. For example, Tom Paulin writes on Ted Hughes, Christopher Reid on Elizabeth Bishop, Clive Wilmer on Ezra Pound, Jon Stallworthy on Rupert Brooke, Peter Porter on Lawrence Durrell, Seamus Heancy on Robert Lowell, Femi Oyebode on Jack Mapanje, and Anne Stevenson on Sylvia Plath. These and other writers offer lively and opinionated critical assessments as well as biographical and bibliographical information. And, as one soon discovers, twentieth-century poets have lived far from humdrum lives. Twenty-seven here had nervous breakdowns, nineteen served time in jail, fourteen died in battle, three were murdered, one executed. One played hockey for his country. There were fifteen suicides, and one poet who staged his own death only to reappear, still writing poetry, under a new name. From Abse and Auden to Zaturenska and Zukofsky, this is an essential work of reference for students, lovers of poetry, and for poets themselves. "
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "1994-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=fSk9rMeL9jiTbJRRWZlO10hyGEha/J4NHvCc8lU+LANw19eYfyfH/4sewit2pMltEL6cgSpveBRPYwdV5Fiu8MgJI9e+WW+YdpDfps9hTYQDP/Gg4ltsP43ZpWX0ciAHHz+V1cpr3pIcJ2idyRqSmrKV9eeNK7ZWSY8GdFsSUaR0Lq0oiruqf3rN1aKi1NGDX2ZY8QSFHDvUr+5Bi/uWs97Zz7c=",
+            "isbns": []
+        },
+        {
+            "id": "ccbf7e37-7114-4e13-a0bf-d447456ee262",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Tree of heaven : poems / by James McKean. ",
+            "authors": [
+                "McKean, James, 1946 July 4-"
+            ],
+            "abstracts": [
+                "This second book by James McKean displays a large, dignified, and precise talent - McKean is always looking and reaching out to the difficult world, pulling it to him for examination. Although beginning with outward themes of travels and crossings, Tree of Heaven circles in the end to the journeys of the inner life: the struggle to understand, the ability to see, to suffer the trials of illness and death, to survive love and longing, learning when to leave things as they are, when to let go. McKean's accomplished voice is quiet but firm, at times full of wonder, exploring the personal and discovering what salvation there is in rhythm and words. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "1995-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=LiBmPCQWZdvz9OfqGs2ruOr10rHJwwCyuBLuKi+6twj4P5tTEPgfncLtyCHOEJNowBttC/NDY7ZhJ+Rv84XkDiz6Hl41ihdBSiGbSO1eJrso32btz+5AQRA+RVUHvgGnrclNGedh5cf6E8hDxMW2oT3GIuEeQq/nWWuRiP5zqBrJzQVqYWvXTDfMzFLyQA21JZBVRI2LG4WfGEuaCzksoUUh1YE=",
+            "isbns": []
+        },
+        {
+            "id": "60c0247f-d31c-4732-b17c-b25e575735d9",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Shaping romance : interpretation, truth, and closure in twelfth-century French fictions / Matilda Tomaryn Bruckner. ",
+            "authors": [
+                "Bruckner, Matilda Tomaryn, author."
+            ],
+            "abstracts": [
+                "Includes bibliographical references (pages 267-284) and index. ",
+                "digitized. 2010. HathiTrust Digital Library. committed to preserve. pda. MiAaHDL. ",
+                "Master record variable field(s) change: 600, 650. ",
+                "Electronic reproduction. [Place of publication not identified] : HathiTrust Digital Library, 2010. MiAaHDL. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "1993-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=ezZZusvAITun8i5rjhRtBQLmYAFdh+dTL42vZQ3FtkBwx/3Tqz8vdBdx/qk1RvglsWp0X0WbJy69iw84f8vDl8xdrnF1rGE4lzpcX7tnZloO4Khy/izxrvrpb2Y/HIb2GQ1iNUojDTLyFO2IpZZltjgXH+fW4rqkYVl3J9wiIf/0hKEKAeVS9P8cAvhl/F7gCejYMUzxCrY=",
+            "isbns": []
+        },
+        {
+            "id": "6365744d-174c-4ef5-baf1-5823bfc19908",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Lives of the modern poets [electronic resource] : with a new preface by the author / William H. Pritchard. ",
+            "authors": [
+                "Pritchard, William H."
+            ],
+            "abstracts": [
+                "Includes bibliographical references (p. [303]-308) and index. "
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "1996-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=ezUq4UszZTaQ646Wyu1i2kuvukGP+0Idw4sMwEEVkUzuv4PzMxaT1048yzPy4YsAkXGwuuDvqWLiBk6RzVo/2L4F+AJg2hCdbIJdsKz0vT8EATeoQVYHGz0wF0LGmv41li3yGMxFRxm9EX+Pi0AmHt/RLgzRuz0fzvwYX5PqZk6tC/+KcIWMVsn/TqCKo5EMcELEdY6RPtP/yGolsHLfHXvq2v8=",
+            "isbns": []
+        },
+        {
+            "id": "c7ec992c-d5ac-4feb-8c2f-3b88bd5284d0",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Asian diaspora poetry in North America [electronic resource] / Benzi Zhang. ",
+            "authors": [
+                "Zhang, Benzi."
+            ],
+            "abstracts": [
+                "Includes bibliographical references (p. 157-171) and index. "
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2008-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=LnTktBNl7gMZILeVYNK7MstL7sJ7+Rug+Sn7j2trbW7wCFoFf4AtBqo24yVXE59+zsK4X4OUc3ycYe0S1wRn3/i65TNshA0b1wsbcm/r9/NYARqW5NJndDhO762MqRiZbF7qmYIVqbUG4HgOHKRatS6oCrys99vmjNm7IRxX8iN/SCJmfrhsyRczTrMm9I1XWlKXqVgdL/JBWx9jCWPiCgqPQJ7d",
+            "isbns": []
+        },
+        {
+            "id": "2d156353-9572-4301-8ff2-560bd2339756",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "The epic of Kelefaa Saane [electronic resource] / Sirifo Camara ; edited and translated by Sana Camara. ",
+            "authors": [
+                "Camara, Sirifo."
+            ],
+            "abstracts": [
+                "In its written form, The Epic of Kelefaa Saane is a faithful transcription and translation of the performance of Sirifo Camara. The epic was recorded in the city of Dakar, Senegal, in 1987 by Boundiaye Jiite, an important patron of Senegambian music. ",
+                "Includes bibliographical references and index. ",
+                "Original Mandinka text and English translation on facing pages. "
+            ],
+            "languages": [
+                "_Languages:English {18349056}",
+                "man"
+            ],
+            "createdDate": "2010-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=f3k9JcS6HJ4/w9S/wwXz95waWdGmf7C+t2IUaGdk2KzkA2f50cc71TiigXA2WtC4h3ZH9KJPGLlmpbsBbIKIIXifoNdMXwbtO+vKzgKPeDUdqxDpHE2aysVGwewFMzPkguseslHjnJbSCD939mlsRyNHSPd6TXgPzqe8J46CzLkXH8whvq5M+B2lvd/w0OWuj/KThCcQXSFFyiG0rs92HzfsBFXD",
+            "isbns": []
+        },
+        {
+            "id": "11666f69-45f9-48ce-96e8-cbbc8b2ded3e",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "\u590f\u5b63\u96ea = Summer snow : new poems / \u7f57\u4f2f\u7279\u00b7\u54c8\u65af\u8457 ; \u9648\u67cf\u715c\u8bd1. ",
+            "authors": [
+                "\u54c8\u65af, \u7f57\u4f2f\u7279, author.",
+                "Hass, Robert, author."
+            ],
+            "abstracts": [
+                "\u300a\u590f\u5b63\u96ea\u300b\u662f\u7f8e\u56fd\u6842\u51a0\u8bd7\u4eba\u7f57\u4f2f\u7279.\u54c8\u65af\u777d\u8fdd\u5341\u5e74\u51fa\u7248\u7684\u8bd7\u96c6, \u518d\u6b21\u5960\u5b9a\u4ed6\u8eab\u4e3a\u7f8e\u56fd\u6700\u5bcc\u76db\u540d\u8bd7\u4eba\u4e4b\u4e00\u7684\u5d07\u9ad8\u5730\u4f4d. \u5173\u6000\u81ea\u7136\u754c\u5411\u6765\u662f\u4ed6\u521b\u4f5c\u7684\u91cd\u8981\u4e3b\u9898\u4e0e\u7279\u8272, \u5728\u8bd7\u96c6\u4e2d, \u4ed6\u4ee5\u5fae\u5999\u7684\u5e7d\u9ed8\u611f, \u7ed3\u5408\u4eba\u751f\u7ecf\u9a8c\u4e0e\u5bbd\u5e7f\u7684\u80f8\u6000, \u4e66\u5199\u5931\u843d\u7684\u51c4\u60c5\u4f24\u611f\u3001\u5927\u81ea\u7136\u7684\u5b81\u9759\u4e0e\u7f8e\u5999\u58f0\u54cd, \u4ee5\u53ca\u6b32\u671b\u7684\u591a\u53d8, \u5bcc\u6709\u9ad8\u5c42\u6b21\u7684\u827a\u672f\u7f8e\u611f\u4e0e\u9ee0\u601d\u673a\u8da3. \u4ed6\u7684\u8bd7\u603b\u662f\u8272\u5f69\u7eb7\u5448, \u7eff\u677e\u84dd\u3001\u7fe1\u7fe0\u7eff\u3001\u9e3d\u5b50\u767d\u3001\u5c16\u9178\u9ec4....., \u8fd8\u6709\" \u6b7b\u4ea1\u7684\u6b4c\u662f\u6e7f\u7d2b\u7f57\u5170\u7684\u989c\u8272\" , \u8fd8\u6709\" \u4e45\u96e8\u8fc7\u540e\u662f\u5496\u5561\u6b27\u857e\u7684\u989c\u8272\"; \u8bd7\u4e2d\u4f17\u58f0\u5639\u4eae, \u7fa4\u9e1f\u5541\u557e, \u9e3b\u9e1f\u3001\u9e73\u9e1f\u3001\u51a0\u5c0f\u5634\u4e4c\u9e26\u3001\u4e4c\u9e2b\u3001\u5409\u62c9\u5544\u6728\u9e1f..... , \u8fd8\u6709\u7532\u866b\u3001\u7ebf\u866b\u3001\u86c7\u3001\u72ee\u5b50, \u4ee5\u53ca\u7fbd\u677e\u3001\u4ed9\u4eba\u638c\u3001\u5939\u7af9\u6843\u7b49\u5404\u8272\u5373\u666f, \u4e0e\u8bd7\u4eba\u4e00\u540c\u9886\u7565\u81ea\u7136\u6240\u8d50\u4e88\u7684\u5bc2\u9759\u4e0e\u66b4\u8650, \u6709\u65f6\u8fd8\u80fd\u542c\u89c1\" \u6c99\u6f20\u690d\u7269\u5728\u70ed\u6c14\u4e2d\u5475\u75d2\u7684\u58f0\u97f3\". \u5c3d\u7ba1\u8bd7\u98ce\u5bcc\u6709\u6d6a\u6f2b\u4e3b\u4e49\u8272\u5f69, \u4f46\u54c8\u65af\u5bf9\u4e8e\u6218\u4e89\u3001\u653f\u6cbb\u3001\u9053\u5fb7\u4e3b\u9898\u4e5f\u6781\u5ea6\u5173\u6ce8, \u4ed6\u8ba4\u4e3a\u8fd9\u4e9b\u95ee\u9898\u5747\u8fdd\u53cd\u4e86\u81ea\u7136\u51c6\u5219, \u5e76\u4ee5\u6b64\u505a\u4e3a\u8bd7\u6b4c\u7684\u4e24\u4e2a\u6781\u7aef, \u521b\u9020\u51fa\u66f4\u6df1\u5c42\u7684\u7f8e\u5b66\u6548\u5e94. \u4e66\u4e2d\u4e00\u7cfb\u5217\u7684\u633d\u6b4c, \u62e5\u6709\u7279\u6b8a\u7684\u60c5\u611f\u529b\u91cf, \" \u4ed6\u7684\u6b7b\u6709\u79cd\u7279\u6b8a\u9b45\u529b, /\u5373\u4f7f\u90a3\u9b45\u529b\u662f\u7edd\u671b, \u4ed6\u6216\u8bb8\u66fe\u559c\u6b22\u4e0a/\u4e5f\u53ef\u80fd\u60f3\u50cf\u8fc7, \u800c\u90a3\u90fd\u4e0d\u662f\u4ed6\u5e94\u8be5\u7ecf\u5386\u7684\"; \u540c\u65f6\u4ed6\u4e5f\u5728\u8bd7\u91cc\u94ed\u523b\u4e0b\u4e0e\u597d\u53cb\u3001\u4f5c\u5bb6\u4eec\u7684\u5bf9\u8bdd, \u9080\u8bf7\u8bfb\u8005\u53c2\u4e0e\u4ed6\u5728\u51a5\u60f3\u65f6\u7684\u8bf8\u822c\u5386\u7a0b. \u54c8\u65af\u7684\u8bd7\u6b4c\u59cb\u4e8e\u4ed6\u7684\u751f\u6d3b\u4ee5\u53ca\u5bf9\u81ea\u7136\u7684\u70ed\u7231, \u4ed6\u66fe\u626c\u8a00\u8981\u53bb\u5176\u4ed6\u8bd7\u4eba\u4e0d\u53bb\u7684\u5730\u65b9, \u52c7\u4e8e\u89e6\u78b0\u653f\u6cbb\u4e0e\u6218\u4e89\u8bae\u9898, \u5728\u9ed1\u6697\u4e0e\u81ea\u7136\u7684\u4e16\u754c\u4e2d\u81ea\u5728\u7a7f\u68ad, \u8ba9\u4e30\u5bcc\u7684\u611f\u5b98\u523a\u6fc0\u4e0e\u601d\u60f3\u4ea4\u4e92\u6fc0\u8fa9, \u4e5f\u521b\u9020\u66f4\u591a\u9605\u8bfb\u7684\u4e50\u8da3\u4e0e\u5fc3\u7075\u4ea4\u6d41\u7684\u5149\u4e0e\u7535. "
+            ],
+            "languages": [
+                "chi",
+                "eng"
+            ],
+            "dataFrom": "HyRead",
+            "url": "http://search.nlb.gov.sg/r/hyread/?r=fN6kYdYReBF3B4UZ8NPJNjLqIa1UkAyaUcRbDtUMAEREQ3D6e8Vb6drJkCYGwCZ+0MARDZrXFG55QIiJbmTej7kibZcwcHSrFUIW8z04NnIZMo9m+wk+ZVG9jWwhW+YV0OVvSRbZ3o2kExE4e64dSVCc0X4HXOWWmwYlmj0tHs/dIg==",
+            "isbns": []
+        },
+        {
+            "id": "6af3f900-1a96-4ef3-81be-764b22be8c9f",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "The Columbia history of British poetry / Carl Woodring, editor ; James Shapiro, associate editor. ",
+            "abstracts": [
+                "Includes bibliographical references and index. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "1994-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=e2f8X6NmNmEl0jU/ca0z+BR0v4rV8NxbbGvGv4jGtYmZaU/4Ydh403beg1qNAN/PAfZwStb9M+MjYFJnuuPnOD+JETPHJiD+9/b00i9XQkvoPM5vHWyYGVj8rf+INcwphJez0s4/yL4PaEEIg0lioQo8tRIVL/AqpZxqGP9E9XgTUjzIEs7FU0z0/A==",
+            "isbns": []
+        },
+        {
+            "id": "f3921688-6c07-4cec-88b5-59559d066c16",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Emily Dickinson : daughter of prophecy / Beth Maclay Doriani. ",
+            "authors": [
+                "Doriani, Beth Maclay, 1961-"
+            ],
+            "abstracts": [
+                "How do women, historically excluded from the role of preacher because of their gender, gain authority to assume a prophetic voice? What rhetorical strategies can empower the woman who would claim the role of prophet? In this book, Beth Maclay Doriani looks at the ways Emily Dickinson addressed these questions in the context of patriarchal nineteenth-century New England. She explores some of the central strategies Dickinson used to claim both poetic and religious authority and to join the ranks of the self-proclaimed prophets of her day - literary figures like Emerson, Thoreau, and Whitman, as well as a host of preachers and other popular orators. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "1996-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=K/+nLfXhe4diQPt/KX3sQOMphGYhVsuofxE09zlv1IvTppBWg6P3RQUwBfTG3PQm47II0mtpKaHvBNVlv+0nx4mM1s4DEYtOE6ImqwGq9wKoZwoOEgr+qqipWc+hIrVegvptkSHjLxQEhUrX8NVIfTCtCNcVUd0abAnSZg0r1lDDGy5CbpCqZ5PuPAcq4ZbazaJtTWiTqHpsenYkFLVaA3WWwL6VT4Fw/Pm9P/kNXbu61humu+iXb9wvvqT2BBupQB7KGQzbIbJ9btQ5DHzeWVBp",
+            "isbns": []
+        },
+        {
+            "id": "c0284b20-fc09-48d7-bfec-dbde54a7eca5",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "The epic of Kelefaa Saane [electronic resource] / Sirifo Camara ; edited and translated by Sana Camara. ",
+            "authors": [
+                "Camara, Sirifo."
+            ],
+            "abstracts": [
+                "In its written form, The Epic of Kelefaa Saane is a faithful transcription and translation of  the performance of Sirifo Camara. The epic was recorded in the city of Dakar, Senegal, in 1987  by Boundiaye Jiite, an important patron of Senegambian music. ",
+                "Description based on print version record. ",
+                "Includes bibliographical references and index. ",
+                "Original Mandinka text and English translation on facing pages. "
+            ],
+            "languages": [
+                "eng",
+                "man"
+            ],
+            "createdDate": "2010-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=LnNYfrVCtxjft87GfgNLw1uN8qGJXkjgsaPRe99mbK1El280qYAw6jVdwqffac46B9oUY06fMAgNw78uINo7EYSNWWqpcvMpqhHKZaK4JNX3ogDRRG3vnnmBvlfgiYMHSt5OIeARZ7rntuA6Wvxda6miCAc2+zCD860n/tcvCCRm26+cnU1Dr76CEBG6/dqDC+5Mo4MsnHi0rBdBcuKQwbOycheU",
+            "isbns": []
+        },
+        {
+            "id": "416bcc9e-4ed0-4975-a7ab-6b9830a0df29",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "The Columbia history of American poetry / Jay Parini, editor, Brett C. Miller, Associate editor. ",
+            "abstracts": [
+                "Includes bibliographical references and index. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "1993-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=eVQe0v8LH5Z1Sjkl2gJiZf2SUicBkI6U/RROyfd3h1XmtoRbivPeqDKhAvt1WuEBq5GUOERUm7ibcxIl4nbdx02g0PuzkO6bLwev9snZ5IV3aeaD5PON5i1uXSysAahCWugaOXZQ0XDBRKAS5fUtZU4pr6P4PlA4QOokKNGuuvosrTNeEH73qGWWDQ==",
+            "isbns": []
+        },
+        {
+            "id": "b116f22f-a4be-46c8-bfe4-6b9171869296",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "In primary light : poems / by John Wood. ",
+            "authors": [
+                "Wood, John, 1947 January 2-"
+            ],
+            "abstracts": [
+                "John Wood is well known for his brilliant writing on the history of photography, but for many years he has also centered on his work as a poet, publishing in some of the very best magazines and gaining the deep admiration of many writers and poets. This book is testimony of his devotion to his craft - a fully realized, mature, and carefully constructed collection. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "1994-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=L9rE0yG168pECn0vizyZWHG9PzItMC5hbboQNSHgJz+Wz/JZWyR7DC+lx5/Q3N4NhU47WJEYQFmVkrChSQcIiomphm0baW/82tzg8D7QJ/oTP7tAVAukthVpyvUidKQh4vI9CDMQRG3r4BWyS56tG0DlajgjiHs3h+xYhHuJTwQQjzuv5sNXAp9j7XfcrZNLCk9fDtszsvmu9BXknJJ2pNU936E4oTB0tufPbST8VFcdlGZ7CVvXEbYmrDVw",
+            "isbns": []
+        },
+        {
+            "id": "504a8598-659d-4ec8-81fb-c7f04f546fe6",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Lives of the modern poets [electronic resource] : with a new preface by the author / William H. Pritchard. ",
+            "authors": [
+                "Pritchard, William H."
+            ],
+            "abstracts": [
+                "Description based on print version record. ",
+                "Includes bibliographical references (p. [303]-308) and index. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "1996-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=eOsDkoZwu44a730Kq1I4AyfkVrlM0b16P8HHZSNay0QzqGW48Jx+bRw9cRZdreDmOLZsOpm2CB9XoUfUpsp96z7ASQuTRQJQpRbGDSKtaxuNTr8/OvazWYsl+1k8pMXWU0n/WFl9TOL0Z3VAlOSj5TguQaOzizU/ZLN5LUAQDtGfckSZptoHvYzVfOoMvdetL41wJ+lC57dg9jgq1SKCngqVqu8=",
+            "isbns": []
+        },
+        {
+            "id": "09199361-141f-4e61-9478-ea42122dcaca",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "A reference guide to the Bible in Emily Dickinson's poetry / Fordyce R. Bennett. ",
+            "authors": [
+                "Bennett, Fordyce R."
+            ],
+            "abstracts": [
+                "Includes bibliographical references and index. ",
+                "digitized. 2010. HathiTrust Digital Library. committed to preserve. pda. MiAaHDL. ",
+                "Electronic reproduction. [S.l.] : HathiTrust Digital Library, 2010. MiAaHDL. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "1997-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=fXQQxfoqRBdbXGxhMJxbfwaiplWTrpv0y/KnvICEmE5/0/CAi66LP+vVi7oUnsLHKHfvyWRBCUf49q9Wd+5JhExcZKJQwGfyP48vydBDsb+VwWMcPCwoScPJOrNAYcPzBW3Iq40Aw61hDUcrdexqZU40e+p2ex7hYqnG+x8KXTeYscMFjNDmJbHM9RYgKQmLZks96m6805io3zirmdolx1qVGlg=",
+            "isbns": []
+        },
+        {
+            "id": "9e35c76b-8b9f-4e7d-86cb-93289a4bfcda",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "\u8ba8\u62cd\u53d6\u6696\u8bd7\u5fc3\u75af : \u4e00\u672c\u4e66\u8bfb\u61c2\u7ecf\u5178\u53e4\u8bd7\u4eba / \u5927\u8001\u632f\u8457. Tao pai qu nuan shi xin feng : yi ben shu du dong jing dian gu shi ren / Dalaozhen zhu. ",
+            "authors": [
+                "\u5927\u8001\u632f, author.",
+                "Dalaozhen, author."
+            ],
+            "abstracts": [
+                "\u6bcf\u4f4d\u8bd7\u4eba\u90fd\u662f\u5f53\u4ee3\u6d41\u884c\u6b4c\u624b, \u60b2\u6b22\u79bb\u5408\u7686\u5728\u8bd7\u8bcd\u4e2d\u8d77\u627f\u8f6c\u5408\u3001\u5174\u4ea1\u6210\u8d25! \u7528\u73b0\u4ee3\u89d2\u5ea6\u8d85\u8bd1\u53e4\u8bd7\u4eba\u73bb\u7483\u5fc3, \u8fd8\u539f\u8bd7\u8bcd\u6b4c\u8d4b\u73b0\u573a, \u4eb2\u4e34\u611f\u53d7\u8bd7\u5fc3\u8bd7\u60c5\u8bd7\u9178\u6da9. \u540c\u573a\u52a0\u6620: \u53e4\u8bd7\u4eba\u751f\u6d3b\u5b9e\u5883\u79c0\u53ca\u521b\u4f5c\u82b1\u7d6e! \u674e\u5546\u9690\u7a7a\u6709\u624d\u60c5\u4e0d\u5f97\u5fd7, \u53ea\u56e0\u4ed6\u662f\u767d\u76ee\u5929\u771fsilly boy; \u521d\u5510\u56db\u6770\u662f\u4e2d\u56fd\u7b2c\u4e00\u4e2a\u6447\u6eda\u4e50\u56e2F4, \u800c\u738b\u7fb2\u4e4b\u5219\u662f\u300c\u4e1c\u5e8a\u5feb\u5a7f\u300d\u4ee3\u8a00\u4eba! \u82cf\u4e1c\u5761\u582a\u79f0\u5317\u5b8b\u7b2c\u4e00\u7f51\u7ea2, \u7c89\u4e1d\u4e0a\u81ea\u7687\u592a\u540e\u4e0b\u81f3\u8d29\u592b\u8d70\u5352, \u968f\u4fbf\u53d1\u6587\u90fd\u6709\u767e\u4e07\u6309\u8d5e\u6570; \u674e\u6e05\u7167\u59ca\u59ca\u5982\u4f55\u6c38\u4fdd\u5341\u516b\u5c81\u5c11\u5973\u5fc3, \u4ece\u81ea\u62cd\u8fbe\u4eba\u664b\u5347\u4e3a\u56fd\u6c11\u5973\u795e?. "
+            ],
+            "languages": [
+                "chi"
+            ],
+            "createdDate": "2018-01-01",
+            "dataFrom": "HyRead",
+            "url": "http://search.nlb.gov.sg/r/hyread/?r=dDptEFoNn/hn9LhyO6G9n63KsqPAK5rmVjGlsnVU96ZhjBrxm1+9ccclrY62vtchQl7FFWYLiDv7Ui3Hbpw+YsdUL0HhQw8RSRnbPDkcNjNk2TB0RDXfwtvHB+oIhxsq5LLg3Cova+KkSnZ6Kfp9ZCJtOtNtAJcPUvV0SyK5/o/j1A==",
+            "isbns": []
+        },
+        {
+            "id": "d3964950-de65-4926-acc2-315ca49314c0",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Tang shi Song ci xian wei ren zhi de gu shi [electronic resource] = Story of Tang & Song dynasty poetry / Xie Anxiong zhu. \u5510\u8a69\u5b8b\u8a5e\u9bae\u70ba\u4eba\u77e5\u7684\u6545\u4e8b [electronic resource] = Story of Tang & Song dynasty poetry / \u8b1d\u5b89\u96c4\u8457. ",
+            "authors": [
+                "Xie, Anxiong.",
+                "\u8b1d\u5b89\u96c4."
+            ],
+            "abstracts": [
+                "Ben shu yi gu shi de jiao du chu fa, dai ling xian dai ren ti yan shi ren. ci ke de xing qing, ji Tang shi. Song ci de mei. ",
+                "\u672c\u66f8\u4ee5\u6545\u4e8b\u7684\u89d2\u5ea6\u51fa\u767c,\u5e36\u9818\u73fe\u4ee3\u4eba\u9ad4\u9a57\u8a69\u4eba.\u8a5e\u5ba2\u7684\u6027\u60c5,\u53ca\u5510\u8a69.\u5b8b\u8a5e\u7684\u7f8e. "
+            ],
+            "languages": [
+                "chi"
+            ],
+            "createdDate": "2012-01-01",
+            "dataFrom": "Airiti",
+            "url": "http://search.nlb.gov.sg/r/airiti/?r=KYdMAMcEhUJJ3WN8l8f68KIcZa8koT/Xo9jebS4GzRr/H2PT7plWCaYzW7H1OHqCLmmzJQtpqTDaC4aSD+1pAGewwlRoH6zRdD8LYfHJg1YGlLuEtyS81QClb5BLEuih1CWkIwWoYIVBd5xlxXYX5i4ls3p0Vg/ECRtzGWLIx+PEdYZ6y/xImoAziw==",
+            "isbns": []
+        },
+        {
+            "id": "9adbff8b-61b8-4ebe-adf9-c2203dbfb7e4",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Peanut butter and jellyfishes [electronic resource] : a very silly alphabet book / by Brian P. Cleary ; illustrations by Betsy E. Snyder. ",
+            "authors": [
+                "Cleary, Brian P., 1959-"
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2007-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=dD6+fyo4lPDrFRa0UAKtk4hM6tocXqF2gW4cfSE2FrWElYipYCLzjPX/Qmm7hRNa5kRflFvZv/bR7BfVx6+490Ha9kHXSTV9ZZyLX8Cqge/RrHNQL9wOyAi0SYnGpV9IHUkf0pVQk2JAZJJVl032rVCNJ1LksP4Wa+hqrsT7XsvvVJCN4xKTW6r/q7FT967/jQSFWjb4Gn3pNW/MwLTiFCl89R8D",
+            "isbns": []
+        },
+        {
+            "id": "74b42481-c737-4fc5-bd98-3cbd61aff5ba",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "The returns of Odysseus : colonization and ethnicity / Irad Malkin. ",
+            "authors": [
+                "Malkin, Irad."
+            ],
+            "abstracts": [
+                "Irad Malkin contributes here to the current lively discussion of encounters among Greeks and non-Greeks. Through the prism of myths, he argues, notions of ethnicity and collective identity were articulated. Focussing in particular on myths about Odysseus and other heroes who visited foreign lands on their mythical voyages homeward after the Trojan War, he shows how these Return-myths influenced actual encounters during the time of early exploration and colonization in the western Mediterranean. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "1998-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=eiQnreIquLaUhavKwl4NhuC3GOjuS/qO6q+XlGq/6X7sG2tE5PRNSn9+vGC3n/FiWQIXOLlnc5XI1NbGrMypPoMNMZ3RXa2eDhK3tq+mqV9x8VH7roF4k+n61TQqdPW+wpgejqZ6EA17cjA+T8wQbn493foXNQisZB39PFbfkqcAjCEElb7XfXgr3ywr7SxM19yFzyxnfxie4iU=",
+            "isbns": []
+        },
+        {
+            "id": "de74fe48-93ba-41e8-b6c5-d515cc647df5",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Noel [electronic resource] / by Tony Johnston ; art by Cheng-Khee Chee. ",
+            "authors": [
+                "Johnston, Tony, 1942-"
+            ],
+            "abstracts": [
+                "Ages 3-8. "
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2005-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=KdG7DOJMR0LE/x6kOEXyQ1Nsg6b3eD7xxYBz7GklpZrdIwdhsMjXRoKd4rzu1IvIkjFVD0K/okv02tgIrypuIQ4Fa/V32MkDdTj6nwUlv97lfVzBKy6ouWzGDvpWWgwhGDzauA/VOfyb5bIqX9pQRHd+mJdfGiYstx2sm8NZB0R0j/PPazb/CaXiD69zKx63bUtrS2yEIUdETrBUeR/lUa0PtxoV",
+            "isbns": []
+        },
+        {
+            "id": "b76d00af-32b3-4f79-b152-67c9c27c6b8f",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "The Columbia history of American poetry [electronic resource] / Jay Parini, editor, Brett C. Miller, Associate editor. ",
+            "abstracts": [
+                "Includes bibliographical references and index. "
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "1993-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=L9z72slfLjFvWLitIeMvvFLFIReN2W4S90uWc5o4imPQA5KBQPNdIfNWyvMZhguWhX3/Ma2Hw7WB5MvvxIsf3CvtGXLSoG4jgj2Mqxseb5dgz5QSsUFeOD//ywi3oqv5Yegbf2epFZBdFBe7bIjTM58e0XFVz0Zx5Gxd2plaooLGr4bBKyfPq63DG1ceVAor+z4M9UjDItolJO7xGwC3TLMkiQ==",
+            "isbns": []
+        },
+        {
+            "id": "810364db-939f-481d-a645-670cd74974eb",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Elizabeth's glass : with \"The glass of the Sinful Soul\" (1544) by Elizabeth I, and \"Epistle dedicatory\" & \"Conclusion\" (1548) by John Bale / Marc Shell. ",
+            "authors": [
+                "Shell, Marc."
+            ],
+            "abstracts": [
+                "As a girl of eleven, Elizabeth I translated into English a poem by Marguerite of Navarre on incest, spiritual and physical. Four years later her translation, titled \"The Glass of the Sinful Soul,\" was published by the Protestant reformer John Bale. However ingenuous Elizabeth may have been at eleven, she surely realized the implications of the tract when she permitted new editions in 1568, 1582, and 1590. Its bearing on her own family and her precarious hold on the throne was all too obvious when dissenters accused both her father, Henry VIII, and her mother, Ann Boleyn, of adultery, when her father had sought to annul his first marriage on grounds of incest, when her mother was accused by Henry of incest, and when Elizabeth herself was deemed a bastard. Making Elizabeth's little-known work readily available to today's scholars, Elizabeth's Glass includes a photographic reproduction of Elizabeth's manuscript and a modern transcription, as well as John Bale's additions to his 1548 edition. In an erudite and penetrating introduction, Marc Shell investigates the complex political, familial, theological, and ecclesiastical forces that made Elizabeth acutely conscious of incest and made her translation an emblem of a controversy that stormed throughout Reformation Europe. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "1993-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=dQbOloXjTRbOlPda5ttM03Wfg++4Ms5okqdlvYxzf2YQXuzOghZHGakXQ4cgLKlkR2clOrDxzrrIQPHDlVSsrIWEcXZi4w/dHcYzxG7SqRnPGw6frq+Q2At6KqoPL0BuKLsl5mMbEAJ5DcEQJRCOWc5mTxDelgj5adkoiB6SOIkkKTMQSwC6Dzg8IxUic1OB48NkhjTgn6ke",
+            "isbns": []
+        },
+        {
+            "id": "ac61fdbd-8079-475c-9c9b-fdd627be33b5",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "The Columbia history of British poetry [electronic resource] / Carl Woodring, editor ; James Shapiro, associate editor. ",
+            "abstracts": [
+                "Includes bibliographical references and index. "
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "1994-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=LHseO7WMMcthovxtBPdSH2fMxqVw1PqXXvKpYLQy18il2HGXcakRe2JjZynaIqvbDJj14W8EuAmT2Co5vyyamN3VSUVy4C4JhILynwiw5Oh+p/gHRr9QLiL/oLLHK4BJLrY9TkbxQJzcEdLdKpEXHI2PO1SQwuSIb129KHo6BiqHbqERa9QbRuWzh1KLTrqUqsAGq40LMBPToGvnhD/k7KdW6Q==",
+            "isbns": []
+        },
+        {
+            "id": "aa482465-5633-4457-b769-0427b4b66492",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "I hope it's not over, and good-by [electronic resource] : selected poems / Everette Maddox ; edited with an introduction by Ralph Adamo. ",
+            "authors": [
+                "Maddox, Everette."
+            ],
+            "languages": [
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2009-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=LHmGJSLt7O3+oobQK0ciuhWbVSjxlMsEyOduLz7FNVYr5Fhma6NtHGgBPozGICKwtPXxZvgRYMH6fn5ExRnUdarwAtzX1U1p7sGw8QqWn6C/feYlZ0Gyv3KoanxzAHDwfG1oed27PegJDZ39N+om3niGNaqaEGSIY+pjsOZX5wcR/ULMjiDPenfsug/cf81l5g7pRBdqxho5IIYhJxH+JICF6cCv",
+            "isbns": []
+        },
+        {
+            "id": "2efe2ead-8678-4612-b956-b08e4c7be6be",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Fantasmagoria / Lewis Carrol. ",
+            "authors": [
+                "Carroll, Lewis, 1832-1898."
+            ],
+            "abstracts": [
+                "Title from PDF title page (viewed Feb. 23, 2007). ",
+                "Master record variable field(s) change: 650, 651. "
+            ],
+            "languages": [
+                "spa",
+                "eng"
+            ],
+            "createdDate": "2004-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=f3hTcgAg/El7XX9EKf+6DzXIZIPHiQaTIQ0i9wLCto9HbCxSU9XqRPW3qsycsXE/20M8RjLDCxeTTp3Xr+UyVlkt0asZTijbzU+lkDR1TTZW+qKGnCu25kdxuCBndpVO25Bi+KI0bulfyS7a9QPeVICFC0LyJDQ2ag4CuucPpqeBUF05qvGiRd8JzL5M5uDyMp/Ap3mUkhQNfx5RtQ/safy1m8vI",
+            "isbns": []
+        },
+        {
+            "id": "1a81d47d-b726-4d0a-8d3a-a0173f80223a",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "\u6b64\u7269\u6700\u76f8\u601d : \u53e4\u5178\u8bd7\u8bcd\u7684\u7231\u60c5\u4f53\u9a8c/ \u5f20\u66fc\u5a1f\u8457. ",
+            "authors": [
+                "\u5f20\u66fc\u5a1f, author.",
+                "Zhang, Manjuan, author."
+            ],
+            "abstracts": [
+                "\u7f8e\u597d\u7684\u7231\u60c5\u5c31\u50cf\u7edd\u53e5, \u6291\u626c\u987f\u632b, \u9971\u6ee1\u4e30\u76c8, \u5e26\u7740\u6211\u4eec\u77ac\u95f4\u98de\u884c, \u5b89\u7136\u964d\u843d, \u6e38\u8d70\u5728\u68a6\u4e0e\u771f\u5b9e\u7684\u8fb9\u5883, \u4f7f\u4eba\u542b\u6cea\u7761\u53bb, \u5fae\u7b11\u82cf\u9192. \u5f20\u66fc\u5a1f\u7ed3\u5408\u53e4\u4eca\u7684\u52a8\u4eba\u7231\u60c5\u4e66. \u672c\u4e66\u7cbe\u9009\u4e8c\u5341\u4f4d\u53e4\u4ee3\u540d\u4eba\u7684\"\u7231\u60c5\u8bd7\": \u574e\u5777\u5374\u75f4\u60c5\u7684\u6587\u4eba\u7687\u5e1d\u674e\u715c; \u7ec6\u817b\u53c8\u803d\u7f8e\u7684\u674e\u5546\u9690; \u5bf9\u59bb\u5b50\u5fe0\u8bda\u4e13\u4e00\u7684\u53f8\u9a6c\u5149; \u98ce\u6d41\u591a\u60c5\u7684\u624d\u5b50\u79e6\u89c2; \u591a\u60c5\u79cd\u5b50\u90d1\u677f\u6865; \u70df\u82b1\u67f3\u5df7\u4e2d\u7099\u624b\u53ef\u70ed\u7684\u6d6a\u6f2b\u5927\u5e08\u67f3\u6c38; \u624d\u8c8c\u53cc\u5168\u3001\u6df1\u53d7\u5510\u7384\u5b97\u5ba0\u7231\u7684\u6885\u5983\u6c5f\u91c7\u82f9; \u77e5\u60c5\u89e3\u610f\u7684\u591a\u60c5\u4eba\u8303\u6210\u5927; \u4e00\u751f\u7684\u7231\u60c5\u90fd\u732e\u7ed9\u56fd\u4ec7\u5bb6\u6068\u7684\u8f9b\u5f03\u75be; \u6f47\u6d12\u770b\u4e16\u60c5\u7684\u82cf\u4e1c\u5761; \u611f\u60c5\u751f\u6d3b\u4e56\u821b\u7684\u6e05\u671d\u663e\u8d35\u7eb3\u5170\u6027\u5fb7; \u4e00\u751f\u79bb\u4e0d\u5f00\u9152\u548c\u5973\u4eba\u7684\u674e\u767d; \u6e05\u4ee3\u624d\u534e\u5973\u8bd7\u4eba\u5b63\u6dd1\u5170...... \u6bcf\u4e00\u9996\u8bd7\u4f20\u8fbe\u7684\u7231\u60c5, \u90fd\u6709\u5f20\u66fc\u5a1f\u6700\u7ec6\u817b\u52a8\u4eba\u7684\u73b0\u4ee3\u6545\u4e8b\u6765\u547c\u5e94 - \u9690\u5bc6\u7684\u7231, \u4efb\u6027\u7684\u7231, \u56de\u5fc6\u7684\u7231, \u4e0d\u4f26\u7684\u7231, \u5305\u5bb9\u7684\u7231, \u5947\u5e7b\u7684\u7231, \u6d6a\u6f2b\u7684\u7231, \u7ea2\u7c89\u77e5\u5df1\u7684\u7231, \u7d27\u8feb\u76ef\u4eba\u7684\u7231, \u9752\u6885\u7af9\u9a6c\u7684\u7231, \u8d85\u611f\u5e94\u7684\u7231, \u6c38\u4e0d\u6d88\u5931\u7684\u7231...... \u4e8c\u5341\u9996\u53e4\u5178\u8bd7\u8bcd, \u4e8c\u5341\u4e2a\u7231\u60c5\u6545\u4e8b, \u4e8c\u5341\u79cd\u7231\u60c5\u4f53\u9a8c, \u4e0d\u8bba\u53e4\u4eca, \u6bcf\u4e00\u79cd\u7231\u60c5\u90fd\u88ab\u540c\u6837\u7ecf\u9a8c\u8457\u3001\u6b4c\u8bf5\u8457, \u5f20\u66fc\u5a1f\u4ee5\u5979\u6700\u4e13\u4e1a\u7684\u53e4\u5178\u7d20\u517b, \u7ed3\u5408\u6700\u64c5\u957f\u7684\u73b0\u4ee3\u7231\u60c5\u4e66\u5199, \u4ece\u53e4\u5230\u4eca, \u4e3a\u6211\u4eec\u6f14\u7ece\u4e00\u5219\u5219\u4e0d\u5206\u65f6\u7a7a\u7684\u7231\u60c5\u65c5\u7a0b. . "
+            ],
+            "languages": [
+                "und"
+            ],
+            "createdDate": "2024-01-01",
+            "dataFrom": "HyRead",
+            "url": "http://search.nlb.gov.sg/r/hyread/?r=fI4iYKsyOzB6SnXCiR2SAebgDsswZ3flM5hxcW1PgtYAxty1t0kWRfV6/EaJPMYy15yh2ylBrC2ASpS2UHZtVN/RRXHLNRu4rU9O2OIDRndg53M+yMzYftNeeoFTew6zi31lFvd02S3RHJ3Lpv28B3vmTNBFBhLg6qX/jlm8LnA3kQ==",
+            "isbns": []
+        },
+        {
+            "id": "8c2b6c74-81f9-4746-b995-dec7c5d24068",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "\u534a\u5c0f\u65f6\u6f2b\u753b\u53e4\u8bd7\u8bcd/ \u9648\u78ca, \u534a\u5c0f\u65f6\u6f2b\u753b\u56e2\u961f \u8457. ",
+            "authors": [
+                "\u9648\u78ca, author.",
+                "author."
+            ],
+            "abstracts": [
+                "\u629b\u5f00\u67af\u71e5\u7684\u8bb2\u89e3, \u4e22\u6389\u516c\u5f0f\u5316\u7684\u8d4f\u6790, \u7528\u5e7d\u9ed8\u7684\u65b9\u5f0f\u8bb2\u8ff0\u4e25\u8083\u7684\u77e5\u8bc6: \u300a\u8bd7\u7ecf\u300b\u4e2d\u7684\"\u8d4b\u3001\u6bd4\u3001\u5174\"\u662f\u4ec0\u4e48? ! \u8c01\u6765\u7ffb\u8bd1\u4e00\u4e0b! \u8d4b: \"\u6211\u5206\u624b\u4e86! \"\u2014\u2014\u5e73\u94fa\u76f4\u53d9, \u4e00\u822c\u7528\u6765\u8bb2\u6545\u4e8b. \u6bd4: \"\u7537\u4eba\u90fd\u662f\u5927\u732a\u5934! \"\u2014\u2014\u628a\u4e00\u4e2a\u4e8b\u7269\u5199\u6210\u53e6\u4e00\u4e2a\u4e8b\u7269, \u53ef\u4ee5\u8ba9\u63cf\u5199\u66f4\u751f\u52a8. \u5174: \"\u79c0\u4ec0\u4e48\u6069\u7231\u3001\u653e\u4ec0\u4e48\u95ea! \"\u2014\u2014\u5c31\u662f\u89e6\u666f\u751f\u60c5, \u4e00\u4e9b\u666f\u7269\u4f1a\u8ba9\u4eba\u7279\u522b\u6709\u60f3\u6cd5, \u7136\u540e\u900f\u8fc7\u8bd7\u8bcd\u8868\u8fbe\u51fa\u6765. \u53e4\u8bd7\u8bcd\u770b\u8d77\u6765\u9ad8\u5927\u4e0a? \u672c\u4e66\u4ee5\u6f2b\u753b\u65b9\u5f0f\u8d70\u5165\u6709\u6545\u4e8b\u53c8\u6709\u8da3\u7684\u53e4\u8bd7\u8bcd\u4e16\u754c, \u4e86\u89e3\u4eba\u4eec\u5728\u8bd7\u6b4c\u4e2d\u5bc4\u6258\u7684\u60c5\u611f, \u4ee5\u53ca\u53e4\u8bd7\u8bcd\u53d1\u5c55\u5386\u7a0b\u4e2d\u7684\u9762\u8c8c. . "
+            ],
+            "languages": [
+                "und"
+            ],
+            "createdDate": "2023-01-01",
+            "dataFrom": "HyRead",
+            "url": "http://search.nlb.gov.sg/r/hyread/?r=dVT9QC6Ni27RR+u4La+FJGiZRthrp6ife9SX7gv1UrN77UhtNDD9AJ8Gn5nok8lMMTdSENGeEUXoWgYOYLKY+cdzflfv6AXZ9o3z+WamkoOz+nmbywzW/I/bRXBw3upPVALGnb+nMh+nWAWcC67YpmWTda9dDQoYn3QHkmfBYh4JqA==",
+            "isbns": []
+        },
+        {
+            "id": "b2808ef3-aa6d-4536-8039-c461b8eb2761",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "\u78a7\u6f6d\u68a6\u5f71 : \u95f5\u5b97\u8ff0\u4f5c\u54c1\u96c6/ \u95f5\u5b97\u8ff0 \u8457 ; \u6d2a\u60df\u52a9, \u6d2a\u73ca\u6167 \u7f16\u6ce8. ",
+            "authors": [
+                "\u95f5\u5b97\u8ff0, author.",
+                "Min, Zongshu, author."
+            ],
+            "abstracts": [
+                "\u95f5\u5b97\u8ff0(1933-1998)\u5c31\u8bfb\u5efa\u56fd\u4e2d\u5b66\u521d\u3001\u9ad8\u4e2d\u65f6\u5c31\u5c55\u73b0\u4e86\u4f18\u5f02\u7684\u591a\u65b9\u9762\u827a\u672f\u624d\u80fd. \u8bd7\u8bcd\u3001\u6587\u7ae0\u3001\u4e66\u6cd5\u3001\u7ed8\u753b\u3001\u7bc6\u523b\u90fd\u6709\u4f18\u79c0\u7684\u4f5c\u54c1, \u5e76\u5f71\u54cd\u4e86\u4ed6\u7684\u90bb\u5c45\u5c0f\u670b\u53cb\u738b\u6587\u5174\u2e3a\u5f80\u540e\u6210\u4e3a\u540d\u4f5c\u5bb6\u3001\u6559\u6388. \u8fdb\u5165\u5927\u5b66\u540e, \u540c\u73ed\u540c\u5b66\u591a\u53d7\u5176\u85b0\u67d3, \u540e\u6765\u591a\u4eba\u6210\u4e3a\u8bd7\u8bcd\u3001\u4e66\u6cd5\u3001\u7bc6\u523b\u4e13\u5bb6. \u4e00\u4e5d\u4e03\u3007\u5e74\u4ee5\u540e\u5728\u653f\u6cbb\u5927\u5b66\u4e2d\u6587\u7cfb\u4e13\u4efb, \u4e1c\u5434\u5927\u5b66\u4e2d\u6587\u7cfb\u517c\u4efb, \u6559\u6388\u8bcd\u9009\u3001\u5de6\u4f20\u7b49\u8bfe\u7a0b, \u76f4\u81f3\u4e00\u4e5d\u4e5d\u516b\u5e74\u901d\u4e16. \u6b64\u7bc7\u300a\u78a7\u6f6d\u68a6\u5f71\u2e3a\u95f5\u5b97\u8ff0\u4f5c\u54c1\u96c6\u300b, \u6536\u96c6\u95f5\u5b97\u8ff0\u8bd7\u8bcd\u3001\u6587\u7ae0\u3001\u4e66\u6cd5\u7ed8\u753b\u3001\u7bc6\u523b\u7b49\u4f5c\u54c1\u53ca\u4e0e\u5e08\u53cb\u7684\u5f80\u6765\u4e66\u4fe1. \u53e4\u65f6\u6587\u4eba\u8ffd\u6c42\u7434\u68cb\u4e66\u753b\u56db\u827a\u6216\u8bd7\u4e66\u753b\u4e09\u7edd, \u8981\u6c42\u4e00\u4f4d\u6587\u4eba\u8981\u6709\u5e7f\u9614\u7684\u827a\u672f\u89c6\u91ce; \u8bfb\u6b64\u7bc7\u4f5c\u54c1\u96c6, \u662f\u5426\u4ee4\u6211\u4eec\u7f05\u6000\u4eca\u65e5\u5df2\u5c11\u89c1\u7684\u5178\u578b\u6587\u4eba? . "
+            ],
+            "languages": [
+                "und"
+            ],
+            "createdDate": "2023-01-01",
+            "dataFrom": "HyRead",
+            "url": "http://search.nlb.gov.sg/r/hyread/?r=L9n2VyUsO4wIN/CsRJmAtRJTw/rzoQv1UIIXgNitzaN+rspFfaG/2Hb8PSyZ9A5qfnH2UFY7mE6eCahxq3516L+mOVG/jLB3Da9rnaH19tZhZyf70vWxiRCv8gW6FrNBukHRD4jZl4DMqVz1G8L6qZiNzEreQduTv/VW5hoKtGjT5w==",
+            "isbns": []
+        },
+        {
+            "id": "a6d9c86b-ab0b-4e5c-aa50-7fa3a1e00df0",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "\u76db\u5510\u4e94\u4eba\u56e2 : \u5b8c\u5168\u770b\u61c2\u4ed6\u4eec\u53ea\u793a\u8303\u4e00\u6b21\u7684\u8bd7\u4eba\u54f2\u5b66:\u5b5f\u6d69\u7136\u3001\u738b\u7ef4\u3001\u738b\u660c\u9f84\u3001\u674e\u767d\u3001\u675c\u752b / \u8d75\u542f\u9e9f\u8457. ",
+            "authors": [
+                "\u8d75\u542f\u9e9f, author.",
+                "Zhao, Qilin, author."
+            ],
+            "abstracts": [
+                "\u53ea\u6709\u5b8c\u6574\u4e86\u89e3\u8bd7\u7684\u4eba\u751f\u5e73, \u624d\u80fd\u8bfb\u61c2\u8bd7\u4f5c\u7684\u5185\u6db5. \u53ea\u6709\u6e05\u695a\u8bd7\u4f5c\u7684\u6db5\u4e49, \u624d\u80fd\u5b8c\u6574\u8d34\u8fd1\u8bd7\u4eba\u7684\u5fc3\u60c5. \u751f\u6d3b\u5728\u6700\u8f89\u714c\u76db\u5510\u7684\u8bd7\u4eba, \u5982\u4f55\u76f8\u4e92\u6fc0\u8361\u51fa\u5404\u81ea\u7684\u4eba\u751f\u6545\u4e8b\u4e0e\u4f20\u4e16\u540d\u4f5c? \u4e94\u4f4d\u8bd7\u4eba, \u5206\u522b\u4ee3\u8868\"\u4ed5\"\u3001\"\u9690\"\u4e24\u6761\u4eba\u751f\u9053\u8def, \u4ee5\u53ca\"\u4f5b\"\u3001\"\u9053\"\u3001\"\u5112\"\u4e09\u79cd\u5904\u4e16\u54f2\u5b66, \u5b8c\u6574\u5448\u73b0\u76db\u5510\u7684\u6587\u5316\u6c1b\u56f4. \u4f5c\u8005\u4ee5\u6e29\u6696\u7684\u6587\u5b57\u3001\u98ce\u8da3\u7684\u7b14\u6cd5, \u6309\u7167\u65f6\u95f4\u3001\u4e8b\u4ef6\u6392\u5e8f, \u642d\u914d\u8bd7\u4eba\u5728\u6240\u5904\u4e8b\u4ef6\u5f53\u4e0b\u6709\u611f\u800c\u53d1\u7684\u8bd7\u4f5c, \u5c06\u8bd7\u4eba\u4eec\u7cbe\u5f69\u4e30\u5bcc\u7684\u4eba\u751f\u4e0e\u8bd7\u4f5c, \u4ee5\u53ca\u4e94\u4eba\u56e2\u5f7c\u6b64\u4e4b\u95f4\u7684\u4e92\u52a8, \u5982\u6545\u4e8b\u822c\u4e00\u4e00\u5448\u73b0. "
+            ],
+            "languages": [
+                "chi"
+            ],
+            "dataFrom": "HyRead",
+            "url": "http://search.nlb.gov.sg/r/hyread/?r=LC5kP4Ljx2QCSjGpMzpkLTa+mAIt4/zLXLmGcsUPIUv7VBJeewPKFFjvXcWL+rXNKJYgrUcoLXUgXsnsBwjQkMtnsiQOzgF+awBSJbQ8kB+my+oq7WwqIhZ4BtPs07ORC0+XhE6ad2HDu7OON5W20upI1rnEzb3gLDGfoUk5PijcFA==",
+            "isbns": []
+        },
+        {
+            "id": "73299b84-5242-49d3-8883-c14f952cee29",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "\u9c9c\u8863\u6012\u9a6c\u5c11\u5e74\u65f6. \u8d30/ \u5c11\u5e74\u6012\u9a6c\u8457. ",
+            "authors": [
+                "\u5c11\u5e74\u6012\u9a6c. author.",
+                "Shaoniannuma, author."
+            ],
+            "abstracts": [
+                "\u674e\u767d\u7684\u98d8\u98d8\u8863\u8896, \u85cf\u7740\u60b2\u51c9\u7684\u5e95\u8272; \u675c\u752b\u7684\u8bd7\u5723\u4e4b\u8def, \u7b3c\u7f69\u5934\u9876\u7684\u662f\u76db\u4e16\u9634\u5f71; \u82cf\u8f7c\u7684\u8c6a\u653e\u8c41\u8fbe, \u5168\u62dcN\u6b21\u8d2c\u5b98\u6d41\u653e\u6240\u8d50! \u674e\u715c\u8bcd\u7684\u5dc5\u5cf0\u4e4b\u4f5c, \u7adf\u662f\u4ea1\u56fd\u4e4b\u541b\u7684\u54c0\u9e23! \u76f8\u4fe1\u5417? \u8bd7\u6b4c\u661f\u7a7a\u91cc\u95ea\u8000\u7684\u5927\u795e, \u5176\u5b9e\u53ea\u662f\u5386\u53f2\u8fdb\u7a0b\u4e2d\u7684\u5c0f\u4eba\u7269\u3001\u662f\u547d\u8fd0\u7684\u56da\u5f92. \u7136\u800c, \u4ed6\u4eec\u7684\u8bd7\u4f20\u9882\u5343\u5e74, \u65e2\u662f\u8a00\u5fd7\u7684\u6587\u5b66, \u66f4\u662f\u4e00\u90e8\u9c9c\u6d3b\u7684\u53f2\u8bb0! \u8bd7\u8bcd+\u5386\u53f2+\u6545\u4e8b, \u65e2\u63a5\u5730\u6c14\u53c8\u5c0a\u91cd\u6b63\u53f2, \u4fdd\u8bc1\"\u7b11\u4e2d\u5e26\u6cea\", \u5e26\u4f60\u7a7f\u8d8a\u5510\u5b8b, \u4e0e\u53e4\u4eba\u541f\u8bd7\u4f5c\u5bf9, \u5171\u540c\u7ecf\u5386\u4e00\u573a\u76db\u4e16\u6b8b\u68a6. . "
+            ],
+            "languages": [
+                "und"
+            ],
+            "createdDate": "2023-01-01",
+            "dataFrom": "HyRead",
+            "url": "http://search.nlb.gov.sg/r/hyread/?r=eiMVXnsy/0JWOFSObN/OCFYyA/8v9mtUNZlboiSxh8OHPxzBOfs2+uFcEP2opwwMNT3w5ay8WFV5LXD+9semw3fg9yZrEqnHix6yg8XiVIXHP/Y+SktgSe1OQmN0X1Sv9NlyhLAxrXYNk9Khw2y8WCdYjn1nQBiWLkIl0Hzn4NWYqw==",
+            "isbns": []
+        },
+        {
+            "id": "590c2e3a-e544-4232-ae67-c538dc813d8a",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "\u9c9c\u8863\u6012\u9a6c\u5c11\u5e74\u65f6. \u58f9/ \u5c11\u5e74\u6012\u9a6c\u8457. ",
+            "authors": [
+                "\u5c11\u5e74\u6012\u9a6c. author.",
+                "Shaoniannuma, author."
+            ],
+            "abstracts": [
+                "\u5fe7\u56fd\u5fe7\u6c11\u675c\u752b\u3001\u9006\u88ad\u725b\u4eba\u9ad8\u9002\u3001\u5b8c\u7f8e\u7537\u795e\u738b\u7ef4\u3001\u6587\u827a\u5927\u53d4\u5b5f\u6d69\u7136\u3001\u60c5\u8bd7\u5929\u738b\u674e\u5546\u9690\u3001\u82b1\u95f4\u6d6a\u5b50\u6e29\u5ead\u7b60\u3001\u5927\u5973\u4e3b\u4f53\u8d28\u674e\u6e05\u7167\u3001\u5168\u80fd\u5929\u624d\u8f9b\u5f03\u75be......\u4e09\u5341\u591a\u4f4d\u8bd7\u8bcd\u5927\u5496, \u8feb\u4e0d\u53ca\u5f85\u5730\u60f3\u544a\u8bc9\u4f60, \u5728\u5510\u5b8b\u6c5f\u6e56\u91cc, \u4ed6\u4eec\u662f\u5982\u4f55\u610f\u6c14\u98ce\u53d1\u3001\u5feb\u610f\u6069\u4ec7? \u800c\u4e00\u9996\u9996\u6d41\u4f20\u5343\u53e4\u7684\u540d\u7bc7\u80cc\u540e\u53c8\u6709\u600e\u6837\u7684\u6545\u4e8b? \u8bd7\u8bcd+\u5386\u53f2+\u6545\u4e8b, \u65e2\u63a5\u5730\u6c14\u53c8\u5c0a\u91cd\u6b63\u53f2, \u4fdd\u8bc1\"\u7b11\u4e2d\u5e26\u6cea\", \u5e26\u4f60\u68a6\u56de\u5510\u5b8b, \u8ba4\u8bc6\u4e00\u4e2a\u4e2a\u6709\u8840\u6709\u8089\u7684\u6587\u4eba\u5c06\u76f8. . "
+            ],
+            "languages": [
+                "und"
+            ],
+            "createdDate": "2023-01-01",
+            "dataFrom": "HyRead",
+            "url": "http://search.nlb.gov.sg/r/hyread/?r=eOJxOLZ9//CBMyWUgFt6qss14bJ4ULfUhrlKaPRobmJE3YDmK92Lk4uwH5P7it4jak6i3dbVcQbxAQ2JkhiS+xziePqTYgYO4HTVBDALz0Ix0H9uIEHdSbGHBWbh4MP9osrIjAzgsTlIYvMO05GBS9BEbCtUKzjItjQ7yB20+mayBw==",
+            "isbns": []
+        },
+        {
+            "id": "a7806f84-a8ee-4fff-a976-8496c57bb162",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "\u65b0\u4e16\u7eaa\u65b0\u4e16\u4ee3\u8bd7\u9009. 1 / \u5411\u9633\u4e3b\u7f16. ",
+            "abstracts": [
+                "\u300a\u65b0\u4e16\u7eaa\u65b0\u4e16\u4ee3\u8bd7\u9009\u300b\u7531\u5411\u9633\u3001\u767d\u7075\u3001\u9648\u4e49\u829d\u3001\u7126\u6850\u3001\u8427\u8427\u5171\u540c\u7f16\u9009, \u4ee5\"\u51f8\u663e\u65b0\u4e16\u4ee3\u8bd7\u4eba\u7279\u8272, \u5c55\u73b0\u65b0\u4e16\u7eaa\u65b0\u8bd7\u7248\u56fe\"\u505a\u4e3a\u9009\u6750\u77e9\u5ea6, \u7cbe\u9009\u4e00\u4e5d\u516b\u25cb\u5230\u4e8c\u25cb\u25cb\u25cb\u5e74\u95f4\u51fa\u751f\u7684\u4e94\u5341\u4e8c\u4f4d\u65b0\u4e16\u4ee3\u8bd7\u4eba\u521b\u4f5c\u7684\u7cbe\u5f69\u8bd7\u4f5c, \u5e76\u5206\u5de5\u64b0\u5199\u8bd7\u4eba\u8bd7\u8bc4, \u5f15\u5bfc\u8bfb\u8005\u4e86\u89e3\u8bd7\u4eba\u521b\u4f5c\u7279\u8272, \u4ee5\u53ca\u5982\u4f55\u9605\u8bfb\u8d4f\u6790\u8bd7\u4f5c, \u7a81\u663e\u8bd7\u575b\u65b0\u4e16\u4ee3\u7684\u72ec\u7279\u521b\u610f. \u6536\u5165\u7684\u65b0\u4e16\u4ee3\u8bd7\u4eba, \u4ece\u751f\u4e8e\u4e00\u4e5d\u516b\u25cb\u5e74\u7684\u4f55\u4ead\u6167\u3001\u53f6\u89c5\u89c5, \u5230\u751f\u4e8e\u4e00\u4e5d\u4e5d\u4e5d\u5e74\u7684\u6797\u5b87\u8f69, \u4f9d\u7167\u51fa\u751f\u5e74\u5e8f\u7f16\u9009\u4ed6\u4eec\u7684\u4ee3\u8868\u4f5c, \u53cd\u6620\u65b0\u4e16\u4ee3\u5728\u65b0\u4e16\u7eaa\u524d\u4e8c\u5341\u5e74\u7684\u521b\u4f5c\u751f\u6001. \u4ece\u5185\u5728\u5fc3\u7075\u7684\u72ec\u767d\u3001\u53d9\u8bf4\u3001\u6316\u6398, \u5230\u5916\u5728\u73b0\u5b9e\u7684\u51dd\u89c6\u3001\u53c2\u4e0e\u3001\u6279\u5224; \u4ece\u79c1\u5df1\u7a7a\u95f4\u7684\u611f\u6027\u89c2\u7167, \u5230\u516c\u4f17\u4e8b\u52a1\u7684\u77e5\u6027\u53cd\u601d; \u4ece\u8bed\u8a00\u7684\u9009\u62e9\u3001\u6280\u5de7\u7684\u6df7\u7528, \u5230\u6587\u7c7b\u7684\u6df7\u6742\u3001\u7f8e\u5b66\u7684\u5efa\u6784 - \u4ed6\u4eec\u5404\u6709\u6240\u957f, \u5404\u6709\u98ce\u683c, \u5408\u800c\u89c2\u4e4b, \u5982\u4f17\u6811, \u851a\u7136\u6210\u6797; \u4e5f\u5982\u4f17\u9e1f, \u5c55\u7fc5\u98de\u5929. \u5c55\u8bfb\u8fd9\u4e94\u5341\u4e8c\u5bb6\u8bd7\u4eba\u4f5c\u54c1, \u8db3\u4ee5\u8ba9\u6211\u4eec\u4e00\u89c8\u65b0\u4e16\u7eaa\u65b0\u4e16\u4ee3\u8bd7\u4eba\u76f8\u4e92\u7ade\u79c0\u7684\u98ce\u59ff, \u4ee5\u53ca\u4ed6\u4eec\u7528\u8bd7\u4f5c\u52fe\u52d2\u51fa\u7684\u65b0\u4e16\u7eaa\u7248\u56fe. \u5168\u5957\u5206\u4e3a\u4e8c\u518c, \u7b2c\u4e00\u518c\u4ece\u4f55\u4ead\u6167\u5230\u6768\u667a\u6770, \u63a2\u7d22\u7075\u9b42\u4e0e\u751f\u706d\u7684\u53f6\u89c5\u89c5, \u7528\u8bd7\u601d\u8003\u5b58\u5728\u610f\u4e49\u7684\u738b\u5929\u5bbd, \u5c06\u5de5\u4f5c\u7ecf\u9a8c\u5165\u8bd7\u7684\u9648\u660c\u8fdc, \u4ee5\u8bd7\u8bc4\u8bba\u65f6\u4e8b\u7684\u7f57\u6bd3\u5609, \u8bd7\u5199\u65e5\u5e38\u7684\u5d14\u821c\u534e, \u4ee5\u6bcd\u8bed\u521b\u4f5c\u7684\u674e\u6842\u5a9a\u3001\u6c99\u529b\u6d6a, \u8fd8\u6709\u590f\u590f\u3001\u6797\u8fbe\u9633\u3001\u6797\u4f59\u4f50\u3001\u5ed6\u542f\u4f59\u3001\u4efb\u660e\u4fe1\u7b49\u7b49, \u5448\u73b0\u4e0d\u540c\u4e8e\u4e0a\u4e2a\u4e16\u4ee3, \u5d2d\u65b0\u7684\u8bd7\u98ce\u666f. "
+            ],
+            "languages": [
+                "chi"
+            ],
+            "dataFrom": "HyRead",
+            "url": "http://search.nlb.gov.sg/r/hyread/?r=LC+N4K9vEzKc/XIZkcLhdPo/QxElDV/GfG01k2I2bpc6c9A2x/X+B8kPxakfMhadnVwH44ZLd5HlcHeRw3tRUd12mfrqgWWOul9QWNHJYZfhfHIGbVkKepe4DZgG9pwluK64gOnJRHBbNngMyNPALnIvvx/F8cSDvYUCzTLXgxSuSA==",
+            "isbns": []
+        },
+        {
+            "id": "922efcd2-ad9c-4d58-a62d-5da57b216e2e",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "\u65b0\u4e16\u7eaa\u65b0\u4e16\u4ee3\u8bd7\u9009. 2 / \u5411\u9633\u4e3b\u7f16. ",
+            "abstracts": [
+                "\u4e3b\u7f16\u5411\u9633\u548c\u7f16\u59d4\u767d\u7075\u3001\u7126\u6850\u3001\u9648\u4e49\u829d\u3001\u8427\u8427, \u5171\u540c\u7f16\u9009. \u4ee5\u4e00\u4e5d\u516b\u25cb\u5e74\u8fc4\u4e8c\u25cb\u25cb\u25cb\u5e74\u51fa\u751f\u7684\u8bd7\u4eba\u4e3a\u7f16\u9009\u5bf9\u8c61\u7684\u9009\u96c6. \u56e0\u6b64, \u8fd9\u662f\u4e00\u90e8\u5c06\u7126\u70b9\u805a\u96c6\u5728\u73b0\u5e74\u4e8c\u5341\u5230\u56db\u5341\u5c81\u4e0a\u4e0b\u7684\u65b0\u4e16\u4ee3\u8bd7\u4eba\u521b\u4f5c\u6210\u679c\u8bd7\u9009. \u5728\u53f0\u6e7e\u767e\u5e74\u65b0\u8bd7\u53d1\u5c55\u7684\u821e\u53f0\u4e0a, \u6536\u5165\u8fd9\u90e8\u8bd7\u9009\u7684\u65b0\u4e16\u4ee3\u8bd7\u4eba, \u5728\u4e8c\u5341\u4e00\u4e16\u7eaa\u7684\u7b2c\u4e00\u4e2a\u4e8c\u5341\u5e74, \u7528\u4f5c\u54c1\u5c55\u73b0\u98ce\u534e\u5404\u5f02\u3001\u58f0\u8154\u6709\u522b\u7684\u8eab\u5f71\u3001\u53f0\u6b65, \u5ba3\u793a\u4ed6\u4eec\u4e0d\u540c\u4e8e\u4e8c\u5341\u4e16\u7eaa\u5404\u4e16\u4ee3\u8bd7\u4eba\u7684\u4f4d\u7f6e. \u300a\u65b0\u4e16\u7eaa\u65b0\u4e16\u4ee3\u8bd7\u9009\u300b\u7531\u5411\u9633\u3001\u767d\u7075\u3001\u9648\u4e49\u829d\u3001\u7126\u6850\u3001\u8427\u8427\u5171\u540c\u7f16\u9009, \u4ee5\"\u51f8\u663e\u65b0\u4e16\u4ee3\u8bd7\u4eba\u7279\u8272, \u5c55\u73b0\u65b0\u4e16\u7eaa\u65b0\u8bd7\u7248\u56fe\"\u505a\u4e3a\u9009\u6750\u77e9\u5ea6, \u7cbe\u9009\u4e00\u4e5d\u516b\u25cb\u5230\u4e8c\u25cb\u25cb\u25cb\u5e74\u95f4\u51fa\u751f\u7684\u4e94\u5341\u4e8c\u4f4d\u65b0\u4e16\u4ee3\u8bd7\u4eba\u521b\u4f5c\u7684\u7cbe\u5f69\u8bd7\u4f5c, \u5e76\u5206\u5de5\u64b0\u5199\u8bd7\u4eba\u8bd7\u8bc4, \u5f15\u5bfc\u8bfb\u8005\u4e86\u89e3\u8bd7\u4eba\u521b\u4f5c\u7279\u8272, \u4ee5\u53ca\u5982\u4f55\u9605\u8bfb\u8d4f\u6790\u8bd7\u4f5c, \u7a81\u663e\u8bd7\u575b\u65b0\u4e16\u4ee3\u7684\u72ec\u7279\u521b\u610f. \u6536\u5165\u7684\u65b0\u4e16\u4ee3\u8bd7\u4eba, \u4ece\u751f\u4e8e\u4e00\u4e5d\u516b\u25cb\u5e74\u7684\u4f55\u4ead\u6167\u3001\u53f6\u89c5\u89c5, \u5230\u751f\u4e8e\u4e00\u4e5d\u4e5d\u4e5d\u5e74\u7684\u6797\u5b87\u8f69, \u4f9d\u7167\u51fa\u751f\u5e74\u5e8f\u7f16\u9009\u4ed6\u4eec\u7684\u4ee3\u8868\u4f5c, \u53cd\u6620\u65b0\u4e16\u4ee3\u5728\u65b0\u4e16\u7eaa\u524d\u4e8c\u5341\u5e74\u7684\u521b\u4f5c\u751f\u6001. \u4ece\u5185\u5728\u5fc3\u7075\u7684\u72ec\u767d\u3001\u53d9\u8bf4\u3001\u6316\u6398, \u5230\u5916\u5728\u73b0\u5b9e\u7684\u51dd\u89c6\u3001\u53c2\u4e0e\u3001\u6279\u5224; \u4ece\u79c1\u5df1\u7a7a\u95f4\u7684\u611f\u6027\u89c2\u7167, \u5230\u516c\u4f17\u4e8b\u52a1\u7684\u77e5\u6027\u53cd\u601d; \u4ece\u8bed\u8a00\u7684\u9009\u62e9\u3001\u6280\u5de7\u7684\u6df7\u7528, \u5230\u6587\u7c7b\u7684\u6df7\u6742\u3001\u7f8e\u5b66\u7684\u5efa\u6784 - \u4ed6\u4eec\u5404\u6709\u6240\u957f, \u5404\u6709\u98ce\u683c, \u5408\u800c\u89c2\u4e4b, \u5982\u4f17\u6811, \u851a\u7136\u6210\u6797; \u4e5f\u5982\u4f17\u9e1f, \u5c55\u7fc5\u98de\u5929. \u5c55\u8bfb\u8fd9\u4e94\u5341\u4e8c\u5bb6\u8bd7\u4eba\u4f5c\u54c1, \u8db3\u4ee5\u8ba9\u6211\u4eec\u4e00\u89c8\u65b0\u4e16\u7eaa\u65b0\u4e16\u4ee3\u8bd7\u4eba\u76f8\u4e92\u7ade\u79c0\u7684\u98ce\u59ff, \u4ee5\u53ca\u4ed6\u4eec\u7528\u8bd7\u4f5c\u52fe\u52d2\u51fa\u7684\u65b0\u4e16\u7eaa\u7248\u56fe. "
+            ],
+            "languages": [
+                "chi"
+            ],
+            "dataFrom": "HyRead",
+            "url": "http://search.nlb.gov.sg/r/hyread/?r=dG3BcpsvG2oO4EGUziBxvfqxZ8JwvoI4uH01pICpNGSlYdQJX2hq4aoGuzRJSZZLMtrt6+luL9gDSQdkGYmPjt9bC8J2QgXsGl7RqVcqruZQtkk2aHb92PzEYN2wK4id8kytgPXX9CuEwzH3eHpTlmzQcjnWJUzBxAl4/FcSQvKKjA==",
+            "isbns": []
+        },
+        {
+            "id": "9fb10af4-8c3f-4e79-ae7c-abe358d7025d",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "\u5927\u4eba\u7684\u8bd7\u587e : \"\u6709\u4e9b\u5fc3\u60c5, \u957f\u5927\u624d\u61c2\"\u7684\u53e4\u8bd7\u8bcd\u7b14\u8bb0 / \u8d75\u542f\u9e9f\u4f5c ; Nic\u5f90\u4e16\u8d24\u63d2\u56fe. ",
+            "authors": [
+                "\u8d75\u542f\u9e9f, author.",
+                "Zhao, Qilin, author."
+            ],
+            "abstracts": [
+                "\u5c0f\u5b69\u4e0a\u5c0f\u5b66\u4e4b\u540e, \u5c31\u8131\u79bb\u6587\u76f2\u9636\u6bb5\u4e86. \u6709\u4e00\u5929, \u4f5c\u8005\u7ffb\u5f00\u5c0f\u5b66\u8bfe\u672c\u3001\u770b\u7740\u751f\u5b57, \u7a81\u7136\u8054\u60f3\u8d77\u76f8\u5173\u7684\u8bd7\u8bcd, \"\u5e72\u8106\u6765\u6559\u5c0f\u5b69\u5ff5\u53e4\u8bd7\u8bcd\u5427!\"\u4f46\u662f..... \u4ed4\u7ec6\u8003\u5bdf\u624d\u53d1\u73b0, \u53e4\u8bd7\u8bcd\u8d85\u7ea7\u4e0d\u9002\u5408\u5c0f\u5b66\u751f\u9605\u8bfb! \u4f60\u77e5\u9053\u83b2\u82b1\u3001\u79cb\u5343\u90fd\u5f88\u5371\u9669\u5417? (\u8bd7\u8bcd\u4e2d\u51fa\u73b0\u8fd9\u4e24\u6837, \u90fd\u5728\u62db\u8702\u5f15\u8776) \u4f60\u77e5\u9053\u8559\u8d28\u5170\u5fc3\u3001\u9752\u6885\u7af9\u9a6c\u3001\u82b1\u524d\u6708\u4e0b\u90fd\u4e0d\u662f\u597d\u8bcd\u5417? (\u7ed3\u5c40\u901a\u5e38\u90fd\u662f\u82e6\u604b) \u679c\u7136\"\u6709\u4e9b\u5fc3\u60c5, \u957f\u5927\u624d\u61c2\"!. "
+            ],
+            "languages": [
+                "chi"
+            ],
+            "dataFrom": "HyRead",
+            "url": "http://search.nlb.gov.sg/r/hyread/?r=dDl7eCwfSXccGrdFqnry7xxZb19ZVgrmVv1HzhaD1RYUUjckMtcBi/rKV6WtIHv6YA/pW2975AIZ1VanTDxiKfHrd5RJ8cQ7buFQCNcCOVH56EYQXW7G2holuIdg0bZu3PKuionTJCVf1FB/MrwlaPK54BZBkVoB9Et77PHuw6zM5A==",
+            "isbns": []
+        },
+        {
+            "id": "dd4817e9-bb39-4e0d-a551-1e11a4d3c6a3",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "\u5c9b\u5c7f\u6d3e = Isle of pie / \u5468\u5929\u6d3e\u8457\u63d2\u753b. ",
+            "authors": [
+                "\u5468\u5929\u6d3e, author, illustrator.",
+                "Zhou, Tianpai, author, illustrator."
+            ],
+            "abstracts": [
+                "\u5468\u5929\u6d3e\u51fa\u751f\u4e8e\u69df\u6994\u5c7f\u4e54\u6cbb\u5e02, \u5e7c\u65f6\u5728\u70ed\u5e26\u5c9b\u5c7f\u6c34\u4e0a\u6728\u5c4b\u503e\u542c\u6d77\u6d6a\u6210\u957f, \u5341\u4e5d\u5c81\u8d74\u53f0\u7559\u5b66, \u81ea\u6b64\u4ee5\u53f0\u6e7e\u5c9b(\u9ad8\u96c4) \u4e3a\u534a\u4e2a\u5bb6\u4e61, \u6bd5\u4e1a\u540e\u81f3\u53e6\u4e00\u5c0f\u5c9b\u5de5\u4f5c, \u6bcf\u9694\u4e00\u6bb5\u65f6\u65e5\u6d6a\u6e38\u5404\u5730\u5c9b\u5c7f......\u5199\u8bd7\u903e\u5341\u5e74, \u7b49\u4e00\u4e2a\u673a\u7f18, \u7ec8\u4e8e\u7ed3\u8f91\u4e00\u518c\u300a\u5c9b\u5c7f\u6d3e\u300b. \u8bd7\u96c6\u5206\u4e3a\u4e03\u8f91, \u6536\u5f55\u897f\u5b50\u6e7e\u65f6\u671f, \u82b1\u83b2\u5c0f\u6751\u65f6\u671f, \u6d6a\u6e38\u65f6\u671f\u7b49\u4e0d\u540c\u9636\u6bb5\u516d\u5341\u4f59\u9996\u4f5c\u54c1. \u7f16\u6392\u8bbe\u8ba1\u4e0a, \u6bcf\u4e00\u8f91\u4ee5\u6570\u9996\u5c0f\u8bd7\u4f5c\u5e8f\u66f2, \u4ea6\u4e3a\u8f91\u4e0e\u8f91\u4e4b\u95f4\u7684\u95f4\u594f, \u5c0f\u8bd7\u5408\u8ba1\u56db\u5341\u9996. \u5e0c\u671b\u8ba9\u4eba\u8bfb\u8d77\u6765\u6709\u4e9b\u610f\u601d, \u53c8\u4e0d\u81f4\u592a\u9f50\u6574, \u7559\u4e9b\u8bb8\u7a7a\u95f4\u653e\u676f\u6c34, \u8d77\u8eab\u4f38\u61d2\u8170, \u542c\u4e00\u542c\u98ce\u58f0\u6d77\u58f0, \u770b\u4e00\u770b\u7a97\u5916\u5149\u666f, \u6216\u643a\u5e26\u51fa\u6e38\u81f3\u8fdc\u8fd1\u5c9b\u5c7f, \u5206\u51e0\u6b21\u8bfb, \u8fd9\u6837\u521a\u597d. \u5168\u4e66\u4f5c\u54c1\u5171\u767e\u4f59\u9996, \u6700\u672b\u52a0\u4e0a\u4e00\u9996\u9690\u85cf\u66f2\u76ee(hidden track) . . "
+            ],
+            "languages": [
+                "chi"
+            ],
+            "dataFrom": "HyRead",
+            "url": "http://search.nlb.gov.sg/r/hyread/?r=KdC9Omm05FkeLEzhQIOh0z2AGRSImPAQKvxquoG77N1cdu4wgMw3nZj6KBMw2JuaQ4r6yzyy5yfvHCbSRVkmjR96ZshkkXC8YejEP5ANR2Pu+1+gPUKGXv+zZMfRDyJsj0O4yIZAjZJk7SY3XwMnD1BjEv2Ua2BejheZDKAxBOIgrg==",
+            "isbns": []
+        },
+        {
+            "id": "783960d1-181e-4485-9224-cebae12589f8",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "\u6162\u8bfb\u4e24\u5b8b\u8bd7\u8bcd\u9886\u98ce\u9a9a : \u8bd7\u8bcd\u4e00\u4f53, \u6df1\u5165\u82cf\u8f7c\u3001\u9646\u6e38\u7684\u5b8c\u6574\u5185\u5fc3\u4e16\u754c / \u6234\u5efa\u4e1a\u8457. Man du liang Song shi ci ling feng sao : shi ci yi ti, shen ru Su Shi, Lu You de wan zheng nei xin shi jie / Dai Jianye zhu. ",
+            "authors": [
+                "\u6234\u5efa\u4e1a, 1956- author.",
+                "Dai, Jianye, 1956- author."
+            ],
+            "abstracts": [
+                "\u6574\u4e2a\u5b8b\u4ee3\u9664\u4e86\u67f3\u6c38\u3001\u5468\u90a6\u5f66\u3001\u8f9b\u5f03\u75be\u7b49\u5c11\u6570\u4eba\u5916, \u5927\u591a\u6570\u6587\u4eba\u7684\u4f18\u5148\u9009\u62e9\u662f\u505a\u8bd7\u4eba, \u586b\u8bcd\u4e0d\u8fc7\u662f\u4ed6\u4eec\u7684\"\u4f59\u4e8b\". \u7136\u800c, \u7531\u4e8e\u5b8b\u8bcd\u592a\u8fc7\u8000\u773c, \u4ee5\u81f4\u4e8e\u8bb8\u591a\u8bfb\u8005\u5ffd\u7565\u4e86\u949f\u7231\u4f5c\u5bb6\u7684\u53e6\u4e00\u9762, \u4ee5\u53ca\u5b8b\u671d\u6587\u5b66\u7684\u53e6\u4e00\u4f1f\u5927\u6210\u5c31. \u4e24\u5b8b\u8bd7\u8bcd\u5c0f\u77e5\u8bc6: \u82cf\u8f7c\u73b0\u5b58\u8bd7\u4e8c\u5343\u4e03\u767e\u591a\u9996, \u8bcd\u53ea\u5b58\u4e09\u767e\u591a\u9996; \u9646\u6e38\u66f4\u662f\u5b58\u8bd7\u4e5d\u5343\u4e09\u767e\u591a\u9996, \u53ea\u5b58\u8bcd\u4e00\u767e\u4e09\u5341\u591a\u9996. \u6b27\u9633\u8129\u662f\u5b8b\u8bd7\u4e0e\u5b8b\u8bcd\u53d1\u5c55\u7684\u5173\u952e\u4eba\u7269, \u4ed6\u5229\u7528\u62c5\u4efb\u793c\u90e8\u8d21\u4e3e\u7684\u673a\u4f1a, \u4ee5\u65b0\u7684\u6587\u98ce\u4f5c\u4e3a\u8003\u751f\u6587\u7ae0\u7684\u53d6\u820d\u6807\u51c6, \u5f55\u53d6\u4e86\u50cf\u66fe\u5de9\u3001\u82cf\u8f7c\u3001\u82cf\u8f99\u8fd9\u4e9b\u540e\u6765\u7684\u6587\u575b\u5de8\u64d8, \u4e8e\u662f\u6700\u7480\u74a8\u7684\u5b8b\u671d\u6587\u5b66\u660e\u661f, \u4e00\u4e00\u767b\u573a..... "
+            ],
+            "languages": [
+                "chi"
+            ],
+            "createdDate": "2020-01-01",
+            "dataFrom": "HyRead",
+            "url": "http://search.nlb.gov.sg/r/hyread/?r=eijh/QDTwSGJRvlAhXREGVsE/wLrqrmaBXJN9YNT4G4GaUXHG+Ak7I8zrwFowW5SA6KOvlUFDGQmJT6xZgRVkzcXtuBqvDoOXouTOfRlieMSFcxdrJCAvAwiF0FU5Z4wQLYZptOKYr34eM9zf5KHzJaR3bAMXvYsbjCMl2HBgnIOGA==",
+            "isbns": []
+        },
+        {
+            "id": "c5be9033-61cd-4510-a01f-40e3ccf1d7da",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "\u5510\u5b8b\u8bcd\u9274\u8d4f\u8f9e\u5178. \u7b2c\u4e94\u5377, \u95ee\u4e16\u95f4, \u60c5\u662f\u4f55\u7269 : \u5357\u5b8b\u3001\u8fbd\u3001\u91d1 / \u5b9b\u654f\u704f\u7b49\u8457. Tang Song ci jian shang ci dian. Di wu juan, Wen shi jian, qing shi he wu : nan Song, Liao, Jin / Wan Minhao deng zhu. ",
+            "authors": [
+                "\u5b9b\u654f\u704f, author.",
+                "Wan, Minhao, author."
+            ],
+            "abstracts": [
+                "\u7b2c\u4e94\u5377(\u95ee\u4e16\u95f4, \u60c5\u662f\u4f55\u7269), \u6536\u5f55\u5357\u5b8b\u3001\u8fbd\u3001\u91d1\u8bcd\u4eba\u5305\u62ec - \u5434\u6587\u82f1\u3001\u5468\u5bc6\u3001\u738b\u6c82\u5b59\u3001\u5218\u8fb0\u7fc1\u3001\u6587\u5929\u7965\u3001\u848b\u6377\u3001\u5f20\u708e\u3001\u5143\u597d\u95ee\u7b49\u516d\u5341\u4f59\u4f4d\u8bcd\u4eba, \u4e09\u767e\u4f59\u9996\u8bcd. \u6e05\u6731\u5f5d\u5c0a: \"\u8bcd\u81f3\u5357\u5b8b, \u59cb\u6781\u5176\u5de5, \u81f3\u5b8b\u5b63\u800c\u59cb\u6781\u5176\u53d8.\" \u4ea1\u56fd\u4e4b\u97f3\u54c0\u4ee5\u601d, \u5728\u91d1\u56fd\u4e0e\u8499\u53e4\u524d\u540e\u4ea4\u903c\u4e0b, \u770b\u5b8b\u672b\u8bcd\u4eba\u5982\u4f55\u8ff8\u53d1\u6700\u540e\u7684\u5947\u601d\u58ee\u91c7, \u4ee4\u65e0\u6570\u4e3d\u5b57\u4e00\u4e00\u751f\u52a8\u98de\u821e. \u53e6\u5916, \u5357\u4eba\u5f97\u6c5f\u5c71\u4e4b\u79c0, \u5317\u4eba\u4ee5\u51b0\u971c\u4e3a\u6e05, \u91d1\u4eba\u8bcd\u4f09\u723d\u6e05\u758f, \u81ea\u6210\u683c\u8c03, \"\u95ee\u4e16\u95f4\u3001\u60c5\u662f\u4f55\u7269, \u76f4\u6559\u751f\u6b7b\u76f8\u8bb8?\"\u7f20\u7ef5\u800c\u6e05\u52b2\u81f3\u6781. "
+            ],
+            "languages": [
+                "chi"
+            ],
+            "createdDate": "2020-01-01",
+            "dataFrom": "HyRead",
+            "url": "http://search.nlb.gov.sg/r/hyread/?r=LnYd6pZMtfry5hxJ+fpQq4E4KxON3fwq0PoSPyva8hIjPBHMDz4UGRsA2E7gQrw+w6h9Y7PRvkyD6+sU3jARP+qmb7676SAtFuaAjgcftnQihX14pop39EvharXskCP0ENSe+VL2VgtkFQ2GktQqlgnpWtkzVGYcE97x3F3oiElUpg==",
+            "isbns": []
+        },
+        {
+            "id": "361e71cf-627b-4cd3-bc1e-0ca16e2c04b7",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "\u534a\u5c0f\u65f6\u6f2b\u753b\u5510\u8bd7 / \u9648\u78ca, \u534a\u5c0f\u65f6\u6f2b\u753b\u56e2\u961f\u8457. Ban xiao shi man hua Tang shi / Chen Lei, Ban xiao shi man hua tuan dui zhu. ",
+            "authors": [
+                "\u9648\u78ca, author.",
+                "Chen, Lei, author."
+            ],
+            "abstracts": [
+                "\u53ea\u8981\u534a\u5c0f\u65f6, \u719f\u77e5\u5510\u8bd7\u80cc\u540e\u7684\u6545\u4e8b, \u51c6\u786e\u7406\u89e3\u5510\u8bd7\u7684\u539f\u610f\u3001\u6df1\u610f\u3001\u548c\u8bd7\u610f\u8ba9\u4f60\u5728\u54c8\u54c8\u5927\u7b11\u4e2d\u7231\u4e0a\u5510\u8bd7!. "
+            ],
+            "languages": [
+                "chi"
+            ],
+            "createdDate": "2020-01-01",
+            "dataFrom": "HyRead",
+            "url": "http://search.nlb.gov.sg/r/hyread/?r=foaWAfqQ02Wp+sTP8bB/YLgVif4+GxSnd8cFEDe/1SyAX3HmYqrbU/O+srIm9oivxAwwSi/DcQ5qqnLV2TnxSWSCtGPqZyqALUHDs/7BAN5RD37OvDicVUZwcSMTKhicB2ioLDSxHEMqtxxw+ugze6ME8LUUr/YjjnBjkfhYcCyfew==",
+            "isbns": []
+        },
+        {
+            "id": "c4ec8de4-abb3-4996-878e-2c8d3e49a8da",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "\u5510\u5b8b\u8bcd\u9274\u8d4f\u8f9e\u5178. \u7b2c\u4e00\u5377, \u6625\u82b1\u79cb\u6708\u4f55\u65f6\u4e86 : \u5510\u3001\u4e94\u4ee3\u5341\u56fd\u3001\u5317\u5b8b / \u5b9b\u654f\u704f\u7b49\u8457. Tang Song ci jian shang ci dian. Di yi juan, Chun hua qiu yue he shi liao : Tang, Wu dai shi guo, bei Song / Wan Minhao deng zhu. ",
+            "authors": [
+                "\u5b9b\u654f\u704f, author.",
+                "Wan, Minhao, author."
+            ],
+            "abstracts": [
+                "\u7b2c\u4e00\u5377(\u6625\u82b1\u79cb\u6708\u4f55\u65f6\u4e86), \u6536\u5f55\u5510\u3001\u4e94\u4ee3\u5341\u56fd\u81f3\u5317\u5b8b\u8bcd\u4eba\u5305\u62ec: \u674e\u767d\u3001\u767d\u5c45\u6613\u3001\u6e29\u5ead\u7b60\u3001\u97e6\u5e84\u3001\u67f3\u6c38\u3001\u51af\u5ef6\u5df3\u3001\u674e\u715c\u3001\u8303\u4ef2\u6df9\u3001\u67f3\u6c38\u3001\u5f20\u5148\u3001\u664f\u6b8a\u7b49\u4e03\u5341\u4f59\u4f4d\u8bcd\u4eba\u3001\u4e09\u767e\u4e94\u5341\u9996\u8bcd. \u56e0\u4e3a\u6709\u8fd9\u4e9b\u5929\u624d\u6d0b\u6ea2\u7684\u8bcd\u4eba, \u5510\u5b8b\u8bcd\u4e00\u8bde\u751f\u4fbf\u810d\u7099\u4eba\u53e3: \u6e29\u5ead\u7b60\u4e0e\u97e6\u5e84\u5f00\u521b\u4e86\u6b64\u65f6\u671f\u6700\u91cd\u8981\u7684\"\u82b1\u95f4\u8bcd\u6d3e\", \u4ece\u6b64\u9542\u7389\u96d5\u743c\u3001\u88c1\u82b1\u526a\u53f6, \u770b\u4e0d\u5c3d\u7684\u7eee\u7b75\u516c\u5b50, \u7ee3\u5e4c\u4f73\u4eba. \u6e29\u5ead\u7b60\u7684\"\u5c0f\u5c71\u91cd\u53e0\u91d1\u660e\u706d, \u9b13\u4e91\u6b32\u5ea6\u9999\u816e\u96ea.\" \u97e6\u5e84\u7684\"\u6625\u65e5\u6e38, \u674f\u82b1\u5439\u6ee1\u5934. \u964c\u4e0a\u8c01\u5bb6\u5e74\u5c11, \u8db3\u98ce\u6d41?\" \u4f60\u559c\u6b22\u54ea\u4e00\u9996?. "
+            ],
+            "languages": [
+                "chi"
+            ],
+            "createdDate": "2019-01-01",
+            "dataFrom": "HyRead",
+            "url": "http://search.nlb.gov.sg/r/hyread/?r=LneUHQPqzWRgFfhWTpjm7lyCPjVoDlizs/vFuK9DZRB6+VO87hbC/Z1I34biz1w9d/EZiTKBI3HYSMi2bTjALop+Yo93eAkUCzID77R9nZsr6x/xqFNrbhtLq5tsYX5/iHgLqI2Zplh1fN/MH4pm3AVsWipDGhBd6bE4YHRJwnh9/A==",
+            "isbns": []
+        },
+        {
+            "id": "ef0daee8-2751-4ea0-9903-4e2ebe522193",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Noel [electronic resource] / by Tony Johnston ; artwork by Cheng-Khee Chee. ",
+            "authors": [
+                "Johnston, Tony, 1942-"
+            ],
+            "abstracts": [
+                "Electronic reproduction. Boulder, Colo. : NetLibrary, 2006. Available via World Wide Web. Access may be limited to NetLibrary affiliated libraries. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2005-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=KLVpgEIVTRSN387p+EiDSoWDCASbP0GVljNXr5y6E/WWDHcdBU1lvYlxI/bJuwRWh71h3qmCSC6QSuLztNNWVlJjRkaX//RLtaST3CRkQz35iY/bIewk29+266ibX5B6hbfeostpcr8mDAMpBrL6NbkMjG3auMUCFj6t+W/nLj5Eny/VrsTHj4HKWZfkz6Sz5vHODh+1K50vyuXMJyWssckwzV6n",
+            "isbns": []
+        },
+        {
+            "id": "54601bd3-b65a-4990-b6cf-cbcb8aeb3928",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Maha\u0304bha\u0304rata. Book eight, Karn\u0323a [electronic resource] : volume one / translated by Adam Bowles. ",
+            "abstracts": [
+                "Includes bibliographical references and index. ",
+                "Parallel text in English and Sanskrit (romanized). "
+            ],
+            "languages": [
+                "eng",
+                "san"
+            ],
+            "createdDate": "2006-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=eO81CWZ/70y1USJ+A35pfCcvwl/dOLv0g4KB5fqEwBInpFF4CHS3i/L3XfE5RzQ7iuVYLT3aPD1LbxIUM2uiUSNQk5zwhKXRvE+UxivNcLjJ/Ed+BSVTKVqtNlTz7YWsvaksSTTCnRZTGKBAM1PBRC8NeTa3nqhGk7qp6Ss6bY5HfbEmLQe9a+Udf9AI4XMA/RspKd94Ki9eT+R4zJ9QAVM0YNk6",
+            "isbns": []
+        },
+        {
+            "id": "91bacfb0-ed5e-4a14-8ac8-d5ce2efed4bd",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Mahabharata. Book four, Vira\u0304t\u0323a [electronic resource] / translated by Kathleen Garbutt. ",
+            "abstracts": [
+                "Epic poetry. ",
+                "Includes bibliographical references (p. 21) and index. ",
+                "In English and Sanskrit (romanized) on facing pages; includes translation from Sanskrit. "
+            ],
+            "languages": [
+                "eng",
+                "san"
+            ],
+            "createdDate": "2006-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=dG5LRXz0zUNP7zYZuNqOk+4N02ATBgBy5Hz6NR5HOr5JbbWbSxVPaKIGov6jqunxt6kckQJePPWjNPngU+w0oFdAaiR+b7IBUeEcgQdExbURK7Up24VpS2/4ybmfXwBOo0P0GlSC+eykHuOfMxv8yeuaI5N+2xbtuvQiNkOe4HkAXWobbyq3VoiSh0KQ1sO2PEsgHFzDoKOakG1l8Td2TduG3dLZ",
+            "isbns": []
+        },
+        {
+            "id": "f175255e-505b-48a6-b950-ada9d4b44ddf",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Maha\u0304bha\u0304rata. Book seven, Dron\u0323a [electronic resource] : volume one / translated by Vaughan Pilikian. ",
+            "abstracts": [
+                "Epic poetry. ",
+                "Includes bibliographical references and index. ",
+                "In English and Sanskrit (romanized) on facing pages; includes translation from Sanskrit. "
+            ],
+            "languages": [
+                "eng",
+                "san"
+            ],
+            "createdDate": "2006-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=K/0Ig+HS03tvJpTM5mt/98IghT1lvtK+coq7Npn4DazzmnlqYtm0a9Rn1JK8x6HWB0GeYsI26OFD8wA5zFl+U/Pt3etJlZQJvu8WGwbQ5jsaS6zrQnHt6QvaiBltc/wiEB9Q7jo2+SVCiOfYRkzgr7t/0LTVvn+8aijKL9P6TKM7wrKyrzRAhCtwKKbOOynk2PiBWAvfqihKGB7hbotrWsznOyOK",
+            "isbns": []
+        },
+        {
+            "id": "95e0f407-51d7-43d7-9d99-45894aa1beb7",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Vietnam and the southern imagination / by Owen W. Gilman, Jr. ",
+            "authors": [
+                "Gilman, Owen W."
+            ],
+            "abstracts": [
+                "Includes bibliographical references (pages 195-200) and index. ",
+                "digitized. 2010. HathiTrust Digital Library. committed to preserve. pda. MiAaHDL. ",
+                "Electronic reproduction. [S.l.] : HathiTrust Digital Library, 2010. MiAaHDL. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "1992-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=dGqHImtRhukq4LFa4qxPMC5RW97TUKnNgEDXeIyqFl8MOW2u7hAs238g+EQH92yaXvusfoZ5JOWMRhCICrT1MSSAb9WGQUj9KQpPRrF2qlkt44GXJNU6/QV81xJqJ/lJsBmxIg7jehHd7uxH7jW/jYeFC8A=",
+            "isbns": []
+        },
+        {
+            "id": "0f626a6c-850a-45bb-8dcc-4e7c3eb7b2cc",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Songs of Memory in Islands of Southeast Asia [electronic resource]. ",
+            "authors": [
+                "Revel, Nicole."
+            ],
+            "abstracts": [
+                "Twenty-three years of joint endeavors and extensive field collecting of the narratives referred to in the present volume have resulted in the availability of a multimedia archive of Philippine epics, ballads and rituals both at the Pardo de Tavera collection of the Rizal Library, Ateneo de Manila University, and online. The linguists, anthropologists, and ethno-musicologists who have contributed to this book have long been conscious of the close links between 'Intangible Heritage' and 'Tangib... "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2013-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=fSsK0EwBBAYKLGEtMuTCS4NpJSSBDcAz09iZ9DxukEEDmRzuo7cLqFzWPu6b2OFT9rktk92VegTKx1gLbY8Jwx6O296d+v6ybwI55Sqp4sdH6hTDjjXQQ6nHGyOJf2IYZ1/Fh0tKafEv2GP6Eqp10h7CFKBWjT7qZKsXkQ2iB6s2t0XIXnzXcMp+YJDroTQ7GXIEGyEB31AI8NAaq42ouzIWhU2w",
+            "isbns": []
+        },
+        {
+            "id": "04d12c30-9b3e-411b-b908-84ac31f526a5",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Palma Cathedral : poems / Michael White. ",
+            "authors": [
+                "White, Michael, 1956-"
+            ],
+            "abstracts": [
+                "digitized. 2010. HathiTrust Digital Library. committed to preserve. pda. MiAaHDL. ",
+                "Electronic reproduction. [S.l.] : HathiTrust Digital Library, 2010. MiAaHDL. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "1998-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=fXk+FM1ss/JIgRm2NsgTxhV7xXrJsWpW+dzVhEHlYUU6gQ4WCJv0njkYNAzngkKOCqaDlLq14WY73oOb8Hn9f/K5SL3+jrY/EmYGgxg2QZNxzJRpgsVLGRBbq/ibwevZKSTEwXtQVh4mqDukxE9FjC9N7S/wgJ0y93v+VeWcGrLgolOMP0H5ZHq8Y2dhPTh2sNmDUakbsWgaI84gsBVjqUbJfF88RB7Y+V5o8UbG3osnufn8ZNas+QrcIvKpVr4gRHIXtlKAMA==",
+            "isbns": []
+        },
+        {
+            "id": "13a297bc-6086-42a6-9612-892e098ceebb",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Peanut butter and jellyfishes [electronic resource] : a very silly alphabet book / by Brian P. Cleary ; illustrations by Betsy E. Snyder. ",
+            "authors": [
+                "Cleary, Brian P., 1959-"
+            ],
+            "abstracts": [
+                "Electronic reproduction. Boulder, Colo. : NetLibrary, 2007. Available via World Wide Web. Access may be limited to NetLibrary affiliated libraries. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2007-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=fNxpDAoTkM/SfLJiVUC2S9+0TN257mykP5qLqRPzeP61ZEbeS0elt9xcfACoC/S45ndd38yyp++YH5QIvdQ1U/2Bb1FGA7mJysoj7oZ+NNvGzYLCohU7gIuNjMQcIEyfV/jOZdClHgCQTIt4vOKQ/fEIUUQ2aRi8jSf0IAfWJhNWFrX7Exrpe3JjHL17QfU4nw93rjLr/eiCvhZ3qnTiXCqdIwcP",
+            "isbns": []
+        },
+        {
+            "id": "052acffc-15c7-400e-a1c9-cac541ae7ba5",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Shelley's mirrors of love : narcissism, sacrifice, and sorority / Teddi Chichester Bonca. ",
+            "authors": [
+                "Bonca, Teddi Chichester, 1960-"
+            ],
+            "abstracts": [
+                "Includes bibliographical references (pages 295-306) and index. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "1999-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=fXjjXcykZOthU1QXmr0YbOcr168dBHIOBL7vKF/ydT7/x/rQvrVBrCrDOziE3aC73+maFHn0QdmOV6y6+POM17ctCgLQk2ZDFsunFMmfGvivRibwOs4EemgPUz9U7SYwVEHXpb7pr2oG1VrrDtuaprA1MMrBMYkyQUaKLWGckW7DmwWGuw5NLpxLVg==",
+            "isbns": []
+        },
+        {
+            "id": "844e5ee6-d18a-4b53-93c1-7848806e7005",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Mahabharata. Book two, The great hall [electronic resource] / translated by Paul Wilmot. ",
+            "abstracts": [
+                "Epic poetry. ",
+                "Includes bibliographical references and index. ",
+                "In English and Sanskrit (romanized) on facing pages; includes translation from Sanskrit. "
+            ],
+            "languages": [
+                "eng",
+                "san"
+            ],
+            "createdDate": "2006-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=dQPzEGX9mL0ixSAN8YyAoa1+cLGJ0TjO2BEVAD3KT1z+ob6RqhoC12FskCMfBLjWBJhnXYHJ9SWHoHKyLq5Jt+z65iDLRHtsk7GygKe5hxcoskF3Ipr/ch00i53bRP3Dxwt7o9pxx0ElavHrXPstdAppmOGjUKUJRjpNg3fzVVb1DzeQ/CYa9pPuYcKed58jVHsLQmt1ty7LBfaGiUuzQjMCfuYN",
+            "isbns": []
+        },
+        {
+            "id": "053c7ad3-3031-4430-a443-888a135d9fed",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Kicking daffodils : twentieth-century women poets / edited by Vicki Bertram. ",
+            "abstracts": [
+                "Includes bibliographical references and index. ",
+                "digitized. 2010. HathiTrust Digital Library. committed to preserve. pda. MiAaHDL. ",
+                "Electronic reproduction. [S.l.] : HathiTrust Digital Library, 2010. MiAaHDL. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "1997-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=fXjiwschgwU8OYLXgDt/H7JoEVj7ajAHDo3D/4/FrKsbaixzOQ+yQ7JE5svjQmlI0gqz6kRZ4kpwSegIxRB34tgEcXp5nuPwnKi5RJfdqDq8c/WWhQgR5G8NcbEKlIVALSsO80s3QeVZefy+8Q0qNpeusOytRNi96aBz+fJpbTZVen9kdYaoWeKEmCea+HNErW0xh0ADRxwn79MkxNE0Yui3yR8G4P0cGYv/DayasE12yQ4=",
+            "isbns": []
+        },
+        {
+            "id": "7b45133c-f300-4684-900a-e6061c4a6a9f",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Poetry, the magic language : children learn to read and write it / Maureen W. Armour. ",
+            "authors": [
+                "Armour, Maureen W."
+            ],
+            "abstracts": [
+                "\"Grades K-6\"--Cover. ",
+                "Includes bibliographical references and index. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "1994-01-01",
+            "dataFrom": "Netlibrary",
+            "url": "http://search.nlb.gov.sg/r/netlibrary/?r=enLyXqTJE4ftzXkQUdaea5m9pGwHeAc7IJEDRvzrDM53i/9NLKzU+x3225eY4tMRjHpIox87q1vMQ9KmvH1teCItpCbRJ6xNo7vhqeV8kc7q67HbdjouH/KBzwTJXPdOm8oZ2G8GkVvqafm7jWzwSHm2mYxIwZIJDm3b8QS9SvaRfzmNdH0HDS8OyYgUAAJ8uypAfjHQgKJCRvU=",
+            "isbns": []
+        },
+        {
+            "id": "ea9e0b02-d8ca-48d2-b31c-40bae60113f9",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "\u4e9a\u6d32\u4e2d\u6587\u73b0\u4ee3\u8bd7\u7684\u90fd\u5e02\u4e66\u51991980-1999 / \u9648\u5927\u4e3a\u8457. Ya Zhou zhong wen xian dai shi de du shi shu xie 1980-1999 / Chen Dawei zhu. ",
+            "authors": [
+                "\u9648\u5927\u4e3a, 1969- author.",
+                "Chen, Dawei, 1969- author."
+            ],
+            "abstracts": [
+                "\u672c\u4e66\u4ee5\"\u4e9a\u6d32\u4e2d\u6587\u73b0\u4ee3\u8bd7\u7684\u90fd\u5e02\u4e66\u5199\"\u4e3a\u9898, \u4f01\u56fe\u900f\u8fc7\u672c\u4e66\u7684\u5b8c\u6574\u8bba\u8ff0\u67b6\u6784, \u4ee5\u591a\u89d2\u5ea6\u7684\u90fd\u5e02\u5185\u5bb9\u7b80\u4ecb\u6765\u63a2\u8ba8\u5305\u62ec\u4e2d\u56fd\u5927\u9646\u5728\u5185\u7684\u4e2d\u6587\u73b0\u4ee3\u8bd7, \u7531\u6b64\u6253\u5f00\u4e00\u9053\u7ba1\u7aa5\u4e16\u754c\u4e2d\u6587\u6587\u5b66\u7684\u7a97\u6237. "
+            ],
+            "languages": [
+                "chi"
+            ],
+            "createdDate": "2001-01-01",
+            "dataFrom": "HyRead",
+            "url": "http://search.nlb.gov.sg/r/hyread/?r=KLKf37QI4yTb0J+tY8Uc+bI2CKfo1nfJSrG3p4Q7tIXgy/veI2lIbJ/FjLUdqxxeQiT/KUVoFpHxzgXpEwWmDEvyY11U+P7fr4kgxxR1oFgf9WlpcrvYwc4PJzlp7/GlOaCXMcbhsifnoCs/QTA1ORnR5XB2YBNWdJtDCC/YNl6c",
+            "isbns": []
+        },
+        {
+            "id": "cb38c117-2f2d-434e-83f1-7076f3a6eac6",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Sumbangsih MAS : koleksi puisi pilihan",
+            "authors": [
+                "Mas, 1924-"
+            ],
+            "abstracts": [
+                "Sumbangsih MAS is a collection of 25 poems by Muhammad Ariff Ahmad (also known as MAS) that was written since 1947. The poems covered almost 65 years of his devotion to the literary \ufb01eld and comprised various themes and messages that expressed the thoughts of his journey and struggles in the \ufb01eld of literature, language and culture. While deeply personal, his poems also served to document our social memories."
+            ],
+            "languages": [
+                "_Languages:Malay {18349216}",
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2012-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=LiGnYhLCMOBV4OfNG4qD1zQLmMvaN3vY6SYkK9z8CDckPYVZbPAJD8kRaxJPBJMPaY0gP/WloTrcnFvNBlH686R+sobCGkewtuQNigX2d6q56F+pMwgIQ+NbZCUz2Xx5M2ZR6Y8V37+N0hARKXP5jxhc0GK86E920F07PSerIgTeKLE4o3+tIVKBH2yGj4qkb1BrE0VunKGI",
+            "isbns": []
+        },
+        {
+            "id": "9eb723d6-fd5a-4323-a662-bc22e3c30144",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "A life in poems : selected works of Khoo Seok Wan",
+            "authors": [
+                "Qiu, Shuyuan, 1874-1941"
+            ],
+            "abstracts": [
+                "In this chapbook, a total of twenty poems have been selected to represent the different phases of Khoo\u2019s life. Readers might notice that we have arranged the poems such that the last poem Khoo wrote is featured first and the first poem that made him famous last. The remaining poems are arranged roughly chronologically from the latest to the earliest. We hope that this arrangement would enable reader to gain an insight into Khoo\u2019s remarkable life and his development as poet."
+            ],
+            "languages": [
+                "_Languages:English {18349056}",
+                "_Languages:Chinese {18349008}"
+            ],
+            "createdDate": "2013-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=dDo8j5CXEuVmbAlH2avMxkfFGs3r1OX+NPPEVng2TpTEegSjwSbgq2eDZOZPpqaeamAeG8NtFEieN5IdNypr8Je23DiD+/5V2EJiBd/0HYONgWoq21In/B/5/to8IsZDuoAgLvK8hTtz3qrsmnj9sda6HJJyLhGfi8tJvXxpk2oNNwZVi+pnkEiuZN2B/aOTwPX79a6KLMsb",
+            "isbns": []
+        },
+        {
+            "id": "efa625ac-b0b7-41ad-bd93-71b9d4bf743b",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "\u0baa\u0bbe\u0bb5\u0bb2\u0bb0\u0bcd \u0ba8 \u0baa\u0bb4\u0ba8\u0bbf\u0bb5\u0bc7\u0bb2\u0bc1\u0bb5\u0bbf\u0ba9\u0bcd \u0b95\u0bb5\u0bbf\u0ba4\u0bc8\u0ba4\u0bcd \u0ba4\u0bc6\u0bbe\u0b95\u0bc1\u0baa\u0bcd\u0baa\u0bbf\u0bb2\u0bbf\u0bb0\u0bc1\u0ba8\u0bcd\u0ba4\u0bc1 \u0b9a\u0bbf\u0bb2 \u0bae\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bb3\u0bcd",
+            "authors": [
+                "\u0baa\u0bb4\u0ba8\u0bbf\u0bb5\u0bc7\u0bb2\u0bc1\u0bb5\u0bbf\u0ba9\u0bcd, \u0ba8",
+                "Palanivelu, N."
+            ],
+            "abstracts": [
+                "This chapbook is an attempt to showcase some of the poems of Singapore\u2019s Tamil versions. It is hoped that this bilingual edition will spark an interest among both the Tamil and non-Tamil speaking communities in Singapore. This little chapbook also pays tribute to Singapore\u2019s Tamil literary heritage, sensitively portrayed by Na Palanivelu in his poems\u2019 clarion for social reform."
+            ],
+            "languages": [
+                "_Languages:Tamil {18349390}",
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2013-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=KLU4S6Eqgf7TukRaAX4tfiKF54ES+y08vKEtQ5AatB5wQ3jTkNO7leEm/YArzXV6WKAsmVNGOeU4y8lHZQl98xwfXq230EVofgPe7ezRIL8+kT7DOmQi0NXM0rrN6u6vCOxX83oYI6O/QW32kRGYu75HCuIH6qi1HvYFIU8bwa8vEWCynVKUU0UWATxStPd5WEDO6OS+59pD",
+            "isbns": []
+        },
+        {
+            "id": "f25c28e0-2e67-4265-a622-29de46f7eb50",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "Suratman Markasan : puisi-puisi pilihan",
+            "authors": [
+                "S. Markasan (Suratman Markasan), 1930-"
+            ],
+            "abstracts": [
+                "This is a bilingual edition of 10 selected poems from Suratman Markasan. Born in 1930 in Singapore, he was trained as a teacher and in 2010, was awarded the prestigious Cultural Medallion Award. "
+            ],
+            "languages": [
+                "_Languages:Malay {18349216}",
+                "_Languages:English {18349056}"
+            ],
+            "createdDate": "2014-01-01",
+            "dataFrom": "NLB",
+            "url": "http://search.nlb.gov.sg/r/nlb/?r=K/7gTxe/gDQ0BEQlGMjz4BjYkcFJwQgMHFruFyP4sCv+Z/M3t2+DHdk7mSJGhl9PPIeHr0fE4f01rS4LB3d7sijLARLMir324PRlEen6mCNqkeyL+b0VrmNjH6mDwNDj0F02/2abdzEPKrHY939DEbMafJEWNRnRl2hlDF433qBRzhNCMm4IEWaajLUa++9FjIEYBAUT89m4",
+            "isbns": []
+        },
+        {
+            "id": "f72ba8e5-8167-4bd2-9ff2-78c872eebd75",
+            "types": [
+                "Electronic Book"
+            ],
+            "title": "\u5982\u679c\u8fd8\u6709\u8424\u706b\u866b / \u6797\u5f97\u6960. Ru guo hai you ying huo chong / Lin Denan. ",
+            "authors": [
+                "\u6797\u5f97\u6960, 1963- author.",
+                "Lin, Denan, 1963- author."
+            ],
+            "abstracts": [
+                "\u672c\u8bd7\u96c6\u6536\u96c6\u4e86\u8bd7\u4eba\u8fd1\u5e74\u521b\u4f5c\u7684\u5927\u90e8\u5206\u65b0\u8bd7, \u4e5f\u6536\u5f55\u4e86\u5c11\u8bb8\u5177\u6709\u65f6\u4ee3\u610f\u4e49\u7684\u65e9\u671f\u521b\u4f5c. \u5168\u4e66\u5206\u4e09\u8f91. \u7b2c\u4e00\u8f91\u3008\u6211\u662f\u4e00\u68f5\u5f00\u82b1\u7684\u6811\u3009, \u5199\u6811\u4e0e\u4e16\u95f4\u60c5; \u7b2c\u4e8c\u8f91\u3008\u5982\u679c\u8fd8\u6709\u8424\u706b\u866b\u3009, \u5199\u4eba\u4e0e\u771f\u5584\u7f8e; \u7b2c\u4e09\u8f91\u3008\u68a6\u89c1\u4e00\u9996\u592a\u9633\u82b1\u3009, \u5199\u68a6\u4e0e\u5929\u4e0b\u4e8b. \u8bd7\u96c6\u624e\u6839\u5728\u68a6\u571f\u4e2d\u7684\u73b0\u5b9e\u4e16\u754c, \u4e5f\u98d8\u6e3a\u4e8e\u73b0\u5b9e\u4e16\u754c\u4e2d\u7684\u68a6\u5883. \u4f5c\u8005\u4ee5\u68a6\u7684\u865a\u5883\u3001\u8bd7\u7684\u610f\u5883, \u5448\u73b0\u4e86\u4e00\u884c\u4e00\u98d8\u6e3a\u3001\u4e00\u53e5\u4e00\u67d4\u60c5\u7684\u4e16\u4e8b\u3001\u4eba\u4e8b\u4e0e\u5fc3\u4e8b.  \u4f5c\u8005\u8ba4\u4e3a\u8bd7\u662f\u7528\u6765\u611f\u89c9\u548c\u611f\u52a8\u7684, \u6240\u4ee5\u4ed6\u7684\u4e00\u884c\u4e00\u53e5, \u603b\u662f\u5148\u611f\u52a8\u81ea\u5df1. \u4ed6\u4ee5\u6d45\u767d\u7684\u6587\u5b57\u8868\u73b0\u8bd7\u6b4c\u7684\u5e7d\u6df1. \u4ed6\u8ffd\u6c42\u6292\u60c5\u7684\u771f\u3001\u4eba\u6027\u7684\u5584\u3001\u610f\u5883\u7684\u7f8e. \u672c\u8bd7\u96c6\u5982\u4e00\u9996\u9a70\u9a8b\u4e8e\u53e4\u4eca\u4e2d\u5916\u3001\u98d8\u6447\u4e8e\u4e94\u6e56\u56db\u6d77\u7684\u7075\u9b42\u4e4b\u6b4c. \u5b83\u541f\u5531\u4eba\u95f4\u7684\u4e16\u4fd7, \u8bb0\u8f7d\u5386\u53f2\u7684\u53d8\u8fc1, \u4e5f\u6c88\u6dc0\u68a6\u5883\u7684\u65e0\u5e38. "
+            ],
+            "languages": [
+                "chi"
+            ],
+            "createdDate": "2017-01-01",
+            "dataFrom": "HyRead",
+            "url": "http://search.nlb.gov.sg/r/hyread/?r=K/uuPv6Y/Crcfy7Ns1X0gz1YUv5JglKocYBMxJbGLPAa/PYZ+rqohy49pKOq6n5D2WKI5viPfHkZEn81RPtKJUqcfVo64IzbGZ6Dq3pDa+ZVNHNHGPK2A2poyKaDD7z7HS3+vHcK5rpVufMLXU2CPQk/32GQ8WCgg7O+noSYY7UmCg==",
+            "isbns": []
+        }
+    ]
+}

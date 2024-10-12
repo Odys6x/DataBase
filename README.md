@@ -7,7 +7,7 @@ The choice of database we are using is MYSQL. Here are the steps to startup
 2. In this project the user accessing this is a root user
    1. Go to your MYSQL Command Line Client
    2. Paste this command line --> "FLUSH PRIVILEGES;
-ALTER USER 'root'@'localhost' IDENTIFIED BY 'newpassword';" where newpassword can be anything but it will be very important for your app on your side. This ensures that when you create a connection with root, it will have the privileges to do so.
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'newpassword';" It will be very important for your app on your side. This ensures that when you create a connection with root, it will have the privileges to do so.
 3. MYSQL Workbench will where we will be creating the connection and managing the schemas and table
    1. Press the add button (+) to make new connection. It should look something like this
    ![Alt text](image/Setup.jpg)

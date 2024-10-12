@@ -1,4 +1,5 @@
 import os
+from glob import glob
 from sqlite3 import Error
 import mysql
 from flask import Flask, render_template, redirect, url_for, flash, session, request
@@ -113,54 +114,64 @@ def submit_review(book_id):
         if connection:
             connection.close()
 
+
 @app.route('/')
 def index():
-    with open('json/audio/nlb_api_response0.json') as file:
-        data = json.load(file)
-
-
-
     insert_query = """
-    INSERT INTO Book (title, types, authors, abstract, languages, createdDate, coverURL, subjects, isbns)
+    INSERT IGNORE INTO Book (title, types, authors, abstract, languages, createdDate, coverURL, subjects, isbns)
     VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s);
     """
 
+    # Initialize an empty list to store combined results
+    combined_data = []
+
     try:
+        # Get all JSON files from the directory
+        json_files = glob('json/audio/*.json')
+
+        # Loop through all files and combine their 'results' into one list
+        for json_file in json_files:
+            with open(json_file) as file:
+                data = json.load(file)
+                if 'results' in data:
+                    combined_data.extend(data['results'])
+
+        # Now, combined_data holds all 'results' from all the JSON files
         connection = create_connection()
         if connection is None:
             raise Exception("Failed to establish a database connection.")
 
+        # Create necessary tables if they don't exist
         execute_query(connection, create_book_table)
         execute_query(connection, create_booklist_table)
-        execute_query(connection, "CREATE INDEX idx_user_book ON BorrowedList(user_id, book_id);")
 
         with connection.cursor() as cursor:
-            cursor.execute("SELECT COUNT(*) FROM Book;")
-            count = cursor.fetchone()[0]
+            # Insert data and ignore duplicates by title
+            for book in combined_data:
+                title = book.get('title', '').replace('[electronic resource]', '').strip()
+                types = ', '.join(book.get('types', []))
+                authors = ', '.join(book.get('authors', []))  # Handle missing authors
+                abstract = ', '.join(book.get('abstracts', []))  # Handle missing abstracts
+                languages = ', '.join(book.get('languages', []))  # Handle missing languages
+                coverURL = book.get('coverUrl', '')
+                subjects = book.get('subjects', '')
+                isbns = ', '.join(book.get('isbns', []))  # Handle missing ISBNs
+                createdDate = book.get('createdDate')
 
-            if count == 0:
-                for book in data['results']:
-                    title = book['title'].replace('[electronic resource]', '').strip()
-                    types = ', '.join(book['types'])
-                    authors = ', '.join(book['authors'])
-                    abstract = ', '.join(book['abstracts'])
-                    languages = ', '.join(book['languages'])
-                    coverURL = book.get('coverUrl', '')
-                    subjects = book.get('subjects', '')
-                    isbns = ', '.join(book['isbns'])
-                    createdDate = book.get('createdDate')
+                if createdDate:
+                    createdDate = datetime.strptime(createdDate, "%Y-%m-%d").date()
+                else:
+                    createdDate = None
 
-                    if createdDate:
-                        createdDate = datetime.strptime(createdDate, "%Y-%m-%d").date()
-                    else:
-                        createdDate = None
+                data_tuple = (title, types, authors, abstract, languages, createdDate, coverURL, subjects, isbns)
+                cursor.execute(insert_query, data_tuple)
 
-                    data_tuple = (title, types, authors, abstract, languages, createdDate, coverURL, subjects, isbns)
-                    cursor.execute(insert_query, data_tuple)
+            connection.commit()
 
-                connection.commit()
-
-        fetch_query = "SELECT id, title, types, authors, abstract, languages, createdDate, coverURL, subjects, isbns FROM Book;"
+        # Fetch the books from the database to pass to the template
+        fetch_query = """
+        SELECT id, title, types, authors, abstract, languages, createdDate, coverURL, subjects, isbns FROM Book;
+        """
         with connection.cursor(dictionary=True) as cursor:
             cursor.execute(fetch_query)
             books = cursor.fetchall()
@@ -177,8 +188,9 @@ def index():
         if connection:
             connection.close()
 
-    # Pass the books data to the template
     return render_template("index.html", books=books)
+
+
 
 
 @app.route('/login', methods=['GET', 'POST'])

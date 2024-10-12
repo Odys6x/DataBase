@@ -1,0 +1,32 @@
+{
+    "totalRecords": 1,
+    "nextRecordPosition": -1,
+    "hasMoreRecords": false,
+    "results": [
+        {
+            "id": "6de991dc-e06c-4783-aa28-1b6ce99b0070",
+            "types": [
+                "Audio Book"
+            ],
+            "title": "\u5343\u53e4\u5b66\u6848-\u590f\u5546\u5468\u65ad\u4ee3\u5de5\u7a0b\u89e3\u5bc6\u8bb0 [electronic resource]. \u5cb3\u5357. ",
+            "authors": [
+                "\u5cb3\u5357."
+            ],
+            "abstracts": [
+                "1996 \u5e74\uff0c\u4e3a\u4e86\u5efa\u7acb\u590f\u4ee3\u548c\u5546\u4ee3\u524d\u671f\u7684\u5e74\u4ee3\u6846\u67b6\uff0c\u590d\u539f\u5546\u4ee3\u540e\u671f\u548c\u516c\u5143\u524d841\u5e74\u4e4b\u524d\u897f\u5468\u5404\u738b\u6bd4\u8f83\u51c6\u786e\u7684\u5e74\u4ee3\uff0c\u56fd\u5bb6\u542f\u52a8\u4e86\u201c\u590f\u5546\u5468\u65ad\u4ee3\u5de5\u7a0b\u201d\u3002 \u6700\u7ec8\u516c\u5e03\u7684\u300a\u590f\u5546\u5468\u5e74\u8868\u300b\uff0c\u628a\u6211\u56fd\u6709\u79d1\u5b66\u4f9d\u636e\u7684\u5386\u53f2\u7eaa\u5e74\u4ece\u201c\u5171\u548c\u5143\u5e74\u201d\u5373\u516c\u5143\u524d841\u5e74\u5411\u524d\u5ef6\u4f38\u4e861200\u591a\u5e74\u3002  \u4f5c\u4e3a\u4e00\u90e8\u63cf\u8ff0\u8fd9\u4e00\u5de5\u7a0b\u7684\u7eaa\u5b9e\u6587\u5b66\uff0c\u4f5c\u8005\u968f\u201c\u5de5\u7a0b\u201d\u8ffd\u8e2a\u3001\u91c7\u8bbf\u6570\u5e74\uff0c\u5168\u666f\u5c55\u73b0\u4e86\u4e13\u5bb6\u4eec\u9488\u5bf9\u4e8c\u91cc\u5934\u3001\u6bb7\u589f\u3001\u90d1\u5dde\u5546\u57ce\u3001\u664b\u4faf\u5893\u5730\u7b49\u590f\u5546\u5468\u9057\u5740\uff0c\u7528\u5386\u53f2\u5b66\u3001\u8003\u53e4\u5b66\u3001\u6587\u732e\u5b66\u3001\u5929\u6587\u5b66\u548c\u6d4b\u5e74\u6280\u672f\u7b49\u591a\u5b66\u79d1\u8fdb\u884c\u4ea4\u53c9\u7814\u7a76\u7684\u5168\u8fc7\u7a0b\uff0c\u4e3a\u8bfb\u8005\u5927\u5927\u62d3\u5bbd\u4e86\u5bf9\u4e2d\u534e\u8fdc\u53e4\u6587\u660e\u7684\u8ba4\u77e5\u8303\u56f4\u3002. "
+            ],
+            "languages": [
+                "chi"
+            ],
+            "createdDate": "2023-01-01",
+            "dataFrom": "Overdrive",
+            "url": "http://search.nlb.gov.sg/r/overdrive/?r=e2IRlr7Ffs9oiXtOD4BoZWutZsJa0foMWY0msn5dJC5aqEbNZcLvCAykz5rGSF/afb+n2bqMsg8DWxzAOrFPrzi2WD7B3I0b10mD2SDjCUYTvGJTjFSE8TNn/wvXqFpOrO/WHohJSpKiJ8PZlOIsytdRTruyIDNSwB3y3X3jtnQkdHHM92EI+09TowoLes7yZB7Ind5OhfqAlbmt98NBfNAsCoCc1NnT",
+            "resourceUrlExt": "http://singapore.lib.overdrive.com/ContentDetails.htm?ID=7EE197A9-9CD8-4CC1-B399-758BBA84794C",
+            "coverUrl": "https://img1.od-cdn.com/ImageType-100/7978-1/%7B7EE197A9-9CD8-4CC1-B399-758BBA84794C%7DImg100.JPG",
+            "subjects": "Nonfiction,Antiquarian",
+            "isbns": [
+                "9787100071987 (sound recording)"
+            ]
+        }
+    ]
+}

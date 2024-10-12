@@ -1,15 +1,15 @@
 create_book_table = """
 CREATE TABLE IF NOT EXISTS Book (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    title VARCHAR(150) NOT NULL UNIQUE,
+    title VARCHAR(300) NOT NULL UNIQUE,
     types VARCHAR(15),  -- Increased size to avoid truncation
-    authors VARCHAR(30),
+    authors VARCHAR(50),
     abstract LONGTEXT,
     languages TEXT,
     createdDate DATE,
     coverURL VARCHAR(100),
-    subjects VARCHAR(85),
-    isbns VARCHAR(35)
+    subjects VARCHAR(150),
+    isbns VARCHAR(100)
 );
 """
 

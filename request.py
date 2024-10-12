@@ -11,12 +11,13 @@ headers = {
     "X-App-Code": "DEV-ChunOwen"
 }
 
+
+
 for i, items in enumerate(categories):
 
     params = {
-        #"Title": "Invisible darkness",
         "Subject": f"{items}",
-        "ContentType": "eBooks",
+        "ContentType": "Audio Books",
         "Limit" : 100
     }
 
@@ -28,7 +29,7 @@ for i, items in enumerate(categories):
 
         response_data = response.json()
 
-        path = "json/digital/"
+        path = "json/audio/"
         full_path = os.path.join(path,f'nlb_api_response{i}.json')
 
         with open(full_path, 'w') as file:

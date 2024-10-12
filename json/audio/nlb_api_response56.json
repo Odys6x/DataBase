@@ -1,0 +1,32 @@
+{
+    "totalRecords": 1,
+    "nextRecordPosition": -1,
+    "hasMoreRecords": false,
+    "results": [
+        {
+            "id": "019e7acf-9dd6-47f8-8cbd-2b9823219eef",
+            "types": [
+                "Audio Book"
+            ],
+            "title": "Mother island [electronic resource] : A daughter claims puerto rico. Jamie Figueroa. ",
+            "authors": [
+                "Figueroa, Jamie."
+            ],
+            "abstracts": [
+                "A searing memoir that explores the institutions that defined a Puerto Rican woman and what she unlearned to rediscover herself\u00a0\u2022\u00a0\"A lushly written, deeply felt investigation into the meanings of home, lineage and selfhood.\" \u2014Melissa Febos, bestselling author of  Body Work  and  Girlhood   Growing up in the Midwest, raised by a Puerto Rican mother who was abandoned by her family, Jamie Figueroa and her sisters were estranged from their culture, consumed by the whiteness that surrounded them. In Mother Island, Figueroa traces her search for identity as shaped by and against a mother who settled into the safety of assimilation.\u00a0In lyrical, blistering prose,\u00a0Figueroa\u00a0recalls a childhood in Ohio\u00a0in which\u00a0she was relegated\u00a0to the background of her mother\u2019s string of failed marriages; her own marriage in her early twenties to a man twice her age; how her work as a licensed massage therapist helped her heal her body trauma; and how\u00a0becoming a mother has reshaped her relationship to her family and herself. Only\u00a0as\u00a0an adult in New Mexico was Figueroa able to forge her own path, using writing to recast her origin story.\u00a0In a journey that takes her to Puerto Rico and back, Figueroa looks to her ancestors to reimagine her relationship to the past and to her mother\u2019s native island,\u00a0reaching beyond her own mother into a greater experience of mothering and claiming herself.\u00a0 \u00a0\u00a0\u00a0\u00a0Drawing from Puerto Rican folklore and mythology, a literary lineage of women writers\u00a0of color, and narratives of identity, Figueroa presents a cultural coming-of-age story. Candid and raw, Mother Island gets to the heart of the question: Who do we become when we are no longer trying to be someone else?. "
+            ],
+            "languages": [
+                "eng"
+            ],
+            "createdDate": "2024-01-01",
+            "dataFrom": "Overdrive",
+            "url": "http://search.nlb.gov.sg/r/overdrive/?r=fXy8TX68mkD+Dj3uV6q6t5A+VheqKigqdA9+5Gaqtu+60rEsH9difCFpvtT/bKjYF+fI/rl9Q9jHGimzmFGcgm67Bi5zgGb82yBJOfgTtVdlZ4xy8tq9/3rJ4RmnVqVilIX7WpLMHMuno1zFC4WdOqvAVjWDvjkhTbmG5hBLz4Nkm/VBOSG7L5zYxORIMaS73mc9YPzqoTixdJxe9m5VWut2rF6xSPuK",
+            "resourceUrlExt": "http://singapore.lib.overdrive.com/ContentDetails.htm?ID=25FDA8DD-5D0F-4AFD-AA8F-7A75AF62E4E5",
+            "coverUrl": "https://img1.od-cdn.com/ImageType-100/1191-1/%7B25FDA8DD-5D0F-4AFD-AA8F-7A75AF62E4E5%7DImg100.JPG",
+            "subjects": "Nonfiction,Biography & Autobiography,Family & Relationships,Genealogy",
+            "isbns": [
+                "9780593821480 (sound recording)"
+            ]
+        }
+    ]
+}

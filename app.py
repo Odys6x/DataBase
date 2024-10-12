@@ -19,6 +19,8 @@ from datetime import datetime, timedelta
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'inf2003_database'  # Change this to a secure key
 csrf = CSRFProtect(app)
+UPLOAD_FOLDER = 'static/uploads'
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 class ReviewForm(FlaskForm):
     rating = IntegerField('Rating (1-5)', [validators.NumberRange(min=1, max=5)])
@@ -641,7 +643,7 @@ def add_book():
                     connection.commit()
                     flash('Book added successfully!', 'success')
                     print("Book successfully added to the database.")
-                return redirect(url_for('index'))
+                return redirect(url_for('admin_index'))
             else:
                 flash('Database connection failed.', 'danger')
                 print("Database connection failed.")

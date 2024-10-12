@@ -26,6 +26,19 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'newpassword';" It will be very impo
 
    as you can see here in @app.route('/login') it handles everything for login.html. So meaning to say if you were to look up to @app.route('/'), you can handle python logic and return any data, etc back to the html file it was assigned to.
 
+## request.py
+
+1. This is where you will run the code from to populate json files that contain NLB library books that are in ebook or digital
+2. If you want to populate your own json file, you can simply change the values of "ContentType"
+
+## conn.py
+
+This file will be the place to initialise our connection with our database. Change the password to the 'newpassword'
+
+## query.py (Optional but I still do it)
+
+Query.py will contain long sql queries such that our app.py won't be so long
+
 ## html
 
 ### base.html
@@ -36,16 +49,5 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'newpassword';" It will be very impo
 
 the {% block body %}{% endblock %} from base.html serves it purpose as a template for other html to use and if a html class uses {% extends 'base.html' %}, it means that it is populating it's own content with base.html.
 
-## conn.py
-
-This file will be the place to initialise our connection with our database. Change the password to the 'newpassword'
-
-## query.py
-
-This file in charge of managing API calls which will then store data into a json file
-
-## query.py (Optional but I still do it)
-
-Query.py will contain long sql queries such that our app.py won't be so long
 
 

@@ -31,6 +31,8 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'newpassword';" It will be very impo
 
 1. This is where you will run the code from to populate json files that contain NLB library books that are in ebook or digital
 2. If you want to populate your own json file, you can simply change the values of "ContentType"
+   
+   ![Alt text](image/request.jpg)
 
 ## conn.py
 

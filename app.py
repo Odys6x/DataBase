@@ -370,17 +370,29 @@ def book_detail(book_id):
         return "Database connection failed", 500  # Handle connection error
     if connection is not None:
         execute_query(connection, create_review_table)
-        execute_query(connection,"CREATE INDEX idx_userId ON Review(userId);")
-        execute_query(connection,"CREATE INDEX idx_bookId ON Review(bookId);")
+        execute_query(connection, "CREATE INDEX idx_userId ON Review(userId);")
+        execute_query(connection, "CREATE INDEX idx_bookId ON Review(bookId);")
 
-    # Query to fetch book details
-    query = "SELECT * FROM book WHERE id = %s"
-    reviews_query = """
-    SELECT Review.ratings, Review.content, User.first_name, User.last_name 
-    FROM Review 
-    JOIN User ON Review.userId = User.userId 
-    WHERE Review.bookId = %s
+    # Query to fetch book details (removed the Author table)
+    query = """
+        SELECT Book.id, Book.title, Book.abstract, Book.languages, Book.createdDate, Book.coverURL, 
+               COUNT(Review.reviewId) as review_count, AVG(Review.ratings) as avg_rating
+        FROM Book
+        LEFT JOIN Review ON Book.id = Review.bookId
+        WHERE Book.id = %s
+        GROUP BY Book.id
     """
+
+    # Query to fetch reviews (removed references to Author)
+    reviews_query = """
+    SELECT Book.id, Book.title, Book.abstract, Book.languages, 
+           Review.content as review_content, Review.ratings, User.first_name, User.last_name
+    FROM Book
+    LEFT JOIN Review ON Book.id = Review.bookId
+    LEFT JOIN User ON Review.userId = User.userId
+    WHERE Book.id = %s
+    """
+
     cursor = connection.cursor()
 
     try:
@@ -419,18 +431,20 @@ def book_detail(book_id):
 
     # Convert the result to a dictionary for easy access in the template
     book_dict = {
-        'id': book[0],  # Assuming book.id is at index 0
-        'title': book[1],  # Assuming book.title is at index 1
-        'author': book[3],  # Assuming book.author is at index 2
-        'coverURL': book[7],  # Assuming book.coverURL is at index 3
-        'description': book[4],  # Assuming book.description is at index 4
-        'published_date': book[6],  # Assuming book.published_date is at index 5
-        'is_borrowed_by_user': is_borrowed_by_user,  # True if the current user borrowed the book
-        'is_borrowed_by_anyone': is_borrowed_by_anyone  # True if the book is borrowed by anyone
+        'id': book[0],  # Book.id
+        'title': book[1],  # Book.title
+        'abstract': book[2],  # Book.abstract
+        'languages': book[3],  # Book.languages
+        'published_date': book[4],  # Book.createdDate
+        'coverURL': book[5],  # Book.coverURL
+        'review_count': book[6],  # Review count
+        'avg_rating': round(book[7], 1) if book[7] is not None else None,
+        'is_borrowed_by_user': is_borrowed_by_user,
+        'is_borrowed_by_anyone': is_borrowed_by_anyone
     }
-    print(reviews)
 
-    return render_template("book.html", book=book_dict, form=form,reviews=reviews)
+    return render_template("book.html", book=book_dict, form=form, reviews=reviews)
+
 
 
 @app.route('/history')
@@ -651,10 +665,8 @@ def add_book():
             if connection is not None:
                 with connection.cursor() as cursor:
                     insert_query = """
-                    START TRANSACTION;
                     INSERT INTO Book (title, types, authors, abstract, languages, createdDate, coverURL, subjects, isbns)
                     VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s);
-                    COMMIT;
                     """
                     cursor.execute(insert_query, book_data)
                     connection.commit()

@@ -6,8 +6,9 @@
     </div>
     <div class="col-md-8 mb-8" style="margin-top: 50px;">
         <h1 id="title">{{ book.title }}</h1>
-        <p id="content">{{ book.description }}</p>
-
+        <p id="content">{{ book.abstract }}</p>
+        <p id="content">Number of Reviews: {{ book.review_count }}</p>
+        <p id="content">Average Ratings: {{ book.avg_rating }}</p>
         <!-- Borrow/Return Buttons -->
         {% if book.is_borrowed_by_user %}
             <form action="{{ url_for('return_book', book_id=book.id) }}" method="POST">
@@ -59,12 +60,19 @@
 
 <div class="col-md-12 mb-12">
     <h2>Reviews</h2>
-    {% for review in reviews %}
-        <div class="review-card">
-            <h3>{{ review[2] }} {{ review[3] }}</h3>
-            <p>Rating: {{ review[0] }}/5.0</p>
-            <p>{{ review[1] }}</p>
-        </div>
-    {% endfor %}
+    {% if reviews and reviews|length > 0 %}
+        {% for review in reviews %}
+            {% if review[6] and review[5] %}
+                <div class="review-card">
+                    <h3>{{ review[6] or 'Unknown' }} {{ review[7] or 'User' }}</h3>
+                    <p>Rating: {{ review[5] }}/5.0</p>
+                    <p>{{ review[4] }}</p>
+                </div>
+            {% endif %}
+        {% endfor %}
+    {% else %}
+        <!-- Display this when there are no reviews -->
+        <p>No reviews available for this book.</p>
+    {% endif %}
 </div>
 {% endblock %}

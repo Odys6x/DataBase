@@ -551,9 +551,12 @@ def update_profile():
 
 @app.route('/borrow/<int:book_id>', methods=['POST'])
 def borrow_book(book_id):
-    #user_id = 1  # Temporarily hardcoding a user ID for testing without login
-    user_id = session['user_id']
-    print(user_id)
+    # Check if the user is logged in
+    if 'user_id' not in session:
+        flash('You need to log in to borrow a book.', 'warning')
+        return redirect(url_for('login'))  # Redirect to login if not logged in
+
+    user_id = session['user_id']  # Get the logged-in user's ID from the session
     connection = create_connection()
 
     # Check if the book is already borrowed
@@ -566,7 +569,7 @@ def borrow_book(book_id):
         flash('Book is currently borrowed by someone else.', 'danger')
         return redirect(url_for('book_detail', book_id=book_id))
 
-    # If book is not borrowed, allow user to borrow
+    # If the book is not borrowed, allow the user to borrow it
     borrow_date = datetime.now().date()
     due_date = borrow_date + timedelta(days=14)  # 2-week borrowing period
 
@@ -582,6 +585,7 @@ def borrow_book(book_id):
 
     flash('You have successfully borrowed the book!', 'success')
     return redirect(url_for('book_detail', book_id=book_id))
+
 
 @app.route('/return/<int:book_id>', methods=['POST'])
 def return_book(book_id):

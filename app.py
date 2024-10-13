@@ -445,7 +445,6 @@ def book_detail(book_id):
 
 @app.route('/history')
 def user_history():
-    #user_id = 1  # Temporarily hardcoding a user ID for testing
     user_id = session['user_id']
     connection = create_connection()
 
@@ -459,21 +458,29 @@ def user_history():
     cursor.execute(history_query, (user_id,))
     borrow_history = cursor.fetchall()
 
-    # Calculate overdue days and fees
     current_date = datetime.now().date()
+
+    # Calculate overdue days and fees
     for record in borrow_history:
-        if not record['is_returned'] and record['due_date']:
-            overdue_days = (current_date - record['due_date']).days
-            record['overdue_days'] = max(0, overdue_days)  # If overdue, calculate days
-            record['overdue_fees'] = record['overdue_days'] * 1  # $1 per day overdue
+        due_date = record['due_date']
+        return_date = record['return_date']
+
+        # Determine the date to compare for overdue calculation
+        if record['is_returned']:
+            comparison_date = return_date  # If returned, compare with the return date
         else:
-            record['overdue_days'] = 0
-            record['overdue_fees'] = 0
+            comparison_date = current_date  # If not returned, compare with the current date
+
+        # Calculate overdue days and fees only if the comparison date is later than the due date
+        overdue_days = (comparison_date - due_date).days
+        record['overdue_days'] = max(0, overdue_days)  # Only positive overdue days
+        record['overdue_fees'] = record['overdue_days'] * 1  # $1 per day overdue
 
     cursor.close()
     connection.close()
 
     return render_template('history.html', borrow_history=borrow_history)
+
 
 @app.route('/account')
 def account():

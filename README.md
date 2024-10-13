@@ -1,5 +1,9 @@
 # Library
 
+## Important 
+To access the admin functionalities, please login to the website with this credential:
+Admin email: admin@email.com password:admin1234
+
 ## Database
 The choice of database we are using is MYSQL. Here are the steps to startup.
 

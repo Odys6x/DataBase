@@ -2,7 +2,14 @@
 {% block body %}
 <div class="row mb-12">
     <div class="col-md-4 mb-8">
-        <img src="{{ book.coverURL }}" alt="Cover Image" class="card-img-top" style="width:55%;margin-left: 150px;"/>
+        {% if book.coverURL and book.coverURL.startswith('http') %}
+        <img src="{{ book.coverURL }}" alt="Book Cover" style="width:55%;margin-left: 150px;"/>
+    {% elif book.coverURL %}
+        <img src="{{ url_for('static', filename=book.coverURL) }}" alt="Book Cover" style="width:55%;margin-left: 150px;"/>
+    {% else %}
+        <p>No cover image available.</p>
+    {% endif %}
+    
     </div>
     <div class="col-md-8 mb-8" style="margin-top: 50px;">
         <h1 id="title">{{ book.title }}</h1>

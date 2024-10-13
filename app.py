@@ -73,10 +73,8 @@ def submit_review(book_id):
     if 'email' not in session:
         return redirect(url_for('login'))
 
-    # Get the logged-in user's email from the session
     email = session['email']
 
-    # Fetch the userId based on the email
     connection = create_connection()
     user_query = "SELECT userId FROM User WHERE email = %s"
 
@@ -357,23 +355,21 @@ def admin_index():
         if connection:
             connection.close()
 
-    # Pass the books data to the template
     return render_template("admin_index.html", books=books)
 
 
 @app.route('/book/<int:book_id>')
 def book_detail(book_id):
-    user_id = session.get('user_id')  # Get current logged-in user ID
+    user_id = session.get('user_id')
     connection = create_connection()
 
     if connection is None:
-        return "Database connection failed", 500  # Handle connection error
+        return "Database connection failed", 500
     if connection is not None:
         execute_query(connection, create_review_table)
         execute_query(connection, "CREATE INDEX idx_userId ON Review(userId);")
         execute_query(connection, "CREATE INDEX idx_bookId ON Review(bookId);")
 
-    # Query to fetch book details (removed the Author table)
     query = """
         SELECT Book.id, Book.title, Book.abstract, Book.languages, Book.createdDate, Book.coverURL, 
                COUNT(Review.reviewId) as review_count, AVG(Review.ratings) as avg_rating
@@ -551,9 +547,8 @@ def update_profile():
 
 @app.route('/borrow/<int:book_id>', methods=['POST'])
 def borrow_book(book_id):
-    #user_id = 1  # Temporarily hardcoding a user ID for testing without login
+
     user_id = session['user_id']
-    print(user_id)
     connection = create_connection()
 
     # Check if the book is already borrowed

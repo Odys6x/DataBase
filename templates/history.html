@@ -1,7 +1,9 @@
 {% extends 'base.html' %}
 {% block body %}
 <h1>Borrowing History</h1>
-<table class="table">
+
+{% if borrow_history %}
+<table class="table table-striped table-bordered">
     <thead>
         <tr>
             <th>Book Title</th>
@@ -28,9 +30,19 @@
                 {% endif %}
             </td>
             <td>{{ record.overdue_days }}</td>
-            <td>${{ record.overdue_fees }}</td>
+            <td>
+                {% if record.overdue_fees > 0 %}
+                <span class="text-danger">${{ record.overdue_fees }}</span>
+                {% else %}
+                ${{ record.overdue_fees }}
+                {% endif %}
+            </td>
         </tr>
         {% endfor %}
     </tbody>
 </table>
+{% else %}
+<p>No borrowing history found.</p>
+{% endif %}
+
 {% endblock %}

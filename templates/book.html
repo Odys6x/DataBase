@@ -69,11 +69,13 @@
     <h2>Reviews</h2>
     {% if reviews and reviews|length > 0 %}
         {% for review in reviews %}
+            {% if review.first_name and review.ratings is not none %}
                 <div class="review-card">
-                    <h3></h3>
+                    <h3>{{ review.first_name }} {{ review.last_name or 'User' }}</h3>
                     <p>Rating: {{ review.ratings }}/5.0</p>
                     <p>{{ review.content }}</p>
                 </div>
+            {% endif %}
         {% endfor %}
     {% else %}
         <!-- Display this when there are no reviews -->

@@ -234,11 +234,18 @@ def book_detail(book_id):
     # Fetch reviews related to the book
     reviews = list(db['Review'].find({'bookId': int(book_id)}))
 
+    # Prepare a dictionary to hold user data for quick lookup
+    user_ids = [review['userId'] for review in reviews]  # Get all user IDs from the reviews
+    users = {user['userId']: user for user in db['User'].find({'userId': {'$in': user_ids}})}  # Fetch users in one go
+
     # Convert the reviews to a format compatible with your template
     reviews_data = [{
         'content': review['content'],
         'ratings': review.get('ratings', 0),  # Default to 0 if ratings are missing
+        'first_name': users.get(review['userId'], {}).get('first_name', ''),  # Fetch first name from users dict
+        'last_name': users.get(review['userId'], {}).get('last_name', '')  # Fetch last name from users dict
     } for review in reviews]
+
 
     # Calculate the average rating, ensuring we only include valid ratings
     valid_ratings = [review['ratings'] for review in reviews_data if isinstance(review['ratings'], (int, float))]
@@ -260,6 +267,7 @@ def book_detail(book_id):
 
     # Render the template with book and review data
     return render_template("book.html", book=book_dict, form=ReviewForm(), reviews=reviews_data)
+
 
 
 

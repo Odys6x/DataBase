@@ -58,5 +58,8 @@ Query.py will contain long sql queries such that our app.py won't be so long.
 
 the {% block body %}{% endblock %} from base.html serves it purpose as a template for other html to use and if a html class uses {% extends 'base.html' %}, it means that it is populating it's own content with base.html.
 
+## MongoDB
 
+![Alt text](image/MongoDB.png)
 
+![Alt text](image/MongoDB2.png)

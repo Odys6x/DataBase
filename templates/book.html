@@ -43,7 +43,7 @@
 
             <div class="form-group">
                 <label for="ratings">Rating (1-5):</label>
-                <select id="ratings" name="ratings" required>
+                <select id="ratings" name="rating" required>
                     <option value="" disabled selected>Select your rating</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -69,17 +69,16 @@
     <h2>Reviews</h2>
     {% if reviews and reviews|length > 0 %}
         {% for review in reviews %}
-            {% if review[6] and review[5] %}
                 <div class="review-card">
-                    <h3>{{ review[6] or 'Unknown' }} {{ review[7] or 'User' }}</h3>
-                    <p>Rating: {{ review[5] }}/5.0</p>
-                    <p>{{ review[4] }}</p>
+                    <h3></h3>
+                    <p>Rating: {{ review.ratings }}/5.0</p>
+                    <p>{{ review.content }}</p>
                 </div>
-            {% endif %}
         {% endfor %}
     {% else %}
         <!-- Display this when there are no reviews -->
         <p>No reviews available for this book.</p>
     {% endif %}
 </div>
+
 {% endblock %}

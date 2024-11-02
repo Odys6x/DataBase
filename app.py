@@ -19,7 +19,7 @@ csrf = CSRFProtect(app)
 UPLOAD_FOLDER = 'static/uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
-client = MongoClient('mongodb+srv://Owen:newpassword@mydb.9hyfl.mongodb.net/')  # Connect to MongoDB
+client = MongoClient('mongodb+srv://Admin:newpassword@mydb.9hyfl.mongodb.net/')  # Connect to MongoDB
 db = client['LibraryDB']  # Replace with your database name
 books_collection = db['Book']  # Collection for books
 users_collection = db['User']  # Collection for users

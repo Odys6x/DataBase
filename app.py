@@ -137,9 +137,11 @@ def register():
 
         # Define user type
         user_type = 'u'  # For regular users
-
+        user_count = users_collection.count_documents({})
+        user_id = user_count +1
         # Create a new user document
         user_data = {
+            'userId' : user_id,
             'first_name': first_name,
             'last_name': last_name,
             'email': email,
@@ -216,6 +218,17 @@ def admin_index():
 
 @app.route('/book/<string:book_id>')
 def book_detail(book_id):
+    if 'user_id' not in session:
+        flash('You need to log in to access your account.', 'danger')
+        return redirect(url_for('login'))
+
+    #email = session['email']
+    user_id = session['user_id']
+    user = users_collection.find_one({'userId': user_id})
+
+    if not user:
+        flash('User not found.', 'danger')
+        return redirect(url_for('login'))
     user_id = session.get('user_id')  # Get user_id from the session
 
     # Fetch the book based on the ID
@@ -321,35 +334,36 @@ def user_history():
         record['overdue_days'] = max(0, overdue_days)
         record['overdue_fees'] = record['overdue_days'] * 1  # $1 per day overdue
 
-    client.close()
+    #client.close()
     return render_template('history.html', borrow_history=borrow_history)
 
 
 @app.route('/account')
 def account():
-    if 'email' not in session:
+    if 'user_id' not in session:
         flash('You need to log in to access your account.', 'danger')
         return redirect(url_for('login'))
 
-    email = session['email']
-
-    user = users_collection.find_one({'email': email})
+    #email = session['email']
+    user_id = session['user_id']
+    user = users_collection.find_one({'userId': user_id})
 
     if not user:
         flash('User not found.', 'danger')
         return redirect(url_for('login'))
 
-    client.close()
+    #client.close()
     return render_template('account.html', user=user)
 
 
 @app.route('/updateProfile', methods=['POST'])
 def update_profile():
-    if 'email' not in session:
+    if 'user_id' not in session:
         flash('You need to log in to update your profile.', 'danger')
         return redirect(url_for('login'))
 
     email = session['email']
+    user_id = session['user_id']
     first_name = request.form['firstName']
     last_name = request.form['lastName']
     new_email = request.form['email']
@@ -357,7 +371,7 @@ def update_profile():
 
     # Update the user's information in the database
     update_result = users_collection.update_one(
-        {'email': email},
+        {'userId': user_id},
         {'$set': {
             'first_name': first_name,
             'last_name': last_name,
@@ -374,7 +388,7 @@ def update_profile():
     else:
         flash('No changes made to the profile.', 'warning')
 
-    client.close()
+    #client.close()
     return redirect(url_for('account'))
 
 

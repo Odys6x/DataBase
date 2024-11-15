@@ -3,6 +3,15 @@
 <h1 id="center">Books from Library</h1>
 
 <!-- Search form with Reset button -->
+<form method="GET" action="{{ url_for('search_books') }}" class="mb-4">
+    <div class="input-group">
+        <input type="text" name="search" class="form-control" placeholder="Search for books by title" aria-label="Search for books" aria-describedby="button-search">
+        <button class="btn btn-primary" type="submit" id="button-search">Search</button>
+        <a href="{{ url_for('index') }}" class="btn btn-secondary">Reset</a> <!-- Reset button -->
+    </div>
+</form>
+
+<!-- Container for books -->
 <div class="container">
     <div class="row">
         {% for book in books %}
@@ -11,14 +20,11 @@
                 <div class="card" style="height: 600px;"> <!-- Set fixed height -->
                     {% if book.coverURL is string and book.coverURL %}
                         {% if book.coverURL.startswith('http') %}
-                            <!-- If the cover URL is an external link, display it directly -->
                             <img src="{{ book.coverURL }}" alt="Cover Image" class="card-img-top" style="height: 500px; object-fit: cover;">
                         {% else %}
-                            <!-- If the cover URL is a local file, use url_for to construct the correct path -->
                             <img src="{{ url_for('static', filename=book.coverURL) }}" alt="Cover Image" class="card-img-top" style="height: 500px; object-fit: cover;">
                         {% endif %}
                     {% else %}
-                        <!-- If there is no coverURL, display a placeholder image -->
                         <img src="{{ url_for('static', filename='uploads/default-placeholder.png') }}" alt="No Cover Available" class="card-img-top" style="height: 500px; object-fit: cover;">
                     {% endif %}
 
@@ -31,10 +37,8 @@
         {% endfor %}
     </div>
 
-    <!-- Handle no results found -->
     {% if not books %}
     <p>No books found.</p>
     {% endif %}
 </div>
-
 {% endblock %}

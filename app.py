@@ -82,15 +82,20 @@ def submit_review(book_id):
 @app.route('/')
 def index():
     try:
-        # Fetch all books from the database to pass to the template
-        books = list(books_collection.find())
+        # Check if a search query is provided
+        query = request.args.get('search', '')
 
+        if query:
+            # Filter books with a case-insensitive search on title
+            books = list(books_collection.find({"title": {"$regex": query, "$options": "i"}}))
+        else:
+            # Fetch all books if no search query
+            books = list(books_collection.find())
     except Exception as e:
         print(f"An error occurred: {e}")
         books = []
-
+    
     return render_template("index.html", books=books)
-
 
 
 @app.route('/login', methods=['GET', 'POST'])
@@ -561,21 +566,21 @@ def adminbook_detail(book_id):
     return render_template("adminbook_details.html", book=book)
 
 
-@app.route('/search', methods=['GET'])
+@app.route('/search_books', methods=['GET'])
 def search_books():
-    search_query = request.args.get('search', '')
+    # Get the search query from the URL parameters
+    query = request.args.get('search', '')
 
-    if not search_query:
-        flash('Please enter a search term.', 'warning')
-        return redirect(url_for('index'))
+    # Filter books from the database
+    if query:
+        # Search for titles that contain the query (case-insensitive)
+        books = books_collection.find({"title": {"$regex": query, "$options": "i"}})
+    else:
+        # If no query, return all books
+        books = books_collection.find()
 
-    books = books_collection.find({'title': {'$regex': search_query, '$options': 'i'}})
-
-    if books.count() == 0:
-        flash(f'No books found for "{search_query}".', 'info')
-        return redirect(url_for('index'))
-
-    return render_template('index.html', books=books, search_query=search_query)
+    # Render the index page with the filtered books
+    return render_template('index.html', books=books)
 
 
 if __name__ == "__main__":

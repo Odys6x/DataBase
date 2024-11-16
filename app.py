@@ -234,20 +234,21 @@ def book_detail(book_id):
     if not user:
         flash('User not found.', 'danger')
         return redirect(url_for('login'))
-    user_id = session.get('user_id')  # Get user_id from the session
+    #user_id = session.get('user_id')  # Get user_id from the session
 
     # Fetch the book based on the ID
     book = books_collection.find_one({'id': int(book_id)})
 
     if book is None:
         return "Book not found", 404
-
+    book_id = int(book_id)
+    user_id = int(user_id)
     # Check if the book is borrowed by the current user
     is_borrowed_by_user = db['BorrowedList'].find_one(
-        {'book_id': book_id, 'user_id': int(user_id), 'is_returned': False}) is not None
+        {'book_id': book_id, 'user_id': user_id, 'is_returned': 0}) is not None
 
     # Check if the book is borrowed by any user (other than the current one)
-    is_borrowed_by_anyone = db['BorrowedList'].find_one({'book_id': int(book_id), 'is_returned': False}) is not None
+    is_borrowed_by_anyone = db['BorrowedList'].find_one({'book_id': book_id, 'is_returned': 0}) is not None
 
     # Fetch reviews related to the book
     reviews = list(db['Review'].find({'bookId': int(book_id)}))
@@ -297,14 +298,15 @@ def user_history():
     borrow_history = list(borrow_collection.aggregate([
         {
             '$match': {
-                'user_id': ObjectId(user_id)  # Ensure user_id is an ObjectId
+                #'user_id': ObjectId(user_id)  # Ensure user_id is an ObjectId
+                'user_id': user_id
             }
         },
         {
             '$lookup': {
                 'from': 'Book',
                 'localField': 'book_id',
-                'foreignField': '_id',
+                'foreignField': 'id',
                 'as': 'book_details'
             }
         },
@@ -322,7 +324,7 @@ def user_history():
         }
     ]))
 
-    current_date = datetime.now().date()
+    current_date = datetime.now()
 
     # Calculate overdue days and fees
     for record in borrow_history:
@@ -397,30 +399,41 @@ def update_profile():
     return redirect(url_for('account'))
 
 
+from datetime import datetime, timedelta
+
 @app.route('/borrow/<int:book_id>', methods=['POST'])
 def borrow_book(book_id):
     user_id = session['user_id']
+    book = books_collection.find_one({'id': int(book_id)})
 
+    if book is None:
+        return "Book not found", 404
     # Check if the book is already borrowed
     book_borrowed = borrow_collection.find_one({
         "book_id": book_id,
-        "is_returned": False
+        "is_returned": 0
     })
 
     if book_borrowed:
         flash('Book is currently borrowed by someone else.', 'danger')
         return redirect(url_for('book_detail', book_id=book_id))
 
+    # Generate a unique borrow_id
+    borrow_count = borrow_collection.count_documents({})
+    borrow_id = borrow_count + 1  # Increment to get a unique ID
+
     # If book is not borrowed, allow user to borrow
-    borrow_date = datetime.now().date()
+    borrow_date = datetime.now()  # Keep as datetime for MongoDB
     due_date = borrow_date + timedelta(days=14)  # 2-week borrowing period
 
     borrow_document = {
+        "borrow_id": borrow_id,  # Add the unique borrow_id
         "user_id": user_id,
         "book_id": book_id,
         "borrow_date": borrow_date,
         "due_date": due_date,
-        "is_returned": False
+        "return_date": None,
+        "is_returned": 0
     }
 
     borrow_collection.insert_one(borrow_document)
@@ -428,23 +441,22 @@ def borrow_book(book_id):
     flash('You have successfully borrowed the book!', 'success')
     return redirect(url_for('book_detail', book_id=book_id))
 
-
 @app.route('/return/<int:book_id>', methods=['POST'])
 def return_book(book_id):
     user_id = session['user_id']
 
-    return_date = datetime.now().date()
+    return_date = datetime.now()
 
     result = borrow_collection.update_one(
         {
             "book_id": book_id,
             "user_id": user_id,
-            "is_returned": False
+            "is_returned": 0
         },
         {
             "$set": {
                 "return_date": return_date,
-                "is_returned": True
+                "is_returned": 1
             }
         }
     )

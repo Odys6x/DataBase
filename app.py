@@ -180,8 +180,9 @@ def admin_index():
         data = json.load(file)
 
     try:
-        # Check if the collection is empty
+        # Populate books if the collection is empty
         if books_collection.count_documents({}) == 0:
+            print("Inserting books into collection...")
             for book in data['results']:
                 title = book['title'].replace('[electronic resource]', '').strip()
                 types = ', '.join(book['types'])
@@ -211,15 +212,26 @@ def admin_index():
                     'isbns': isbns
                 }
                 books_collection.insert_one(book_document)  # Insert the document into MongoDB
+            print("Books inserted successfully.")
 
         # Fetch all books from the MongoDB collection
         books = list(books_collection.find())
+
+        # Debug output for checking if books are fetched
+        print(f"Number of books loaded: {len(books)}")
+
+        # Convert `createdDate` to a string format for template compatibility
+        for book in books:
+            if book.get('createdDate'):
+                book['createdDate'] = book['createdDate'].strftime("%Y-%m-%d")
 
     except Exception as err:
         print(f"Error: {err}")
         books = []
 
     return render_template("admin_index.html", books=books)
+
+
 
 @app.route('/book/<string:book_id>')
 def book_detail(book_id):

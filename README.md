@@ -1,5 +1,9 @@
 # Library
 
+## Important 
+To access the admin functionalities, please login to the website with this credential:
+Admin email: admin@email.com password:admin1234
+
 ## Database
 The choice of database we are using is MYSQL. Here are the steps to startup.
 
@@ -27,7 +31,16 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'newpassword';" It will be very impo
    ![Alt text](image/app.jpg)
 
    as you can see here in @app.route('/login') it handles everything for login.html. So meaning to say if you were to look up to @app.route('/'), you can handle python logic and return any data, etc back to the html file it was assigned to.
-   so to get started, go to app.py and run it.
+
+So to get started, go to terminal and run this to get the proper version for the libraries we using.
+
+```bash
+   pip3 install -r requirements.txt
+```
+
+Once done, run the app.py and it will take awhile to load.
+
+If you are curious where the API call are being handled is in request.py below vv
 
 ### request.py
 

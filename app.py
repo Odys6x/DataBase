@@ -11,6 +11,7 @@ from werkzeug.security import generate_password_hash
 from werkzeug.security import check_password_hash
 from registerForm import RegistrationForm
 from loginForm import LoginForm
+import pymongo
 from datetime import datetime, timedelta
 
 app = Flask(__name__)
@@ -25,6 +26,13 @@ books_collection = db['Book']  # Collection for books
 users_collection = db['User']  # Collection for users
 reviews_collection = db['Review']
 borrow_collection = db['BorrowedList']
+
+#indexing
+borrow_collection.create_index([("book_id", 1), ("is_returned", 1)])
+reviews_collection.create_index('bookId')
+reviews_collection.create_index('userId')
+books_collection.create_index('id')
+
 
 class ReviewForm(FlaskForm):
     rating = IntegerField('Rating (1-5)', [validators.NumberRange(min=1, max=5)])
@@ -90,7 +98,8 @@ def index():
             books = list(books_collection.find({"title": {"$regex": query, "$options": "i"}}))
         else:
             # Fetch all books if no search query
-            books = list(books_collection.find())
+            #books = list(books_collection.find())
+            books = list(books_collection.find().sort("id", pymongo.ASCENDING))
     except Exception as e:
         print(f"An error occurred: {e}")
         books = []
@@ -335,6 +344,8 @@ def user_history():
             }
         }
     ]))
+
+
 
     current_date = datetime.now()
 

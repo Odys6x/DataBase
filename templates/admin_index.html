@@ -5,7 +5,7 @@
     <div class="row">
         {% for book in books %}
         <div class="col-md-3 mb-4">
-            <a id="zz" href="{{ url_for('adminbook_detail', book_id=book.id) }}">
+            <a id="zz" href="{{ url_for('adminbook_detail', book_id=book._id) }}">
                 <div class="card" style="height: 600px;"> <!-- Set fixed height -->
 
                     {% if book.coverURL %}

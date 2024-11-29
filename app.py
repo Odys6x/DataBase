@@ -5,7 +5,7 @@ from werkzeug.utils import secure_filename
 from wtforms import TextAreaField, IntegerField, SubmitField, validators
 import json
 from flask_wtf import CSRFProtect, FlaskForm
-from pymongo import MongoClient
+from pymongo import MongoClient, ReturnDocument
 from bookform import BookForm
 from werkzeug.security import generate_password_hash
 from werkzeug.security import check_password_hash
@@ -13,6 +13,8 @@ from registerForm import RegistrationForm
 from loginForm import LoginForm
 import pymongo
 from datetime import datetime, timedelta
+from threading import Lock
+import contextlib
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'inf2003_database'  # Change this to a secure key
@@ -26,6 +28,7 @@ books_collection = db['Book']  # Collection for books
 users_collection = db['User']  # Collection for users
 reviews_collection = db['Review']
 borrow_collection = db['BorrowedList']
+borrow_lock = Lock()
 
 
 class ReviewForm(FlaskForm):
@@ -260,65 +263,56 @@ def book_detail(book_id):
         flash('You need to log in to access your account.', 'danger')
         return redirect(url_for('login'))
 
-    #email = session['email']
     user_id = session['user_id']
-    user = users_collection.find_one({'userId': user_id})
+    
+    with safe_db_operation():
+        # Atomic operation to get book and borrow status
+        book = books_collection.find_one({'id': int(book_id)})
+        
+        if book is None:
+            return "Book not found", 404
 
-    if not user:
-        flash('User not found.', 'danger')
-        return redirect(url_for('login'))
-    #user_id = session.get('user_id')  # Get user_id from the session
+        book_id = int(book_id)
+        user_id = int(user_id)
 
-    # Fetch the book based on the ID
-    book = books_collection.find_one({'id': int(book_id)})
+        # Use a single query to check borrow status
+        borrow_status = borrow_collection.find_one(
+            {'book_id': book_id, 'is_returned': 0},
+            {'user_id': 1}
+        )
 
-    if book is None:
-        return "Book not found", 404
-    book_id = int(book_id)
-    user_id = int(user_id)
-    # Check if the book is borrowed by the current user
-    is_borrowed_by_user = db['BorrowedList'].find_one(
-        {'book_id': book_id, 'user_id': user_id, 'is_returned': 0}) is not None
+        is_borrowed_by_user = borrow_status and borrow_status['user_id'] == user_id
+        is_borrowed_by_anyone = borrow_status is not None
 
-    # Check if the book is borrowed by any user (other than the current one)
-    is_borrowed_by_anyone = db['BorrowedList'].find_one({'book_id': book_id, 'is_returned': 0}) is not None
+        # Rest of your existing code...
+        reviews = list(db['Review'].find({'bookId': int(book_id)}))
+        user_ids = [review['userId'] for review in reviews]
+        users = {user['userId']: user for user in db['User'].find({'userId': {'$in': user_ids}})}
 
-    # Fetch reviews related to the book
-    reviews = list(db['Review'].find({'bookId': int(book_id)}))
+        reviews_data = [{
+            'content': review['content'],
+            'ratings': review.get('ratings', 0),
+            'first_name': users.get(review['userId'], {}).get('first_name', ''),
+            'last_name': users.get(review['userId'], {}).get('last_name', '')
+        } for review in reviews]
 
-    # Prepare a dictionary to hold user data for quick lookup
-    user_ids = [review['userId'] for review in reviews]  # Get all user IDs from the reviews
-    users = {user['userId']: user for user in db['User'].find({'userId': {'$in': user_ids}})}  # Fetch users in one go
+        valid_ratings = [review['ratings'] for review in reviews_data if isinstance(review['ratings'], (int, float))]
+        avg_rating = round(sum(valid_ratings) / len(valid_ratings), 1) if valid_ratings else None
 
-    # Convert the reviews to a format compatible with your template
-    reviews_data = [{
-        'content': review['content'],
-        'ratings': review.get('ratings', 0),  # Default to 0 if ratings are missing
-        'first_name': users.get(review['userId'], {}).get('first_name', ''),  # Fetch first name from users dict
-        'last_name': users.get(review['userId'], {}).get('last_name', '')  # Fetch last name from users dict
-    } for review in reviews]
+        book_dict = {
+            'id': book['id'],
+            'title': book['title'],
+            'abstract': book['abstract'],
+            'languages': book['languages'],
+            'published_date': book['createdDate'],
+            'coverURL': book['coverURL'],
+            'review_count': len(reviews_data),
+            'avg_rating': avg_rating,
+            'is_borrowed_by_user': is_borrowed_by_user,
+            'is_borrowed_by_anyone': is_borrowed_by_anyone
+        }
 
-
-    # Calculate the average rating, ensuring we only include valid ratings
-    valid_ratings = [review['ratings'] for review in reviews_data if isinstance(review['ratings'], (int, float))]
-    avg_rating = round(sum(valid_ratings) / len(valid_ratings), 1) if valid_ratings else None
-
-    # Prepare the book dictionary for rendering
-    book_dict = {
-        'id': book['id'],  # Keep the 'id' from the document
-        'title': book['title'],
-        'abstract': book['abstract'],
-        'languages': book['languages'],
-        'published_date': book['createdDate'],
-        'coverURL': book['coverURL'],
-        'review_count': len(reviews_data),  # Number of reviews
-        'avg_rating': avg_rating,  # Use the calculated average rating
-        'is_borrowed_by_user': is_borrowed_by_user,
-        'is_borrowed_by_anyone': is_borrowed_by_anyone
-    }
-
-    # Render the template with book and review data
-    return render_template("book.html", book=book_dict, form=ReviewForm(), reviews=reviews_data)
+        return render_template("book.html", book=book_dict, form=ReviewForm(), reviews=reviews_data)
 
 
 
@@ -439,67 +433,70 @@ from datetime import datetime, timedelta
 @app.route('/borrow/<int:book_id>', methods=['POST'])
 def borrow_book(book_id):
     user_id = session['user_id']
-    book = books_collection.find_one({'id': int(book_id)})
 
-    if book is None:
-        return "Book not found", 404
-    # Check if the book is already borrowed
-    book_borrowed = borrow_collection.find_one({
-        "book_id": book_id,
-        "is_returned": 0
-    })
+    with borrow_lock:  # Thread-safe block
+        try:
+            # Atomic find-and-modify operation
+            book_status = borrow_collection.find_one_and_update(
+                {
+                    "book_id": book_id,
+                    "is_returned": 0
+                },
+                {
+                    "$setOnInsert": {
+                        "borrow_id": borrow_collection.count_documents({}) + 1,
+                        "user_id": user_id,
+                        "book_id": book_id,
+                        "borrow_date": datetime.now(),
+                        "due_date": datetime.now() + timedelta(days=14),
+                        "return_date": None,
+                        "is_returned": 0
+                    }
+                },
+                upsert=True,
+                return_document=ReturnDocument.BEFORE
+            )
 
-    if book_borrowed:
-        flash('Book is currently borrowed by someone else.', 'danger')
-        return redirect(url_for('book_detail', book_id=book_id))
+            if book_status and book_status.get('user_id') != user_id:
+                flash('Book is currently borrowed by someone else.', 'danger')
+            else:
+                flash('You have successfully borrowed the book!', 'success')
 
-    # Generate a unique borrow_id
-    borrow_count = borrow_collection.count_documents({})
-    borrow_id = borrow_count + 1  # Increment to get a unique ID
+        except Exception as e:
+            flash(f'Error occurred while borrowing: {str(e)}', 'danger')
+            return redirect(url_for('book_detail', book_id=book_id))
 
-    # If book is not borrowed, allow user to borrow
-    borrow_date = datetime.now()  # Keep as datetime for MongoDB
-    due_date = borrow_date + timedelta(days=14)  # 2-week borrowing period
-
-    borrow_document = {
-        "borrow_id": borrow_id,  # Add the unique borrow_id
-        "user_id": user_id,
-        "book_id": book_id,
-        "borrow_date": borrow_date,
-        "due_date": due_date,
-        "return_date": None,
-        "is_returned": 0
-    }
-
-    borrow_collection.insert_one(borrow_document)
-
-    flash('You have successfully borrowed the book!', 'success')
     return redirect(url_for('book_detail', book_id=book_id))
 
 @app.route('/return/<int:book_id>', methods=['POST'])
 def return_book(book_id):
     user_id = session['user_id']
 
-    return_date = datetime.now()
+    with borrow_lock:  # Thread-safe block
+        try:
+            # Atomic find-and-modify operation
+            result = borrow_collection.find_one_and_update(
+                {
+                    "book_id": book_id,
+                    "user_id": user_id,
+                    "is_returned": 0
+                },
+                {
+                    "$set": {
+                        "return_date": datetime.now(),
+                        "is_returned": 1
+                    }
+                },
+                return_document=ReturnDocument.AFTER
+            )
 
-    result = borrow_collection.update_one(
-        {
-            "book_id": book_id,
-            "user_id": user_id,
-            "is_returned": 0
-        },
-        {
-            "$set": {
-                "return_date": return_date,
-                "is_returned": 1
-            }
-        }
-    )
+            if result:
+                flash('You have successfully returned the book!', 'success')
+            else:
+                flash('Error: Book return failed or book was not borrowed by you.', 'danger')
 
-    if result.modified_count > 0:
-        flash('You have successfully returned the book!', 'success')
-    else:
-        flash('Error: Book return failed or book was not borrowed by you.', 'danger')
+        except Exception as e:
+            flash(f'Error occurred while returning: {str(e)}', 'danger')
 
     return redirect(url_for('user_history'))
 

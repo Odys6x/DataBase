@@ -11,6 +11,8 @@ from werkzeug.security import generate_password_hash
 from werkzeug.security import check_password_hash
 from registerForm import RegistrationForm
 from loginForm import LoginForm
+import pymongo
+from datetime import datetime, timedelta
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'inf2003_database'  # Change this to a secure key
@@ -24,6 +26,13 @@ books_collection = db['Book']  # Collection for books
 users_collection = db['User']  # Collection for users
 reviews_collection = db['Review']
 borrow_collection = db['BorrowedList']
+
+#indexing
+borrow_collection.create_index([("book_id", 1), ("is_returned", 1)])
+reviews_collection.create_index('bookId')
+reviews_collection.create_index('userId')
+books_collection.create_index('id')
+
 
 class ReviewForm(FlaskForm):
     rating = IntegerField('Rating (1-5)', [validators.NumberRange(min=1, max=5)])
@@ -89,7 +98,8 @@ def index():
             books = list(books_collection.find({"title": {"$regex": query, "$options": "i"}}))
         else:
             # Fetch all books if no search query
-            books = list(books_collection.find())
+            #books = list(books_collection.find())
+            books = list(books_collection.find().sort("id", pymongo.ASCENDING))
     except Exception as e:
         print(f"An error occurred: {e}")
         books = []
@@ -175,29 +185,34 @@ def logout():
 
 @app.route('/admin_index')
 def admin_index():
-    with open('json/audio/nlb_api_response0.json') as file:
-        data = json.load(file)
-
     try:
-        # Check if the collection is empty
+        # Load the JSON file for populating books (if necessary)
+        with open('json/audio/nlb_api_response0.json') as file:
+            data = json.load(file)
+
+        # Populate books only if the collection is empty
         if books_collection.count_documents({}) == 0:
-            for book in data['results']:
-                title = book['title'].replace('[electronic resource]', '').strip()
-                types = ', '.join(book['types'])
-                authors = ', '.join(book['authors'])
-                abstract = ', '.join(book['abstracts'])
-                languages = ', '.join(book['languages'])
-                coverURL = book.get('coverUrl', '')
+            print("Inserting books into the collection...")
+
+            for book in data.get('results', []):
+                title = book.get('title', '').replace('[electronic resource]', '').strip()
+                types = ', '.join(book.get('types', []))
+                authors = ', '.join(book.get('authors', []))
+                abstract = ', '.join(book.get('abstracts', []))
+                languages = ', '.join(book.get('languages', []))
+                coverURL = book.get('coverUrl', '')  # Optional, default to an empty string
                 subjects = book.get('subjects', [])
-                isbns = ', '.join(book['isbns'])
+                isbns = ', '.join(book.get('isbns', []))
                 createdDate = book.get('createdDate')
 
+                # Parse createdDate into a datetime object, if available
                 if createdDate:
-                    createdDate = datetime.strptime(createdDate, "%Y-%m-%d").date()
-                else:
-                    createdDate = None
+                    try:
+                        createdDate = datetime.strptime(createdDate, "%Y-%m-%d").date()
+                    except ValueError:
+                        createdDate = None
 
-                # Create a document to insert
+                # Document to be inserted
                 book_document = {
                     'title': title,
                     'types': types,
@@ -209,16 +224,39 @@ def admin_index():
                     'subjects': subjects,
                     'isbns': isbns
                 }
-                books_collection.insert_one(book_document)  # Insert the document into MongoDB
+                books_collection.insert_one(book_document)  # Insert into MongoDB
+
+            print("Books inserted successfully.")
 
         # Fetch all books from the MongoDB collection
         books = list(books_collection.find())
 
+        # Debugging output to ensure books are fetched
+        print(f"Number of books loaded: {len(books)}")
+
+        # Convert `_id` (ObjectId) to string for compatibility with the template
+        for book in books:
+            book['_id'] = str(book['_id'])
+            
+            # Handle createdDate formatting only if it's a datetime.date object
+            if 'createdDate' in book and isinstance(book['createdDate'], datetime):
+                book['createdDate'] = book['createdDate'].strftime("%Y-%m-%d")
+            elif 'createdDate' in book and isinstance(book['createdDate'], str):
+                # Skip formatting, or optionally leave as-is
+                pass
+
+    except FileNotFoundError:
+        print("Error: JSON file not found. Ensure 'nlb_api_response0.json' exists.")
+        books = []
     except Exception as err:
-        print(f"Error: {err}")
+        print(f"An error occurred while loading books: {err}")
         books = []
 
+    # Render the admin_index.html template with the books
     return render_template("admin_index.html", books=books)
+
+
+
 
 @app.route('/book/<string:book_id>')
 def book_detail(book_id):
@@ -322,6 +360,8 @@ def user_history():
             }
         }
     ]))
+
+
 
     current_date = datetime.now()
 
@@ -468,32 +508,47 @@ def return_book(book_id):
     return redirect(url_for('user_history'))
 
 
-
 @app.route('/add_book', methods=['GET', 'POST'])
 def add_book():
-    form = BookForm()
+    form = BookForm()  # Use your BookForm
 
     if form.validate_on_submit():
+        # Get form data
         title = form.title.data or None
         types = form.types.data or None
         authors = form.authors.data or None
         abstract = form.abstract.data or None
         languages = form.languages.data or None
         created_date = form.createdDate.data or None
-        cover_image_path = None
+        cover_image_path = None  # Default to None
 
-        # Handle file upload if it exists
+        # Handle file upload first (if provided)
         if form.cover_image_file.data:
-            filename = secure_filename(form.cover_image_file.data.filename)
-            image_path = os.path.join('uploads', filename).replace('\\', '/')
-            form.cover_image_file.data.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-            cover_image_path = image_path  # Use the file path as the cover image path
-        elif form.cover_image_url.data:
-            cover_image_path = form.cover_image_url.data  # Use the URL as the cover image
+            try:
+                filename = secure_filename(form.cover_image_file.data.filename)
+                image_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+                form.cover_image_file.data.save(image_path)  # Save the uploaded file
+                cover_image_path = os.path.join('uploads', filename).replace('\\', '/')  # Use a relative path
+                print(f"File uploaded successfully: {cover_image_path}")  # Debugging log
+            except Exception as e:
+                flash(f"Error uploading file: {e}", 'danger')
+                return redirect(url_for('add_book'))
 
+        # If no file uploaded, handle the URL (if provided)
+        elif form.cover_image_url.data:
+            cover_image_path = form.cover_image_url.data.strip()  # Use the URL if provided
+            print(f"Using image URL: {cover_image_path}")  # Debugging log
+
+        # If neither file nor URL is provided, show an error
+        if not cover_image_path:
+            flash("Please provide either an image file or a URL for the book cover.", 'danger')
+            return redirect(url_for('add_book'))
+
+        # Prepare other fields
         subjects = form.subjects.data or None
         isbns = form.isbns.data or None
 
+        # Create the book data document
         book_data = {
             "title": title,
             "types": types,
@@ -501,80 +556,147 @@ def add_book():
             "abstract": abstract,
             "languages": languages,
             "createdDate": created_date,
-            "coverURL": cover_image_path,
+            "coverURL": cover_image_path,  # Use either the file path or the URL
             "subjects": subjects,
             "isbns": isbns
         }
 
         try:
+            # Insert the book into MongoDB
             books_collection.insert_one(book_data)
             flash('Book added successfully!', 'success')
+            print(f"Book added: {book_data}")  # Debugging log
         except Exception as err:
-            flash(f"Error: {err}", 'danger')
+            flash(f"Error saving book: {err}", 'danger')
+            print(f"Error adding book: {err}")  # Debugging log
 
         return redirect(url_for('admin_index'))
 
     return render_template('add_book.html', form=form)
 
 
+
 @app.route('/delete_book/<book_id>', methods=['POST'])
 def delete_book(book_id):
-    result = books_collection.delete_one({'_id': ObjectId(book_id)})
+    try:
+        # Ensure the book ID is valid
+        if not ObjectId.is_valid(book_id):
+            flash("Invalid book ID.", "danger")
+            return redirect(url_for('admin_index'))
 
-    if result.deleted_count > 0:
-        flash('Book deleted successfully!', 'success')
-    else:
-        flash(f"No book found with ID {book_id}.", 'warning')
-
+        # Attempt to delete the book from the database
+        result = books_collection.delete_one({'_id': ObjectId(book_id)})
+        
+        if result.deleted_count > 0:
+            flash("Book deleted successfully!", "success")
+        else:
+            flash("Book not found or could not be deleted.", "warning")
+    except Exception as e:
+        print(f"Error deleting book: {e}")
+        flash("An error occurred while trying to delete the book.", "danger")
+    
     return redirect(url_for('admin_index'))
 
 
 
+
+from bson import ObjectId
+
+from werkzeug.utils import secure_filename
+import os
+
 @app.route('/edit_book/<book_id>', methods=['GET', 'POST'])
 def edit_book(book_id):
-    book = books_collection.find_one({'_id': ObjectId(book_id)})
+    if not ObjectId.is_valid(book_id):
+        return "Invalid book ID", 400
 
-    if not book:
-        flash("Book not found.", "danger")
-        return redirect(url_for('admin_index'))
+    try:
+        # Fetch the book to be edited
+        book = books_collection.find_one({'_id': ObjectId(book_id)})
+        if not book:
+            return "Book not found", 404
 
-    form = BookForm(data=book)
+        form = BookForm(data=book)
 
-    if form.validate_on_submit():
-        updated_data = {
-            'title': form.title.data or None,
-            'types': form.types.data or None,
-            'authors': form.authors.data or None,
-            'abstract': form.abstract.data or None,
-            'languages': form.languages.data or None,
-            'createdDate': form.createdDate.data or None,
-            'coverURL': form.cover_image_url.data or book['coverURL'],  # Keep existing URL if not changed
-            'subjects': form.subjects.data or None,
-            'isbns': form.isbns.data or None
-        }
+        if form.validate_on_submit():
+            updated_data = {
+                'title': form.title.data or book.get('title'),
+                'types': form.types.data or book.get('types'),
+                'authors': form.authors.data or book.get('authors'),
+                'abstract': form.abstract.data or book.get('abstract'),
+                'languages': form.languages.data or book.get('languages'),
+                'createdDate': form.createdDate.data or book.get('createdDate'),
+                'subjects': form.subjects.data or book.get('subjects'),
+                'isbns': form.isbns.data or book.get('isbns')
+            }
 
-        # Handle file upload if provided
-        if form.cover_image_file.data:
-            filename = secure_filename(form.cover_image_file.data.filename)
-            image_path = os.path.join(app.config['UPLOAD_FOLDER'], filename).replace('\\', '/')
-            form.cover_image_file.data.save(os.path.join('static', image_path))
-            updated_data['coverURL'] = image_path
+            # Handle file upload if provided
+            if form.cover_image_file.data:
+                try:
+                    filename = secure_filename(form.cover_image_file.data.filename)
+                    image_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+                    form.cover_image_file.data.save(image_path)  # Save the uploaded file
+                    updated_data['coverURL'] = os.path.join('uploads', filename).replace('\\', '/')
+                    print(f"Updated with uploaded file: {updated_data['coverURL']}")  # Debugging log
+                except Exception as e:
+                    flash(f"Error uploading file: {e}", 'danger')
+                    return redirect(url_for('edit_book', book_id=book_id))
 
-        books_collection.update_one({'_id': ObjectId(book_id)}, {'$set': updated_data})
-        flash('Book updated successfully!', 'success')
-        return redirect(url_for('adminbook_detail', book_id=book_id))
+            # If no file is uploaded, use the URL provided (if any)
+            elif form.cover_image_url.data:
+                updated_data['coverURL'] = form.cover_image_url.data.strip()
+                print(f"Updated with URL: {updated_data['coverURL']}")  # Debugging log
 
-    return render_template('edit_book.html', form=form, book_id=book_id, book=book)
+            # If neither file nor URL is provided, retain the existing coverURL
+            else:
+                updated_data['coverURL'] = book.get('coverURL')
+                print(f"No new image provided, retaining existing coverURL: {updated_data['coverURL']}")  # Debugging log
 
+            # Update the book in the database
+            books_collection.update_one({'_id': ObjectId(book_id)}, {'$set': updated_data})
+            flash('Book updated successfully!', 'success')
+            return redirect(url_for('admin_index'))
+
+        return render_template('edit_book.html', form=form, book_id=book_id, book=book)
+    except Exception as e:
+        print(f"Error editing book: {e}")
+        return "An error occurred while editing the book.", 500
+
+
+
+
+
+
+
+from bson import ObjectId
 
 @app.route('/adminbook/<book_id>')
 def adminbook_detail(book_id):
-    book = books_collection.find_one({'_id': ObjectId(book_id)})
+    print(f"Book ID received: {book_id}")  # Debugging
 
-    if book is None:
-        return "Book not found", 404
+    try:
+        # Ensure the book ID is valid
+        if not ObjectId.is_valid(book_id):
+            return "Invalid book ID", 400
 
-    return render_template("adminbook_details.html", book=book)
+        # Fetch the book from the database
+        book = books_collection.find_one({'_id': ObjectId(book_id)})
+
+        if not book:
+            return "Book not found", 404
+
+        # Convert the ObjectId to a string for template compatibility
+        book['_id'] = str(book['_id'])
+
+        print(f"Book fetched: {book}")  # Debugging
+
+        return render_template("adminbook_details.html", book=book)
+    except Exception as e:
+        print(f"Error accessing book: {e}")
+        return "An error occurred while fetching the book details.", 500
+
+
+
 
 
 @app.route('/search_books', methods=['GET'])
@@ -596,4 +718,4 @@ def search_books():
 
 if __name__ == "__main__":
     create_admin_user()
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000, debug=True)

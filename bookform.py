@@ -9,14 +9,15 @@ from flask_wtf.file import FileField, FileAllowed
 
 
 class BookForm(FlaskForm):
-    title = StringField('Title', validators=[DataRequired(message="Title is required")])
-    types = SelectField('Book Type', choices=[('Audio Book', 'Audio Book'), ('E Book', 'E Book')], validators=[Optional()])
-    authors = StringField('Authors', validators=[Optional()])
-    abstract = TextAreaField('Abstract', validators=[Optional()])
-    languages = StringField('Languages', validators=[Optional()])
-    createdDate = DateField('Created Date (YYYY-MM-DD)', format='%Y-%m-%d', validators=[Optional()])
-    cover_image_file = FileField('Upload Cover Image', validators=[Optional(), FileAllowed(['jpg', 'jpeg', 'png', 'gif'], 'Images only!')])
-    cover_image_url = StringField('Cover Image URL', validators=[Optional(), URL(message="Invalid URL format")])
-    subjects = StringField('Subjects', validators=[Optional()])
-    isbns = StringField('ISBNs', validators=[Optional()])
-    submit = SubmitField('Add Book')
+    title = StringField('Title', [DataRequired()])
+    types = StringField('Types', [Optional()])
+    authors = StringField('Authors', [Optional()])
+    abstract = TextAreaField('Abstract', [Optional()])
+    languages = StringField('Languages', [Optional()])
+    createdDate = DateField('Created Date', format='%Y-%m-%d', validators=[Optional()])
+    cover_image_file = FileField('Cover Image File', validators=[FileAllowed(['jpg', 'jpeg', 'png'], 'Images only!')])
+    cover_image_url = StringField('Cover Image URL', [Optional()])  # Optional URL field
+    subjects = StringField('Subjects', [Optional()])
+    isbns = StringField('ISBNs', [Optional()])
+    submit = SubmitField('Submit')
+

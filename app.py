@@ -196,77 +196,35 @@ def logout():
     return redirect(url_for('login'))  # Redirect to the login page
 
 
-@app.route('/admin_index')
+@app.route('/admin_index', methods=['GET', 'POST'])
 def admin_index():
     try:
-        # Load the JSON file for populating books (if necessary)
-        with open('json/audio/nlb_api_response0.json') as file:
-            data = json.load(file)
+        # Get the search query from the request arguments
+        query = request.args.get('search', '')
 
-        # Populate books only if the collection is empty
-        if books_collection.count_documents({}) == 0:
-            print("Inserting books into the collection...")
-
-            for book in data.get('results', []):
-                title = book.get('title', '').replace('[electronic resource]', '').strip()
-                types = ', '.join(book.get('types', []))
-                authors = ', '.join(book.get('authors', []))
-                abstract = ', '.join(book.get('abstracts', []))
-                languages = ', '.join(book.get('languages', []))
-                coverURL = book.get('coverUrl', '')  # Optional, default to an empty string
-                subjects = book.get('subjects', [])
-                isbns = ', '.join(book.get('isbns', []))
-                createdDate = book.get('createdDate')
-
-                # Parse createdDate into a datetime object, if available
-                if createdDate:
-                    try:
-                        createdDate = datetime.strptime(createdDate, "%Y-%m-%d").date()
-                    except ValueError:
-                        createdDate = None
-
-                # Document to be inserted
-                book_document = {
-                    'title': title,
-                    'types': types,
-                    'authors': authors,
-                    'abstract': abstract,
-                    'languages': languages,
-                    'createdDate': createdDate,
-                    'coverURL': coverURL,
-                    'subjects': subjects,
-                    'isbns': isbns
-                }
-                books_collection.insert_one(book_document)  # Insert into MongoDB
-
-            print("Books inserted successfully.")
-
-        # Fetch all books from the MongoDB collection
-        books = list(books_collection.find())
-
-        # Debugging output to ensure books are fetched
-        print(f"Number of books loaded: {len(books)}")
+        # Check if a search query is provided
+        if query:
+            # Filter books with a case-insensitive search on title
+            books = list(books_collection.find({"title": {"$regex": query, "$options": "i"}}))
+        else:
+            # Fetch all books if no search query
+            books = list(books_collection.find().sort("id", pymongo.ASCENDING))
 
         # Convert `_id` (ObjectId) to string for compatibility with the template
         for book in books:
             book['_id'] = str(book['_id'])
             
-            # Handle createdDate formatting only if it's a datetime.date object
+            # Format createdDate if it's a datetime object
             if 'createdDate' in book and isinstance(book['createdDate'], datetime):
                 book['createdDate'] = book['createdDate'].strftime("%Y-%m-%d")
-            elif 'createdDate' in book and isinstance(book['createdDate'], str):
-                # Skip formatting, or optionally leave as-is
-                pass
 
-    except FileNotFoundError:
-        print("Error: JSON file not found. Ensure 'nlb_api_response0.json' exists.")
-        books = []
-    except Exception as err:
-        print(f"An error occurred while loading books: {err}")
+    except Exception as e:
+        print(f"An error occurred while loading books: {e}")
         books = []
 
     # Render the admin_index.html template with the books
-    return render_template("admin_index.html", books=books)
+    return render_template("admin_index.html", books=books, search_query=query)
+
 
 
 

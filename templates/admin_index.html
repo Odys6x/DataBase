@@ -1,36 +1,58 @@
 {% extends 'base.html' %}
 {% block body %}
 <h1 id="center">Books from Library Admin</h1>
+
 <div class="container">
-    <div class="row">
-        {% for book in books %}
-        <div class="col-md-3 mb-4">
-            <a id="zz" href="{{ url_for('adminbook_detail', book_id=book._id) }}">
-                <div class="card" style="height: 600px;"> <!-- Set fixed height -->
-
-                    {% if book.coverURL %}
-                    {% if book.coverURL is string and book.coverURL.startswith('http') %}
-                        <!-- If the cover URL is an external link, display it directly -->
-                        <img src="{{ book.coverURL }}" alt="Cover Image" class="card-img-top" style="height: 500px; object-fit: cover;">
-                    {% else %}
-                        <!-- If the cover URL is a local file, use url_for to construct the correct path -->
-                        <img src="{{ url_for('static', filename=book.coverURL) }}" alt="Cover Image" class="card-img-top" style="height: 500px; object-fit: cover;">
-                    {% endif %}
-                {% else %}
-                    <!-- If there is no coverURL, display a placeholder image or leave the space empty -->
-                    <img src="{{ url_for('static', filename='uploads/default-placeholder.png') }}" alt="No Cover Available" class="card-img-top" style="height: 500px; object-fit: cover;">
-                {% endif %}
-                
-                
-
-
-                    <div class="card-body">
-                        <h5 id="title" style="text-decoration:none;">{{ book.title }}</h5>
-                    </div>
-                </div>
-            </a>
+    <!-- Search Form -->
+    <form method="GET" action="{{ url_for('admin_index') }}" class="mb-4">
+        <div class="form-group row">
+            <div class="col-md-9">
+                <input 
+                    type="text" 
+                    name="search" 
+                    class="form-control" 
+                    placeholder="Search for a book by title..." 
+                    value="{{ search_query | default('') }}">
+            </div>
+            <div class="col-md-3">
+                <button type="submit" class="btn btn-primary btn-block">Search</button>
+            </div>
         </div>
-        {% endfor %}
+    </form>
+
+    <!-- Books Grid -->
+    <div class="row">
+        {% if books %}
+            {% for book in books %}
+            <div class="col-md-3 mb-4">
+                <a id="zz" href="{{ url_for('adminbook_detail', book_id=book._id) }}">
+                    <div class="card" style="height: 600px;"> <!-- Set fixed height -->
+                        {% if book.coverURL %}
+                            {% if book.coverURL is string and book.coverURL.startswith('http') %}
+                                <!-- If the cover URL is an external link, display it directly -->
+                                <img src="{{ book.coverURL }}" alt="Cover Image" class="card-img-top" style="height: 500px; object-fit: cover;">
+                            {% else %}
+                                <!-- If the cover URL is a local file, use url_for to construct the correct path -->
+                                <img src="{{ url_for('static', filename=book.coverURL) }}" alt="Cover Image" class="card-img-top" style="height: 500px; object-fit: cover;">
+                            {% endif %}
+                        {% else %}
+                            <!-- If there is no coverURL, display a placeholder image or leave the space empty -->
+                            <img src="{{ url_for('static', filename='uploads/default-placeholder.png') }}" alt="No Cover Available" class="card-img-top" style="height: 500px; object-fit: cover;">
+                        {% endif %}
+
+                        <div class="card-body">
+                            <h5 id="title" style="text-decoration:none;">{{ book.title }}</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            {% endfor %}
+        {% else %}
+            <!-- No books found -->
+            <div class="col-12 text-center">
+                <p>No books found. Try searching with a different query.</p>
+            </div>
+        {% endif %}
     </div>
 </div>
 {% endblock %}

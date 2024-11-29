@@ -11,7 +11,6 @@ from werkzeug.security import generate_password_hash
 from werkzeug.security import check_password_hash
 from registerForm import RegistrationForm
 from loginForm import LoginForm
-from datetime import datetime, timedelta
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'inf2003_database'  # Change this to a secure key

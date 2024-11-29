@@ -6,7 +6,7 @@
         <h1>Add a New Book</h1>
         <form method="POST" action="{{ url_for('add_book') }}" enctype="multipart/form-data">
             {{ form.hidden_tag() }}
-            
+
             <div class="form-group">
                 {{ form.title.label }}
                 {{ form.title(class_='form-control') }}
@@ -47,10 +47,21 @@
                 {{ form.isbns.label }}
                 {{ form.isbns(class_='form-control') }}
             </div>
-            
+
             <button type="submit" class="btn btn-primary">{{ form.submit.label }}</button>
         </form>
-        
+
+        <!-- Debug section to show form errors -->
+        {% if form.errors %}
+        <div class="alert alert-danger">
+            <h4>Form Errors:</h4>
+            <ul>
+                {% for field, errors in form.errors.items() %}
+                    <li>{{ field }}: {{ errors }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
     </div>
 </div>
 {% endblock %}

@@ -515,71 +515,71 @@ def return_book(book_id):
     return redirect(url_for('user_history'))
 
 
+from datetime import datetime
+
 @app.route('/add_book', methods=['GET', 'POST'])
 def add_book():
-    form = BookForm()  # Use your BookForm
+    form = BookForm()
 
     if form.validate_on_submit():
-        # Get form data
-        title = form.title.data or None
-        types = form.types.data or None
-        authors = form.authors.data or None
-        abstract = form.abstract.data or None
-        languages = form.languages.data or None
-        created_date = form.createdDate.data or None
-        cover_image_path = None  # Default to None
+        print("Form validated successfully!")
+        print("Form data:", form.data)
 
-        # Handle file upload first (if provided)
+        # Initialize cover_image_path to None
+        cover_image_path = None
+
+        # Handle file upload
         if form.cover_image_file.data:
             try:
                 filename = secure_filename(form.cover_image_file.data.filename)
-                image_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
-                form.cover_image_file.data.save(image_path)  # Save the uploaded file
-                cover_image_path = os.path.join('uploads', filename).replace('\\', '/')  # Use a relative path
-                print(f"File uploaded successfully: {cover_image_path}")  # Debugging log
+                filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+                form.cover_image_file.data.save(filepath)
+                cover_image_path = os.path.join('uploads', filename).replace('\\', '/')
             except Exception as e:
                 flash(f"Error uploading file: {e}", 'danger')
                 return redirect(url_for('add_book'))
 
-        # If no file uploaded, handle the URL (if provided)
+        # Use the provided URL if no file was uploaded
         elif form.cover_image_url.data:
-            cover_image_path = form.cover_image_url.data.strip()  # Use the URL if provided
-            print(f"Using image URL: {cover_image_path}")  # Debugging log
+            cover_image_path = form.cover_image_url.data.strip()
 
-        # If neither file nor URL is provided, show an error
+        # Ensure at least one source of cover image is provided
         if not cover_image_path:
-            flash("Please provide either an image file or a URL for the book cover.", 'danger')
+            flash("Please provide either a cover image file or URL.", "danger")
             return redirect(url_for('add_book'))
 
-        # Prepare other fields
-        subjects = form.subjects.data or None
-        isbns = form.isbns.data or None
+        # Convert createdDate to datetime.datetime
+        created_date = form.createdDate.data
+        if created_date:  # Only convert if a date is provided
+            created_date = datetime.combine(created_date, datetime.min.time())
 
-        # Create the book data document
+        # Prepare the book data
         book_data = {
-            "title": title,
-            "types": types,
-            "authors": authors,
-            "abstract": abstract,
-            "languages": languages,
-            "createdDate": created_date,
-            "coverURL": cover_image_path,  # Use either the file path or the URL
-            "subjects": subjects,
-            "isbns": isbns
+            "title": form.title.data,
+            "types": form.types.data,
+            "authors": form.authors.data,
+            "abstract": form.abstract.data,
+            "languages": form.languages.data,
+            "createdDate": created_date,  # Insert the converted datetime.datetime object
+            "coverURL": cover_image_path,
+            "subjects": form.subjects.data,
+            "isbns": form.isbns.data,
         }
 
         try:
-            # Insert the book into MongoDB
             books_collection.insert_one(book_data)
-            flash('Book added successfully!', 'success')
-            print(f"Book added: {book_data}")  # Debugging log
-        except Exception as err:
-            flash(f"Error saving book: {err}", 'danger')
-            print(f"Error adding book: {err}")  # Debugging log
+            flash("Book added successfully!", "success")
+            print(f"Book data inserted: {book_data}")
+            return redirect(url_for('admin_index'))
+        except Exception as e:
+            flash(f"Error saving book: {e}", "danger")
+            print(f"Error inserting book data: {e}")
+            return redirect(url_for('add_book'))
 
-        return redirect(url_for('admin_index'))
-
+    print("Form validation failed.")
+    print("Form errors:", form.errors)
     return render_template('add_book.html', form=form)
+
 
 
 
@@ -612,6 +612,8 @@ from bson import ObjectId
 from werkzeug.utils import secure_filename
 import os
 
+from datetime import datetime
+
 @app.route('/edit_book/<book_id>', methods=['GET', 'POST'])
 def edit_book(book_id):
     if not ObjectId.is_valid(book_id):
@@ -632,10 +634,15 @@ def edit_book(book_id):
                 'authors': form.authors.data or book.get('authors'),
                 'abstract': form.abstract.data or book.get('abstract'),
                 'languages': form.languages.data or book.get('languages'),
-                'createdDate': form.createdDate.data or book.get('createdDate'),
                 'subjects': form.subjects.data or book.get('subjects'),
                 'isbns': form.isbns.data or book.get('isbns')
             }
+
+            # Handle the date conversion
+            if form.createdDate.data:  # If a date is provided
+                updated_data['createdDate'] = datetime.combine(form.createdDate.data, datetime.min.time())
+            else:
+                updated_data['createdDate'] = book.get('createdDate')
 
             # Handle file upload if provided
             if form.cover_image_file.data:
@@ -644,7 +651,6 @@ def edit_book(book_id):
                     image_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
                     form.cover_image_file.data.save(image_path)  # Save the uploaded file
                     updated_data['coverURL'] = os.path.join('uploads', filename).replace('\\', '/')
-                    print(f"Updated with uploaded file: {updated_data['coverURL']}")  # Debugging log
                 except Exception as e:
                     flash(f"Error uploading file: {e}", 'danger')
                     return redirect(url_for('edit_book', book_id=book_id))
@@ -652,12 +658,10 @@ def edit_book(book_id):
             # If no file is uploaded, use the URL provided (if any)
             elif form.cover_image_url.data:
                 updated_data['coverURL'] = form.cover_image_url.data.strip()
-                print(f"Updated with URL: {updated_data['coverURL']}")  # Debugging log
 
             # If neither file nor URL is provided, retain the existing coverURL
             else:
                 updated_data['coverURL'] = book.get('coverURL')
-                print(f"No new image provided, retaining existing coverURL: {updated_data['coverURL']}")  # Debugging log
 
             # Update the book in the database
             books_collection.update_one({'_id': ObjectId(book_id)}, {'$set': updated_data})

@@ -15,8 +15,8 @@ class BookForm(FlaskForm):
     abstract = TextAreaField('Abstract', [Optional()])
     languages = StringField('Languages', [Optional()])
     createdDate = DateField('Created Date', format='%Y-%m-%d', validators=[Optional()])
-    cover_image_file = FileField('Cover Image File', validators=[FileAllowed(['jpg', 'jpeg', 'png'], 'Images only!')])
-    cover_image_url = StringField('Cover Image URL', [Optional()])  # Optional URL field
+    cover_image_file = FileField('Cover Image File', validators=[Optional(),FileAllowed(['jpg', 'jpeg', 'png'], 'Images only!')])
+    cover_image_url = StringField('Cover Image URL', [Optional(), URL(message="Invalid URL")])
     subjects = StringField('Subjects', [Optional()])
     isbns = StringField('ISBNs', [Optional()])
     submit = SubmitField('Submit')

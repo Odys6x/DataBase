@@ -27,12 +27,6 @@ users_collection = db['User']  # Collection for users
 reviews_collection = db['Review']
 borrow_collection = db['BorrowedList']
 
-#indexing
-borrow_collection.create_index([("book_id", 1), ("is_returned", 1)])
-reviews_collection.create_index('bookId')
-reviews_collection.create_index('userId')
-books_collection.create_index('id')
-
 
 class ReviewForm(FlaskForm):
     rating = IntegerField('Rating (1-5)', [validators.NumberRange(min=1, max=5)])
@@ -151,6 +145,7 @@ def register():
 
         # Define user type
         user_type = 'u'  # For regular users
+        fees_due = 0.00
         user_count = users_collection.count_documents({})
         user_id = user_count +1
         # Create a new user document
@@ -160,6 +155,7 @@ def register():
             'last_name': last_name,
             'email': email,
             'password': hashed_password,
+            'fees_due': fees_due,
             'user_type': user_type
         }
 

@@ -27,12 +27,6 @@ users_collection = db['User']  # Collection for users
 reviews_collection = db['Review']
 borrow_collection = db['BorrowedList']
 
-#indexing
-borrow_collection.create_index([("book_id", 1), ("is_returned", 1)])
-reviews_collection.create_index('bookId')
-reviews_collection.create_index('userId')
-books_collection.create_index('id')
-
 
 class ReviewForm(FlaskForm):
     rating = IntegerField('Rating (1-5)', [validators.NumberRange(min=1, max=5)])
@@ -89,6 +83,12 @@ def submit_review(book_id):
 
 @app.route('/')
 def index():
+    explain_result = books_collection.find(
+        {"title": "Ella  : A novel. Diane Richards."}
+    ).explain()
+
+    # Print the explain result
+    print(explain_result)
     try:
         # Check if a search query is provided
         query = request.args.get('search', '')

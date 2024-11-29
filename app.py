@@ -54,6 +54,15 @@ def create_admin_user():
         print("Admin user already exists.")
 
 
+@contextlib.contextmanager
+def safe_db_operation():
+    try:
+        yield
+    except Exception as e:
+        print(f"Database operation failed: {e}")
+        raise
+
+
 @app.route('/book/<string:book_id>/submit_review', methods=['POST'])
 def submit_review(book_id):
     if 'email' not in session:

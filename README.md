@@ -60,9 +60,15 @@ the {% block body %}{% endblock %} from base.html serves it purpose as a templat
 ![Alt text](image/MongoDB.png)
 
 ![Alt text](image/MongoDB2.png)
+
 Select add new connection in Mongodb Compass. Install MongodbCompass before you do this.
+
 ![Alt text](image/mongo_1.png)
+
 Enter the URI as shown in the image mongodb+srv://Admin:newpassword@mydb.9hyfl.mongodb.net/ and select save and connect.
+
 ![Alt text](image/mongo_2.png)
+
 You have successfully connect to MongoDB and you can see the data under LibraryDB.
+
 ![Alt text](image/mongo_3.png)

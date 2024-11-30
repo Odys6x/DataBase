@@ -31,3 +31,6 @@ RUN sed -i '/pywin32/d' requirements.txt && \
 RUN apt-get update && apt-get install -y curl build-essential && \
     curl https://sh.rustup.rs -sSf | sh -s -- -y && \
     export PATH="$HOME/.cargo/bin:$PATH"
+
+# Expose the port your app listens on (default for Cloud Run is 5000)
+EXPOSE 5000

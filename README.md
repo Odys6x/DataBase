@@ -4,22 +4,6 @@
 To access the admin functionalities, please login to the website with this credential:
 Admin email: admin@email.com password:admin1234
 
-## Database
-The choice of database we are using is MYSQL. Here are the steps to startup.
-
-1. Ensure MYSQL server and MYSQL workbench is installed.
-2. In this project the user accessing this is a root user.
-   1. Go to your MYSQL Command Line Client
-   2. Paste this command line --> "FLUSH PRIVILEGES;
-ALTER USER 'root'@'localhost' IDENTIFIED BY 'newpassword';" It will be very important for your app on your side. This ensures that when you create a connection with root, it will have the privileges to do so.
-3. MYSQL Workbench will where we will be creating the connection and managing the schemas and table
-   1. Press the add button (+) to make new connection. It should look something like this.
-   ![Alt text](image/Setup.jpg)
-   2. Set connection name to anything you want and leave everything as it is.
-   3. Press Test Connection. If prompted for password, it is the password from 'newpassword'.
-   ![Alt text](image/Connection.jpg)
-   5. If everything is successful, create new schema and type 'library' and set default charset to utf-8 and then continue.
-   ![Alt text](image/Schema.jpg)
 
 ## Python
 
@@ -76,3 +60,9 @@ the {% block body %}{% endblock %} from base.html serves it purpose as a templat
 ![Alt text](image/MongoDB.png)
 
 ![Alt text](image/MongoDB2.png)
+Select add new connection in Mongodb Compass. Install MongodbCompass before you do this.
+![Alt text](image/mongo_1.png)
+Enter the URI as shown in the image mongodb+srv://Admin:newpassword@mydb.9hyfl.mongodb.net/ and select save and connect.
+![Alt text](image/mongo_2.png)
+You have successfully connect to MongoDB and you can see the data under LibraryDB.
+![Alt text](image/mongo_3.png)
